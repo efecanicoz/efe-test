@@ -14,16 +14,16 @@ int main(void) {
 	init_IO();
 	init_protocol();
     listener = chThdCreateStatic(serialListen, sizeof(serialListen), LOWPRIO, rxListen, NULL);
-    writer = chThdCreateStatic(serialTalk, sizeof(serialTalk), LOWPRIO, txWrite, NULL);
-    chThdWait(listener);
+    //writer = chThdCreateStatic(serialTalk, sizeof(serialTalk), LOWPRIO, txWrite, NULL);
+    
 	while(!0)
-	{/*
-		palWriteGroup(GPIOD,0x000FU,0,0x000FU);//all ports high
+	{
+		palWriteGroup(GPIOD,0xFFFFU,0,0xFFFFU);//all ports high
 		chThdSleepMilliseconds(1000);
-		palWriteGroup(GPIOD,0x000FU,0,0x0000U);
-		chThdSleepMilliseconds(1000);*/
+		palWriteGroup(GPIOD,0xFFFFU,0,0x0000U);
+		chThdSleepMilliseconds(1000);
 	}
-	
+	chThdWait(listener);
 	return 0;/*never reach here*/
 }
 

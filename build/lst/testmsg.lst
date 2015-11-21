@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccVCVNxU.s 			page 1
+ARM GAS  /tmp/ccqsdLdo.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
   55              		@ args = 0, pretend = 0, frame = 0
   56              		@ frame_needed = 0, uses_anonymous_args = 0
   57 0000 08B5     		push	{r3, lr}
-ARM GAS  /tmp/ccVCVNxU.s 			page 2
+ARM GAS  /tmp/ccqsdLdo.s 			page 2
 
 
   58              		.cfi_def_cfa_offset 8
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  112 0000 00B5     		push	{lr}
  113              		.cfi_def_cfa_offset 4
  114              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccVCVNxU.s 			page 3
+ARM GAS  /tmp/ccqsdLdo.s 			page 3
 
 
  115 0002 83B0     		sub	sp, sp, #12
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  167 0010 FFF7FEFF 		bl	chThdGetSelfX
  168 0014 0346     		mov	r3, r0
  169              		.loc 3 73 0
-ARM GAS  /tmp/ccVCVNxU.s 			page 4
+ARM GAS  /tmp/ccqsdLdo.s 			page 4
 
 
  170 0016 0093     		str	r3, [sp]
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  224 0084 DBB2     		uxtb	r3, r3
  225 0086 1846     		mov	r0, r3
  226 0088 FFF7FEFF 		bl	test_emit_token
-ARM GAS  /tmp/ccVCVNxU.s 			page 5
+ARM GAS  /tmp/ccqsdLdo.s 			page 5
 
 
  227              		.loc 3 87 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  278              		.file 7 "/home/efe/ChibiOS/os/rt/ports/ARMCMx/compilers/GCC/chtypes.h"
  279              		.file 8 "/home/efe/ChibiOS/os/rt/include/chsystypes.h"
  280              		.file 9 "/home/efe/ChibiOS/os/rt/include/chschd.h"
-ARM GAS  /tmp/ccVCVNxU.s 			page 6
+ARM GAS  /tmp/ccqsdLdo.s 			page 6
 
 
  281              		.file 10 "/home/efe/ChibiOS/os/rt/ports/ARMCMx/chcore.h"
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  335 005c 07       		.byte	0x7
  336 005d CD020000 		.4byte	.LASF6
  337 0061 03       		.uleb128 0x3
-ARM GAS  /tmp/ccVCVNxU.s 			page 7
+ARM GAS  /tmp/ccqsdLdo.s 			page 7
 
 
  338 0062 44030000 		.4byte	.LASF7
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  392 00d4 07       		.byte	0x7
  393 00d5 45       		.byte	0x45
  394 00d6 B4000000 		.4byte	0xb4
-ARM GAS  /tmp/ccVCVNxU.s 			page 8
+ARM GAS  /tmp/ccqsdLdo.s 			page 8
 
 
  395 00da 03       		.uleb128 0x3
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  449 014f 53010000 		.4byte	0x153
  450 0153 06       		.uleb128 0x6
  451 0154 EF020000 		.4byte	.LASF51
-ARM GAS  /tmp/ccVCVNxU.s 			page 9
+ARM GAS  /tmp/ccqsdLdo.s 			page 9
 
 
  452 0158 60       		.byte	0x60
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  506 01c4 09       		.byte	0x9
  507 01c5 DD       		.byte	0xdd
  508 01c6 F0000000 		.4byte	0xf0
-ARM GAS  /tmp/ccVCVNxU.s 			page 10
+ARM GAS  /tmp/ccqsdLdo.s 			page 10
 
 
  509 01ca 20       		.byte	0x20
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  563 023d 40       		.byte	0x40
  564 023e 09       		.uleb128 0x9
  565 023f 22010000 		.4byte	.LASF47
-ARM GAS  /tmp/ccVCVNxU.s 			page 11
+ARM GAS  /tmp/ccqsdLdo.s 			page 11
 
 
  566 0243 09       		.byte	0x9
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  620 02b1 07       		.uleb128 0x7
  621 02b2 3D040000 		.4byte	.LASF31
  622 02b6 09       		.byte	0x9
-ARM GAS  /tmp/ccVCVNxU.s 			page 12
+ARM GAS  /tmp/ccqsdLdo.s 			page 12
 
 
  623 02b7 B9       		.byte	0xb9
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  677 032a 08       		.byte	0x8
  678 032b 5C       		.byte	0x5c
  679 032c 30030000 		.4byte	0x330
-ARM GAS  /tmp/ccVCVNxU.s 			page 13
+ARM GAS  /tmp/ccqsdLdo.s 			page 13
 
 
  680 0330 0A       		.uleb128 0xa
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  734 03a2 08       		.byte	0x8
  735 03a3 66       		.byte	0x66
  736 03a4 A8030000 		.4byte	0x3a8
-ARM GAS  /tmp/ccVCVNxU.s 			page 14
+ARM GAS  /tmp/ccqsdLdo.s 			page 14
 
 
  737 03a8 0B       		.uleb128 0xb
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  791 041d 09       		.uleb128 0x9
  792 041e 5A020000 		.4byte	.LASF78
  793 0422 09       		.byte	0x9
-ARM GAS  /tmp/ccVCVNxU.s 			page 15
+ARM GAS  /tmp/ccqsdLdo.s 			page 15
 
 
  794 0423 B301     		.2byte	0x1b3
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  848 0499 DD01     		.2byte	0x1dd
  849 049b A1060000 		.4byte	0x6a1
  850 049f A804     		.2byte	0x4a8
-ARM GAS  /tmp/ccVCVNxU.s 			page 16
+ARM GAS  /tmp/ccqsdLdo.s 			page 16
 
 
  851 04a1 10       		.uleb128 0x10
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  905 050e 0B       		.byte	0xb
  906 050f 1201     		.2byte	0x112
  907 0511 B7040000 		.4byte	0x4b7
-ARM GAS  /tmp/ccVCVNxU.s 			page 17
+ARM GAS  /tmp/ccqsdLdo.s 			page 17
 
 
  908 0515 08       		.byte	0x8
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  962 0580 0C       		.byte	0xc
  963 0581 59       		.byte	0x59
  964 0582 64020000 		.4byte	0x264
-ARM GAS  /tmp/ccVCVNxU.s 			page 18
+ARM GAS  /tmp/ccqsdLdo.s 			page 18
 
 
  965 0586 04       		.byte	0x4
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1019 05f0 A6000000 		.4byte	.LASF100
  1020 05f4 0C       		.byte	0xc
  1021 05f5 74       		.byte	0x74
-ARM GAS  /tmp/ccVCVNxU.s 			page 19
+ARM GAS  /tmp/ccqsdLdo.s 			page 19
 
 
  1022 05f6 AB050000 		.4byte	0x5ab
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1076 065d 03       		.uleb128 0x3
  1077 065e 7C000000 		.4byte	.LASF107
  1078 0662 0D       		.byte	0xd
-ARM GAS  /tmp/ccVCVNxU.s 			page 20
+ARM GAS  /tmp/ccqsdLdo.s 			page 20
 
 
  1079 0663 4E       		.byte	0x4e
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1133 06d1 09       		.byte	0x9
  1134 06d2 0F01     		.2byte	0x10f
  1135 06d4 41030000 		.4byte	0x341
-ARM GAS  /tmp/ccVCVNxU.s 			page 21
+ARM GAS  /tmp/ccqsdLdo.s 			page 21
 
 
  1136 06d8 18       		.uleb128 0x18
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1190 074b 10       		.byte	0x10
  1191 074c 3A       		.byte	0x3a
  1192 074d 8E020000 		.4byte	0x28e
-ARM GAS  /tmp/ccVCVNxU.s 			page 22
+ARM GAS  /tmp/ccqsdLdo.s 			page 22
 
 
  1193 0751 00       		.byte	0
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1247 07bd F2070000 		.4byte	0x7f2
  1248 07c1 07       		.uleb128 0x7
  1249 07c2 C8020000 		.4byte	.LASF130
-ARM GAS  /tmp/ccVCVNxU.s 			page 23
+ARM GAS  /tmp/ccqsdLdo.s 			page 23
 
 
  1250 07c6 11       		.byte	0x11
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1304 0838 4A080000 		.4byte	0x84a
  1305 083c 1E       		.uleb128 0x1e
  1306 083d 747000   		.ascii	"tp\000"
-ARM GAS  /tmp/ccVCVNxU.s 			page 24
+ARM GAS  /tmp/ccqsdLdo.s 			page 24
 
 
  1307 0840 02       		.byte	0x2
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1361 08a3 FA06     		.2byte	0x6fa
  1362 08a5 CA000000 		.4byte	0xca
  1363 08a9 22       		.uleb128 0x22
-ARM GAS  /tmp/ccVCVNxU.s 			page 25
+ARM GAS  /tmp/ccqsdLdo.s 			page 25
 
 
  1364 08aa 636800   		.ascii	"ch\000"
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1418 0921 03       		.byte	0x3
  1419 0922 00000000 		.4byte	patternmsg
  1420 0926 19       		.uleb128 0x19
-ARM GAS  /tmp/ccVCVNxU.s 			page 26
+ARM GAS  /tmp/ccqsdLdo.s 			page 26
 
 
  1421 0927 FF080000 		.4byte	0x8ff
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1475 0032 00       		.byte	0
  1476 0033 00       		.byte	0
  1477 0034 05       		.uleb128 0x5
-ARM GAS  /tmp/ccVCVNxU.s 			page 27
+ARM GAS  /tmp/ccqsdLdo.s 			page 27
 
 
  1478 0035 35       		.uleb128 0x35
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1532 006b 03       		.uleb128 0x3
  1533 006c 0E       		.uleb128 0xe
  1534 006d 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccVCVNxU.s 			page 28
+ARM GAS  /tmp/ccqsdLdo.s 			page 28
 
 
  1535 006e 0B       		.uleb128 0xb
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1589 00a4 00       		.byte	0
  1590 00a5 00       		.byte	0
  1591 00a6 0F       		.uleb128 0xf
-ARM GAS  /tmp/ccVCVNxU.s 			page 29
+ARM GAS  /tmp/ccqsdLdo.s 			page 29
 
 
  1592 00a7 13       		.uleb128 0x13
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1646 00dd 13       		.uleb128 0x13
  1647 00de 38       		.uleb128 0x38
  1648 00df 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccVCVNxU.s 			page 30
+ARM GAS  /tmp/ccqsdLdo.s 			page 30
 
 
  1649 00e0 00       		.byte	0
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1703 0116 0B       		.uleb128 0xb
  1704 0117 01       		.uleb128 0x1
  1705 0118 13       		.uleb128 0x13
-ARM GAS  /tmp/ccVCVNxU.s 			page 31
+ARM GAS  /tmp/ccqsdLdo.s 			page 31
 
 
  1706 0119 00       		.byte	0
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1760 0150 00       		.byte	0
  1761 0151 03       		.uleb128 0x3
  1762 0152 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccVCVNxU.s 			page 32
+ARM GAS  /tmp/ccqsdLdo.s 			page 32
 
 
  1763 0153 3A       		.uleb128 0x3a
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1817 018b 02       		.uleb128 0x2
  1818 018c 18       		.uleb128 0x18
  1819 018d 00       		.byte	0
-ARM GAS  /tmp/ccVCVNxU.s 			page 33
+ARM GAS  /tmp/ccqsdLdo.s 			page 33
 
 
  1820 018e 00       		.byte	0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1874 01c5 00       		.byte	0
  1875 01c6 00       		.byte	0
  1876 01c7 22       		.uleb128 0x22
-ARM GAS  /tmp/ccVCVNxU.s 			page 34
+ARM GAS  /tmp/ccqsdLdo.s 			page 34
 
 
  1877 01c8 34       		.uleb128 0x34
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1931 01fe 00       		.byte	0
  1932 01ff 26       		.uleb128 0x26
  1933 0200 34       		.uleb128 0x34
-ARM GAS  /tmp/ccVCVNxU.s 			page 35
+ARM GAS  /tmp/ccqsdLdo.s 			page 35
 
 
  1934 0201 00       		.byte	0
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  1986      00000201 
  1986      FB0E0D00 
  1986      01010101 
-ARM GAS  /tmp/ccVCVNxU.s 			page 36
+ARM GAS  /tmp/ccqsdLdo.s 			page 36
 
 
  1987              	.LASF98:
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  2013              	.LASF13:
  2014 008f 6C6F6E67 		.ascii	"long long unsigned int\000"
  2014      206C6F6E 
-ARM GAS  /tmp/ccVCVNxU.s 			page 37
+ARM GAS  /tmp/ccqsdLdo.s 			page 37
 
 
  2014      6720756E 
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  2039              	.LASF83:
  2040 0132 76746C69 		.ascii	"vtlist\000"
  2040      737400
-ARM GAS  /tmp/ccVCVNxU.s 			page 38
+ARM GAS  /tmp/ccqsdLdo.s 			page 38
 
 
  2041              	.LASF116:
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  2065      00
  2066              	.LASF67:
  2067 023a 76745F70 		.ascii	"vt_prev\000"
-ARM GAS  /tmp/ccVCVNxU.s 			page 39
+ARM GAS  /tmp/ccqsdLdo.s 			page 39
 
 
  2067      72657600 
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  2096              	.LASF130:
  2097 02c8 6E616D65 		.ascii	"name\000"
  2097      00
-ARM GAS  /tmp/ccVCVNxU.s 			page 40
+ARM GAS  /tmp/ccqsdLdo.s 			page 40
 
 
  2098              	.LASF6:
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  2125      6974696E 
  2125      6700
  2126              	.LASF141:
-ARM GAS  /tmp/ccVCVNxU.s 			page 41
+ARM GAS  /tmp/ccqsdLdo.s 			page 41
 
 
  2127 0363 70617474 		.ascii	"patternmsg\000"
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  2151 03fd 725F6F6C 		.ascii	"r_older\000"
  2151      64657200 
  2152              	.LASF12:
-ARM GAS  /tmp/ccVCVNxU.s 			page 42
+ARM GAS  /tmp/ccqsdLdo.s 			page 42
 
 
  2153 0405 5F5F7569 		.ascii	"__uint64_t\000"
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  2182              	.LASF139:
  2183 0496 74687265 		.ascii	"threads\000"
  2183      61647300 
-ARM GAS  /tmp/ccVCVNxU.s 			page 43
+ARM GAS  /tmp/ccqsdLdo.s 			page 43
 
 
  2184              	.LASF58:
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  2213      68726561 
  2213      64735F6C 
  2213      69737400 
-ARM GAS  /tmp/ccVCVNxU.s 			page 44
+ARM GAS  /tmp/ccqsdLdo.s 			page 44
 
 
  2214              	.LASF143:
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  2242              	.LASF70:
  2243 05c9 76745F70 		.ascii	"vt_par\000"
  2243      617200
-ARM GAS  /tmp/ccVCVNxU.s 			page 45
+ARM GAS  /tmp/ccqsdLdo.s 			page 45
 
 
  2244              	.LASF53:
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  2272              	.LASF125:
  2273 065c 6D5F6F77 		.ascii	"m_owner\000"
  2273      6E657200 
-ARM GAS  /tmp/ccVCVNxU.s 			page 46
+ARM GAS  /tmp/ccqsdLdo.s 			page 46
 
 
  2274              	.LASF94:
@@ -2712,30 +2712,30 @@ ARM GAS  /tmp/ccVCVNxU.s 			page 1
  2279 0674 76745F66 		.ascii	"vt_func\000"
  2279      756E6300 
  2280              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccVCVNxU.s 			page 47
+ARM GAS  /tmp/ccqsdLdo.s 			page 47
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 testmsg.c
-     /tmp/ccVCVNxU.s:19     .text.chThdGetSelfX:0000000000000000 $t
-     /tmp/ccVCVNxU.s:24     .text.chThdGetSelfX:0000000000000000 chThdGetSelfX
-     /tmp/ccVCVNxU.s:41     .text.chThdGetSelfX:0000000000000008 $d
-     /tmp/ccVCVNxU.s:46     .text.chThdGetPriorityX:0000000000000000 $t
-     /tmp/ccVCVNxU.s:51     .text.chThdGetPriorityX:0000000000000000 chThdGetPriorityX
-     /tmp/ccVCVNxU.s:72     .text.chMsgGet:0000000000000000 $t
-     /tmp/ccVCVNxU.s:77     .text.chMsgGet:0000000000000000 chMsgGet
-     /tmp/ccVCVNxU.s:100    .text.thread:0000000000000000 $t
-     /tmp/ccVCVNxU.s:105    .text.thread:0000000000000000 thread
-     /tmp/ccVCVNxU.s:138    .rodata:0000000000000000 $d
-     /tmp/ccVCVNxU.s:142    .text.msg1_execute:0000000000000000 $t
-     /tmp/ccVCVNxU.s:147    .text.msg1_execute:0000000000000000 msg1_execute
-     /tmp/ccVCVNxU.s:244    .text.msg1_execute:00000000000000a0 $d
-     /tmp/ccVCVNxU.s:260    .rodata.testmsg1:0000000000000000 testmsg1
-     /tmp/ccVCVNxU.s:257    .rodata.testmsg1:0000000000000000 $d
-     /tmp/ccVCVNxU.s:270    .rodata.patternmsg:0000000000000000 patternmsg
-     /tmp/ccVCVNxU.s:267    .rodata.patternmsg:0000000000000000 $d
+     /tmp/ccqsdLdo.s:19     .text.chThdGetSelfX:0000000000000000 $t
+     /tmp/ccqsdLdo.s:24     .text.chThdGetSelfX:0000000000000000 chThdGetSelfX
+     /tmp/ccqsdLdo.s:41     .text.chThdGetSelfX:0000000000000008 $d
+     /tmp/ccqsdLdo.s:46     .text.chThdGetPriorityX:0000000000000000 $t
+     /tmp/ccqsdLdo.s:51     .text.chThdGetPriorityX:0000000000000000 chThdGetPriorityX
+     /tmp/ccqsdLdo.s:72     .text.chMsgGet:0000000000000000 $t
+     /tmp/ccqsdLdo.s:77     .text.chMsgGet:0000000000000000 chMsgGet
+     /tmp/ccqsdLdo.s:100    .text.thread:0000000000000000 $t
+     /tmp/ccqsdLdo.s:105    .text.thread:0000000000000000 thread
+     /tmp/ccqsdLdo.s:138    .rodata:0000000000000000 $d
+     /tmp/ccqsdLdo.s:142    .text.msg1_execute:0000000000000000 $t
+     /tmp/ccqsdLdo.s:147    .text.msg1_execute:0000000000000000 msg1_execute
+     /tmp/ccqsdLdo.s:244    .text.msg1_execute:00000000000000a0 $d
+     /tmp/ccqsdLdo.s:260    .rodata.testmsg1:0000000000000000 testmsg1
+     /tmp/ccqsdLdo.s:257    .rodata.testmsg1:0000000000000000 $d
+     /tmp/ccqsdLdo.s:270    .rodata.patternmsg:0000000000000000 patternmsg
+     /tmp/ccqsdLdo.s:267    .rodata.patternmsg:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
-     /tmp/ccVCVNxU.s:45     .text.chThdGetSelfX:000000000000000c $t
+     /tmp/ccqsdLdo.s:45     .text.chThdGetSelfX:000000000000000c $t
 
 UNDEFINED SYMBOLS
 ch

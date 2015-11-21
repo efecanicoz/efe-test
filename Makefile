@@ -105,16 +105,16 @@ LDSCRIPT= $(STARTUPLD)/STM32F407xG.ld
 
 # C sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.
-CSRC = main.c \
-       protocol.c\
-       $(STARTUPSRC) \
+CSRC = $(STARTUPSRC) \
        $(KERNSRC) \
        $(PORTSRC) \
        $(OSALSRC) \
        $(HALSRC) \
        $(PLATFORMSRC) \
        $(BOARDSRC) \
-       $(TESTSRC)
+       $(TESTSRC) \
+       main.c \
+       protocol.c
 
 # C++ sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.
