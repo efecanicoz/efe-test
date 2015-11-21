@@ -1,12 +1,10 @@
 #include "protocol.h"
 
-
-static msg_t txMailboxArea[16];
+msg_t txMailboxArea[16];
 mailbox_t serialMbox;
 
 /*MEMORYPOOL_DECL(mpool, 64, NULL);//sayı kaç olmalı belli değil
 msg_t protocol_01_buffer[64];*/
-uint8_t buffer[2];
 
 void init_protocol(void)
 {
@@ -24,33 +22,29 @@ void init_protocol(void)
 
 void *rxListen(void *arg)
 {
-	//msg_t *buffer;
+	uint8_t buffer;
 	while(!0)
 	{
 		//buffer = (msg_t *)chPoolAlloc(&mpool);
-		sdRead(&SD3, buffer, 2);
+		sdRead(&SD3, &buffer, 1);
+		chMBPost(&serialMbox, (msg_t) buffer, 10);
 		chThdSleepMilliseconds(100);
-		sdWrite(&SD3, buffer,2);
-		chThdSleepMilliseconds(100);
-		//chMBPost(&serialMbox, buffer, TIME_IMMEDIATE);
 	}
 	return NULL;
 }
 
 void *txWrite(void *arg)
 {
-	uint8_t *toSend;
+	msg_t *toSend;
 	while(!0)
 	{
-		//sdWrite(&SD1, (uint8_t *)buffer,2);
-		
-		if(chMBFetch(&serialMbox, toSend, TIME_IMMEDIATE) == MSG_OK)
+		if(chMBFetch(&serialMbox, toSend, 1000) == MSG_OK)
 		{
+			sdWrite(&SD3, (uint8_t *)toSend,1);
 		}
 		//toSend = (msg_t)*ptrtoSend;
 		//chPoolFree(&mpool, &toSend);
 		chThdSleepMilliseconds(500);
-		
 	}
 	return NULL;
 }

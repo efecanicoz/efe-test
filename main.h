@@ -11,8 +11,8 @@
 #define CCA_EXP_IO_MODE_INPUT 1
 
 
-static THD_WORKING_AREA(serialListen, 64);
-static THD_WORKING_AREA(serialTalk, 64);
+static THD_WORKING_AREA(serialListen, 128);
+static THD_WORKING_AREA(serialTalk, 128);
 
 void init_IO(void);
 void init_globals(void);

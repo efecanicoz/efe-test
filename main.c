@@ -14,7 +14,7 @@ int main(void) {
 	init_IO();
 	init_protocol();
     listener = chThdCreateStatic(serialListen, sizeof(serialListen), LOWPRIO, rxListen, NULL);
-    //writer = chThdCreateStatic(serialTalk, sizeof(serialTalk), LOWPRIO, txWrite, NULL);
+    writer = chThdCreateStatic(serialTalk, sizeof(serialTalk), LOWPRIO, txWrite, NULL);
     
 	while(!0)
 	{
