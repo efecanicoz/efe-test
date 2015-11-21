@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccnkfvrq.s 			page 1
+ARM GAS  /tmp/ccYNCSp5.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
   51 0010 00000000 		.word	test_heap
   52 0014 00000000 		.word	test
   53              		.cfi_endproc
-ARM GAS  /tmp/ccnkfvrq.s 			page 2
+ARM GAS  /tmp/ccYNCSp5.s 			page 2
 
 
   54              	.LFE240:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  107 0044 FFF7FEFF 		bl	chHeapAlloc
  108 0048 0590     		str	r0, [sp, #20]
  109              		.loc 1 85 0
-ARM GAS  /tmp/ccnkfvrq.s 			page 3
+ARM GAS  /tmp/ccYNCSp5.s 			page 3
 
 
  110 004a 059B     		ldr	r3, [sp, #20]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  164 00b4 DBB2     		uxtb	r3, r3
  165 00b6 0320     		movs	r0, #3
  166 00b8 1946     		mov	r1, r3
-ARM GAS  /tmp/ccnkfvrq.s 			page 4
+ARM GAS  /tmp/ccYNCSp5.s 			page 4
 
 
  167 00ba FFF7FEFF 		bl	_test_assert
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  221 0120 FFF7FEFF 		bl	chHeapAlloc
  222 0124 0590     		str	r0, [sp, #20]
  223              		.loc 1 110 0
-ARM GAS  /tmp/ccnkfvrq.s 			page 5
+ARM GAS  /tmp/ccYNCSp5.s 			page 5
 
 
  224 0126 6D48     		ldr	r0, .L22
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  278 018a 0023     		movs	r3, #0
  279              	.L13:
  280              		.loc 1 116 0 discriminator 4
-ARM GAS  /tmp/ccnkfvrq.s 			page 6
+ARM GAS  /tmp/ccYNCSp5.s 			page 6
 
 
  281 018c 03F00103 		and	r3, r3, #1
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  335 01f4 FFF7FEFF 		bl	chHeapStatus
  336 01f8 0346     		mov	r3, r0
  337 01fa 022B     		cmp	r3, #2
-ARM GAS  /tmp/ccnkfvrq.s 			page 7
+ARM GAS  /tmp/ccYNCSp5.s 			page 7
 
 
  338 01fc 14BF     		ite	ne
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  392 0264 0590     		str	r0, [sp, #20]
  393              		.loc 1 135 0
  394 0266 02AB     		add	r3, sp, #8
-ARM GAS  /tmp/ccnkfvrq.s 			page 8
+ARM GAS  /tmp/ccYNCSp5.s 			page 8
 
 
  395 0268 1C48     		ldr	r0, .L22
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  449 02d2 00D0     		beq	.L4
  450 02d4 00BF     		nop
  451              	.L4:
-ARM GAS  /tmp/ccnkfvrq.s 			page 9
+ARM GAS  /tmp/ccYNCSp5.s 			page 9
 
 
  452              		.loc 1 140 0
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  502              		.file 17 "/home/efe/ChibiOS/test/rt/test.h"
  503              		.file 18 "/home/efe/ChibiOS/os/ext/CMSIS/include/core_cm4.h"
  504              		.section	.debug_info,"",%progbits
-ARM GAS  /tmp/ccnkfvrq.s 			page 10
+ARM GAS  /tmp/ccYNCSp5.s 			page 10
 
 
  505              	.Ldebug_info0:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  559 006f 68010000 		.4byte	.LASF8
  560 0073 03       		.uleb128 0x3
  561 0074 E3050000 		.4byte	.LASF9
-ARM GAS  /tmp/ccnkfvrq.s 			page 11
+ARM GAS  /tmp/ccYNCSp5.s 			page 11
 
 
  562 0078 03       		.byte	0x3
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  616 00ea 05       		.byte	0x5
  617 00eb 48       		.byte	0x48
  618 00ec 9E000000 		.4byte	0x9e
-ARM GAS  /tmp/ccnkfvrq.s 			page 12
+ARM GAS  /tmp/ccYNCSp5.s 			page 12
 
 
  619 00f0 03       		.uleb128 0x3
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  673 0165 C3       		.byte	0xc3
  674 0166 64020000 		.4byte	0x264
  675 016a 00       		.byte	0
-ARM GAS  /tmp/ccnkfvrq.s 			page 13
+ARM GAS  /tmp/ccYNCSp5.s 			page 13
 
 
  676 016b 07       		.uleb128 0x7
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  730 01d7 07       		.uleb128 0x7
  731 01d8 39060000 		.4byte	.LASF40
  732 01dc 07       		.byte	0x7
-ARM GAS  /tmp/ccnkfvrq.s 			page 14
+ARM GAS  /tmp/ccYNCSp5.s 			page 14
 
 
  733 01dd E6       		.byte	0xe6
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  787 0251 5E01     		.2byte	0x15e
  788 0253 5D060000 		.4byte	0x65d
  789 0257 48       		.byte	0x48
-ARM GAS  /tmp/ccnkfvrq.s 			page 15
+ARM GAS  /tmp/ccYNCSp5.s 			page 15
 
 
  790 0258 00       		.byte	0
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  844 02c4 57       		.byte	0x57
  845 02c5 C9020000 		.4byte	0x2c9
  846 02c9 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccnkfvrq.s 			page 16
+ARM GAS  /tmp/ccYNCSp5.s 			page 16
 
 
  847 02ca 8B030000 		.4byte	.LASF56
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  901 0340 00       		.byte	0
  902 0341 0E       		.uleb128 0xe
  903 0342 04       		.byte	0x4
-ARM GAS  /tmp/ccnkfvrq.s 			page 17
+ARM GAS  /tmp/ccYNCSp5.s 			page 17
 
 
  904 0343 03       		.uleb128 0x3
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  958 03b6 EF020000 		.4byte	.LASF66
  959 03ba 07       		.byte	0x7
  960 03bb 7C01     		.2byte	0x17c
-ARM GAS  /tmp/ccnkfvrq.s 			page 18
+ARM GAS  /tmp/ccYNCSp5.s 			page 18
 
 
  961 03bd 89070000 		.4byte	0x789
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1015 0432 EF050000 		.4byte	0x5ef
  1016 0436 0C       		.byte	0xc
  1017 0437 00       		.byte	0
-ARM GAS  /tmp/ccnkfvrq.s 			page 19
+ARM GAS  /tmp/ccYNCSp5.s 			page 19
 
 
  1018 0438 03       		.uleb128 0x3
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1072 04b0 04       		.uleb128 0x4
  1073 04b1 04       		.byte	0x4
  1074 04b2 07       		.byte	0x7
-ARM GAS  /tmp/ccnkfvrq.s 			page 20
+ARM GAS  /tmp/ccYNCSp5.s 			page 20
 
 
  1075 04b3 CE030000 		.4byte	.LASF87
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1129 0522 08       		.uleb128 0x8
  1130 0523 723800   		.ascii	"r8\000"
  1131 0526 09       		.byte	0x9
-ARM GAS  /tmp/ccnkfvrq.s 			page 21
+ARM GAS  /tmp/ccYNCSp5.s 			page 21
 
 
  1132 0527 1401     		.2byte	0x114
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1186 0593 07       		.uleb128 0x7
  1187 0594 B6000000 		.4byte	.LASF95
  1188 0598 0A       		.byte	0xa
-ARM GAS  /tmp/ccnkfvrq.s 			page 22
+ARM GAS  /tmp/ccYNCSp5.s 			page 22
 
 
  1189 0599 61       		.byte	0x61
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1243 0603 F8050000 		.4byte	.LASF101
  1244 0607 0B       		.byte	0xb
  1245 0608 3C       		.byte	0x3c
-ARM GAS  /tmp/ccnkfvrq.s 			page 23
+ARM GAS  /tmp/ccYNCSp5.s 			page 23
 
 
  1246 0609 CF000000 		.4byte	0xcf
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1300 0670 07       		.uleb128 0x7
  1301 0671 12030000 		.4byte	.LASF108
  1302 0675 0C       		.byte	0xc
-ARM GAS  /tmp/ccnkfvrq.s 			page 24
+ARM GAS  /tmp/ccYNCSp5.s 			page 24
 
 
  1303 0676 39       		.byte	0x39
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1357 06e9 07       		.byte	0x7
  1358 06ea 1E01     		.2byte	0x11e
  1359 06ec 34070000 		.4byte	0x734
-ARM GAS  /tmp/ccnkfvrq.s 			page 25
+ARM GAS  /tmp/ccYNCSp5.s 			page 25
 
 
  1360 06f0 18       		.uleb128 0x18
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1414 075e 07       		.uleb128 0x7
  1415 075f BE050000 		.4byte	.LASF126
  1416 0763 0E       		.byte	0xe
-ARM GAS  /tmp/ccnkfvrq.s 			page 26
+ARM GAS  /tmp/ccYNCSp5.s 			page 26
 
 
  1417 0764 3E       		.byte	0x3e
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1471 07d6 7A010000 		.4byte	.LASF130
  1472 07da 10       		.byte	0x10
  1473 07db 3C       		.byte	0x3c
-ARM GAS  /tmp/ccnkfvrq.s 			page 27
+ARM GAS  /tmp/ccYNCSp5.s 			page 27
 
 
  1474 07dc E0070000 		.4byte	0x7e0
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1528 0848 6800     		.ascii	"h\000"
  1529 084a 10       		.byte	0x10
  1530 084b 49       		.byte	0x49
-ARM GAS  /tmp/ccnkfvrq.s 			page 28
+ARM GAS  /tmp/ccYNCSp5.s 			page 28
 
 
  1531 084c 5D080000 		.4byte	0x85d
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1585 08b3 BA080000 		.4byte	0x8ba
  1586 08b7 0C       		.byte	0xc
  1587 08b8 00       		.byte	0
-ARM GAS  /tmp/ccnkfvrq.s 			page 29
+ARM GAS  /tmp/ccYNCSp5.s 			page 29
 
 
  1588 08b9 1E       		.uleb128 0x1e
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1642 0923 776100   		.ascii	"wa\000"
  1643 0926 11       		.byte	0x11
  1644 0927 4A       		.byte	0x4a
-ARM GAS  /tmp/ccnkfvrq.s 			page 30
+ARM GAS  /tmp/ccYNCSp5.s 			page 30
 
 
  1645 0928 C0080000 		.4byte	0x8c0
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1699 0995 6C       		.sleb128 -20
  1700 0996 24       		.uleb128 0x24
  1701 0997 6E00     		.ascii	"n\000"
-ARM GAS  /tmp/ccnkfvrq.s 			page 31
+ARM GAS  /tmp/ccYNCSp5.s 			page 31
 
 
  1702 0999 01       		.byte	0x1
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1756 0a08 00       		.byte	0
  1757 0a09 0A       		.uleb128 0xa
  1758 0a0a 04       		.byte	0x4
-ARM GAS  /tmp/ccnkfvrq.s 			page 32
+ARM GAS  /tmp/ccYNCSp5.s 			page 32
 
 
  1759 0a0b F4090000 		.4byte	0x9f4
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1813 0028 00       		.byte	0
  1814 0029 04       		.uleb128 0x4
  1815 002a 24       		.uleb128 0x24
-ARM GAS  /tmp/ccnkfvrq.s 			page 33
+ARM GAS  /tmp/ccYNCSp5.s 			page 33
 
 
  1816 002b 00       		.byte	0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1870 0061 05       		.uleb128 0x5
  1871 0062 49       		.uleb128 0x49
  1872 0063 13       		.uleb128 0x13
-ARM GAS  /tmp/ccnkfvrq.s 			page 34
+ARM GAS  /tmp/ccYNCSp5.s 			page 34
 
 
  1873 0064 38       		.uleb128 0x38
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1927 009a 00       		.byte	0
  1928 009b 49       		.uleb128 0x49
  1929 009c 13       		.uleb128 0x13
-ARM GAS  /tmp/ccnkfvrq.s 			page 35
+ARM GAS  /tmp/ccYNCSp5.s 			page 35
 
 
  1930 009d 00       		.byte	0
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  1984 00d3 12       		.uleb128 0x12
  1985 00d4 0D       		.uleb128 0xd
  1986 00d5 00       		.byte	0
-ARM GAS  /tmp/ccnkfvrq.s 			page 36
+ARM GAS  /tmp/ccYNCSp5.s 			page 36
 
 
  1987 00d6 03       		.uleb128 0x3
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2041 010c 00       		.byte	0
  2042 010d 00       		.byte	0
  2043 010e 17       		.uleb128 0x17
-ARM GAS  /tmp/ccnkfvrq.s 			page 37
+ARM GAS  /tmp/ccYNCSp5.s 			page 37
 
 
  2044 010f 17       		.uleb128 0x17
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2098 0145 00       		.byte	0
  2099 0146 00       		.byte	0
  2100 0147 1C       		.uleb128 0x1c
-ARM GAS  /tmp/ccnkfvrq.s 			page 38
+ARM GAS  /tmp/ccYNCSp5.s 			page 38
 
 
  2101 0148 17       		.uleb128 0x17
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2155 017e 0B       		.uleb128 0xb
  2156 017f 05       		.uleb128 0x5
  2157 0180 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccnkfvrq.s 			page 39
+ARM GAS  /tmp/ccYNCSp5.s 			page 39
 
 
  2158 0181 0B       		.uleb128 0xb
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2212 01b8 9642     		.uleb128 0x2116
  2213 01ba 19       		.uleb128 0x19
  2214 01bb 01       		.uleb128 0x1
-ARM GAS  /tmp/ccnkfvrq.s 			page 40
+ARM GAS  /tmp/ccYNCSp5.s 			page 40
 
 
  2215 01bc 13       		.uleb128 0x13
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2269 01f2 08       		.uleb128 0x8
  2270 01f3 3A       		.uleb128 0x3a
  2271 01f4 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccnkfvrq.s 			page 41
+ARM GAS  /tmp/ccYNCSp5.s 			page 41
 
 
  2272 01f5 3B       		.uleb128 0x3b
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2326 0014 18000000 		.4byte	.LFE240-.LFB240
  2327 0018 00000000 		.4byte	.LFB241
  2328 001c E0020000 		.4byte	.LFE241-.LFB241
-ARM GAS  /tmp/ccnkfvrq.s 			page 42
+ARM GAS  /tmp/ccYNCSp5.s 			page 42
 
 
  2329 0020 00000000 		.4byte	0
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2361      64735F71 
  2361      75657565 
  2361      00
-ARM GAS  /tmp/ccnkfvrq.s 			page 43
+ARM GAS  /tmp/ccYNCSp5.s 			page 43
 
 
  2362              	.LASF74:
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2386              	.LASF19:
  2387 00fd 72747469 		.ascii	"rttime_t\000"
  2387      6D655F74 
-ARM GAS  /tmp/ccnkfvrq.s 			page 44
+ARM GAS  /tmp/ccYNCSp5.s 			page 44
 
 
  2387      00
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2417      7000
  2418              	.LASF153:
  2419 018e 2F686F6D 		.ascii	"/home/efe/ChibiOS/test/rt/testheap.c\000"
-ARM GAS  /tmp/ccnkfvrq.s 			page 45
+ARM GAS  /tmp/ccYNCSp5.s 			page 45
 
 
  2419      652F6566 
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2442      315F6578 
  2442      65637574 
  2442      6500
-ARM GAS  /tmp/ccnkfvrq.s 			page 46
+ARM GAS  /tmp/ccYNCSp5.s 			page 46
 
 
  2443              	.LASF78:
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2470      5F7400
  2471              	.LASF51:
  2472 0345 63685F74 		.ascii	"ch_thread\000"
-ARM GAS  /tmp/ccnkfvrq.s 			page 47
+ARM GAS  /tmp/ccYNCSp5.s 			page 47
 
 
  2472      68726561 
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2500      00
  2501              	.LASF49:
  2502 03d7 74687265 		.ascii	"thread_reference_t\000"
-ARM GAS  /tmp/ccnkfvrq.s 			page 48
+ARM GAS  /tmp/ccYNCSp5.s 			page 48
 
 
  2502      61645F72 
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2528      735F7400 
  2529              	.LASF99:
  2530 0478 74625F62 		.ascii	"tb_buffer\000"
-ARM GAS  /tmp/ccnkfvrq.s 			page 49
+ARM GAS  /tmp/ccYNCSp5.s 			page 49
 
 
  2530      75666665 
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2560 050a 705F6E65 		.ascii	"p_next\000"
  2560      787400
  2561              	.LASF39:
-ARM GAS  /tmp/ccnkfvrq.s 			page 50
+ARM GAS  /tmp/ccYNCSp5.s 			page 50
 
 
  2562 0511 705F666C 		.ascii	"p_flags\000"
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2588      69676E65 
  2588      6420696E 
  2588      7400
-ARM GAS  /tmp/ccnkfvrq.s 			page 51
+ARM GAS  /tmp/ccYNCSp5.s 			page 51
 
 
  2589              	.LASF127:
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2618      00
  2619              	.LASF123:
  2620 0630 63685F6D 		.ascii	"ch_mutex\000"
-ARM GAS  /tmp/ccnkfvrq.s 			page 52
+ARM GAS  /tmp/ccYNCSp5.s 			page 52
 
 
  2620      75746578 
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2650      7000
  2651              	.LASF33:
  2652 06bd 705F6374 		.ascii	"p_ctx\000"
-ARM GAS  /tmp/ccnkfvrq.s 			page 53
+ARM GAS  /tmp/ccYNCSp5.s 			page 53
 
 
  2652      7800
@@ -3130,26 +3130,26 @@ ARM GAS  /tmp/ccnkfvrq.s 			page 1
  2656      72795F68 
  2656      65617000 
  2657              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccnkfvrq.s 			page 54
+ARM GAS  /tmp/ccYNCSp5.s 			page 54
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 testheap.c
-     /tmp/ccnkfvrq.s:19     .bss.test_heap:0000000000000000 $d
-     /tmp/ccnkfvrq.s:22     .bss.test_heap:0000000000000000 test_heap
-     /tmp/ccnkfvrq.s:25     .text.heap1_setup:0000000000000000 $t
-     /tmp/ccnkfvrq.s:30     .text.heap1_setup:0000000000000000 heap1_setup
-     /tmp/ccnkfvrq.s:51     .text.heap1_setup:0000000000000010 $d
-     /tmp/ccnkfvrq.s:57     .text.heap1_execute:0000000000000000 $t
-     /tmp/ccnkfvrq.s:62     .text.heap1_execute:0000000000000000 heap1_execute
-     /tmp/ccnkfvrq.s:459    .text.heap1_execute:00000000000002dc $d
-     /tmp/ccnkfvrq.s:472    .rodata.testheap1:0000000000000000 testheap1
-     /tmp/ccnkfvrq.s:465    .rodata:0000000000000000 $d
-     /tmp/ccnkfvrq.s:469    .rodata.testheap1:0000000000000000 $d
-     /tmp/ccnkfvrq.s:482    .rodata.patternheap:0000000000000000 patternheap
-     /tmp/ccnkfvrq.s:479    .rodata.patternheap:0000000000000000 $d
+     /tmp/ccYNCSp5.s:19     .bss.test_heap:0000000000000000 $d
+     /tmp/ccYNCSp5.s:22     .bss.test_heap:0000000000000000 test_heap
+     /tmp/ccYNCSp5.s:25     .text.heap1_setup:0000000000000000 $t
+     /tmp/ccYNCSp5.s:30     .text.heap1_setup:0000000000000000 heap1_setup
+     /tmp/ccYNCSp5.s:51     .text.heap1_setup:0000000000000010 $d
+     /tmp/ccYNCSp5.s:57     .text.heap1_execute:0000000000000000 $t
+     /tmp/ccYNCSp5.s:62     .text.heap1_execute:0000000000000000 heap1_execute
+     /tmp/ccYNCSp5.s:459    .text.heap1_execute:00000000000002dc $d
+     /tmp/ccYNCSp5.s:472    .rodata.testheap1:0000000000000000 testheap1
+     /tmp/ccYNCSp5.s:465    .rodata:0000000000000000 $d
+     /tmp/ccYNCSp5.s:469    .rodata.testheap1:0000000000000000 $d
+     /tmp/ccYNCSp5.s:482    .rodata.patternheap:0000000000000000 patternheap
+     /tmp/ccYNCSp5.s:479    .rodata.patternheap:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
-     /tmp/ccnkfvrq.s:56     .text.heap1_setup:0000000000000018 $t
+     /tmp/ccYNCSp5.s:56     .text.heap1_setup:0000000000000018 $t
 
 UNDEFINED SYMBOLS
 chHeapObjectInit

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccAkv2x4.s 			page 1
+ARM GAS  /tmp/ccA8nGyI.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
   55              		.align	2
   56              		.p2align 4,,15
   57              		.thumb
-ARM GAS  /tmp/ccAkv2x4.s 			page 2
+ARM GAS  /tmp/ccA8nGyI.s 			page 2
 
 
   58              		.thumb_func
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  111      0080
  112              		.align	2
  113              		.p2align 4,,15
-ARM GAS  /tmp/ccAkv2x4.s 			page 3
+ARM GAS  /tmp/ccA8nGyI.s 			page 3
 
 
  114              		.thumb
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  168              		.thumb
  169              		.thumb_func
  170              		.type	chSysUnlock, %function
-ARM GAS  /tmp/ccAkv2x4.s 			page 4
+ARM GAS  /tmp/ccA8nGyI.s 			page 4
 
 
  171              	chSysUnlock:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  224              		.loc 6 228 0
  225              		.cfi_startproc
  226              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccAkv2x4.s 			page 5
+ARM GAS  /tmp/ccA8nGyI.s 			page 5
 
 
  227              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  281              	chThdGetSelfX:
  282              	.LFB188:
  283              		.file 7 "/home/efe/ChibiOS/os/rt/include/chthreads.h"
-ARM GAS  /tmp/ccAkv2x4.s 			page 6
+ARM GAS  /tmp/ccA8nGyI.s 			page 6
 
 
  284              		.loc 7 174 0
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  338              		.cfi_startproc
  339              		@ args = 0, pretend = 0, frame = 8
  340              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccAkv2x4.s 			page 7
+ARM GAS  /tmp/ccA8nGyI.s 			page 7
 
 
  341 0000 00B5     		push	{lr}
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  392              		.cfi_offset 4, -8
  393              		.cfi_offset 14, -4
  394 0002 82B0     		sub	sp, sp, #8
-ARM GAS  /tmp/ccAkv2x4.s 			page 8
+ARM GAS  /tmp/ccA8nGyI.s 			page 8
 
 
  395              		.cfi_def_cfa_offset 16
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  449 007a 023B     		subs	r3, r3, #2
  450 007c 1A4A     		ldr	r2, .L25+24
  451 007e 0092     		str	r2, [sp]
-ARM GAS  /tmp/ccAkv2x4.s 			page 9
+ARM GAS  /tmp/ccA8nGyI.s 			page 9
 
 
  452 0080 2046     		mov	r0, r4
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  506              		.size	thd1_execute, .-thd1_execute
  507              		.global	testthd1
  508 00f4 AFF30080 		.section	.rodata
-ARM GAS  /tmp/ccAkv2x4.s 			page 10
+ARM GAS  /tmp/ccA8nGyI.s 			page 10
 
 
  508      AFF30080 
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  557 002a 1C68     		ldr	r4, [r3]
  558 002c FFF7FEFF 		bl	chThdGetPriorityX
  559 0030 0346     		mov	r3, r0
-ARM GAS  /tmp/ccAkv2x4.s 			page 11
+ARM GAS  /tmp/ccA8nGyI.s 			page 11
 
 
  560 0032 053B     		subs	r3, r3, #5
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  614 00aa 4FF4B471 		mov	r1, #360
  615 00ae 1A46     		mov	r2, r3
  616 00b0 0E4B     		ldr	r3, .L29+8
-ARM GAS  /tmp/ccAkv2x4.s 			page 12
+ARM GAS  /tmp/ccA8nGyI.s 			page 12
 
 
  617 00b2 FFF7FEFF 		bl	chThdCreateI
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  666              		.type	testthd2, %object
  667              		.size	testthd2, 16
  668              	testthd2:
-ARM GAS  /tmp/ccAkv2x4.s 			page 13
+ARM GAS  /tmp/ccA8nGyI.s 			page 13
 
 
  669 0000 38000000 		.word	.LC7
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  723 0042 0023     		movne	r3, #0
  724 0044 0123     		moveq	r3, #1
  725 0046 DBB2     		uxtb	r3, r3
-ARM GAS  /tmp/ccAkv2x4.s 			page 14
+ARM GAS  /tmp/ccA8nGyI.s 			page 14
 
 
  726 0048 0220     		movs	r0, #2
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  780 00ac 9A68     		ldr	r2, [r3, #8]
  781 00ae 0232     		adds	r2, r2, #2
  782 00b0 9A60     		str	r2, [r3, #8]
-ARM GAS  /tmp/ccAkv2x4.s 			page 15
+ARM GAS  /tmp/ccA8nGyI.s 			page 15
 
 
  783              		.loc 8 144 0
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  837 0118 DBB2     		uxtb	r3, r3
  838 011a 0720     		movs	r0, #7
  839 011c 1946     		mov	r1, r3
-ARM GAS  /tmp/ccAkv2x4.s 			page 16
+ARM GAS  /tmp/ccA8nGyI.s 			page 16
 
 
  840 011e FFF7FEFF 		bl	_test_assert
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  894 0182 9A68     		ldr	r2, [r3, #8]
  895 0184 019B     		ldr	r3, [sp, #4]
  896 0186 0333     		adds	r3, r3, #3
-ARM GAS  /tmp/ccAkv2x4.s 			page 17
+ARM GAS  /tmp/ccA8nGyI.s 			page 17
 
 
  897 0188 9A42     		cmp	r2, r3
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  951              	.LFE243:
  952              		.size	thd3_execute, .-thd3_execute
  953              		.global	testthd3
-ARM GAS  /tmp/ccAkv2x4.s 			page 18
+ARM GAS  /tmp/ccA8nGyI.s 			page 18
 
 
  954 01ea 00BFAFF3 		.section	.rodata
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1003 0030 00D0     		beq	.L45
  1004              		.loc 8 196 0 is_stmt 0 discriminator 1
  1005 0032 41E0     		b	.L44
-ARM GAS  /tmp/ccAkv2x4.s 			page 19
+ARM GAS  /tmp/ccA8nGyI.s 			page 19
 
 
  1006              	.L45:
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1060 00a2 019B     		ldr	r3, [sp, #4]
  1061 00a4 0333     		adds	r3, r3, #3
  1062 00a6 0420     		movs	r0, #4
-ARM GAS  /tmp/ccAkv2x4.s 			page 20
+ARM GAS  /tmp/ccA8nGyI.s 			page 20
 
 
  1063 00a8 0199     		ldr	r1, [sp, #4]
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1112              		.file 9 "/usr/lib/gcc/arm-none-eabi/4.8/include/stddef.h"
  1113              		.file 10 "/usr/include/newlib/machine/_default_types.h"
  1114              		.file 11 "/usr/include/newlib/stdint.h"
-ARM GAS  /tmp/ccAkv2x4.s 			page 21
+ARM GAS  /tmp/ccA8nGyI.s 			page 21
 
 
  1115              		.file 12 "/home/efe/ChibiOS/os/rt/ports/ARMCMx/compilers/GCC/chtypes.h"
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1169 0056 1B050000 		.4byte	.LASF5
  1170 005a 04       		.uleb128 0x4
  1171 005b 02       		.byte	0x2
-ARM GAS  /tmp/ccAkv2x4.s 			page 22
+ARM GAS  /tmp/ccA8nGyI.s 			page 22
 
 
  1172 005c 07       		.byte	0x7
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1226 00cb A9000000 		.4byte	0xa9
  1227 00cf 05       		.uleb128 0x5
  1228 00d0 B4000000 		.4byte	0xb4
-ARM GAS  /tmp/ccAkv2x4.s 			page 23
+ARM GAS  /tmp/ccA8nGyI.s 			page 23
 
 
  1229 00d4 03       		.uleb128 0x3
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1283 0149 B4000000 		.4byte	0xb4
  1284 014d 03       		.uleb128 0x3
  1285 014e 26060000 		.4byte	.LASF29
-ARM GAS  /tmp/ccAkv2x4.s 			page 24
+ARM GAS  /tmp/ccA8nGyI.s 			page 24
 
 
  1286 0152 0D       		.byte	0xd
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1340 01be D8       		.byte	0xd8
  1341 01bf CA080000 		.4byte	0x8ca
  1342 01c3 1C       		.byte	0x1c
-ARM GAS  /tmp/ccAkv2x4.s 			page 25
+ARM GAS  /tmp/ccA8nGyI.s 			page 25
 
 
  1343 01c4 07       		.uleb128 0x7
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1397 0236 09       		.uleb128 0x9
  1398 0237 45060000 		.4byte	.LASF46
  1399 023b 0E       		.byte	0xe
-ARM GAS  /tmp/ccAkv2x4.s 			page 26
+ARM GAS  /tmp/ccA8nGyI.s 			page 26
 
 
  1400 023c 5101     		.2byte	0x151
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1454 02ab 43050000 		.4byte	.LASF30
  1455 02af 0E       		.byte	0xe
  1456 02b0 B8       		.byte	0xb8
-ARM GAS  /tmp/ccAkv2x4.s 			page 27
+ARM GAS  /tmp/ccA8nGyI.s 			page 27
 
 
  1457 02b1 69020000 		.4byte	0x269
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1511 0324 69020000 		.4byte	0x269
  1512 0328 18       		.byte	0x18
  1513 0329 00       		.byte	0
-ARM GAS  /tmp/ccAkv2x4.s 			page 28
+ARM GAS  /tmp/ccA8nGyI.s 			page 28
 
 
  1514 032a 03       		.uleb128 0x3
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1568 039c 46030000 		.4byte	0x346
  1569 03a0 10       		.byte	0x10
  1570 03a1 00       		.byte	0
-ARM GAS  /tmp/ccAkv2x4.s 			page 29
+ARM GAS  /tmp/ccA8nGyI.s 			page 29
 
 
  1571 03a2 03       		.uleb128 0x3
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1625 0416 CE060000 		.4byte	.LASF77
  1626 041a 0E       		.byte	0xe
  1627 041b AF01     		.2byte	0x1af
-ARM GAS  /tmp/ccAkv2x4.s 			page 30
+ARM GAS  /tmp/ccA8nGyI.s 			page 30
 
 
  1628 041d 2C010000 		.4byte	0x12c
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1682 0492 56070000 		.4byte	0x756
  1683 0496 A004     		.2byte	0x4a0
  1684 0498 10       		.uleb128 0x10
-ARM GAS  /tmp/ccAkv2x4.s 			page 31
+ARM GAS  /tmp/ccA8nGyI.s 			page 31
 
 
  1685 0499 30000000 		.4byte	.LASF85
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1739 050c 47000000 		.4byte	.LASF91
  1740 0510 24       		.byte	0x24
  1741 0511 01       		.byte	0x1
-ARM GAS  /tmp/ccAkv2x4.s 			page 32
+ARM GAS  /tmp/ccA8nGyI.s 			page 32
 
 
  1742 0512 FD       		.byte	0xfd
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1796 0580 DC040000 		.4byte	0x4dc
  1797 0584 20       		.byte	0x20
  1798 0585 00       		.byte	0
-ARM GAS  /tmp/ccAkv2x4.s 			page 33
+ARM GAS  /tmp/ccA8nGyI.s 			page 33
 
 
  1799 0586 0A       		.uleb128 0xa
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1853 05f7 CF000000 		.4byte	0xcf
  1854 05fb 1C       		.byte	0x1c
  1855 05fc 09       		.uleb128 0x9
-ARM GAS  /tmp/ccAkv2x4.s 			page 34
+ARM GAS  /tmp/ccA8nGyI.s 			page 34
 
 
  1856 05fd 77010000 		.4byte	.LASF96
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1910 0672 4F5200   		.ascii	"OR\000"
  1911 0675 10       		.byte	0x10
  1912 0676 B301     		.2byte	0x1b3
-ARM GAS  /tmp/ccAkv2x4.s 			page 35
+ARM GAS  /tmp/ccA8nGyI.s 			page 35
 
 
  1913 0678 CF000000 		.4byte	0xcf
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  1967 06e7 03       		.uleb128 0x3
  1968 06e8 2A040000 		.4byte	.LASF106
  1969 06ec 11       		.byte	0x11
-ARM GAS  /tmp/ccAkv2x4.s 			page 36
+ARM GAS  /tmp/ccA8nGyI.s 			page 36
 
 
  1970 06ed 62       		.byte	0x62
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2024 0757 D4030000 		.4byte	.LASF112
  2025 075b 12       		.byte	0x12
  2026 075c 3D       		.byte	0x3d
-ARM GAS  /tmp/ccAkv2x4.s 			page 37
+ARM GAS  /tmp/ccA8nGyI.s 			page 37
 
 
  2027 075d 41070000 		.4byte	0x741
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2081 07c4 EA040000 		.4byte	.LASF119
  2082 07c8 13       		.byte	0x13
  2083 07c9 3A       		.byte	0x3a
-ARM GAS  /tmp/ccAkv2x4.s 			page 38
+ARM GAS  /tmp/ccA8nGyI.s 			page 38
 
 
  2084 07ca 37010000 		.4byte	0x137
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2138 083f B2080000 		.4byte	0x8b2
  2139 0843 1A       		.uleb128 0x1a
  2140 0844 3C050000 		.4byte	.LASF129
-ARM GAS  /tmp/ccAkv2x4.s 			page 39
+ARM GAS  /tmp/ccA8nGyI.s 			page 39
 
 
  2141 0848 0E       		.byte	0xe
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2195 08b2 0A       		.uleb128 0xa
  2196 08b3 04       		.byte	0x4
  2197 08b4 81080000 		.4byte	0x881
-ARM GAS  /tmp/ccAkv2x4.s 			page 40
+ARM GAS  /tmp/ccA8nGyI.s 			page 40
 
 
  2198 08b8 0A       		.uleb128 0xa
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2252 0927 3A090000 		.4byte	0x93a
  2253 092b 08       		.byte	0x8
  2254 092c 07       		.uleb128 0x7
-ARM GAS  /tmp/ccAkv2x4.s 			page 41
+ARM GAS  /tmp/ccA8nGyI.s 			page 41
 
 
  2255 092d 09050000 		.4byte	.LASF143
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2309 09a1 40090000 		.4byte	0x940
  2310 09a5 06000000 		.4byte	.LBB8
  2311 09a9 06000000 		.4byte	.LBE8-.LBB8
-ARM GAS  /tmp/ccAkv2x4.s 			page 42
+ARM GAS  /tmp/ccA8nGyI.s 			page 42
 
 
  2312 09ad 01       		.byte	0x1
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2366 0a25 13       		.uleb128 0x13
  2367 0a26 B5040000 		.4byte	0x4b5
  2368 0a2a 0B       		.byte	0xb
-ARM GAS  /tmp/ccAkv2x4.s 			page 43
+ARM GAS  /tmp/ccA8nGyI.s 			page 43
 
 
  2369 0a2b 00       		.byte	0
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2423 0aa3 16000000 		.4byte	.LFE240-.LFB240
  2424 0aa7 01       		.uleb128 0x1
  2425 0aa8 9C       		.byte	0x9c
-ARM GAS  /tmp/ccAkv2x4.s 			page 44
+ARM GAS  /tmp/ccA8nGyI.s 			page 44
 
 
  2426 0aa9 BA0A0000 		.4byte	0xaba
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2480 0b12 08       		.byte	0x8
  2481 0b13 BC       		.byte	0xbc
  2482 0b14 00000000 		.4byte	.LFB244
-ARM GAS  /tmp/ccAkv2x4.s 			page 45
+ARM GAS  /tmp/ccA8nGyI.s 			page 45
 
 
  2483 0b18 BE000000 		.4byte	.LFE244-.LFB244
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2537 0b8a 00000000 		.4byte	testthd1
  2538 0b8e 1B       		.uleb128 0x1b
  2539 0b8f FC080000 		.4byte	0x8fc
-ARM GAS  /tmp/ccAkv2x4.s 			page 46
+ARM GAS  /tmp/ccA8nGyI.s 			page 46
 
 
  2540 0b93 32       		.uleb128 0x32
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2594 0007 03       		.uleb128 0x3
  2595 0008 0E       		.uleb128 0xe
  2596 0009 55       		.uleb128 0x55
-ARM GAS  /tmp/ccAkv2x4.s 			page 47
+ARM GAS  /tmp/ccA8nGyI.s 			page 47
 
 
  2597 000a 17       		.uleb128 0x17
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2651 0040 0B       		.uleb128 0xb
  2652 0041 0B       		.uleb128 0xb
  2653 0042 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccAkv2x4.s 			page 48
+ARM GAS  /tmp/ccA8nGyI.s 			page 48
 
 
  2654 0043 0B       		.uleb128 0xb
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2708 0079 00       		.byte	0
  2709 007a 0B       		.uleb128 0xb
  2710 007b 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccAkv2x4.s 			page 49
+ARM GAS  /tmp/ccA8nGyI.s 			page 49
 
 
  2711 007c 49       		.uleb128 0x49
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2765 00b2 13       		.uleb128 0x13
  2766 00b3 00       		.byte	0
  2767 00b4 00       		.byte	0
-ARM GAS  /tmp/ccAkv2x4.s 			page 50
+ARM GAS  /tmp/ccA8nGyI.s 			page 50
 
 
  2768 00b5 10       		.uleb128 0x10
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2822 00eb 0B       		.uleb128 0xb
  2823 00ec 3B       		.uleb128 0x3b
  2824 00ed 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccAkv2x4.s 			page 51
+ARM GAS  /tmp/ccA8nGyI.s 			page 51
 
 
  2825 00ee 49       		.uleb128 0x49
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2879 0124 01       		.uleb128 0x1
  2880 0125 13       		.uleb128 0x13
  2881 0126 00       		.byte	0
-ARM GAS  /tmp/ccAkv2x4.s 			page 52
+ARM GAS  /tmp/ccA8nGyI.s 			page 52
 
 
  2882 0127 00       		.byte	0
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2936 015d 01       		.uleb128 0x1
  2937 015e 13       		.uleb128 0x13
  2938 015f 00       		.byte	0
-ARM GAS  /tmp/ccAkv2x4.s 			page 53
+ARM GAS  /tmp/ccA8nGyI.s 			page 53
 
 
  2939 0160 00       		.byte	0
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  2993 0197 00       		.byte	0
  2994 0198 31       		.uleb128 0x31
  2995 0199 13       		.uleb128 0x13
-ARM GAS  /tmp/ccAkv2x4.s 			page 54
+ARM GAS  /tmp/ccA8nGyI.s 			page 54
 
 
  2996 019a 02       		.uleb128 0x2
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3050 01d2 0E       		.uleb128 0xe
  3051 01d3 3A       		.uleb128 0x3a
  3052 01d4 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccAkv2x4.s 			page 55
+ARM GAS  /tmp/ccA8nGyI.s 			page 55
 
 
  3053 01d5 3B       		.uleb128 0x3b
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3107 020d 0E       		.uleb128 0xe
  3108 020e 3A       		.uleb128 0x3a
  3109 020f 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccAkv2x4.s 			page 56
+ARM GAS  /tmp/ccA8nGyI.s 			page 56
 
 
  3110 0210 3B       		.uleb128 0x3b
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3164 0248 00       		.byte	0
  3165 0249 00       		.byte	0
  3166 024a 2A       		.uleb128 0x2a
-ARM GAS  /tmp/ccAkv2x4.s 			page 57
+ARM GAS  /tmp/ccA8nGyI.s 			page 57
 
 
  3167 024b 05       		.uleb128 0x5
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3221 0282 0E       		.uleb128 0xe
  3222 0283 3A       		.uleb128 0x3a
  3223 0284 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccAkv2x4.s 			page 58
+ARM GAS  /tmp/ccA8nGyI.s 			page 58
 
 
  3224 0285 3B       		.uleb128 0x3b
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3278 02bb 3A       		.uleb128 0x3a
  3279 02bc 0B       		.uleb128 0xb
  3280 02bd 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccAkv2x4.s 			page 59
+ARM GAS  /tmp/ccA8nGyI.s 			page 59
 
 
  3281 02be 0B       		.uleb128 0xb
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3335 005c 0E000000 		.4byte	.LFE189-.LFB189
  3336 0060 00000000 		.4byte	.LFB240
  3337 0064 16000000 		.4byte	.LFE240-.LFB240
-ARM GAS  /tmp/ccAkv2x4.s 			page 60
+ARM GAS  /tmp/ccA8nGyI.s 			page 60
 
 
  3338 0068 00000000 		.4byte	.LFB241
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3387              	.LASF55:
  3388 0007 72656164 		.ascii	"ready_list_t\000"
  3388      795F6C69 
-ARM GAS  /tmp/ccAkv2x4.s 			page 61
+ARM GAS  /tmp/ccA8nGyI.s 			page 61
 
 
  3388      73745F74 
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3414      206C6F6E 
  3414      6720756E 
  3414      7369676E 
-ARM GAS  /tmp/ccAkv2x4.s 			page 62
+ARM GAS  /tmp/ccA8nGyI.s 			page 62
 
 
  3414      65642069 
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3442 0132 73655F74 		.ascii	"se_time\000"
  3442      696D6500 
  3443              	.LASF134:
-ARM GAS  /tmp/ccAkv2x4.s 			page 63
+ARM GAS  /tmp/ccA8nGyI.s 			page 63
 
 
  3444 013a 6D5F7175 		.ascii	"m_queue\000"
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3468      6374696F 
  3469 0232 612D7365 		.ascii	"a-sections -fno-common\000"
  3469      6374696F 
-ARM GAS  /tmp/ccAkv2x4.s 			page 64
+ARM GAS  /tmp/ccA8nGyI.s 			page 64
 
 
  3469      6E73202D 
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3497      6561645F 
  3497      776100
  3498              	.LASF26:
-ARM GAS  /tmp/ccAkv2x4.s 			page 65
+ARM GAS  /tmp/ccA8nGyI.s 			page 65
 
 
  3499 02d8 636E745F 		.ascii	"cnt_t\000"
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3527 035e 63685F74 		.ascii	"ch_thread\000"
  3527      68726561 
  3527      6400
-ARM GAS  /tmp/ccAkv2x4.s 			page 66
+ARM GAS  /tmp/ccA8nGyI.s 			page 66
 
 
  3528              	.LASF24:
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3555      00
  3556              	.LASF163:
  3557 03f8 74657374 		.ascii	"testthd1\000"
-ARM GAS  /tmp/ccAkv2x4.s 			page 67
+ARM GAS  /tmp/ccA8nGyI.s 			page 67
 
 
  3557      74686431 
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3583      64657200 
  3584              	.LASF12:
  3585 048f 5F5F7569 		.ascii	"__uint64_t\000"
-ARM GAS  /tmp/ccAkv2x4.s 			page 68
+ARM GAS  /tmp/ccA8nGyI.s 			page 68
 
 
  3585      6E743634 
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3613      7400
  3614              	.LASF38:
  3615 0525 705F7374 		.ascii	"p_state\000"
-ARM GAS  /tmp/ccAkv2x4.s 			page 69
+ARM GAS  /tmp/ccA8nGyI.s 			page 69
 
 
  3615      61746500 
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3643      657200
  3644              	.LASF16:
  3645 05b7 75696E74 		.ascii	"uint32_t\000"
-ARM GAS  /tmp/ccAkv2x4.s 			page 70
+ARM GAS  /tmp/ccA8nGyI.s 			page 70
 
 
  3645      33325F74 
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3673      696D655F 
  3673      7400
  3674              	.LASF46:
-ARM GAS  /tmp/ccAkv2x4.s 			page 71
+ARM GAS  /tmp/ccA8nGyI.s 			page 71
 
 
  3675 0645 705F7265 		.ascii	"p_realprio\000"
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3703 06d6 726C6973 		.ascii	"rlist\000"
  3703      7400
  3704              	.LASF150:
-ARM GAS  /tmp/ccAkv2x4.s 			page 72
+ARM GAS  /tmp/ccA8nGyI.s 			page 72
 
 
  3705 06dc 63685468 		.ascii	"chThdGetSelfX\000"
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3731      746F626A 
  3731      7000
  3732              	.LASF33:
-ARM GAS  /tmp/ccAkv2x4.s 			page 73
+ARM GAS  /tmp/ccA8nGyI.s 			page 73
 
 
  3733 078a 705F6374 		.ascii	"p_ctx\000"
@@ -4327,67 +4327,67 @@ ARM GAS  /tmp/ccAkv2x4.s 			page 1
  3735 0790 76745F66 		.ascii	"vt_func\000"
  3735      756E6300 
  3736              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccAkv2x4.s 			page 74
+ARM GAS  /tmp/ccA8nGyI.s 			page 74
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 testthd.c
-     /tmp/ccAkv2x4.s:19     .text.port_lock:0000000000000000 $t
-     /tmp/ccAkv2x4.s:24     .text.port_lock:0000000000000000 port_lock
-     /tmp/ccAkv2x4.s:55     .text.port_unlock:0000000000000000 $t
-     /tmp/ccAkv2x4.s:60     .text.port_unlock:0000000000000000 port_unlock
-     /tmp/ccAkv2x4.s:89     .text.st_lld_get_counter:0000000000000000 $t
-     /tmp/ccAkv2x4.s:94     .text.st_lld_get_counter:0000000000000000 st_lld_get_counter
-     /tmp/ccAkv2x4.s:112    .text.port_timer_get_time:0000000000000000 $t
-     /tmp/ccAkv2x4.s:117    .text.port_timer_get_time:0000000000000000 port_timer_get_time
-     /tmp/ccAkv2x4.s:138    .text.chSysLock:0000000000000000 $t
-     /tmp/ccAkv2x4.s:143    .text.chSysLock:0000000000000000 chSysLock
-     /tmp/ccAkv2x4.s:166    .text.chSysUnlock:0000000000000000 $t
-     /tmp/ccAkv2x4.s:171    .text.chSysUnlock:0000000000000000 chSysUnlock
-     /tmp/ccAkv2x4.s:210    .text.chSysUnlock:0000000000000030 $d
-     /tmp/ccAkv2x4.s:1108   .rodata.__func__.5925:0000000000000000 __func__.5925
-     /tmp/ccAkv2x4.s:216    .text.chVTGetSystemTimeX:0000000000000000 $t
-     /tmp/ccAkv2x4.s:221    .text.chVTGetSystemTimeX:0000000000000000 chVTGetSystemTimeX
-     /tmp/ccAkv2x4.s:242    .text.chVTGetSystemTime:0000000000000000 $t
-     /tmp/ccAkv2x4.s:247    .text.chVTGetSystemTime:0000000000000000 chVTGetSystemTime
-     /tmp/ccAkv2x4.s:276    .text.chThdGetSelfX:0000000000000000 $t
-     /tmp/ccAkv2x4.s:281    .text.chThdGetSelfX:0000000000000000 chThdGetSelfX
-     /tmp/ccAkv2x4.s:298    .text.chThdGetSelfX:0000000000000008 $d
-     /tmp/ccAkv2x4.s:303    .text.chThdGetPriorityX:0000000000000000 $t
-     /tmp/ccAkv2x4.s:308    .text.chThdGetPriorityX:0000000000000000 chThdGetPriorityX
-     /tmp/ccAkv2x4.s:329    .text.thread:0000000000000000 $t
-     /tmp/ccAkv2x4.s:334    .text.thread:0000000000000000 thread
-     /tmp/ccAkv2x4.s:360    .rodata:0000000000000000 $d
-     /tmp/ccAkv2x4.s:379    .text.thd1_execute:0000000000000000 $t
-     /tmp/ccAkv2x4.s:384    .text.thd1_execute:0000000000000000 thd1_execute
-     /tmp/ccAkv2x4.s:495    .text.thd1_execute:00000000000000d0 $d
-     /tmp/ccAkv2x4.s:516    .rodata.testthd1:0000000000000000 testthd1
-     /tmp/ccAkv2x4.s:513    .rodata.testthd1:0000000000000000 $d
-     /tmp/ccAkv2x4.s:522    .text.thd2_execute:0000000000000000 $t
-     /tmp/ccAkv2x4.s:527    .text.thd2_execute:0000000000000000 thd2_execute
-     /tmp/ccAkv2x4.s:647    .text.thd2_execute:00000000000000e4 $d
-     /tmp/ccAkv2x4.s:668    .rodata.testthd2:0000000000000000 testthd2
-     /tmp/ccAkv2x4.s:665    .rodata.testthd2:0000000000000000 $d
-     /tmp/ccAkv2x4.s:674    .text.thd3_execute:0000000000000000 $t
-     /tmp/ccAkv2x4.s:679    .text.thd3_execute:0000000000000000 thd3_execute
-     /tmp/ccAkv2x4.s:962    .rodata.testthd3:0000000000000000 testthd3
-     /tmp/ccAkv2x4.s:959    .rodata.testthd3:0000000000000000 $d
-     /tmp/ccAkv2x4.s:968    .text.thd4_execute:0000000000000000 $t
-     /tmp/ccAkv2x4.s:973    .text.thd4_execute:0000000000000000 thd4_execute
-     /tmp/ccAkv2x4.s:1088   .rodata.testthd4:0000000000000000 testthd4
-     /tmp/ccAkv2x4.s:1085   .rodata.testthd4:0000000000000000 $d
-     /tmp/ccAkv2x4.s:1098   .rodata.patternthd:0000000000000000 patternthd
-     /tmp/ccAkv2x4.s:1095   .rodata.patternthd:0000000000000000 $d
-     /tmp/ccAkv2x4.s:1105   .rodata.__func__.5925:0000000000000000 $d
+     /tmp/ccA8nGyI.s:19     .text.port_lock:0000000000000000 $t
+     /tmp/ccA8nGyI.s:24     .text.port_lock:0000000000000000 port_lock
+     /tmp/ccA8nGyI.s:55     .text.port_unlock:0000000000000000 $t
+     /tmp/ccA8nGyI.s:60     .text.port_unlock:0000000000000000 port_unlock
+     /tmp/ccA8nGyI.s:89     .text.st_lld_get_counter:0000000000000000 $t
+     /tmp/ccA8nGyI.s:94     .text.st_lld_get_counter:0000000000000000 st_lld_get_counter
+     /tmp/ccA8nGyI.s:112    .text.port_timer_get_time:0000000000000000 $t
+     /tmp/ccA8nGyI.s:117    .text.port_timer_get_time:0000000000000000 port_timer_get_time
+     /tmp/ccA8nGyI.s:138    .text.chSysLock:0000000000000000 $t
+     /tmp/ccA8nGyI.s:143    .text.chSysLock:0000000000000000 chSysLock
+     /tmp/ccA8nGyI.s:166    .text.chSysUnlock:0000000000000000 $t
+     /tmp/ccA8nGyI.s:171    .text.chSysUnlock:0000000000000000 chSysUnlock
+     /tmp/ccA8nGyI.s:210    .text.chSysUnlock:0000000000000030 $d
+     /tmp/ccA8nGyI.s:1108   .rodata.__func__.5925:0000000000000000 __func__.5925
+     /tmp/ccA8nGyI.s:216    .text.chVTGetSystemTimeX:0000000000000000 $t
+     /tmp/ccA8nGyI.s:221    .text.chVTGetSystemTimeX:0000000000000000 chVTGetSystemTimeX
+     /tmp/ccA8nGyI.s:242    .text.chVTGetSystemTime:0000000000000000 $t
+     /tmp/ccA8nGyI.s:247    .text.chVTGetSystemTime:0000000000000000 chVTGetSystemTime
+     /tmp/ccA8nGyI.s:276    .text.chThdGetSelfX:0000000000000000 $t
+     /tmp/ccA8nGyI.s:281    .text.chThdGetSelfX:0000000000000000 chThdGetSelfX
+     /tmp/ccA8nGyI.s:298    .text.chThdGetSelfX:0000000000000008 $d
+     /tmp/ccA8nGyI.s:303    .text.chThdGetPriorityX:0000000000000000 $t
+     /tmp/ccA8nGyI.s:308    .text.chThdGetPriorityX:0000000000000000 chThdGetPriorityX
+     /tmp/ccA8nGyI.s:329    .text.thread:0000000000000000 $t
+     /tmp/ccA8nGyI.s:334    .text.thread:0000000000000000 thread
+     /tmp/ccA8nGyI.s:360    .rodata:0000000000000000 $d
+     /tmp/ccA8nGyI.s:379    .text.thd1_execute:0000000000000000 $t
+     /tmp/ccA8nGyI.s:384    .text.thd1_execute:0000000000000000 thd1_execute
+     /tmp/ccA8nGyI.s:495    .text.thd1_execute:00000000000000d0 $d
+     /tmp/ccA8nGyI.s:516    .rodata.testthd1:0000000000000000 testthd1
+     /tmp/ccA8nGyI.s:513    .rodata.testthd1:0000000000000000 $d
+     /tmp/ccA8nGyI.s:522    .text.thd2_execute:0000000000000000 $t
+     /tmp/ccA8nGyI.s:527    .text.thd2_execute:0000000000000000 thd2_execute
+     /tmp/ccA8nGyI.s:647    .text.thd2_execute:00000000000000e4 $d
+     /tmp/ccA8nGyI.s:668    .rodata.testthd2:0000000000000000 testthd2
+     /tmp/ccA8nGyI.s:665    .rodata.testthd2:0000000000000000 $d
+     /tmp/ccA8nGyI.s:674    .text.thd3_execute:0000000000000000 $t
+     /tmp/ccA8nGyI.s:679    .text.thd3_execute:0000000000000000 thd3_execute
+     /tmp/ccA8nGyI.s:962    .rodata.testthd3:0000000000000000 testthd3
+     /tmp/ccA8nGyI.s:959    .rodata.testthd3:0000000000000000 $d
+     /tmp/ccA8nGyI.s:968    .text.thd4_execute:0000000000000000 $t
+     /tmp/ccA8nGyI.s:973    .text.thd4_execute:0000000000000000 thd4_execute
+     /tmp/ccA8nGyI.s:1088   .rodata.testthd4:0000000000000000 testthd4
+     /tmp/ccA8nGyI.s:1085   .rodata.testthd4:0000000000000000 $d
+     /tmp/ccA8nGyI.s:1098   .rodata.patternthd:0000000000000000 patternthd
+     /tmp/ccA8nGyI.s:1095   .rodata.patternthd:0000000000000000 $d
+     /tmp/ccA8nGyI.s:1105   .rodata.__func__.5925:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
-     /tmp/ccAkv2x4.s:215    .text.chSysUnlock:0000000000000038 $t
-     /tmp/ccAkv2x4.s:302    .text.chThdGetSelfX:000000000000000c $t
-     /tmp/ccAkv2x4.s:508    .text.thd1_execute:00000000000000f4 $t
-     /tmp/ccAkv2x4.s:660    .text.thd2_execute:0000000000000108 $t
+     /tmp/ccA8nGyI.s:215    .text.chSysUnlock:0000000000000038 $t
+     /tmp/ccA8nGyI.s:302    .text.chThdGetSelfX:000000000000000c $t
+     /tmp/ccA8nGyI.s:508    .text.thd1_execute:00000000000000f4 $t
+     /tmp/ccA8nGyI.s:660    .text.thd2_execute:0000000000000108 $t
 
 UNDEFINED SYMBOLS
 _stats_start_measure_crit_thd
-ARM GAS  /tmp/ccAkv2x4.s 			page 75
+ARM GAS  /tmp/ccA8nGyI.s 			page 75
 
 
 _dbg_check_lock

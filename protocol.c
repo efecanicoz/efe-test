@@ -35,12 +35,12 @@ void *rxListen(void *arg)
 
 void *txWrite(void *arg)
 {
-	msg_t *toSend;
+	uint8_t toSend;
 	while(!0)
 	{
-		if(chMBFetch(&serialMbox, toSend, 1000) == MSG_OK)
+		if(chMBFetch(&serialMbox, &toSend, 1000) == MSG_OK)
 		{
-			sdWrite(&SD3, (uint8_t *)toSend,1);
+			sdWrite(&SD3, &toSend,1);
 		}
 		//toSend = (msg_t)*ptrtoSend;
 		//chPoolFree(&mpool, &toSend);

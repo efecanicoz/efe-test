@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccl2fhDv.s 			page 1
+ARM GAS  /tmp/ccZNkdp4.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
   55              		.align	2
   56              		.p2align 4,,15
   57              		.thumb
-ARM GAS  /tmp/ccl2fhDv.s 			page 2
+ARM GAS  /tmp/ccZNkdp4.s 			page 2
 
 
   58              		.thumb_func
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  111      AFF30080 
  112              		.align	2
  113              		.p2align 4,,15
-ARM GAS  /tmp/ccl2fhDv.s 			page 3
+ARM GAS  /tmp/ccZNkdp4.s 			page 3
 
 
  114              		.thumb
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  166              		.loc 4 105 0
  167              		.cfi_startproc
  168              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccl2fhDv.s 			page 4
+ARM GAS  /tmp/ccZNkdp4.s 			page 4
 
 
  169              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  222              		.file 6 "/home/efe/ChibiOS/os/rt/src/chdebug.c"
  223              		.loc 6 114 0
  224              		.cfi_startproc
-ARM GAS  /tmp/ccl2fhDv.s 			page 5
+ARM GAS  /tmp/ccZNkdp4.s 			page 5
 
 
  225              		@ args = 0, pretend = 0, frame = 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  276              		.cfi_offset 14, -4
  277              		.loc 6 128 0
  278 0002 064B     		ldr	r3, .L19
-ARM GAS  /tmp/ccl2fhDv.s 			page 6
+ARM GAS  /tmp/ccZNkdp4.s 			page 6
 
 
  279 0004 1B6B     		ldr	r3, [r3, #48]
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  330 000c 5B6B     		ldr	r3, [r3, #52]
  331 000e 002B     		cmp	r3, #0
  332 0010 02D0     		beq	.L21
-ARM GAS  /tmp/ccl2fhDv.s 			page 7
+ARM GAS  /tmp/ccZNkdp4.s 			page 7
 
 
  333              	.L22:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  384              		.loc 6 155 0
  385 0018 014B     		ldr	r3, .L29
  386 001a 0122     		movs	r2, #1
-ARM GAS  /tmp/ccl2fhDv.s 			page 8
+ARM GAS  /tmp/ccZNkdp4.s 			page 8
 
 
  387 001c 5A63     		str	r2, [r3, #52]
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  439 001e 08BD     		pop	{r3, pc}
  440              	.L35:
  441              		.align	2
-ARM GAS  /tmp/ccl2fhDv.s 			page 9
+ARM GAS  /tmp/ccZNkdp4.s 			page 9
 
 
  442              	.L34:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  494 0024 28000000 		.word	.LC5
  495              		.cfi_endproc
  496              	.LFE245:
-ARM GAS  /tmp/ccl2fhDv.s 			page 10
+ARM GAS  /tmp/ccZNkdp4.s 			page 10
 
 
  497              		.size	_dbg_check_lock_from_isr, .-_dbg_check_lock_from_isr
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  548      AFF30080 
  549 0035 000000   		.align	2
  550              	.LC7:
-ARM GAS  /tmp/ccl2fhDv.s 			page 11
+ARM GAS  /tmp/ccZNkdp4.s 			page 11
 
 
  551 0038 53562338 		.ascii	"SV#8\000"
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  604 0034 AFF30080 		.section	.rodata
  604      AFF30080 
  604      AFF30080 
-ARM GAS  /tmp/ccl2fhDv.s 			page 12
+ARM GAS  /tmp/ccZNkdp4.s 			page 12
 
 
  605 003d 000000   		.align	2
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  658              	.LFE248:
  659              		.size	_dbg_check_leave_isr, .-_dbg_check_leave_isr
  660 0034 AFF30080 		.section	.rodata
-ARM GAS  /tmp/ccl2fhDv.s 			page 13
+ARM GAS  /tmp/ccZNkdp4.s 			page 13
 
 
  660      AFF30080 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  709      3100
  710 0056 0000     		.section	.text.chDbgCheckClassS,"ax",%progbits
  711              		.align	2
-ARM GAS  /tmp/ccl2fhDv.s 			page 14
+ARM GAS  /tmp/ccZNkdp4.s 			page 14
 
 
  712              		.p2align 4,,15
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  764              		@ frame_needed = 0, uses_anonymous_args = 0
  765              		@ link register save eliminated.
  766              		.loc 6 266 0
-ARM GAS  /tmp/ccl2fhDv.s 			page 15
+ARM GAS  /tmp/ccZNkdp4.s 			page 15
 
 
  767 0000 034B     		ldr	r3, .L67
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  820 0022 526A     		ldr	r2, [r2, #36]
  821 0024 9A60     		str	r2, [r3, #8]
  822              		.loc 6 282 0
-ARM GAS  /tmp/ccl2fhDv.s 			page 16
+ARM GAS  /tmp/ccZNkdp4.s 			page 16
 
 
  823 0026 0B4B     		ldr	r3, .L71
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  877 000a 04       		.byte	0x4
  878 000b 01       		.uleb128 0x1
  879 000c A5010000 		.4byte	.LASF158
-ARM GAS  /tmp/ccl2fhDv.s 			page 17
+ARM GAS  /tmp/ccZNkdp4.s 			page 17
 
 
  880 0010 01       		.byte	0x1
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  934 007c 05       		.byte	0x5
  935 007d 97010000 		.4byte	.LASF10
  936 0081 04       		.uleb128 0x4
-ARM GAS  /tmp/ccl2fhDv.s 			page 18
+ARM GAS  /tmp/ccZNkdp4.s 			page 18
 
 
  937 0082 D5040000 		.4byte	.LASF11
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  991 00fa 09       		.byte	0x9
  992 00fb 4A       		.byte	0x4a
  993 00fc 93000000 		.4byte	0x93
-ARM GAS  /tmp/ccl2fhDv.s 			page 19
+ARM GAS  /tmp/ccZNkdp4.s 			page 19
 
 
  994 0100 04       		.uleb128 0x4
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1048 0172 16010000 		.4byte	.LASF31
  1049 0176 0B       		.byte	0xb
  1050 0177 C7       		.byte	0xc7
-ARM GAS  /tmp/ccl2fhDv.s 			page 20
+ARM GAS  /tmp/ccZNkdp4.s 			page 20
 
 
  1051 0178 00010000 		.4byte	0x100
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1105 01e5 E8070000 		.4byte	0x7e8
  1106 01e9 24       		.byte	0x24
  1107 01ea 09       		.uleb128 0x9
-ARM GAS  /tmp/ccl2fhDv.s 			page 21
+ARM GAS  /tmp/ccZNkdp4.s 			page 21
 
 
  1108 01eb 16040000 		.4byte	.LASF40
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1162 025f 04       		.byte	0x4
  1163 0260 42010000 		.4byte	0x142
  1164 0264 04       		.uleb128 0x4
-ARM GAS  /tmp/ccl2fhDv.s 			page 22
+ARM GAS  /tmp/ccZNkdp4.s 			page 22
 
 
  1165 0265 61070000 		.4byte	.LASF49
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1219 02d5 0B       		.byte	0xb
  1220 02d6 9101     		.2byte	0x191
  1221 02d8 88020000 		.4byte	0x288
-ARM GAS  /tmp/ccl2fhDv.s 			page 23
+ARM GAS  /tmp/ccZNkdp4.s 			page 23
 
 
  1222 02dc 00       		.byte	0
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1276 034d 14       		.byte	0x14
  1277 034e 0B       		.byte	0xb
  1278 034f 6B01     		.2byte	0x16b
-ARM GAS  /tmp/ccl2fhDv.s 			page 24
+ARM GAS  /tmp/ccZNkdp4.s 			page 24
 
 
  1279 0351 97030000 		.4byte	0x397
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1333 03c8 04       		.byte	0x4
  1334 03c9 09       		.uleb128 0x9
  1335 03ca 00060000 		.4byte	.LASF67
-ARM GAS  /tmp/ccl2fhDv.s 			page 25
+ARM GAS  /tmp/ccZNkdp4.s 			page 25
 
 
  1336 03ce 0B       		.byte	0xb
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1390 0442 D805     		.2byte	0x5d8
  1391 0444 0B       		.byte	0xb
  1392 0445 C201     		.2byte	0x1c2
-ARM GAS  /tmp/ccl2fhDv.s 			page 26
+ARM GAS  /tmp/ccZNkdp4.s 			page 26
 
 
  1393 0447 AA040000 		.4byte	0x4aa
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1447 04c0 00       		.byte	0
  1448 04c1 12       		.uleb128 0x12
  1449 04c2 A9000000 		.4byte	0xa9
-ARM GAS  /tmp/ccl2fhDv.s 			page 27
+ARM GAS  /tmp/ccZNkdp4.s 			page 27
 
 
  1450 04c6 D1040000 		.4byte	0x4d1
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1504 0534 01       		.byte	0x1
  1505 0535 1301     		.2byte	0x113
  1506 0537 D1040000 		.4byte	0x4d1
-ARM GAS  /tmp/ccl2fhDv.s 			page 28
+ARM GAS  /tmp/ccZNkdp4.s 			page 28
 
 
  1507 053b 0C       		.byte	0xc
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1561 05a9 0D       		.byte	0xd
  1562 05aa A401     		.2byte	0x1a4
  1563 05ac C4000000 		.4byte	0xc4
-ARM GAS  /tmp/ccl2fhDv.s 			page 29
+ARM GAS  /tmp/ccZNkdp4.s 			page 29
 
 
  1564 05b0 08       		.byte	0x8
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1618 0624 2C       		.byte	0x2c
  1619 0625 08       		.uleb128 0x8
  1620 0626 52435200 		.ascii	"RCR\000"
-ARM GAS  /tmp/ccl2fhDv.s 			page 30
+ARM GAS  /tmp/ccZNkdp4.s 			page 30
 
 
  1621 062a 0D       		.byte	0xd
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1675 069d B601     		.2byte	0x1b6
  1676 069f 81050000 		.4byte	0x581
  1677 06a3 17       		.uleb128 0x17
-ARM GAS  /tmp/ccl2fhDv.s 			page 31
+ARM GAS  /tmp/ccZNkdp4.s 			page 31
 
 
  1678 06a4 10       		.byte	0x10
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1732 070e 73       		.byte	0x73
  1733 070f 1B070000 		.4byte	0x71b
  1734 0713 08       		.byte	0x8
-ARM GAS  /tmp/ccl2fhDv.s 			page 32
+ARM GAS  /tmp/ccZNkdp4.s 			page 32
 
 
  1735 0714 00       		.byte	0
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1789 077d C9000000 		.4byte	0xc9
  1790 0781 08       		.byte	0x8
  1791 0782 14       		.uleb128 0x14
-ARM GAS  /tmp/ccl2fhDv.s 			page 33
+ARM GAS  /tmp/ccZNkdp4.s 			page 33
 
 
  1792 0783 6E00     		.ascii	"n\000"
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1846 07ea 0B       		.byte	0xb
  1847 07eb FA       		.byte	0xfa
  1848 07ec 45080000 		.4byte	0x845
-ARM GAS  /tmp/ccl2fhDv.s 			page 34
+ARM GAS  /tmp/ccZNkdp4.s 			page 34
 
 
  1849 07f0 1A       		.uleb128 0x1a
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1903 0869 37       		.byte	0x37
  1904 086a 21010000 		.4byte	0x121
  1905 086e 08       		.byte	0x8
-ARM GAS  /tmp/ccl2fhDv.s 			page 35
+ARM GAS  /tmp/ccZNkdp4.s 			page 35
 
 
  1906 086f 00       		.byte	0
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  1960 08de 1E       		.byte	0x1e
  1961 08df 00       		.byte	0
  1962 08e0 04       		.uleb128 0x4
-ARM GAS  /tmp/ccl2fhDv.s 			page 36
+ARM GAS  /tmp/ccZNkdp4.s 			page 36
 
 
  1963 08e1 B1020000 		.4byte	.LASF137
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2017 095e 01       		.byte	0x1
  2018 095f D901     		.2byte	0x1d9
  2019 0961 20       		.uleb128 0x20
-ARM GAS  /tmp/ccl2fhDv.s 			page 37
+ARM GAS  /tmp/ccZNkdp4.s 			page 37
 
 
  2020 0962 FE080000 		.4byte	0x8fe
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2074 09d9 24000000 		.4byte	.LFE240-.LFB240
  2075 09dd 01       		.uleb128 0x1
  2076 09de 9C       		.byte	0x9c
-ARM GAS  /tmp/ccl2fhDv.s 			page 38
+ARM GAS  /tmp/ccZNkdp4.s 			page 38
 
 
  2077 09df 24       		.uleb128 0x24
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2131 0a54 01       		.uleb128 0x1
  2132 0a55 9C       		.byte	0x9c
  2133 0a56 24       		.uleb128 0x24
-ARM GAS  /tmp/ccl2fhDv.s 			page 39
+ARM GAS  /tmp/ccZNkdp4.s 			page 39
 
 
  2134 0a57 10030000 		.4byte	.LASF153
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2188 0acd 29       		.uleb128 0x29
  2189 0ace 636800   		.ascii	"ch\000"
  2190 0ad1 0B       		.byte	0xb
-ARM GAS  /tmp/ccl2fhDv.s 			page 40
+ARM GAS  /tmp/ccZNkdp4.s 			page 40
 
 
  2191 0ad2 0902     		.2byte	0x209
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2245 0031 13       		.uleb128 0x13
  2246 0032 00       		.byte	0
  2247 0033 00       		.byte	0
-ARM GAS  /tmp/ccl2fhDv.s 			page 41
+ARM GAS  /tmp/ccZNkdp4.s 			page 41
 
 
  2248 0034 05       		.uleb128 0x5
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2302 006a 00       		.byte	0
  2303 006b 03       		.uleb128 0x3
  2304 006c 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccl2fhDv.s 			page 42
+ARM GAS  /tmp/ccZNkdp4.s 			page 42
 
 
  2305 006d 3A       		.uleb128 0x3a
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2359 00a3 0B       		.uleb128 0xb
  2360 00a4 00       		.byte	0
  2361 00a5 00       		.byte	0
-ARM GAS  /tmp/ccl2fhDv.s 			page 43
+ARM GAS  /tmp/ccZNkdp4.s 			page 43
 
 
  2362 00a6 0F       		.uleb128 0xf
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2416 00dc 13       		.uleb128 0x13
  2417 00dd 21       		.uleb128 0x21
  2418 00de 00       		.byte	0
-ARM GAS  /tmp/ccl2fhDv.s 			page 44
+ARM GAS  /tmp/ccZNkdp4.s 			page 44
 
 
  2419 00df 49       		.uleb128 0x49
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2473 0115 3B       		.uleb128 0x3b
  2474 0116 0B       		.uleb128 0xb
  2475 0117 01       		.uleb128 0x1
-ARM GAS  /tmp/ccl2fhDv.s 			page 45
+ARM GAS  /tmp/ccZNkdp4.s 			page 45
 
 
  2476 0118 13       		.uleb128 0x13
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2530 014e 3A       		.uleb128 0x3a
  2531 014f 0B       		.uleb128 0xb
  2532 0150 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccl2fhDv.s 			page 46
+ARM GAS  /tmp/ccZNkdp4.s 			page 46
 
 
  2533 0151 05       		.uleb128 0x5
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2587 0188 58       		.uleb128 0x58
  2588 0189 0B       		.uleb128 0xb
  2589 018a 59       		.uleb128 0x59
-ARM GAS  /tmp/ccl2fhDv.s 			page 47
+ARM GAS  /tmp/ccZNkdp4.s 			page 47
 
 
  2590 018b 05       		.uleb128 0x5
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2644 01c3 00       		.byte	0
  2645 01c4 00       		.byte	0
  2646 01c5 23       		.uleb128 0x23
-ARM GAS  /tmp/ccl2fhDv.s 			page 48
+ARM GAS  /tmp/ccZNkdp4.s 			page 48
 
 
  2647 01c6 2E       		.uleb128 0x2e
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2701 01fe 3B       		.uleb128 0x3b
  2702 01ff 05       		.uleb128 0x5
  2703 0200 27       		.uleb128 0x27
-ARM GAS  /tmp/ccl2fhDv.s 			page 49
+ARM GAS  /tmp/ccZNkdp4.s 			page 49
 
 
  2704 0201 19       		.uleb128 0x19
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2758 0239 03       		.uleb128 0x3
  2759 023a 0E       		.uleb128 0xe
  2760 023b 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccl2fhDv.s 			page 50
+ARM GAS  /tmp/ccZNkdp4.s 			page 50
 
 
  2761 023c 0B       		.uleb128 0xb
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2815 0054 24000000 		.4byte	.LFE241-.LFB241
  2816 0058 00000000 		.4byte	.LFB242
  2817 005c 24000000 		.4byte	.LFE242-.LFB242
-ARM GAS  /tmp/ccl2fhDv.s 			page 51
+ARM GAS  /tmp/ccZNkdp4.s 			page 51
 
 
  2818 0060 00000000 		.4byte	.LFB243
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2872 0078 00000000 		.4byte	.LFB248
  2873 007c 34000000 		.4byte	.LFE248
  2874 0080 00000000 		.4byte	.LFB249
-ARM GAS  /tmp/ccl2fhDv.s 			page 52
+ARM GAS  /tmp/ccZNkdp4.s 			page 52
 
 
  2875 0084 24000000 		.4byte	.LFE249
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2906      75657565 
  2906      00
  2907              	.LASF73:
-ARM GAS  /tmp/ccl2fhDv.s 			page 53
+ARM GAS  /tmp/ccZNkdp4.s 			page 53
 
 
  2908 0063 73797374 		.ascii	"system_debug_t\000"
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2930      66666572 
  2930      00
  2931              	.LASF96:
-ARM GAS  /tmp/ccl2fhDv.s 			page 54
+ARM GAS  /tmp/ccZNkdp4.s 			page 54
 
 
  2932 0108 42445452 		.ascii	"BDTR\000"
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2962 018c 43434552 		.ascii	"CCER\000"
  2962      00
  2963              	.LASF102:
-ARM GAS  /tmp/ccl2fhDv.s 			page 55
+ARM GAS  /tmp/ccZNkdp4.s 			page 55
 
 
  2964 0191 73655F74 		.ascii	"se_tp\000"
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  2987 0299 76745F70 		.ascii	"vt_prev\000"
  2987      72657600 
  2988              	.LASF74:
-ARM GAS  /tmp/ccl2fhDv.s 			page 56
+ARM GAS  /tmp/ccZNkdp4.s 			page 56
 
 
  2989 02a1 63685F73 		.ascii	"ch_system_debug\000"
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  3015 0337 6E5F6972 		.ascii	"n_irq\000"
  3015      7100
  3016              	.LASF159:
-ARM GAS  /tmp/ccl2fhDv.s 			page 57
+ARM GAS  /tmp/ccZNkdp4.s 			page 57
 
 
  3017 033d 2F686F6D 		.ascii	"/home/efe/ChibiOS/os/rt/src/chdebug.c\000"
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  3043 03de 63685F72 		.ascii	"ch_ready_list\000"
  3043      65616479 
  3043      5F6C6973 
-ARM GAS  /tmp/ccl2fhDv.s 			page 58
+ARM GAS  /tmp/ccZNkdp4.s 			page 58
 
 
  3043      7400
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  3065      5F697372 
  3066              	.LASF58:
  3067 0493 725F6374 		.ascii	"r_ctx\000"
-ARM GAS  /tmp/ccl2fhDv.s 			page 59
+ARM GAS  /tmp/ccZNkdp4.s 			page 59
 
 
  3067      7800
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  3093      78737763 
  3093      00
  3094              	.LASF14:
-ARM GAS  /tmp/ccl2fhDv.s 			page 60
+ARM GAS  /tmp/ccZNkdp4.s 			page 60
 
 
  3095 0538 696E7433 		.ascii	"int32_t\000"
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  3123      00
  3124              	.LASF43:
  3125 05ca 705F6570 		.ascii	"p_epending\000"
-ARM GAS  /tmp/ccl2fhDv.s 			page 61
+ARM GAS  /tmp/ccZNkdp4.s 			page 61
 
 
  3125      656E6469 
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  3151      787400
  3152              	.LASF27:
  3153 065f 73797374 		.ascii	"systime_t\000"
-ARM GAS  /tmp/ccl2fhDv.s 			page 62
+ARM GAS  /tmp/ccZNkdp4.s 			page 62
 
 
  3153      696D655F 
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  3179      636B5F75 
  3179      6E6C6F63 
  3179      6B5F6672 
-ARM GAS  /tmp/ccl2fhDv.s 			page 63
+ARM GAS  /tmp/ccZNkdp4.s 			page 63
 
 
  3180              	.LASF52:
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  3209 0796 6D5F6F77 		.ascii	"m_owner\000"
  3209      6E657200 
  3210              	.LASF103:
-ARM GAS  /tmp/ccl2fhDv.s 			page 64
+ARM GAS  /tmp/ccZNkdp4.s 			page 64
 
 
  3211 079e 73655F77 		.ascii	"se_wtobjp\000"
@@ -3791,81 +3791,81 @@ ARM GAS  /tmp/ccl2fhDv.s 			page 1
  3215 07ae 76745F66 		.ascii	"vt_func\000"
  3215      756E6300 
  3216              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccl2fhDv.s 			page 65
+ARM GAS  /tmp/ccZNkdp4.s 			page 65
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chdebug.c
-     /tmp/ccl2fhDv.s:19     .text.port_lock:0000000000000000 $t
-     /tmp/ccl2fhDv.s:24     .text.port_lock:0000000000000000 port_lock
-     /tmp/ccl2fhDv.s:55     .text.port_unlock:0000000000000000 $t
-     /tmp/ccl2fhDv.s:60     .text.port_unlock:0000000000000000 port_unlock
-     /tmp/ccl2fhDv.s:89     .text.port_lock_from_isr:0000000000000000 $t
-     /tmp/ccl2fhDv.s:94     .text.port_lock_from_isr:0000000000000000 port_lock_from_isr
-     /tmp/ccl2fhDv.s:112    .text.port_unlock_from_isr:0000000000000000 $t
-     /tmp/ccl2fhDv.s:117    .text.port_unlock_from_isr:0000000000000000 port_unlock_from_isr
-     /tmp/ccl2fhDv.s:135    .text.st_lld_get_counter:0000000000000000 $t
-     /tmp/ccl2fhDv.s:140    .text.st_lld_get_counter:0000000000000000 st_lld_get_counter
-     /tmp/ccl2fhDv.s:158    .text.port_timer_get_time:0000000000000000 $t
-     /tmp/ccl2fhDv.s:163    .text.port_timer_get_time:0000000000000000 port_timer_get_time
-     /tmp/ccl2fhDv.s:184    .text.chVTGetSystemTimeX:0000000000000000 $t
-     /tmp/ccl2fhDv.s:189    .text.chVTGetSystemTimeX:0000000000000000 chVTGetSystemTimeX
-     /tmp/ccl2fhDv.s:210    .rodata:0000000000000000 $d
-     /tmp/ccl2fhDv.s:214    .text._dbg_check_disable:0000000000000000 $t
-     /tmp/ccl2fhDv.s:220    .text._dbg_check_disable:0000000000000000 _dbg_check_disable
-     /tmp/ccl2fhDv.s:251    .text._dbg_check_disable:000000000000001c $d
-     /tmp/ccl2fhDv.s:261    .text._dbg_check_suspend:0000000000000000 $t
-     /tmp/ccl2fhDv.s:267    .text._dbg_check_suspend:0000000000000000 _dbg_check_suspend
-     /tmp/ccl2fhDv.s:297    .text._dbg_check_suspend:000000000000001c $d
-     /tmp/ccl2fhDv.s:307    .text._dbg_check_enable:0000000000000000 $t
-     /tmp/ccl2fhDv.s:313    .text._dbg_check_enable:0000000000000000 _dbg_check_enable
-     /tmp/ccl2fhDv.s:343    .text._dbg_check_enable:000000000000001c $d
-     /tmp/ccl2fhDv.s:353    .text._dbg_check_lock:0000000000000000 $t
-     /tmp/ccl2fhDv.s:359    .text._dbg_check_lock:0000000000000000 _dbg_check_lock
-     /tmp/ccl2fhDv.s:393    .text._dbg_check_lock:0000000000000020 $d
-     /tmp/ccl2fhDv.s:403    .text._dbg_check_unlock:0000000000000000 $t
-     /tmp/ccl2fhDv.s:409    .text._dbg_check_unlock:0000000000000000 _dbg_check_unlock
-     /tmp/ccl2fhDv.s:443    .text._dbg_check_unlock:0000000000000020 $d
-     /tmp/ccl2fhDv.s:453    .text._dbg_check_lock_from_isr:0000000000000000 $t
-     /tmp/ccl2fhDv.s:459    .text._dbg_check_lock_from_isr:0000000000000000 _dbg_check_lock_from_isr
-     /tmp/ccl2fhDv.s:493    .text._dbg_check_lock_from_isr:0000000000000020 $d
-     /tmp/ccl2fhDv.s:503    .text._dbg_check_unlock_from_isr:0000000000000000 $t
-     /tmp/ccl2fhDv.s:509    .text._dbg_check_unlock_from_isr:0000000000000000 _dbg_check_unlock_from_isr
-     /tmp/ccl2fhDv.s:543    .text._dbg_check_unlock_from_isr:0000000000000020 $d
-     /tmp/ccl2fhDv.s:553    .text._dbg_check_enter_isr:0000000000000000 $t
-     /tmp/ccl2fhDv.s:559    .text._dbg_check_enter_isr:0000000000000000 _dbg_check_enter_isr
-     /tmp/ccl2fhDv.s:599    .text._dbg_check_enter_isr:000000000000002c $d
-     /tmp/ccl2fhDv.s:609    .text._dbg_check_leave_isr:0000000000000000 $t
-     /tmp/ccl2fhDv.s:615    .text._dbg_check_leave_isr:0000000000000000 _dbg_check_leave_isr
-     /tmp/ccl2fhDv.s:655    .text._dbg_check_leave_isr:000000000000002c $d
-     /tmp/ccl2fhDv.s:665    .text.chDbgCheckClassI:0000000000000000 $t
-     /tmp/ccl2fhDv.s:671    .text.chDbgCheckClassI:0000000000000000 chDbgCheckClassI
-     /tmp/ccl2fhDv.s:701    .text.chDbgCheckClassI:000000000000001c $d
-     /tmp/ccl2fhDv.s:711    .text.chDbgCheckClassS:0000000000000000 $t
-     /tmp/ccl2fhDv.s:717    .text.chDbgCheckClassS:0000000000000000 chDbgCheckClassS
-     /tmp/ccl2fhDv.s:747    .text.chDbgCheckClassS:000000000000001c $d
-     /tmp/ccl2fhDv.s:753    .text._dbg_trace_init:0000000000000000 $t
-     /tmp/ccl2fhDv.s:759    .text._dbg_trace_init:0000000000000000 _dbg_trace_init
-     /tmp/ccl2fhDv.s:779    .text._dbg_trace_init:0000000000000010 $d
-     /tmp/ccl2fhDv.s:785    .text._dbg_trace:0000000000000000 $t
-     /tmp/ccl2fhDv.s:791    .text._dbg_trace:0000000000000000 _dbg_trace
-     /tmp/ccl2fhDv.s:851    .text._dbg_trace:0000000000000054 $d
+     /tmp/ccZNkdp4.s:19     .text.port_lock:0000000000000000 $t
+     /tmp/ccZNkdp4.s:24     .text.port_lock:0000000000000000 port_lock
+     /tmp/ccZNkdp4.s:55     .text.port_unlock:0000000000000000 $t
+     /tmp/ccZNkdp4.s:60     .text.port_unlock:0000000000000000 port_unlock
+     /tmp/ccZNkdp4.s:89     .text.port_lock_from_isr:0000000000000000 $t
+     /tmp/ccZNkdp4.s:94     .text.port_lock_from_isr:0000000000000000 port_lock_from_isr
+     /tmp/ccZNkdp4.s:112    .text.port_unlock_from_isr:0000000000000000 $t
+     /tmp/ccZNkdp4.s:117    .text.port_unlock_from_isr:0000000000000000 port_unlock_from_isr
+     /tmp/ccZNkdp4.s:135    .text.st_lld_get_counter:0000000000000000 $t
+     /tmp/ccZNkdp4.s:140    .text.st_lld_get_counter:0000000000000000 st_lld_get_counter
+     /tmp/ccZNkdp4.s:158    .text.port_timer_get_time:0000000000000000 $t
+     /tmp/ccZNkdp4.s:163    .text.port_timer_get_time:0000000000000000 port_timer_get_time
+     /tmp/ccZNkdp4.s:184    .text.chVTGetSystemTimeX:0000000000000000 $t
+     /tmp/ccZNkdp4.s:189    .text.chVTGetSystemTimeX:0000000000000000 chVTGetSystemTimeX
+     /tmp/ccZNkdp4.s:210    .rodata:0000000000000000 $d
+     /tmp/ccZNkdp4.s:214    .text._dbg_check_disable:0000000000000000 $t
+     /tmp/ccZNkdp4.s:220    .text._dbg_check_disable:0000000000000000 _dbg_check_disable
+     /tmp/ccZNkdp4.s:251    .text._dbg_check_disable:000000000000001c $d
+     /tmp/ccZNkdp4.s:261    .text._dbg_check_suspend:0000000000000000 $t
+     /tmp/ccZNkdp4.s:267    .text._dbg_check_suspend:0000000000000000 _dbg_check_suspend
+     /tmp/ccZNkdp4.s:297    .text._dbg_check_suspend:000000000000001c $d
+     /tmp/ccZNkdp4.s:307    .text._dbg_check_enable:0000000000000000 $t
+     /tmp/ccZNkdp4.s:313    .text._dbg_check_enable:0000000000000000 _dbg_check_enable
+     /tmp/ccZNkdp4.s:343    .text._dbg_check_enable:000000000000001c $d
+     /tmp/ccZNkdp4.s:353    .text._dbg_check_lock:0000000000000000 $t
+     /tmp/ccZNkdp4.s:359    .text._dbg_check_lock:0000000000000000 _dbg_check_lock
+     /tmp/ccZNkdp4.s:393    .text._dbg_check_lock:0000000000000020 $d
+     /tmp/ccZNkdp4.s:403    .text._dbg_check_unlock:0000000000000000 $t
+     /tmp/ccZNkdp4.s:409    .text._dbg_check_unlock:0000000000000000 _dbg_check_unlock
+     /tmp/ccZNkdp4.s:443    .text._dbg_check_unlock:0000000000000020 $d
+     /tmp/ccZNkdp4.s:453    .text._dbg_check_lock_from_isr:0000000000000000 $t
+     /tmp/ccZNkdp4.s:459    .text._dbg_check_lock_from_isr:0000000000000000 _dbg_check_lock_from_isr
+     /tmp/ccZNkdp4.s:493    .text._dbg_check_lock_from_isr:0000000000000020 $d
+     /tmp/ccZNkdp4.s:503    .text._dbg_check_unlock_from_isr:0000000000000000 $t
+     /tmp/ccZNkdp4.s:509    .text._dbg_check_unlock_from_isr:0000000000000000 _dbg_check_unlock_from_isr
+     /tmp/ccZNkdp4.s:543    .text._dbg_check_unlock_from_isr:0000000000000020 $d
+     /tmp/ccZNkdp4.s:553    .text._dbg_check_enter_isr:0000000000000000 $t
+     /tmp/ccZNkdp4.s:559    .text._dbg_check_enter_isr:0000000000000000 _dbg_check_enter_isr
+     /tmp/ccZNkdp4.s:599    .text._dbg_check_enter_isr:000000000000002c $d
+     /tmp/ccZNkdp4.s:609    .text._dbg_check_leave_isr:0000000000000000 $t
+     /tmp/ccZNkdp4.s:615    .text._dbg_check_leave_isr:0000000000000000 _dbg_check_leave_isr
+     /tmp/ccZNkdp4.s:655    .text._dbg_check_leave_isr:000000000000002c $d
+     /tmp/ccZNkdp4.s:665    .text.chDbgCheckClassI:0000000000000000 $t
+     /tmp/ccZNkdp4.s:671    .text.chDbgCheckClassI:0000000000000000 chDbgCheckClassI
+     /tmp/ccZNkdp4.s:701    .text.chDbgCheckClassI:000000000000001c $d
+     /tmp/ccZNkdp4.s:711    .text.chDbgCheckClassS:0000000000000000 $t
+     /tmp/ccZNkdp4.s:717    .text.chDbgCheckClassS:0000000000000000 chDbgCheckClassS
+     /tmp/ccZNkdp4.s:747    .text.chDbgCheckClassS:000000000000001c $d
+     /tmp/ccZNkdp4.s:753    .text._dbg_trace_init:0000000000000000 $t
+     /tmp/ccZNkdp4.s:759    .text._dbg_trace_init:0000000000000000 _dbg_trace_init
+     /tmp/ccZNkdp4.s:779    .text._dbg_trace_init:0000000000000010 $d
+     /tmp/ccZNkdp4.s:785    .text._dbg_trace:0000000000000000 $t
+     /tmp/ccZNkdp4.s:791    .text._dbg_trace:0000000000000000 _dbg_trace
+     /tmp/ccZNkdp4.s:851    .text._dbg_trace:0000000000000054 $d
                      .debug_frame:0000000000000010 $d
-ARM GAS  /tmp/ccl2fhDv.s 			page 66
+ARM GAS  /tmp/ccZNkdp4.s 			page 66
 
 
-     /tmp/ccl2fhDv.s:256    .text._dbg_check_disable:0000000000000024 $t
-     /tmp/ccl2fhDv.s:302    .text._dbg_check_suspend:0000000000000024 $t
-     /tmp/ccl2fhDv.s:348    .text._dbg_check_enable:0000000000000024 $t
-     /tmp/ccl2fhDv.s:398    .text._dbg_check_lock:0000000000000028 $t
-     /tmp/ccl2fhDv.s:448    .text._dbg_check_unlock:0000000000000028 $t
-     /tmp/ccl2fhDv.s:498    .text._dbg_check_lock_from_isr:0000000000000028 $t
-     /tmp/ccl2fhDv.s:548    .text._dbg_check_unlock_from_isr:0000000000000028 $t
-     /tmp/ccl2fhDv.s:604    .text._dbg_check_enter_isr:0000000000000034 $t
-     /tmp/ccl2fhDv.s:660    .text._dbg_check_leave_isr:0000000000000034 $t
-     /tmp/ccl2fhDv.s:706    .text.chDbgCheckClassI:0000000000000024 $t
-     /tmp/ccl2fhDv.s:752    .text.chDbgCheckClassS:0000000000000024 $t
-     /tmp/ccl2fhDv.s:784    .text._dbg_trace_init:0000000000000018 $t
+     /tmp/ccZNkdp4.s:256    .text._dbg_check_disable:0000000000000024 $t
+     /tmp/ccZNkdp4.s:302    .text._dbg_check_suspend:0000000000000024 $t
+     /tmp/ccZNkdp4.s:348    .text._dbg_check_enable:0000000000000024 $t
+     /tmp/ccZNkdp4.s:398    .text._dbg_check_lock:0000000000000028 $t
+     /tmp/ccZNkdp4.s:448    .text._dbg_check_unlock:0000000000000028 $t
+     /tmp/ccZNkdp4.s:498    .text._dbg_check_lock_from_isr:0000000000000028 $t
+     /tmp/ccZNkdp4.s:548    .text._dbg_check_unlock_from_isr:0000000000000028 $t
+     /tmp/ccZNkdp4.s:604    .text._dbg_check_enter_isr:0000000000000034 $t
+     /tmp/ccZNkdp4.s:660    .text._dbg_check_leave_isr:0000000000000034 $t
+     /tmp/ccZNkdp4.s:706    .text.chDbgCheckClassI:0000000000000024 $t
+     /tmp/ccZNkdp4.s:752    .text.chDbgCheckClassS:0000000000000024 $t
+     /tmp/ccZNkdp4.s:784    .text._dbg_trace_init:0000000000000018 $t
 
 UNDEFINED SYMBOLS
 chSysHalt

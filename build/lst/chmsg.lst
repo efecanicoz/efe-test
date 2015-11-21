@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccpwyemi.s 			page 1
+ARM GAS  /tmp/cc3Rvp9P.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
   55              		.align	2
   56              		.p2align 4,,15
   57              		.thumb
-ARM GAS  /tmp/ccpwyemi.s 			page 2
+ARM GAS  /tmp/cc3Rvp9P.s 			page 2
 
 
   58              		.thumb_func
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  112 000e 5A68     		ldr	r2, [r3, #4]
  113 0010 019B     		ldr	r3, [sp, #4]
  114 0012 5A60     		str	r2, [r3, #4]
-ARM GAS  /tmp/ccpwyemi.s 			page 3
+ARM GAS  /tmp/cc3Rvp9P.s 			page 3
 
 
  115              		.loc 3 667 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  167 0020 7047     		bx	lr
  168              		.cfi_endproc
  169              	.LFE157:
-ARM GAS  /tmp/ccpwyemi.s 			page 4
+ARM GAS  /tmp/cc3Rvp9P.s 			page 4
 
 
  170              		.size	queue_fifo_remove, .-queue_fifo_remove
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  221 000c 1A68     		ldr	r2, [r3]
  222 000e 084B     		ldr	r3, .L9
  223 0010 9A42     		cmp	r2, r3
-ARM GAS  /tmp/ccpwyemi.s 			page 5
+ARM GAS  /tmp/cc3Rvp9P.s 			page 5
 
 
  224 0012 0AD0     		beq	.L8
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  277 0016 0023     		moveq	r3, #0
  278 0018 0123     		movne	r3, #1
  279 001a DBB2     		uxtb	r3, r3
-ARM GAS  /tmp/ccpwyemi.s 			page 6
+ARM GAS  /tmp/cc3Rvp9P.s 			page 6
 
 
  280              		.loc 5 84 0
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  331              		.cfi_startproc
  332              		@ args = 0, pretend = 0, frame = 16
  333              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccpwyemi.s 			page 7
+ARM GAS  /tmp/cc3Rvp9P.s 			page 7
 
 
  334 0000 00B5     		push	{lr}
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  388              		.loc 6 103 0
  389 005a 009B     		ldr	r3, [sp]
  390              		.loc 6 104 0
-ARM GAS  /tmp/ccpwyemi.s 			page 8
+ARM GAS  /tmp/cc3Rvp9P.s 			page 8
 
 
  391 005c 1846     		mov	r0, r3
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  445 0032 019B     		ldr	r3, [sp, #4]
  446 0034 0D22     		movs	r2, #13
  447 0036 83F82020 		strb	r2, [r3, #32]
-ARM GAS  /tmp/ccpwyemi.s 			page 9
+ARM GAS  /tmp/cc3Rvp9P.s 			page 9
 
 
  448              		.loc 6 129 0
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  502 0028 03B0     		add	sp, sp, #12
  503              		@ sp needed
  504 002a 5DF804FB 		ldr	pc, [sp], #4
-ARM GAS  /tmp/ccpwyemi.s 			page 10
+ARM GAS  /tmp/cc3Rvp9P.s 			page 10
 
 
  505              	.L28:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  550 000c BB010000 		.4byte	.LASF140
  551 0010 01       		.byte	0x1
  552 0011 27000000 		.4byte	.LASF141
-ARM GAS  /tmp/ccpwyemi.s 			page 11
+ARM GAS  /tmp/cc3Rvp9P.s 			page 11
 
 
  553 0015 00000000 		.4byte	.Ldebug_ranges0+0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  607 0081 04       		.uleb128 0x4
  608 0082 32040000 		.4byte	.LASF11
  609 0086 07       		.byte	0x7
-ARM GAS  /tmp/ccpwyemi.s 			page 12
+ARM GAS  /tmp/cc3Rvp9P.s 			page 12
 
 
  610 0087 5B       		.byte	0x5b
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  664 00fc 71040000 		.4byte	.LASF22
  665 0100 09       		.byte	0x9
  666 0101 4C       		.byte	0x4c
-ARM GAS  /tmp/ccpwyemi.s 			page 13
+ARM GAS  /tmp/cc3Rvp9P.s 			page 13
 
 
  667 0102 A9000000 		.4byte	0xa9
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  721 0177 08       		.byte	0x8
  722 0178 07       		.uleb128 0x7
  723 0179 96060000 		.4byte	.LASF32
-ARM GAS  /tmp/ccpwyemi.s 			page 14
+ARM GAS  /tmp/cc3Rvp9P.s 			page 14
 
 
  724 017d 03       		.byte	0x3
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  778 01ea 03       		.byte	0x3
  779 01eb 3601     		.2byte	0x136
  780 01ed 5F020000 		.4byte	0x25f
-ARM GAS  /tmp/ccpwyemi.s 			page 15
+ARM GAS  /tmp/cc3Rvp9P.s 			page 15
 
 
  781 01f1 28       		.byte	0x28
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  835 0264 0A       		.byte	0xa
  836 0265 49       		.byte	0x49
  837 0266 6A020000 		.4byte	0x26a
-ARM GAS  /tmp/ccpwyemi.s 			page 16
+ARM GAS  /tmp/cc3Rvp9P.s 			page 16
 
 
  838 026a 06       		.uleb128 0x6
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  892 02d8 09       		.uleb128 0x9
  893 02d9 BA040000 		.4byte	.LASF57
  894 02dd 03       		.byte	0x3
-ARM GAS  /tmp/ccpwyemi.s 			page 17
+ARM GAS  /tmp/cc3Rvp9P.s 			page 17
 
 
  895 02de 9201     		.2byte	0x192
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  949 0350 09       		.uleb128 0x9
  950 0351 F0020000 		.4byte	.LASF65
  951 0355 03       		.byte	0x3
-ARM GAS  /tmp/ccpwyemi.s 			page 18
+ARM GAS  /tmp/cc3Rvp9P.s 			page 18
 
 
  952 0356 6C01     		.2byte	0x16c
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1006 03ca 8001     		.2byte	0x180
  1007 03cc 32010000 		.4byte	0x132
  1008 03d0 08       		.byte	0x8
-ARM GAS  /tmp/ccpwyemi.s 			page 19
+ARM GAS  /tmp/cc3Rvp9P.s 			page 19
 
 
  1009 03d1 09       		.uleb128 0x9
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1063 0446 09       		.uleb128 0x9
  1064 0447 21060000 		.4byte	.LASF81
  1065 044b 03       		.byte	0x3
-ARM GAS  /tmp/ccpwyemi.s 			page 20
+ARM GAS  /tmp/cc3Rvp9P.s 			page 20
 
 
  1066 044c C601     		.2byte	0x1c6
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1120 04c2 06       		.uleb128 0x6
  1121 04c3 D8050000 		.4byte	.LASF89
  1122 04c7 04       		.byte	0x4
-ARM GAS  /tmp/ccpwyemi.s 			page 21
+ARM GAS  /tmp/cc3Rvp9P.s 			page 21
 
 
  1123 04c8 0B       		.byte	0xb
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1177 0534 01       		.byte	0x1
  1178 0535 1601     		.2byte	0x116
  1179 0537 AC040000 		.4byte	0x4ac
-ARM GAS  /tmp/ccpwyemi.s 			page 22
+ARM GAS  /tmp/cc3Rvp9P.s 			page 22
 
 
  1180 053b 18       		.byte	0x18
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1234 05a3 0C       		.byte	0xc
  1235 05a4 67       		.byte	0x67
  1236 05a5 CE050000 		.4byte	0x5ce
-ARM GAS  /tmp/ccpwyemi.s 			page 23
+ARM GAS  /tmp/cc3Rvp9P.s 			page 23
 
 
  1237 05a9 07       		.uleb128 0x7
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1291 0612 48       		.byte	0x48
  1292 0613 52060000 		.4byte	0x652
  1293 0617 07       		.uleb128 0x7
-ARM GAS  /tmp/ccpwyemi.s 			page 24
+ARM GAS  /tmp/cc3Rvp9P.s 			page 24
 
 
  1294 0618 79050000 		.4byte	.LASF102
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1348 0682 0E       		.byte	0xe
  1349 0683 3B       		.byte	0x3b
  1350 0684 52060000 		.4byte	0x652
-ARM GAS  /tmp/ccpwyemi.s 			page 25
+ARM GAS  /tmp/cc3Rvp9P.s 			page 25
 
 
  1351 0688 08       		.byte	0x8
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1405 06fe 0A       		.uleb128 0xa
  1406 06ff 04       		.byte	0x4
  1407 0700 4E020000 		.4byte	0x24e
-ARM GAS  /tmp/ccpwyemi.s 			page 26
+ARM GAS  /tmp/cc3Rvp9P.s 			page 26
 
 
  1408 0704 06       		.uleb128 0x6
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1462 076d 71070000 		.4byte	0x771
  1463 0771 03       		.uleb128 0x3
  1464 0772 01       		.byte	0x1
-ARM GAS  /tmp/ccpwyemi.s 			page 27
+ARM GAS  /tmp/cc3Rvp9P.s 			page 27
 
 
  1465 0773 08       		.byte	0x8
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1519 07ef 02       		.uleb128 0x2
  1520 07f0 91       		.byte	0x91
  1521 07f1 7C       		.sleb128 -4
-ARM GAS  /tmp/ccpwyemi.s 			page 28
+ARM GAS  /tmp/cc3Rvp9P.s 			page 28
 
 
  1522 07f2 00       		.byte	0
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1576 085f 7E050000 		.4byte	.LASF132
  1577 0863 03       		.byte	0x3
  1578 0864 9F02     		.2byte	0x29f
-ARM GAS  /tmp/ccpwyemi.s 			page 29
+ARM GAS  /tmp/cc3Rvp9P.s 			page 29
 
 
  1579 0866 59020000 		.4byte	0x259
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1633 08de 19       		.uleb128 0x19
  1634 08df CE080000 		.4byte	0x8ce
  1635 08e3 25       		.uleb128 0x25
-ARM GAS  /tmp/ccpwyemi.s 			page 30
+ARM GAS  /tmp/cc3Rvp9P.s 			page 30
 
 
  1636 08e4 AB010000 		.4byte	.LASF133
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1690 0951 6C000000 		.4byte	.LFE240-.LFB240
  1691 0955 01       		.uleb128 0x1
  1692 0956 9C       		.byte	0x9c
-ARM GAS  /tmp/ccpwyemi.s 			page 31
+ARM GAS  /tmp/cc3Rvp9P.s 			page 31
 
 
  1693 0957 94090000 		.4byte	0x994
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1747 09c7 79       		.byte	0x79
  1748 09c8 59020000 		.4byte	0x259
  1749 09cc 02       		.uleb128 0x2
-ARM GAS  /tmp/ccpwyemi.s 			page 32
+ARM GAS  /tmp/cc3Rvp9P.s 			page 32
 
 
  1750 09cd 91       		.byte	0x91
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1804 0a3c 00       		.byte	0
  1805              		.section	.debug_abbrev,"",%progbits
  1806              	.Ldebug_abbrev0:
-ARM GAS  /tmp/ccpwyemi.s 			page 33
+ARM GAS  /tmp/cc3Rvp9P.s 			page 33
 
 
  1807 0000 01       		.uleb128 0x1
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1861 0036 00       		.byte	0
  1862 0037 49       		.uleb128 0x49
  1863 0038 13       		.uleb128 0x13
-ARM GAS  /tmp/ccpwyemi.s 			page 34
+ARM GAS  /tmp/cc3Rvp9P.s 			page 34
 
 
  1864 0039 00       		.byte	0
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1918 006f 3B       		.uleb128 0x3b
  1919 0070 05       		.uleb128 0x5
  1920 0071 49       		.uleb128 0x49
-ARM GAS  /tmp/ccpwyemi.s 			page 35
+ARM GAS  /tmp/cc3Rvp9P.s 			page 35
 
 
  1921 0072 13       		.uleb128 0x13
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  1975 00a8 01       		.byte	0x1
  1976 00a9 03       		.uleb128 0x3
  1977 00aa 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccpwyemi.s 			page 36
+ARM GAS  /tmp/cc3Rvp9P.s 			page 36
 
 
  1978 00ab 0B       		.uleb128 0xb
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2032 00e1 00       		.byte	0
  2033 00e2 13       		.uleb128 0x13
  2034 00e3 13       		.uleb128 0x13
-ARM GAS  /tmp/ccpwyemi.s 			page 37
+ARM GAS  /tmp/cc3Rvp9P.s 			page 37
 
 
  2035 00e4 01       		.byte	0x1
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2089 011a 00       		.byte	0
  2090 011b 18       		.uleb128 0x18
  2091 011c 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccpwyemi.s 			page 38
+ARM GAS  /tmp/cc3Rvp9P.s 			page 38
 
 
  2092 011d 00       		.byte	0
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2146 0153 0B       		.uleb128 0xb
  2147 0154 3B       		.uleb128 0x3b
  2148 0155 05       		.uleb128 0x5
-ARM GAS  /tmp/ccpwyemi.s 			page 39
+ARM GAS  /tmp/cc3Rvp9P.s 			page 39
 
 
  2149 0156 27       		.uleb128 0x27
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2203 018d 2E       		.uleb128 0x2e
  2204 018e 01       		.byte	0x1
  2205 018f 03       		.uleb128 0x3
-ARM GAS  /tmp/ccpwyemi.s 			page 40
+ARM GAS  /tmp/cc3Rvp9P.s 			page 40
 
 
  2206 0190 0E       		.uleb128 0xe
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2260 01c8 19       		.uleb128 0x19
  2261 01c9 00       		.byte	0
  2262 01ca 00       		.byte	0
-ARM GAS  /tmp/ccpwyemi.s 			page 41
+ARM GAS  /tmp/cc3Rvp9P.s 			page 41
 
 
  2263 01cb 23       		.uleb128 0x23
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2317 0202 18       		.uleb128 0x18
  2318 0203 9642     		.uleb128 0x2116
  2319 0205 19       		.uleb128 0x19
-ARM GAS  /tmp/ccpwyemi.s 			page 42
+ARM GAS  /tmp/cc3Rvp9P.s 			page 42
 
 
  2320 0206 01       		.uleb128 0x1
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2374 023d 19       		.uleb128 0x19
  2375 023e 49       		.uleb128 0x49
  2376 023f 13       		.uleb128 0x13
-ARM GAS  /tmp/ccpwyemi.s 			page 43
+ARM GAS  /tmp/cc3Rvp9P.s 			page 43
 
 
  2377 0240 11       		.uleb128 0x11
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2431 0278 00       		.byte	0
  2432 0279 03       		.uleb128 0x3
  2433 027a 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccpwyemi.s 			page 44
+ARM GAS  /tmp/cc3Rvp9P.s 			page 44
 
 
  2434 027b 3A       		.uleb128 0x3a
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2488 0050 00000000 		.4byte	.LFB240
  2489 0054 6C000000 		.4byte	.LFE240-.LFB240
  2490 0058 00000000 		.4byte	.LFB241
-ARM GAS  /tmp/ccpwyemi.s 			page 45
+ARM GAS  /tmp/cc3Rvp9P.s 			page 45
 
 
  2491 005c 4C000000 		.4byte	.LFE241-.LFB241
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2533              	.LASF141:
  2534 0027 2F686F6D 		.ascii	"/home/efe/ChibiOS/os/rt/src/chmsg.c\000"
  2534      652F6566 
-ARM GAS  /tmp/ccpwyemi.s 			page 46
+ARM GAS  /tmp/cc3Rvp9P.s 			page 46
 
 
  2534      652F4368 
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2558 00d8 63685F74 		.ascii	"ch_trace_buffer_t\000"
  2558      72616365 
  2558      5F627566 
-ARM GAS  /tmp/ccpwyemi.s 			page 47
+ARM GAS  /tmp/cc3Rvp9P.s 			page 47
 
 
  2558      6665725F 
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2586 0173 706F7274 		.ascii	"port_unlock\000"
  2586      5F756E6C 
  2586      6F636B00 
-ARM GAS  /tmp/ccpwyemi.s 			page 48
+ARM GAS  /tmp/cc3Rvp9P.s 			page 48
 
 
  2587              	.LASF80:
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2610              	.LASF59:
  2611 0283 725F6E65 		.ascii	"r_newer\000"
  2611      77657200 
-ARM GAS  /tmp/ccpwyemi.s 			page 49
+ARM GAS  /tmp/cc3Rvp9P.s 			page 49
 
 
  2612              	.LASF87:
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2641      7400
  2642              	.LASF4:
  2643 0316 73686F72 		.ascii	"short unsigned int\000"
-ARM GAS  /tmp/ccpwyemi.s 			page 50
+ARM GAS  /tmp/cc3Rvp9P.s 			page 50
 
 
  2643      7420756E 
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2670              	.LASF86:
  2671 03ac 73697A65 		.ascii	"sizetype\000"
  2671      74797065 
-ARM GAS  /tmp/ccpwyemi.s 			page 51
+ARM GAS  /tmp/cc3Rvp9P.s 			page 51
 
 
  2671      00
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2697      735F7400 
  2698              	.LASF98:
  2699 0450 74625F62 		.ascii	"tb_buffer\000"
-ARM GAS  /tmp/ccpwyemi.s 			page 52
+ARM GAS  /tmp/cc3Rvp9P.s 			page 52
 
 
  2699      75666665 
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2729      00
  2730              	.LASF47:
  2731 04e0 705F7374 		.ascii	"p_stats\000"
-ARM GAS  /tmp/ccpwyemi.s 			page 53
+ARM GAS  /tmp/cc3Rvp9P.s 			page 53
 
 
  2731      61747300 
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2757 0570 74687265 		.ascii	"thread_t\000"
  2757      61645F74 
  2757      00
-ARM GAS  /tmp/ccpwyemi.s 			page 54
+ARM GAS  /tmp/cc3Rvp9P.s 			page 54
 
 
  2758              	.LASF102:
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2785      655F7400 
  2786              	.LASF122:
  2787 0609 63685F6D 		.ascii	"ch_mutex\000"
-ARM GAS  /tmp/ccpwyemi.s 			page 55
+ARM GAS  /tmp/cc3Rvp9P.s 			page 55
 
 
  2787      75746578 
@@ -3298,54 +3298,54 @@ ARM GAS  /tmp/ccpwyemi.s 			page 1
  2817 0696 705F6374 		.ascii	"p_ctx\000"
  2817      7800
  2818              	.LASF68:
-ARM GAS  /tmp/ccpwyemi.s 			page 56
+ARM GAS  /tmp/cc3Rvp9P.s 			page 56
 
 
  2819 069c 76745F66 		.ascii	"vt_func\000"
  2819      756E6300 
  2820              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccpwyemi.s 			page 57
+ARM GAS  /tmp/cc3Rvp9P.s 			page 57
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chmsg.c
-     /tmp/ccpwyemi.s:19     .text.port_lock:0000000000000000 $t
-     /tmp/ccpwyemi.s:24     .text.port_lock:0000000000000000 port_lock
-     /tmp/ccpwyemi.s:55     .text.port_unlock:0000000000000000 $t
-     /tmp/ccpwyemi.s:60     .text.port_unlock:0000000000000000 port_unlock
-     /tmp/ccpwyemi.s:89     .text.queue_insert:0000000000000000 $t
-     /tmp/ccpwyemi.s:94     .text.queue_insert:0000000000000000 queue_insert
-     /tmp/ccpwyemi.s:132    .text.queue_fifo_remove:0000000000000000 $t
-     /tmp/ccpwyemi.s:137    .text.queue_fifo_remove:0000000000000000 queue_fifo_remove
-     /tmp/ccpwyemi.s:172    .text.chSysLock:0000000000000000 $t
-     /tmp/ccpwyemi.s:177    .text.chSysLock:0000000000000000 chSysLock
-     /tmp/ccpwyemi.s:200    .text.chSysUnlock:0000000000000000 $t
-     /tmp/ccpwyemi.s:205    .text.chSysUnlock:0000000000000000 chSysUnlock
-     /tmp/ccpwyemi.s:244    .text.chSysUnlock:0000000000000030 $d
-     /tmp/ccpwyemi.s:522    .rodata.__func__.5925:0000000000000000 __func__.5925
-     /tmp/ccpwyemi.s:250    .text.chMsgIsPendingI:0000000000000000 $t
-     /tmp/ccpwyemi.s:255    .text.chMsgIsPendingI:0000000000000000 chMsgIsPendingI
-     /tmp/ccpwyemi.s:289    .text.chMsgReleaseS:0000000000000000 $t
-     /tmp/ccpwyemi.s:294    .text.chMsgReleaseS:0000000000000000 chMsgReleaseS
-     /tmp/ccpwyemi.s:321    .text.chMsgSend:0000000000000000 $t
-     /tmp/ccpwyemi.s:327    .text.chMsgSend:0000000000000000 chMsgSend
-     /tmp/ccpwyemi.s:398    .text.chMsgSend:0000000000000064 $d
-     /tmp/ccpwyemi.s:516    .rodata.__func__.6622:0000000000000000 __func__.6622
-     /tmp/ccpwyemi.s:404    .text.chMsgWait:0000000000000000 $t
-     /tmp/ccpwyemi.s:410    .text.chMsgWait:0000000000000000 chMsgWait
-     /tmp/ccpwyemi.s:460    .text.chMsgWait:0000000000000048 $d
-     /tmp/ccpwyemi.s:465    .text.chMsgRelease:0000000000000000 $t
-     /tmp/ccpwyemi.s:471    .text.chMsgRelease:0000000000000000 chMsgRelease
-     /tmp/ccpwyemi.s:508    .text.chMsgRelease:0000000000000030 $d
-     /tmp/ccpwyemi.s:528    .rodata.__func__.6631:0000000000000000 __func__.6631
-     /tmp/ccpwyemi.s:513    .rodata.__func__.6622:0000000000000000 $d
-     /tmp/ccpwyemi.s:519    .rodata.__func__.5925:0000000000000000 $d
-     /tmp/ccpwyemi.s:525    .rodata.__func__.6631:0000000000000000 $d
+     /tmp/cc3Rvp9P.s:19     .text.port_lock:0000000000000000 $t
+     /tmp/cc3Rvp9P.s:24     .text.port_lock:0000000000000000 port_lock
+     /tmp/cc3Rvp9P.s:55     .text.port_unlock:0000000000000000 $t
+     /tmp/cc3Rvp9P.s:60     .text.port_unlock:0000000000000000 port_unlock
+     /tmp/cc3Rvp9P.s:89     .text.queue_insert:0000000000000000 $t
+     /tmp/cc3Rvp9P.s:94     .text.queue_insert:0000000000000000 queue_insert
+     /tmp/cc3Rvp9P.s:132    .text.queue_fifo_remove:0000000000000000 $t
+     /tmp/cc3Rvp9P.s:137    .text.queue_fifo_remove:0000000000000000 queue_fifo_remove
+     /tmp/cc3Rvp9P.s:172    .text.chSysLock:0000000000000000 $t
+     /tmp/cc3Rvp9P.s:177    .text.chSysLock:0000000000000000 chSysLock
+     /tmp/cc3Rvp9P.s:200    .text.chSysUnlock:0000000000000000 $t
+     /tmp/cc3Rvp9P.s:205    .text.chSysUnlock:0000000000000000 chSysUnlock
+     /tmp/cc3Rvp9P.s:244    .text.chSysUnlock:0000000000000030 $d
+     /tmp/cc3Rvp9P.s:522    .rodata.__func__.5925:0000000000000000 __func__.5925
+     /tmp/cc3Rvp9P.s:250    .text.chMsgIsPendingI:0000000000000000 $t
+     /tmp/cc3Rvp9P.s:255    .text.chMsgIsPendingI:0000000000000000 chMsgIsPendingI
+     /tmp/cc3Rvp9P.s:289    .text.chMsgReleaseS:0000000000000000 $t
+     /tmp/cc3Rvp9P.s:294    .text.chMsgReleaseS:0000000000000000 chMsgReleaseS
+     /tmp/cc3Rvp9P.s:321    .text.chMsgSend:0000000000000000 $t
+     /tmp/cc3Rvp9P.s:327    .text.chMsgSend:0000000000000000 chMsgSend
+     /tmp/cc3Rvp9P.s:398    .text.chMsgSend:0000000000000064 $d
+     /tmp/cc3Rvp9P.s:516    .rodata.__func__.6622:0000000000000000 __func__.6622
+     /tmp/cc3Rvp9P.s:404    .text.chMsgWait:0000000000000000 $t
+     /tmp/cc3Rvp9P.s:410    .text.chMsgWait:0000000000000000 chMsgWait
+     /tmp/cc3Rvp9P.s:460    .text.chMsgWait:0000000000000048 $d
+     /tmp/cc3Rvp9P.s:465    .text.chMsgRelease:0000000000000000 $t
+     /tmp/cc3Rvp9P.s:471    .text.chMsgRelease:0000000000000000 chMsgRelease
+     /tmp/cc3Rvp9P.s:508    .text.chMsgRelease:0000000000000030 $d
+     /tmp/cc3Rvp9P.s:528    .rodata.__func__.6631:0000000000000000 __func__.6631
+     /tmp/cc3Rvp9P.s:513    .rodata.__func__.6622:0000000000000000 $d
+     /tmp/cc3Rvp9P.s:519    .rodata.__func__.5925:0000000000000000 $d
+     /tmp/cc3Rvp9P.s:525    .rodata.__func__.6631:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
-     /tmp/ccpwyemi.s:249    .text.chSysUnlock:0000000000000038 $t
-     /tmp/ccpwyemi.s:403    .text.chMsgSend:000000000000006c $t
-     /tmp/ccpwyemi.s:464    .text.chMsgWait:000000000000004c $t
-     /tmp/ccpwyemi.s:512    .text.chMsgRelease:0000000000000034 $t
+     /tmp/cc3Rvp9P.s:249    .text.chSysUnlock:0000000000000038 $t
+     /tmp/cc3Rvp9P.s:403    .text.chMsgSend:000000000000006c $t
+     /tmp/cc3Rvp9P.s:464    .text.chMsgWait:000000000000004c $t
+     /tmp/cc3Rvp9P.s:512    .text.chMsgRelease:0000000000000034 $t
 
 UNDEFINED SYMBOLS
 _stats_start_measure_crit_thd

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccKDyuks.s 			page 1
+ARM GAS  /tmp/ccnR4mU4.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
   55 0040 0C600240 		.word	1073897484
   56 0044 06       		.byte	6
   57 0045 05       		.byte	5
-ARM GAS  /tmp/ccKDyuks.s 			page 2
+ARM GAS  /tmp/ccnR4mU4.s 			page 2
 
 
   58 0046 10       		.byte	16
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  112 00b2 45       		.byte	69
  113 00b3 00       		.space	1
  114 00b4 B8640240 		.word	1073898680
-ARM GAS  /tmp/ccKDyuks.s 			page 3
+ARM GAS  /tmp/ccnR4mU4.s 			page 3
 
 
  115 00b8 0C640240 		.word	1073898508
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  165 001e 1B68     		ldr	r3, [r3]
  166 0020 002B     		cmp	r3, #0
  167 0022 06D0     		beq	.L2
-ARM GAS  /tmp/ccKDyuks.s 			page 4
+ARM GAS  /tmp/ccnR4mU4.s 			page 4
 
 
  168              		.loc 1 125 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  221 001a 019A     		ldr	r2, [sp, #4]
  222 001c 9201     		lsls	r2, r2, #6
  223 001e 9A60     		str	r2, [r3, #8]
-ARM GAS  /tmp/ccKDyuks.s 			page 5
+ARM GAS  /tmp/ccnR4mU4.s 			page 5
 
 
  224              		.loc 1 142 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  278 0012 03F03D03 		and	r3, r3, #61
  279 0016 0193     		str	r3, [sp, #4]
  280              		.loc 1 159 0
-ARM GAS  /tmp/ccKDyuks.s 			page 6
+ARM GAS  /tmp/ccnR4mU4.s 			page 6
 
 
  281 0018 0A4B     		ldr	r3, .L11
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  335              		.loc 1 176 0
  336 000c 0D4B     		ldr	r3, .L15
  337 000e 1B68     		ldr	r3, [r3]
-ARM GAS  /tmp/ccKDyuks.s 			page 7
+ARM GAS  /tmp/ccnR4mU4.s 			page 7
 
 
  338 0010 9B0D     		lsrs	r3, r3, #22
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  392              		.cfi_def_cfa_offset 16
  393              		.loc 1 192 0
  394 0004 FFF7FEFF 		bl	_stats_increase_irq
-ARM GAS  /tmp/ccKDyuks.s 			page 8
+ARM GAS  /tmp/ccnR4mU4.s 			page 8
 
 
  395 0008 FFF7FEFF 		bl	_dbg_check_enter_isr
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  448              		.cfi_def_cfa_offset 4
  449              		.cfi_offset 14, -4
  450 0002 83B0     		sub	sp, sp, #12
-ARM GAS  /tmp/ccKDyuks.s 			page 9
+ARM GAS  /tmp/ccnR4mU4.s 			page 9
 
 
  451              		.cfi_def_cfa_offset 16
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  505              		.cfi_startproc
  506              		@ args = 0, pretend = 0, frame = 8
  507              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccKDyuks.s 			page 10
+ARM GAS  /tmp/ccnR4mU4.s 			page 10
 
 
  508 0000 00B5     		push	{lr}
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  562              		.type	VectorFC, %function
  563              	VectorFC:
  564              	.LFB278:
-ARM GAS  /tmp/ccKDyuks.s 			page 11
+ARM GAS  /tmp/ccnR4mU4.s 			page 11
 
 
  565              		.loc 1 243 0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  619              		.p2align 4,,15
  620              		.global	Vector120
  621              		.thumb
-ARM GAS  /tmp/ccKDyuks.s 			page 12
+ARM GAS  /tmp/ccnR4mU4.s 			page 12
 
 
  622              		.thumb_func
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  676 0048 AFF30080 		.section	.text.Vector124,"ax",%progbits
  676      AFF30080 
  677              		.align	2
-ARM GAS  /tmp/ccKDyuks.s 			page 13
+ARM GAS  /tmp/ccnR4mU4.s 			page 13
 
 
  678              		.p2align 4,,15
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  732 0044 00640240 		.word	1073898496
  733 0048 00000000 		.word	dma_isr_redir
  734              		.cfi_endproc
-ARM GAS  /tmp/ccKDyuks.s 			page 14
+ARM GAS  /tmp/ccnR4mU4.s 			page 14
 
 
  735              	.LFE280:
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  789 0040 5DF804FB 		ldr	pc, [sp], #4
  790              	.L44:
  791              		.align	2
-ARM GAS  /tmp/ccKDyuks.s 			page 15
+ARM GAS  /tmp/ccnR4mU4.s 			page 15
 
 
  792              	.L43:
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  846 003a FFF7FEFF 		bl	_port_irq_epilogue
  847              		.loc 1 326 0
  848 003e 03B0     		add	sp, sp, #12
-ARM GAS  /tmp/ccKDyuks.s 			page 16
+ARM GAS  /tmp/ccnR4mU4.s 			page 16
 
 
  849              		@ sp needed
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  903              		.loc 1 343 0
  904 0032 FFF7FEFF 		bl	_dbg_check_leave_isr
  905 0036 FFF7FEFF 		bl	_port_irq_epilogue
-ARM GAS  /tmp/ccKDyuks.s 			page 17
+ARM GAS  /tmp/ccnR4mU4.s 			page 17
 
 
  906              		.loc 1 344 0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  959 002e D26E     		ldr	r2, [r2, #108]
  960 0030 1046     		mov	r0, r2
  961 0032 0199     		ldr	r1, [sp, #4]
-ARM GAS  /tmp/ccKDyuks.s 			page 18
+ARM GAS  /tmp/ccnR4mU4.s 			page 18
 
 
  962 0034 9847     		blx	r3
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1016              		.loc 1 377 0
  1017 0028 074B     		ldr	r3, .L59+4
  1018 002a 1B6F     		ldr	r3, [r3, #112]
-ARM GAS  /tmp/ccKDyuks.s 			page 19
+ARM GAS  /tmp/ccnR4mU4.s 			page 19
 
 
  1019 002c 064A     		ldr	r2, .L59+4
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1073 0020 094B     		ldr	r3, .L63+4
  1074 0022 9B6F     		ldr	r3, [r3, #120]
  1075 0024 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccKDyuks.s 			page 20
+ARM GAS  /tmp/ccnR4mU4.s 			page 20
 
 
  1076 0026 06D0     		beq	.L62
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1130 0014 5B00     		lsls	r3, r3, #1
  1131 0016 1344     		add	r3, r3, r2
  1132 0018 9B00     		lsls	r3, r3, #2
-ARM GAS  /tmp/ccKDyuks.s 			page 21
+ARM GAS  /tmp/ccnR4mU4.s 			page 21
 
 
  1133 001a 0B44     		add	r3, r3, r1
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1187              		.thumb_func
  1188              		.type	dmaStreamAllocate, %function
  1189              	dmaStreamAllocate:
-ARM GAS  /tmp/ccKDyuks.s 			page 22
+ARM GAS  /tmp/ccnR4mU4.s 			page 22
 
 
  1190              	.LFB288:
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1244 004e 0122     		movs	r2, #1
  1245 0050 9A40     		lsls	r2, r2, r3
  1246 0052 264B     		ldr	r3, .L78+4
-ARM GAS  /tmp/ccKDyuks.s 			page 23
+ARM GAS  /tmp/ccnR4mU4.s 			page 23
 
 
  1247 0054 1B68     		ldr	r3, [r3]
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1301 00b8 1A60     		str	r2, [r3]
  1302              		.loc 1 473 0 is_stmt 1 discriminator 2
  1303 00ba 039B     		ldr	r3, [sp, #12]
-ARM GAS  /tmp/ccKDyuks.s 			page 24
+ARM GAS  /tmp/ccnR4mU4.s 			page 24
 
 
  1304 00bc 1B68     		ldr	r3, [r3]
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1357 0002 83B0     		sub	sp, sp, #12
  1358              		.cfi_def_cfa_offset 16
  1359 0004 0190     		str	r0, [sp, #4]
-ARM GAS  /tmp/ccKDyuks.s 			page 25
+ARM GAS  /tmp/ccnR4mU4.s 			page 25
 
 
  1360              		.loc 1 499 0
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1414 0068 002B     		cmp	r3, #0
  1415 006a 05D1     		bne	.L80
  1416              		.loc 1 516 0
-ARM GAS  /tmp/ccKDyuks.s 			page 26
+ARM GAS  /tmp/ccnR4mU4.s 			page 26
 
 
  1417 006c 064B     		ldr	r3, .L86+8
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1463              		.file 15 "/home/efe/ChibiOS/os/rt/include/chmtx.h"
  1464              		.file 16 "/home/efe/ChibiOS/os/hal/ports/STM32/LLD/DMAv2/stm32_dma.h"
  1465              		.file 17 "/home/efe/ChibiOS/os/ext/CMSIS/include/core_cm4.h"
-ARM GAS  /tmp/ccKDyuks.s 			page 27
+ARM GAS  /tmp/ccnR4mU4.s 			page 27
 
 
  1466              		.section	.debug_info,"",%progbits
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1520 006e 05       		.byte	0x5
  1521 006f A7010000 		.4byte	.LASF8
  1522 0073 03       		.uleb128 0x3
-ARM GAS  /tmp/ccKDyuks.s 			page 28
+ARM GAS  /tmp/ccnR4mU4.s 			page 28
 
 
  1523 0074 60070000 		.4byte	.LASF9
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1577 00e6 BF000000 		.4byte	0xbf
  1578 00ea 03       		.uleb128 0x3
  1579 00eb 48060000 		.4byte	.LASF20
-ARM GAS  /tmp/ccKDyuks.s 			page 29
+ARM GAS  /tmp/ccnR4mU4.s 			page 29
 
 
  1580 00ef 05       		.byte	0x5
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1634 0164 07       		.uleb128 0x7
  1635 0165 41060000 		.4byte	.LASF30
  1636 0169 07       		.byte	0x7
-ARM GAS  /tmp/ccKDyuks.s 			page 30
+ARM GAS  /tmp/ccnR4mU4.s 			page 30
 
 
  1637 016a C3       		.byte	0xc3
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1691 01d6 E1       		.byte	0xe1
  1692 01d7 EA000000 		.4byte	0xea
  1693 01db 21       		.byte	0x21
-ARM GAS  /tmp/ccKDyuks.s 			page 31
+ARM GAS  /tmp/ccnR4mU4.s 			page 31
 
 
  1694 01dc 07       		.uleb128 0x7
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1748 0250 09       		.uleb128 0x9
  1749 0251 61060000 		.4byte	.LASF48
  1750 0255 07       		.byte	0x7
-ARM GAS  /tmp/ccKDyuks.s 			page 32
+ARM GAS  /tmp/ccnR4mU4.s 			page 32
 
 
  1751 0256 5E01     		.2byte	0x15e
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1805 02c3 03       		.uleb128 0x3
  1806 02c4 10000000 		.4byte	.LASF55
  1807 02c8 06       		.byte	0x6
-ARM GAS  /tmp/ccKDyuks.s 			page 33
+ARM GAS  /tmp/ccnR4mU4.s 			page 33
 
 
  1808 02c9 57       		.byte	0x57
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1862 033c 46030000 		.4byte	0x346
  1863 0340 0D       		.uleb128 0xd
  1864 0341 46030000 		.4byte	0x346
-ARM GAS  /tmp/ccKDyuks.s 			page 34
+ARM GAS  /tmp/ccnR4mU4.s 			page 34
 
 
  1865 0345 00       		.byte	0
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1919 03b4 7B01     		.2byte	0x17b
  1920 03b6 EF030000 		.4byte	0x3ef
  1921 03ba 09       		.uleb128 0x9
-ARM GAS  /tmp/ccKDyuks.s 			page 35
+ARM GAS  /tmp/ccnR4mU4.s 			page 35
 
 
  1922 03bb 37030000 		.4byte	.LASF66
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  1976 0430 6F080000 		.4byte	.LASF79
  1977 0434 07       		.byte	0x7
  1978 0435 B901     		.2byte	0x1b9
-ARM GAS  /tmp/ccKDyuks.s 			page 36
+ARM GAS  /tmp/ccnR4mU4.s 			page 36
 
 
  1979 0437 4C080000 		.4byte	0x84c
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2033 04ae F1090000 		.4byte	0x9f1
  2034 04b2 E004     		.2byte	0x4e0
  2035 04b4 00       		.byte	0
-ARM GAS  /tmp/ccKDyuks.s 			page 37
+ARM GAS  /tmp/ccnR4mU4.s 			page 37
 
 
  2036 04b5 04       		.uleb128 0x4
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2090 0524 86070000 		.4byte	.LASF91
  2091 0528 08       		.byte	0x8
  2092 0529 7301     		.2byte	0x173
-ARM GAS  /tmp/ccKDyuks.s 			page 38
+ARM GAS  /tmp/ccnR4mU4.s 			page 38
 
 
  2093 052b CC040000 		.4byte	0x4cc
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2147 059c 60080000 		.4byte	.LASF98
  2148 05a0 08       		.byte	0x8
  2149 05a1 6B02     		.2byte	0x26b
-ARM GAS  /tmp/ccKDyuks.s 			page 39
+ARM GAS  /tmp/ccnR4mU4.s 			page 39
 
 
  2150 05a3 CF000000 		.4byte	0xcf
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2204 0618 CF000000 		.4byte	0xcf
  2205 061c 30       		.byte	0x30
  2206 061d 09       		.uleb128 0x9
-ARM GAS  /tmp/ccKDyuks.s 			page 40
+ARM GAS  /tmp/ccnR4mU4.s 			page 40
 
 
  2207 061e 99070000 		.4byte	.LASF107
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2261 0693 69050000 		.4byte	.LASF116
  2262 0697 08       		.byte	0x8
  2263 0698 7E02     		.2byte	0x27e
-ARM GAS  /tmp/ccKDyuks.s 			page 41
+ARM GAS  /tmp/ccnR4mU4.s 			page 41
 
 
  2264 069a B4000000 		.4byte	0xb4
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2318 070e 8802     		.2byte	0x288
  2319 0710 79050000 		.4byte	0x579
  2320 0714 03       		.uleb128 0x3
-ARM GAS  /tmp/ccKDyuks.s 			page 42
+ARM GAS  /tmp/ccnR4mU4.s 			page 42
 
 
  2321 0715 BA020000 		.4byte	.LASF125
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2375 0783 0A       		.byte	0xa
  2376 0784 1401     		.2byte	0x114
  2377 0786 14070000 		.4byte	0x714
-ARM GAS  /tmp/ccKDyuks.s 			page 43
+ARM GAS  /tmp/ccnR4mU4.s 			page 43
 
 
  2378 078a 10       		.byte	0x10
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2432 07f5 0B       		.byte	0xb
  2433 07f6 61       		.byte	0x61
  2434 07f7 9E000000 		.4byte	0x9e
-ARM GAS  /tmp/ccKDyuks.s 			page 44
+ARM GAS  /tmp/ccnR4mU4.s 			page 44
 
 
  2435 07fb 0C       		.byte	0xc
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2489 0865 3C       		.byte	0x3c
  2490 0866 D4000000 		.4byte	0xd4
  2491 086a 00       		.byte	0
-ARM GAS  /tmp/ccKDyuks.s 			page 45
+ARM GAS  /tmp/ccnR4mU4.s 			page 45
 
 
  2492 086b 00       		.byte	0
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2546 08d2 0D       		.byte	0xd
  2547 08d3 39       		.byte	0x39
  2548 08d4 37010000 		.4byte	0x137
-ARM GAS  /tmp/ccKDyuks.s 			page 46
+ARM GAS  /tmp/ccnR4mU4.s 			page 46
 
 
  2549 08d8 00       		.byte	0
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2603 0949 91090000 		.4byte	0x991
  2604 094d 1A       		.uleb128 0x1a
  2605 094e BB060000 		.4byte	.LASF155
-ARM GAS  /tmp/ccKDyuks.s 			page 47
+ARM GAS  /tmp/ccnR4mU4.s 			page 47
 
 
  2606 0952 07       		.byte	0x7
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2660 09c0 0F       		.byte	0xf
  2661 09c1 3E       		.byte	0x3e
  2662 09c2 0C0A0000 		.4byte	0xa0c
-ARM GAS  /tmp/ccKDyuks.s 			page 48
+ARM GAS  /tmp/ccnR4mU4.s 			page 48
 
 
  2663 09c6 0C       		.byte	0xc
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2717 0a35 09       		.uleb128 0x9
  2718 0a36 88030000 		.4byte	.LASF168
  2719 0a3a 10       		.byte	0x10
-ARM GAS  /tmp/ccKDyuks.s 			page 49
+ARM GAS  /tmp/ccnR4mU4.s 			page 49
 
 
  2720 0a3b 6901     		.2byte	0x169
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2774 0aac 59       		.byte	0x59
  2775 0aad CA0A0000 		.4byte	0xaca
  2776 0ab1 07       		.uleb128 0x7
-ARM GAS  /tmp/ccKDyuks.s 			page 50
+ARM GAS  /tmp/ccnR4mU4.s 			page 50
 
 
  2777 0ab2 F6040000 		.4byte	.LASF174
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2831 0b1e B2060000 		.4byte	.LASF180
  2832 0b22 01       		.byte	0x1
  2833 0b23 99       		.byte	0x99
-ARM GAS  /tmp/ccKDyuks.s 			page 51
+ARM GAS  /tmp/ccnR4mU4.s 			page 51
 
 
  2834 0b24 00000000 		.4byte	.LFB273
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2888 0b90 00000000 		.4byte	.LFB276
  2889 0b94 4C000000 		.4byte	.LFE276-.LFB276
  2890 0b98 01       		.uleb128 0x1
-ARM GAS  /tmp/ccKDyuks.s 			page 52
+ARM GAS  /tmp/ccnR4mU4.s 			page 52
 
 
  2891 0b99 9C       		.byte	0x9c
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  2945 0c06 9C       		.byte	0x9c
  2946 0c07 1B0C0000 		.4byte	0xc1b
  2947 0c0b 1F       		.uleb128 0x1f
-ARM GAS  /tmp/ccKDyuks.s 			page 53
+ARM GAS  /tmp/ccnR4mU4.s 			page 53
 
 
  2948 0c0c 34080000 		.4byte	.LASF179
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3002 0c7e 34080000 		.4byte	.LASF179
  3003 0c82 01       		.byte	0x1
  3004 0c83 3C01     		.2byte	0x13c
-ARM GAS  /tmp/ccKDyuks.s 			page 54
+ARM GAS  /tmp/ccnR4mU4.s 			page 54
 
 
  3005 0c85 B4000000 		.4byte	0xb4
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3059 0cf7 B4000000 		.4byte	0xb4
  3060 0cfb 02       		.uleb128 0x2
  3061 0cfc 91       		.byte	0x91
-ARM GAS  /tmp/ccKDyuks.s 			page 55
+ARM GAS  /tmp/ccnR4mU4.s 			page 55
 
 
  3062 0cfd 74       		.sleb128 -12
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3116 0d70 91       		.byte	0x91
  3117 0d71 74       		.sleb128 -12
  3118 0d72 23       		.uleb128 0x23
-ARM GAS  /tmp/ccKDyuks.s 			page 56
+ARM GAS  /tmp/ccnR4mU4.s 			page 56
 
 
  3119 0d73 02040000 		.4byte	.LASF196
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3173 0de7 91       		.byte	0x91
  3174 0de8 74       		.sleb128 -12
  3175 0de9 24       		.uleb128 0x24
-ARM GAS  /tmp/ccKDyuks.s 			page 57
+ARM GAS  /tmp/ccnR4mU4.s 			page 57
 
 
  3176 0dea 58060000 		.4byte	.LASF200
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3230 0e66 00       		.byte	0
  3231 0e67 27       		.uleb128 0x27
  3232 0e68 00010000 		.4byte	.LASF204
-ARM GAS  /tmp/ccKDyuks.s 			page 58
+ARM GAS  /tmp/ccnR4mU4.s 			page 58
 
 
  3233 0e6c 01       		.byte	0x1
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3287 002b 00       		.byte	0
  3288 002c 0B       		.uleb128 0xb
  3289 002d 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccKDyuks.s 			page 59
+ARM GAS  /tmp/ccnR4mU4.s 			page 59
 
 
  3290 002e 3E       		.uleb128 0x3e
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3344 0064 38       		.uleb128 0x38
  3345 0065 0B       		.uleb128 0xb
  3346 0066 00       		.byte	0
-ARM GAS  /tmp/ccKDyuks.s 			page 60
+ARM GAS  /tmp/ccnR4mU4.s 			page 60
 
 
  3347 0067 00       		.byte	0
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3401 009d 00       		.byte	0
  3402 009e 00       		.byte	0
  3403 009f 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccKDyuks.s 			page 61
+ARM GAS  /tmp/ccnR4mU4.s 			page 61
 
 
  3404 00a0 0F       		.uleb128 0xf
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3458 00d6 49       		.uleb128 0x49
  3459 00d7 13       		.uleb128 0x13
  3460 00d8 01       		.uleb128 0x1
-ARM GAS  /tmp/ccKDyuks.s 			page 62
+ARM GAS  /tmp/ccnR4mU4.s 			page 62
 
 
  3461 00d9 13       		.uleb128 0x13
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3515 010f 13       		.uleb128 0x13
  3516 0110 01       		.byte	0x1
  3517 0111 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccKDyuks.s 			page 63
+ARM GAS  /tmp/ccnR4mU4.s 			page 63
 
 
  3518 0112 0B       		.uleb128 0xb
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3572 0148 00       		.byte	0
  3573 0149 1C       		.uleb128 0x1c
  3574 014a 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccKDyuks.s 			page 64
+ARM GAS  /tmp/ccnR4mU4.s 			page 64
 
 
  3575 014b 01       		.byte	0x1
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3629 0182 06       		.uleb128 0x6
  3630 0183 40       		.uleb128 0x40
  3631 0184 18       		.uleb128 0x18
-ARM GAS  /tmp/ccKDyuks.s 			page 65
+ARM GAS  /tmp/ccnR4mU4.s 			page 65
 
 
  3632 0185 9642     		.uleb128 0x2116
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3686 01bd 05       		.uleb128 0x5
  3687 01be 49       		.uleb128 0x49
  3688 01bf 13       		.uleb128 0x13
-ARM GAS  /tmp/ccKDyuks.s 			page 66
+ARM GAS  /tmp/ccnR4mU4.s 			page 66
 
 
  3689 01c0 02       		.uleb128 0x2
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3743 01f7 19       		.uleb128 0x19
  3744 01f8 02       		.uleb128 0x2
  3745 01f9 18       		.uleb128 0x18
-ARM GAS  /tmp/ccKDyuks.s 			page 67
+ARM GAS  /tmp/ccnR4mU4.s 			page 67
 
 
  3746 01fa 00       		.byte	0
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3800              		.section	.debug_aranges,"",%progbits
  3801 0000 AC000000 		.4byte	0xac
  3802 0004 0200     		.2byte	0x2
-ARM GAS  /tmp/ccKDyuks.s 			page 68
+ARM GAS  /tmp/ccnR4mU4.s 			page 68
 
 
  3803 0006 00000000 		.4byte	.Ldebug_info0
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3857 001c 4C000000 		.4byte	.LFE274
  3858 0020 00000000 		.4byte	.LFB275
  3859 0024 48000000 		.4byte	.LFE275
-ARM GAS  /tmp/ccKDyuks.s 			page 69
+ARM GAS  /tmp/ccnR4mU4.s 			page 69
 
 
  3860 0028 00000000 		.4byte	.LFB276
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3902 002a 73697A65 		.ascii	"size_t\000"
  3902      5F7400
  3903              	.LASF150:
-ARM GAS  /tmp/ccKDyuks.s 			page 70
+ARM GAS  /tmp/ccnR4mU4.s 			page 70
 
 
  3904 0031 7264796D 		.ascii	"rdymsg\000"
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3928      65642069 
  3929              	.LASF137:
  3930 00cd 63685F74 		.ascii	"ch_trace_buffer_t\000"
-ARM GAS  /tmp/ccKDyuks.s 			page 71
+ARM GAS  /tmp/ccnR4mU4.s 			page 71
 
 
  3930      72616365 
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3954      68617200 
  3955              	.LASF99:
  3956 016a 41484231 		.ascii	"AHB1RSTR\000"
-ARM GAS  /tmp/ccKDyuks.s 			page 72
+ARM GAS  /tmp/ccnR4mU4.s 			page 72
 
 
  3956      52535452 
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  3985      6E746572 
  3985      776F726B 
  3985      202D6D74 
-ARM GAS  /tmp/ccKDyuks.s 			page 73
+ARM GAS  /tmp/ccnR4mU4.s 			page 73
 
 
  3986 023d 6E746572 		.ascii	"nter -falign-functions=16 -ffunction-sections -fdat"
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  4013      5F746872 
  4013      6561645F 
  4013      776100
-ARM GAS  /tmp/ccKDyuks.s 			page 74
+ARM GAS  /tmp/ccnR4mU4.s 			page 74
 
 
  4014              	.LASF96:
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  4043 038f 56656374 		.ascii	"Vector78\000"
  4043      6F723738 
  4043      00
-ARM GAS  /tmp/ccKDyuks.s 			page 75
+ARM GAS  /tmp/ccnR4mU4.s 			page 75
 
 
  4044              	.LASF159:
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  4071      5200
  4072              	.LASF148:
  4073 0424 6D5F6372 		.ascii	"m_crit_isr\000"
-ARM GAS  /tmp/ccKDyuks.s 			page 76
+ARM GAS  /tmp/ccnR4mU4.s 			page 76
 
 
  4073      69745F69 
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  4097      76656E74 
  4097      5F7400
  4098              	.LASF198:
-ARM GAS  /tmp/ccKDyuks.s 			page 77
+ARM GAS  /tmp/ccnR4mU4.s 			page 77
 
 
  4099 04cc 70617261 		.ascii	"param\000"
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  4127 0555 52455345 		.ascii	"RESERVED2\000"
  4127      52564544 
  4127      3200
-ARM GAS  /tmp/ccKDyuks.s 			page 78
+ARM GAS  /tmp/ccnR4mU4.s 			page 78
 
 
  4128              	.LASF112:
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  4155              	.LASF45:
  4156 060d 705F6D74 		.ascii	"p_mtxlist\000"
  4156      786C6973 
-ARM GAS  /tmp/ccKDyuks.s 			page 79
+ARM GAS  /tmp/ccnR4mU4.s 			page 79
 
 
  4156      7400
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  4186      00
  4187              	.LASF178:
  4188 069f 56656374 		.ascii	"Vector70\000"
-ARM GAS  /tmp/ccKDyuks.s 			page 80
+ARM GAS  /tmp/ccnR4mU4.s 			page 80
 
 
  4188      6F723730 
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  4215              	.LASF29:
  4216 072d 74687265 		.ascii	"thread_t\000"
  4216      61645F74 
-ARM GAS  /tmp/ccKDyuks.s 			page 81
+ARM GAS  /tmp/ccnR4mU4.s 			page 81
 
 
  4216      00
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  4245              	.LASF18:
  4246 07ba 7274636E 		.ascii	"rtcnt_t\000"
  4246      745F7400 
-ARM GAS  /tmp/ccKDyuks.s 			page 82
+ARM GAS  /tmp/ccnR4mU4.s 			page 82
 
 
  4247              	.LASF90:
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  4278      6973725F 
  4278      72656469 
  4278      7200
-ARM GAS  /tmp/ccKDyuks.s 			page 83
+ARM GAS  /tmp/ccnR4mU4.s 			page 83
 
 
  4279              	.LASF152:
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  4308 08cb 705F6374 		.ascii	"p_ctx\000"
  4308      7800
  4309              	.LASF69:
-ARM GAS  /tmp/ccKDyuks.s 			page 84
+ARM GAS  /tmp/ccnR4mU4.s 			page 84
 
 
  4310 08d1 76745F66 		.ascii	"vt_func\000"
@@ -4988,100 +4988,100 @@ ARM GAS  /tmp/ccKDyuks.s 			page 1
  4312      6974696E 
  4312      6700
  4313              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccKDyuks.s 			page 85
+ARM GAS  /tmp/ccnR4mU4.s 			page 85
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32_dma.c
-     /tmp/ccKDyuks.s:23     .rodata._stm32_dma_streams:0000000000000000 _stm32_dma_streams
-     /tmp/ccKDyuks.s:20     .rodata._stm32_dma_streams:0000000000000000 $d
-     /tmp/ccKDyuks.s:121    .bss.dma_streams_mask:0000000000000000 $d
-     /tmp/ccKDyuks.s:124    .bss.dma_streams_mask:0000000000000000 dma_streams_mask
-     /tmp/ccKDyuks.s:127    .bss.dma_isr_redir:0000000000000000 $d
-     /tmp/ccKDyuks.s:130    .bss.dma_isr_redir:0000000000000000 dma_isr_redir
-     /tmp/ccKDyuks.s:133    .text.Vector6C:0000000000000000 $t
-     /tmp/ccKDyuks.s:139    .text.Vector6C:0000000000000000 Vector6C
-     /tmp/ccKDyuks.s:187    .text.Vector6C:0000000000000040 $d
-     /tmp/ccKDyuks.s:193    .text.Vector70:0000000000000000 $t
-     /tmp/ccKDyuks.s:199    .text.Vector70:0000000000000000 Vector70
-     /tmp/ccKDyuks.s:248    .text.Vector70:0000000000000044 $d
-     /tmp/ccKDyuks.s:254    .text.Vector74:0000000000000000 $t
-     /tmp/ccKDyuks.s:260    .text.Vector74:0000000000000000 Vector74
-     /tmp/ccKDyuks.s:309    .text.Vector74:0000000000000044 $d
-     /tmp/ccKDyuks.s:315    .text.Vector78:0000000000000000 $t
-     /tmp/ccKDyuks.s:321    .text.Vector78:0000000000000000 Vector78
-     /tmp/ccKDyuks.s:370    .text.Vector78:0000000000000044 $d
-     /tmp/ccKDyuks.s:376    .text.Vector7C:0000000000000000 $t
-     /tmp/ccKDyuks.s:382    .text.Vector7C:0000000000000000 Vector7C
-     /tmp/ccKDyuks.s:429    .text.Vector7C:0000000000000040 $d
-     /tmp/ccKDyuks.s:435    .text.Vector80:0000000000000000 $t
-     /tmp/ccKDyuks.s:441    .text.Vector80:0000000000000000 Vector80
-     /tmp/ccKDyuks.s:490    .text.Vector80:0000000000000044 $d
-     /tmp/ccKDyuks.s:496    .text.Vector84:0000000000000000 $t
-     /tmp/ccKDyuks.s:502    .text.Vector84:0000000000000000 Vector84
-     /tmp/ccKDyuks.s:551    .text.Vector84:0000000000000044 $d
-     /tmp/ccKDyuks.s:557    .text.VectorFC:0000000000000000 $t
-     /tmp/ccKDyuks.s:563    .text.VectorFC:0000000000000000 VectorFC
-     /tmp/ccKDyuks.s:612    .text.VectorFC:0000000000000044 $d
-     /tmp/ccKDyuks.s:618    .text.Vector120:0000000000000000 $t
-     /tmp/ccKDyuks.s:624    .text.Vector120:0000000000000000 Vector120
-     /tmp/ccKDyuks.s:671    .text.Vector120:0000000000000040 $d
-     /tmp/ccKDyuks.s:677    .text.Vector124:0000000000000000 $t
-     /tmp/ccKDyuks.s:683    .text.Vector124:0000000000000000 Vector124
-     /tmp/ccKDyuks.s:732    .text.Vector124:0000000000000044 $d
-     /tmp/ccKDyuks.s:738    .text.Vector128:0000000000000000 $t
-     /tmp/ccKDyuks.s:744    .text.Vector128:0000000000000000 Vector128
-     /tmp/ccKDyuks.s:793    .text.Vector128:0000000000000044 $d
-     /tmp/ccKDyuks.s:799    .text.Vector12C:0000000000000000 $t
-     /tmp/ccKDyuks.s:805    .text.Vector12C:0000000000000000 Vector12C
-     /tmp/ccKDyuks.s:854    .text.Vector12C:0000000000000044 $d
-     /tmp/ccKDyuks.s:860    .text.Vector130:0000000000000000 $t
-     /tmp/ccKDyuks.s:866    .text.Vector130:0000000000000000 Vector130
-     /tmp/ccKDyuks.s:913    .text.Vector130:0000000000000040 $d
-     /tmp/ccKDyuks.s:919    .text.Vector150:0000000000000000 $t
-     /tmp/ccKDyuks.s:925    .text.Vector150:0000000000000000 Vector150
-     /tmp/ccKDyuks.s:974    .text.Vector150:0000000000000044 $d
-     /tmp/ccKDyuks.s:980    .text.Vector154:0000000000000000 $t
-     /tmp/ccKDyuks.s:986    .text.Vector154:0000000000000000 Vector154
-     /tmp/ccKDyuks.s:1035   .text.Vector154:0000000000000044 $d
-     /tmp/ccKDyuks.s:1041   .text.Vector158:0000000000000000 $t
-     /tmp/ccKDyuks.s:1047   .text.Vector158:0000000000000000 Vector158
-     /tmp/ccKDyuks.s:1096   .text.Vector158:0000000000000044 $d
-     /tmp/ccKDyuks.s:1102   .text.dmaInit:0000000000000000 $t
-ARM GAS  /tmp/ccKDyuks.s 			page 86
+     /tmp/ccnR4mU4.s:23     .rodata._stm32_dma_streams:0000000000000000 _stm32_dma_streams
+     /tmp/ccnR4mU4.s:20     .rodata._stm32_dma_streams:0000000000000000 $d
+     /tmp/ccnR4mU4.s:121    .bss.dma_streams_mask:0000000000000000 $d
+     /tmp/ccnR4mU4.s:124    .bss.dma_streams_mask:0000000000000000 dma_streams_mask
+     /tmp/ccnR4mU4.s:127    .bss.dma_isr_redir:0000000000000000 $d
+     /tmp/ccnR4mU4.s:130    .bss.dma_isr_redir:0000000000000000 dma_isr_redir
+     /tmp/ccnR4mU4.s:133    .text.Vector6C:0000000000000000 $t
+     /tmp/ccnR4mU4.s:139    .text.Vector6C:0000000000000000 Vector6C
+     /tmp/ccnR4mU4.s:187    .text.Vector6C:0000000000000040 $d
+     /tmp/ccnR4mU4.s:193    .text.Vector70:0000000000000000 $t
+     /tmp/ccnR4mU4.s:199    .text.Vector70:0000000000000000 Vector70
+     /tmp/ccnR4mU4.s:248    .text.Vector70:0000000000000044 $d
+     /tmp/ccnR4mU4.s:254    .text.Vector74:0000000000000000 $t
+     /tmp/ccnR4mU4.s:260    .text.Vector74:0000000000000000 Vector74
+     /tmp/ccnR4mU4.s:309    .text.Vector74:0000000000000044 $d
+     /tmp/ccnR4mU4.s:315    .text.Vector78:0000000000000000 $t
+     /tmp/ccnR4mU4.s:321    .text.Vector78:0000000000000000 Vector78
+     /tmp/ccnR4mU4.s:370    .text.Vector78:0000000000000044 $d
+     /tmp/ccnR4mU4.s:376    .text.Vector7C:0000000000000000 $t
+     /tmp/ccnR4mU4.s:382    .text.Vector7C:0000000000000000 Vector7C
+     /tmp/ccnR4mU4.s:429    .text.Vector7C:0000000000000040 $d
+     /tmp/ccnR4mU4.s:435    .text.Vector80:0000000000000000 $t
+     /tmp/ccnR4mU4.s:441    .text.Vector80:0000000000000000 Vector80
+     /tmp/ccnR4mU4.s:490    .text.Vector80:0000000000000044 $d
+     /tmp/ccnR4mU4.s:496    .text.Vector84:0000000000000000 $t
+     /tmp/ccnR4mU4.s:502    .text.Vector84:0000000000000000 Vector84
+     /tmp/ccnR4mU4.s:551    .text.Vector84:0000000000000044 $d
+     /tmp/ccnR4mU4.s:557    .text.VectorFC:0000000000000000 $t
+     /tmp/ccnR4mU4.s:563    .text.VectorFC:0000000000000000 VectorFC
+     /tmp/ccnR4mU4.s:612    .text.VectorFC:0000000000000044 $d
+     /tmp/ccnR4mU4.s:618    .text.Vector120:0000000000000000 $t
+     /tmp/ccnR4mU4.s:624    .text.Vector120:0000000000000000 Vector120
+     /tmp/ccnR4mU4.s:671    .text.Vector120:0000000000000040 $d
+     /tmp/ccnR4mU4.s:677    .text.Vector124:0000000000000000 $t
+     /tmp/ccnR4mU4.s:683    .text.Vector124:0000000000000000 Vector124
+     /tmp/ccnR4mU4.s:732    .text.Vector124:0000000000000044 $d
+     /tmp/ccnR4mU4.s:738    .text.Vector128:0000000000000000 $t
+     /tmp/ccnR4mU4.s:744    .text.Vector128:0000000000000000 Vector128
+     /tmp/ccnR4mU4.s:793    .text.Vector128:0000000000000044 $d
+     /tmp/ccnR4mU4.s:799    .text.Vector12C:0000000000000000 $t
+     /tmp/ccnR4mU4.s:805    .text.Vector12C:0000000000000000 Vector12C
+     /tmp/ccnR4mU4.s:854    .text.Vector12C:0000000000000044 $d
+     /tmp/ccnR4mU4.s:860    .text.Vector130:0000000000000000 $t
+     /tmp/ccnR4mU4.s:866    .text.Vector130:0000000000000000 Vector130
+     /tmp/ccnR4mU4.s:913    .text.Vector130:0000000000000040 $d
+     /tmp/ccnR4mU4.s:919    .text.Vector150:0000000000000000 $t
+     /tmp/ccnR4mU4.s:925    .text.Vector150:0000000000000000 Vector150
+     /tmp/ccnR4mU4.s:974    .text.Vector150:0000000000000044 $d
+     /tmp/ccnR4mU4.s:980    .text.Vector154:0000000000000000 $t
+     /tmp/ccnR4mU4.s:986    .text.Vector154:0000000000000000 Vector154
+     /tmp/ccnR4mU4.s:1035   .text.Vector154:0000000000000044 $d
+     /tmp/ccnR4mU4.s:1041   .text.Vector158:0000000000000000 $t
+     /tmp/ccnR4mU4.s:1047   .text.Vector158:0000000000000000 Vector158
+     /tmp/ccnR4mU4.s:1096   .text.Vector158:0000000000000044 $d
+     /tmp/ccnR4mU4.s:1102   .text.dmaInit:0000000000000000 $t
+ARM GAS  /tmp/ccnR4mU4.s 			page 86
 
 
-     /tmp/ccKDyuks.s:1108   .text.dmaInit:0000000000000000 dmaInit
-     /tmp/ccKDyuks.s:1174   .text.dmaInit:000000000000005c $d
-     /tmp/ccKDyuks.s:1183   .text.dmaStreamAllocate:0000000000000000 $t
-     /tmp/ccKDyuks.s:1189   .text.dmaStreamAllocate:0000000000000000 dmaStreamAllocate
-     /tmp/ccKDyuks.s:1334   .text.dmaStreamAllocate:00000000000000e8 $d
-     /tmp/ccKDyuks.s:1440   .rodata.__func__.7221:0000000000000000 __func__.7221
-     /tmp/ccKDyuks.s:1342   .text.dmaStreamRelease:0000000000000000 $t
-     /tmp/ccKDyuks.s:1348   .text.dmaStreamRelease:0000000000000000 dmaStreamRelease
-     /tmp/ccKDyuks.s:1430   .text.dmaStreamRelease:0000000000000080 $d
-     /tmp/ccKDyuks.s:1446   .rodata.__func__.7228:0000000000000000 __func__.7228
-     /tmp/ccKDyuks.s:1437   .rodata.__func__.7221:0000000000000000 $d
-     /tmp/ccKDyuks.s:1443   .rodata.__func__.7228:0000000000000000 $d
+     /tmp/ccnR4mU4.s:1108   .text.dmaInit:0000000000000000 dmaInit
+     /tmp/ccnR4mU4.s:1174   .text.dmaInit:000000000000005c $d
+     /tmp/ccnR4mU4.s:1183   .text.dmaStreamAllocate:0000000000000000 $t
+     /tmp/ccnR4mU4.s:1189   .text.dmaStreamAllocate:0000000000000000 dmaStreamAllocate
+     /tmp/ccnR4mU4.s:1334   .text.dmaStreamAllocate:00000000000000e8 $d
+     /tmp/ccnR4mU4.s:1440   .rodata.__func__.7221:0000000000000000 __func__.7221
+     /tmp/ccnR4mU4.s:1342   .text.dmaStreamRelease:0000000000000000 $t
+     /tmp/ccnR4mU4.s:1348   .text.dmaStreamRelease:0000000000000000 dmaStreamRelease
+     /tmp/ccnR4mU4.s:1430   .text.dmaStreamRelease:0000000000000080 $d
+     /tmp/ccnR4mU4.s:1446   .rodata.__func__.7228:0000000000000000 __func__.7228
+     /tmp/ccnR4mU4.s:1437   .rodata.__func__.7221:0000000000000000 $d
+     /tmp/ccnR4mU4.s:1443   .rodata.__func__.7228:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
-     /tmp/ccKDyuks.s:192    .text.Vector6C:0000000000000048 $t
-     /tmp/ccKDyuks.s:253    .text.Vector70:000000000000004c $t
-     /tmp/ccKDyuks.s:314    .text.Vector74:000000000000004c $t
-     /tmp/ccKDyuks.s:375    .text.Vector78:000000000000004c $t
-     /tmp/ccKDyuks.s:434    .text.Vector7C:0000000000000048 $t
-     /tmp/ccKDyuks.s:495    .text.Vector80:000000000000004c $t
-     /tmp/ccKDyuks.s:556    .text.Vector84:000000000000004c $t
-     /tmp/ccKDyuks.s:617    .text.VectorFC:000000000000004c $t
-     /tmp/ccKDyuks.s:676    .text.Vector120:0000000000000048 $t
-     /tmp/ccKDyuks.s:737    .text.Vector124:000000000000004c $t
-     /tmp/ccKDyuks.s:798    .text.Vector128:000000000000004c $t
-     /tmp/ccKDyuks.s:859    .text.Vector12C:000000000000004c $t
-     /tmp/ccKDyuks.s:918    .text.Vector130:0000000000000048 $t
-     /tmp/ccKDyuks.s:979    .text.Vector150:000000000000004c $t
-     /tmp/ccKDyuks.s:1040   .text.Vector154:000000000000004c $t
-     /tmp/ccKDyuks.s:1101   .text.Vector158:000000000000004c $t
-     /tmp/ccKDyuks.s:1341   .text.dmaStreamAllocate:00000000000000f8 $t
-     /tmp/ccKDyuks.s:1436   .text.dmaStreamRelease:000000000000008c $t
+     /tmp/ccnR4mU4.s:192    .text.Vector6C:0000000000000048 $t
+     /tmp/ccnR4mU4.s:253    .text.Vector70:000000000000004c $t
+     /tmp/ccnR4mU4.s:314    .text.Vector74:000000000000004c $t
+     /tmp/ccnR4mU4.s:375    .text.Vector78:000000000000004c $t
+     /tmp/ccnR4mU4.s:434    .text.Vector7C:0000000000000048 $t
+     /tmp/ccnR4mU4.s:495    .text.Vector80:000000000000004c $t
+     /tmp/ccnR4mU4.s:556    .text.Vector84:000000000000004c $t
+     /tmp/ccnR4mU4.s:617    .text.VectorFC:000000000000004c $t
+     /tmp/ccnR4mU4.s:676    .text.Vector120:0000000000000048 $t
+     /tmp/ccnR4mU4.s:737    .text.Vector124:000000000000004c $t
+     /tmp/ccnR4mU4.s:798    .text.Vector128:000000000000004c $t
+     /tmp/ccnR4mU4.s:859    .text.Vector12C:000000000000004c $t
+     /tmp/ccnR4mU4.s:918    .text.Vector130:0000000000000048 $t
+     /tmp/ccnR4mU4.s:979    .text.Vector150:000000000000004c $t
+     /tmp/ccnR4mU4.s:1040   .text.Vector154:000000000000004c $t
+     /tmp/ccnR4mU4.s:1101   .text.Vector158:000000000000004c $t
+     /tmp/ccnR4mU4.s:1341   .text.dmaStreamAllocate:00000000000000f8 $t
+     /tmp/ccnR4mU4.s:1436   .text.dmaStreamRelease:000000000000008c $t
 
 UNDEFINED SYMBOLS
 _stats_increase_irq

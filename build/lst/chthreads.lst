@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccRC4Y4J.s 			page 1
+ARM GAS  /tmp/cckO2xVi.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
   55              		.align	2
   56              		.p2align 4,,15
   57              		.thumb
-ARM GAS  /tmp/ccRC4Y4J.s 			page 2
+ARM GAS  /tmp/cckO2xVi.s 			page 2
 
 
   58              		.thumb_func
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  111      0080
  112              		.align	2
  113              		.p2align 4,,15
-ARM GAS  /tmp/ccRC4Y4J.s 			page 3
+ARM GAS  /tmp/cckO2xVi.s 			page 3
 
 
  114              		.thumb
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  168              		.thumb
  169              		.thumb_func
  170              		.type	list_notempty, %function
-ARM GAS  /tmp/ccRC4Y4J.s 			page 4
+ARM GAS  /tmp/cckO2xVi.s 			page 4
 
 
  171              	list_notempty:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  224              		@ sp needed
  225 0012 7047     		bx	lr
  226              		.cfi_endproc
-ARM GAS  /tmp/ccRC4Y4J.s 			page 5
+ARM GAS  /tmp/cckO2xVi.s 			page 5
 
 
  227              	.LFE150:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  278 0004 0091     		str	r1, [sp]
  279              		.loc 5 639 0
  280 0006 009B     		ldr	r3, [sp]
-ARM GAS  /tmp/ccRC4Y4J.s 			page 6
+ARM GAS  /tmp/cckO2xVi.s 			page 6
 
 
  281 0008 1A68     		ldr	r2, [r3]
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  333              		.thumb
  334              		.thumb_func
  335              		.type	queue_insert, %function
-ARM GAS  /tmp/ccRC4Y4J.s 			page 7
+ARM GAS  /tmp/cckO2xVi.s 			page 7
 
 
  336              	queue_insert:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  388              		.loc 5 672 0
  389 0004 019B     		ldr	r3, [sp, #4]
  390 0006 1B68     		ldr	r3, [r3]
-ARM GAS  /tmp/ccRC4Y4J.s 			page 8
+ARM GAS  /tmp/cckO2xVi.s 			page 8
 
 
  391 0008 0393     		str	r3, [sp, #12]
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  442              		.loc 5 732 0
  443 001c 1846     		mov	r0, r3
  444 001e 08BD     		pop	{r3, pc}
-ARM GAS  /tmp/ccRC4Y4J.s 			page 9
+ARM GAS  /tmp/cckO2xVi.s 			page 9
 
 
  445              	.L22:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  495              		@ frame_needed = 0, uses_anonymous_args = 0
  496 0000 08B5     		push	{r3, lr}
  497              		.cfi_def_cfa_offset 8
-ARM GAS  /tmp/ccRC4Y4J.s 			page 10
+ARM GAS  /tmp/cckO2xVi.s 			page 10
 
 
  498              		.cfi_offset 3, -8
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  552 002e 08BD     		pop	{r3, pc}
  553              	.L29:
  554              		.align	2
-ARM GAS  /tmp/ccRC4Y4J.s 			page 11
+ARM GAS  /tmp/cckO2xVi.s 			page 11
 
 
  555              	.L28:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  608 000c D21A     		subs	r2, r2, r3
  609 000e 0199     		ldr	r1, [sp, #4]
  610 0010 029B     		ldr	r3, [sp, #8]
-ARM GAS  /tmp/ccRC4Y4J.s 			page 12
+ARM GAS  /tmp/cckO2xVi.s 			page 12
 
 
  611 0012 CB1A     		subs	r3, r1, r3
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  663              		@ frame_needed = 0, uses_anonymous_args = 0
  664 0000 00B5     		push	{lr}
  665              		.cfi_def_cfa_offset 4
-ARM GAS  /tmp/ccRC4Y4J.s 			page 13
+ARM GAS  /tmp/cckO2xVi.s 			page 13
 
 
  666              		.cfi_offset 14, -4
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  720              	.L44:
  721              		.loc 8 268 0 is_stmt 1
  722 0012 0820     		movs	r0, #8
-ARM GAS  /tmp/ccRC4Y4J.s 			page 14
+ARM GAS  /tmp/cckO2xVi.s 			page 14
 
 
  723 0014 0199     		ldr	r1, [sp, #4]
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  775 0030 02D0     		beq	.L49
  776              		.loc 8 319 0 is_stmt 0 discriminator 1
  777 0032 0648     		ldr	r0, .L50
-ARM GAS  /tmp/ccRC4Y4J.s 			page 15
+ARM GAS  /tmp/cckO2xVi.s 			page 15
 
 
  778 0034 FFF7FEFF 		bl	chSysHalt
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  832 001e 019B     		ldr	r3, [sp, #4]
  833 0020 009A     		ldr	r2, [sp]
  834 0022 1A64     		str	r2, [r3, #64]
-ARM GAS  /tmp/ccRC4Y4J.s 			page 16
+ARM GAS  /tmp/cckO2xVi.s 			page 16
 
 
  835              		.loc 9 101 0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  889 0086 1846     		mov	r0, r3
  890 0088 FFF7FEFF 		bl	chTMStartMeasurementX
  891              		.loc 9 132 0
-ARM GAS  /tmp/ccRC4Y4J.s 			page 17
+ARM GAS  /tmp/cckO2xVi.s 			page 17
 
 
  892 008c 019B     		ldr	r3, [sp, #4]
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  946              		.size	_thread_memfill, .-_thread_memfill
  947 0026 00BFAFF3 		.section	.text.chThdCreateI,"ax",%progbits
  947      0080AFF3 
-ARM GAS  /tmp/ccRC4Y4J.s 			page 18
+ARM GAS  /tmp/cckO2xVi.s 			page 18
 
 
  947      0080
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1001 0040 DB68     		ldr	r3, [r3, #12]
  1002 0042 009A     		ldr	r2, [sp]
  1003 0044 1A60     		str	r2, [r3]
-ARM GAS  /tmp/ccRC4Y4J.s 			page 19
+ARM GAS  /tmp/cckO2xVi.s 			page 19
 
 
  1004 0046 059B     		ldr	r3, [sp, #20]
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1058 0016 FFF7FEFF 		bl	_thread_memfill
  1059              		.loc 9 216 0
  1060 001a 059B     		ldr	r3, [sp, #20]
-ARM GAS  /tmp/ccRC4Y4J.s 			page 20
+ARM GAS  /tmp/cckO2xVi.s 			page 20
 
 
  1061 001c 03F16002 		add	r2, r3, #96
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1115              		.loc 9 240 0
  1116 0006 FFF7FEFF 		bl	chSysLock
  1117              		.loc 9 241 0
-ARM GAS  /tmp/ccRC4Y4J.s 			page 21
+ARM GAS  /tmp/cckO2xVi.s 			page 21
 
 
  1118 000a 0198     		ldr	r0, [sp, #4]
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1172 0026 9B69     		ldr	r3, [r3, #24]
  1173 0028 1B6C     		ldr	r3, [r3, #64]
  1174 002a 9A42     		cmp	r2, r3
-ARM GAS  /tmp/ccRC4Y4J.s 			page 22
+ARM GAS  /tmp/cckO2xVi.s 			page 22
 
 
  1175 002c 05D0     		beq	.L71
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1227 0000 00B5     		push	{lr}
  1228              		.cfi_def_cfa_offset 4
  1229              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccRC4Y4J.s 			page 23
+ARM GAS  /tmp/cckO2xVi.s 			page 23
 
 
  1230 0002 83B0     		sub	sp, sp, #12
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1282              	.LFE247:
  1283              		.size	chThdSleep, .-chThdSleep
  1284 001a 00BFAFF3 		.section	.text.chThdSleepUntil,"ax",%progbits
-ARM GAS  /tmp/ccRC4Y4J.s 			page 24
+ARM GAS  /tmp/cckO2xVi.s 			page 24
 
 
  1284      0080
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1338              		.cfi_startproc
  1339              		@ args = 0, pretend = 0, frame = 16
  1340              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccRC4Y4J.s 			page 25
+ARM GAS  /tmp/cckO2xVi.s 			page 25
 
 
  1341 0000 00B5     		push	{lr}
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1395              		.cfi_offset 3, -8
  1396              		.cfi_offset 14, -4
  1397              		.loc 9 378 0
-ARM GAS  /tmp/ccRC4Y4J.s 			page 26
+ARM GAS  /tmp/cckO2xVi.s 			page 26
 
 
  1398 0002 FFF7FEFF 		bl	chSysLock
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1450              		@ args = 0, pretend = 0, frame = 16
  1451              		@ frame_needed = 0, uses_anonymous_args = 0
  1452 0000 00B5     		push	{lr}
-ARM GAS  /tmp/ccRC4Y4J.s 			page 27
+ARM GAS  /tmp/cckO2xVi.s 			page 27
 
 
  1453              		.cfi_def_cfa_offset 4
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1507              		.loc 9 440 0
  1508 005e 0448     		ldr	r0, .L89+4
  1509 0060 FFF7FEFF 		bl	chSysHalt
-ARM GAS  /tmp/ccRC4Y4J.s 			page 28
+ARM GAS  /tmp/cckO2xVi.s 			page 28
 
 
  1510              		.loc 9 441 0
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1562 0026 019B     		ldr	r3, [sp, #4]
  1563 0028 93F82230 		ldrb	r3, [r3, #34]	@ zero_extendqisi2
  1564 002c 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccRC4Y4J.s 			page 29
+ARM GAS  /tmp/cckO2xVi.s 			page 29
 
 
  1565 002e 02D1     		bne	.L94
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1618              	.LFB254:
  1619              		.loc 9 511 0
  1620              		.cfi_startproc
-ARM GAS  /tmp/ccRC4Y4J.s 			page 30
+ARM GAS  /tmp/cckO2xVi.s 			page 30
 
 
  1621              		@ args = 0, pretend = 0, frame = 16
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1675              	chThdSuspendTimeoutS:
  1676              	.LFB255:
  1677              		.loc 9 542 0
-ARM GAS  /tmp/ccRC4Y4J.s 			page 31
+ARM GAS  /tmp/cckO2xVi.s 			page 31
 
 
  1678              		.cfi_startproc
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1732              	.LFE255:
  1733              		.size	chThdSuspendTimeoutS, .-chThdSuspendTimeoutS
  1734 004c AFF30080 		.section	.text.chThdResumeI,"ax",%progbits
-ARM GAS  /tmp/ccRC4Y4J.s 			page 32
+ARM GAS  /tmp/cckO2xVi.s 			page 32
 
 
  1735              		.align	2
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1789 003a 5DF804FB 		ldr	pc, [sp], #4
  1790              	.L115:
  1791 003e 00BF     		.align	2
-ARM GAS  /tmp/ccRC4Y4J.s 			page 33
+ARM GAS  /tmp/cckO2xVi.s 			page 33
 
 
  1792              	.L114:
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1844              	.L116:
  1845              	.LBE11:
  1846              		.loc 9 602 0
-ARM GAS  /tmp/ccRC4Y4J.s 			page 34
+ARM GAS  /tmp/cckO2xVi.s 			page 34
 
 
  1847 0034 05B0     		add	sp, sp, #20
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1901              		.loc 9 644 0
  1902              		.cfi_startproc
  1903              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  /tmp/ccRC4Y4J.s 			page 35
+ARM GAS  /tmp/cckO2xVi.s 			page 35
 
 
  1904              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  1957 0000 00B5     		push	{lr}
  1958              		.cfi_def_cfa_offset 4
  1959              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccRC4Y4J.s 			page 36
+ARM GAS  /tmp/cckO2xVi.s 			page 36
 
 
  1960 0002 83B0     		sub	sp, sp, #12
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2011 0012 0198     		ldr	r0, [sp, #4]
  2012 0014 FFF7FEFF 		bl	queue_notempty
  2013 0018 0346     		mov	r3, r0
-ARM GAS  /tmp/ccRC4Y4J.s 			page 37
+ARM GAS  /tmp/cckO2xVi.s 			page 37
 
 
  2014 001a 002B     		cmp	r3, #0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2053              		.section	.rodata.__func__.6681,"a",%progbits
  2054              		.align	2
  2055              		.type	__func__.6681, %object
-ARM GAS  /tmp/ccRC4Y4J.s 			page 38
+ARM GAS  /tmp/cckO2xVi.s 			page 38
 
 
  2056              		.size	__func__.6681, 11
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2093              	__func__.6108:
  2094 0000 63685468 		.ascii	"chThdDoDequeueNextI\000"
  2094      64446F44 
-ARM GAS  /tmp/ccRC4Y4J.s 			page 39
+ARM GAS  /tmp/cckO2xVi.s 			page 39
 
 
  2094      65717565 
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2146 004d 01       		.byte	0x1
  2147 004e 08       		.byte	0x8
  2148 004f 33060000 		.4byte	.LASF4
-ARM GAS  /tmp/ccRC4Y4J.s 			page 40
+ARM GAS  /tmp/cckO2xVi.s 			page 40
 
 
  2149 0053 04       		.uleb128 0x4
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2203 00bf 03       		.uleb128 0x3
  2204 00c0 34000000 		.4byte	.LASF17
  2205 00c4 0C       		.byte	0xc
-ARM GAS  /tmp/ccRC4Y4J.s 			page 41
+ARM GAS  /tmp/cckO2xVi.s 			page 41
 
 
  2206 00c5 4E       		.byte	0x4e
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2260 013d 52       		.byte	0x52
  2261 013e B4000000 		.4byte	0xb4
  2262 0142 03       		.uleb128 0x3
-ARM GAS  /tmp/ccRC4Y4J.s 			page 42
+ARM GAS  /tmp/cckO2xVi.s 			page 42
 
 
  2263 0143 7D070000 		.4byte	.LASF28
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2317 01b2 D2       		.byte	0xd2
  2318 01b3 B8080000 		.4byte	0x8b8
  2319 01b7 18       		.byte	0x18
-ARM GAS  /tmp/ccRC4Y4J.s 			page 43
+ARM GAS  /tmp/cckO2xVi.s 			page 43
 
 
  2320 01b8 07       		.uleb128 0x7
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2374 0229 09       		.uleb128 0x9
  2375 022a 41060000 		.4byte	.LASF45
  2376 022e 05       		.byte	0x5
-ARM GAS  /tmp/ccRC4Y4J.s 			page 44
+ARM GAS  /tmp/cckO2xVi.s 			page 44
 
 
  2377 022f 4D01     		.2byte	0x14d
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2431 029f 76000000 		.4byte	.LASF54
  2432 02a3 08       		.byte	0x8
  2433 02a4 05       		.byte	0x5
-ARM GAS  /tmp/ccRC4Y4J.s 			page 45
+ARM GAS  /tmp/cckO2xVi.s 			page 45
 
 
  2434 02a5 B7       		.byte	0xb7
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2488 0317 69020000 		.4byte	0x269
  2489 031b 14       		.byte	0x14
  2490 031c 09       		.uleb128 0x9
-ARM GAS  /tmp/ccRC4Y4J.s 			page 46
+ARM GAS  /tmp/cckO2xVi.s 			page 46
 
 
  2491 031d 49070000 		.4byte	.LASF62
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2545 038f 2A030000 		.4byte	0x32a
  2546 0393 0C       		.byte	0xc
  2547 0394 09       		.uleb128 0x9
-ARM GAS  /tmp/ccRC4Y4J.s 			page 47
+ARM GAS  /tmp/cckO2xVi.s 			page 47
 
 
  2548 0395 F8070000 		.4byte	.LASF70
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2602 0409 A9070000 		.4byte	.LASF76
  2603 040d 05       		.byte	0x5
  2604 040e AA01     		.2byte	0x1aa
-ARM GAS  /tmp/ccRC4Y4J.s 			page 48
+ARM GAS  /tmp/cckO2xVi.s 			page 48
 
 
  2605 0410 D6080000 		.4byte	0x8d6
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2659 0485 4D010000 		.4byte	0x14d
  2660 0489 4004     		.2byte	0x440
  2661 048b 11       		.uleb128 0x11
-ARM GAS  /tmp/ccRC4Y4J.s 			page 49
+ARM GAS  /tmp/cckO2xVi.s 			page 49
 
 
  2662 048c 746D00   		.ascii	"tm\000"
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2716 0503 0F       		.byte	0xf
  2717 0504 8A       		.byte	0x8a
  2718 0505 86050000 		.4byte	0x586
-ARM GAS  /tmp/ccRC4Y4J.s 			page 50
+ARM GAS  /tmp/cckO2xVi.s 			page 50
 
 
  2719 0509 00       		.byte	0
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2773 0574 DC040000 		.4byte	0x4dc
  2774 0578 1C       		.byte	0x1c
  2775 0579 08       		.uleb128 0x8
-ARM GAS  /tmp/ccRC4Y4J.s 			page 51
+ARM GAS  /tmp/cckO2xVi.s 			page 51
 
 
  2776 057a 6C7200   		.ascii	"lr\000"
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2830 05ea CF000000 		.4byte	0xcf
  2831 05ee 18       		.byte	0x18
  2832 05ef 09       		.uleb128 0x9
-ARM GAS  /tmp/ccRC4Y4J.s 			page 52
+ARM GAS  /tmp/cckO2xVi.s 			page 52
 
 
  2833 05f0 84010000 		.4byte	.LASF95
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2887 0665 58070000 		.4byte	.LASF98
  2888 0669 10       		.byte	0x10
  2889 066a B201     		.2byte	0x1b2
-ARM GAS  /tmp/ccRC4Y4J.s 			page 53
+ARM GAS  /tmp/cckO2xVi.s 			page 53
 
 
  2890 066c CF000000 		.4byte	0xcf
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  2944 06db 1F010000 		.4byte	.LASF105
  2945 06df 11       		.byte	0x11
  2946 06e0 61       		.byte	0x61
-ARM GAS  /tmp/ccRC4Y4J.s 			page 54
+ARM GAS  /tmp/cckO2xVi.s 			page 54
 
 
  2947 06e1 9E000000 		.4byte	0x9e
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3001 074e 12       		.byte	0x12
  3002 074f 3C       		.byte	0x3c
  3003 0750 D4000000 		.4byte	0xd4
-ARM GAS  /tmp/ccRC4Y4J.s 			page 55
+ARM GAS  /tmp/cckO2xVi.s 			page 55
 
 
  3004 0754 00       		.byte	0
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3058 07b8 F6030000 		.4byte	.LASF118
  3059 07bc 13       		.byte	0x13
  3060 07bd 39       		.byte	0x39
-ARM GAS  /tmp/ccRC4Y4J.s 			page 56
+ARM GAS  /tmp/cckO2xVi.s 			page 56
 
 
  3061 07be 37010000 		.4byte	0x137
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3115 0831 1E01     		.2byte	0x11e
  3116 0833 7B080000 		.4byte	0x87b
  3117 0837 1A       		.uleb128 0x1a
-ARM GAS  /tmp/ccRC4Y4J.s 			page 57
+ARM GAS  /tmp/cckO2xVi.s 			page 57
 
 
  3118 0838 0C070000 		.4byte	.LASF128
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3172 08a6 78050000 		.4byte	.LASF136
  3173 08aa 15       		.byte	0x15
  3174 08ab 3E       		.byte	0x3e
-ARM GAS  /tmp/ccRC4Y4J.s 			page 58
+ARM GAS  /tmp/cckO2xVi.s 			page 58
 
 
  3175 08ac 01090000 		.4byte	0x901
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3229 091f 02       		.byte	0x2
  3230 0920 2202     		.2byte	0x222
  3231 0922 B4000000 		.4byte	0xb4
-ARM GAS  /tmp/ccRC4Y4J.s 			page 59
+ARM GAS  /tmp/cckO2xVi.s 			page 59
 
 
  3232 0926 00       		.byte	0
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3286 099c 22       		.uleb128 0x22
  3287 099d C2070000 		.4byte	.LASF143
  3288 09a1 04       		.byte	0x4
-ARM GAS  /tmp/ccRC4Y4J.s 			page 60
+ARM GAS  /tmp/cckO2xVi.s 			page 60
 
 
  3289 09a2 69       		.byte	0x69
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3343 0a16 00000000 		.4byte	.LFB150
  3344 0a1a 14000000 		.4byte	.LFE150-.LFB150
  3345 0a1e 01       		.uleb128 0x1
-ARM GAS  /tmp/ccRC4Y4J.s 			page 61
+ARM GAS  /tmp/cckO2xVi.s 			page 61
 
 
  3346 0a1f 9C       		.byte	0x9c
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3400 0a92 7C       		.sleb128 -4
  3401 0a93 23       		.uleb128 0x23
  3402 0a94 746C7000 		.ascii	"tlp\000"
-ARM GAS  /tmp/ccRC4Y4J.s 			page 62
+ARM GAS  /tmp/cckO2xVi.s 			page 62
 
 
  3403 0a98 05       		.byte	0x5
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3457 0b05 9702     		.2byte	0x297
  3458 0b07 340A0000 		.4byte	0xa34
  3459 0b0b 02       		.uleb128 0x2
-ARM GAS  /tmp/ccRC4Y4J.s 			page 63
+ARM GAS  /tmp/cckO2xVi.s 			page 63
 
 
  3460 0b0c 91       		.byte	0x91
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3514 0b80 9C       		.byte	0x9c
  3515 0b81 28       		.uleb128 0x28
  3516 0b82 B3080000 		.4byte	.LASF156
-ARM GAS  /tmp/ccRC4Y4J.s 			page 64
+ARM GAS  /tmp/cckO2xVi.s 			page 64
 
 
  3517 0b86 06       		.byte	0x6
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3571 0c02 42010000 		.4byte	0x142
  3572 0c06 02       		.uleb128 0x2
  3573 0c07 91       		.byte	0x91
-ARM GAS  /tmp/ccRC4Y4J.s 			page 65
+ARM GAS  /tmp/cckO2xVi.s 			page 65
 
 
  3574 0c08 78       		.sleb128 -8
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3628 0c7b 9E0C0000 		.4byte	0xc9e
  3629 0c7f 2A       		.uleb128 0x2a
  3630 0c80 87050000 		.4byte	.LASF159
-ARM GAS  /tmp/ccRC4Y4J.s 			page 66
+ARM GAS  /tmp/cckO2xVi.s 			page 66
 
 
  3631 0c84 08       		.byte	0x8
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3685 0cf4 00       		.byte	0
  3686 0cf5 12       		.uleb128 0x12
  3687 0cf6 C3080000 		.4byte	0x8c3
-ARM GAS  /tmp/ccRC4Y4J.s 			page 67
+ARM GAS  /tmp/cckO2xVi.s 			page 67
 
 
  3688 0cfa 050D0000 		.4byte	0xd05
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3742 0d68 91       		.byte	0x91
  3743 0d69 07090000 		.4byte	0x907
  3744 0d6d 02       		.uleb128 0x2
-ARM GAS  /tmp/ccRC4Y4J.s 			page 68
+ARM GAS  /tmp/cckO2xVi.s 			page 68
 
 
  3745 0d6e 91       		.byte	0x91
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3799 0dce 61726700 		.ascii	"arg\000"
  3800 0dd2 09       		.byte	0x9
  3801 0dd3 B2       		.byte	0xb2
-ARM GAS  /tmp/ccRC4Y4J.s 			page 69
+ARM GAS  /tmp/cckO2xVi.s 			page 69
 
 
  3802 0dd4 46030000 		.4byte	0x346
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3856 0e42 2E       		.uleb128 0x2e
  3857 0e43 98050000 		.4byte	.LASF166
  3858 0e47 09       		.byte	0x9
-ARM GAS  /tmp/ccRC4Y4J.s 			page 70
+ARM GAS  /tmp/cckO2xVi.s 			page 70
 
 
  3859 0e48 D1       		.byte	0xd1
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3913 0eac 00000000 		.4byte	.LFB245
  3914 0eb0 64000000 		.4byte	.LFE245-.LFB245
  3915 0eb4 01       		.uleb128 0x1
-ARM GAS  /tmp/ccRC4Y4J.s 			page 71
+ARM GAS  /tmp/cckO2xVi.s 			page 71
 
 
  3916 0eb5 9C       		.byte	0x9c
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  3970 0f27 09       		.byte	0x9
  3971 0f28 3801     		.2byte	0x138
  3972 0f2a 00000000 		.4byte	.LFB247
-ARM GAS  /tmp/ccRC4Y4J.s 			page 72
+ARM GAS  /tmp/cckO2xVi.s 			page 72
 
 
  3973 0f2e 1A000000 		.4byte	.LFE247-.LFB247
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4027 0fa3 02       		.uleb128 0x2
  4028 0fa4 91       		.byte	0x91
  4029 0fa5 68       		.sleb128 -24
-ARM GAS  /tmp/ccRC4Y4J.s 			page 73
+ARM GAS  /tmp/cckO2xVi.s 			page 73
 
 
  4030 0fa6 32       		.uleb128 0x32
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4084 1017 09       		.byte	0x9
  4085 1018 A301     		.2byte	0x1a3
  4086 101a 69020000 		.4byte	0x269
-ARM GAS  /tmp/ccRC4Y4J.s 			page 74
+ARM GAS  /tmp/cckO2xVi.s 			page 74
 
 
  4087 101e 02       		.uleb128 0x2
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4141 1092 9D100000 		.4byte	0x109d
  4142 1096 13       		.uleb128 0x13
  4143 1097 B5040000 		.4byte	0x4b5
-ARM GAS  /tmp/ccRC4Y4J.s 			page 75
+ARM GAS  /tmp/cckO2xVi.s 			page 75
 
 
  4144 109b 09       		.byte	0x9
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4198 1113 9C       		.byte	0x9c
  4199 1114 54110000 		.4byte	0x1154
  4200 1118 23       		.uleb128 0x23
-ARM GAS  /tmp/ccRC4Y4J.s 			page 76
+ARM GAS  /tmp/cckO2xVi.s 			page 76
 
 
  4201 1119 74727000 		.ascii	"trp\000"
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4255 118c 91       		.byte	0x91
  4256 118d 6C       		.sleb128 -20
  4257 118e 23       		.uleb128 0x23
-ARM GAS  /tmp/ccRC4Y4J.s 			page 77
+ARM GAS  /tmp/cckO2xVi.s 			page 77
 
 
  4258 118f 6D736700 		.ascii	"msg\000"
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4312 11ff 8C060000 		.4byte	.LASF163
  4313 1203 26120000 		.4byte	0x1226
  4314 1207 05       		.uleb128 0x5
-ARM GAS  /tmp/ccRC4Y4J.s 			page 78
+ARM GAS  /tmp/cckO2xVi.s 			page 78
 
 
  4315 1208 03       		.byte	0x3
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4369 127b 74717000 		.ascii	"tqp\000"
  4370 127f 09       		.byte	0x9
  4371 1280 8402     		.2byte	0x284
-ARM GAS  /tmp/ccRC4Y4J.s 			page 79
+ARM GAS  /tmp/cckO2xVi.s 			page 79
 
 
  4372 1282 340A0000 		.4byte	0xa34
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4426 12f1 91       		.byte	0x91
  4427 12f2 74       		.sleb128 -12
  4428 12f3 23       		.uleb128 0x23
-ARM GAS  /tmp/ccRC4Y4J.s 			page 80
+ARM GAS  /tmp/cckO2xVi.s 			page 80
 
 
  4429 12f4 6D736700 		.ascii	"msg\000"
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4483 0021 3A       		.uleb128 0x3a
  4484 0022 0B       		.uleb128 0xb
  4485 0023 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccRC4Y4J.s 			page 81
+ARM GAS  /tmp/cckO2xVi.s 			page 81
 
 
  4486 0024 0B       		.uleb128 0xb
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4540 005a 0D       		.uleb128 0xd
  4541 005b 00       		.byte	0
  4542 005c 03       		.uleb128 0x3
-ARM GAS  /tmp/ccRC4Y4J.s 			page 82
+ARM GAS  /tmp/cckO2xVi.s 			page 82
 
 
  4543 005d 08       		.uleb128 0x8
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4597 0093 19       		.uleb128 0x19
  4598 0094 01       		.uleb128 0x1
  4599 0095 13       		.uleb128 0x13
-ARM GAS  /tmp/ccRC4Y4J.s 			page 83
+ARM GAS  /tmp/cckO2xVi.s 			page 83
 
 
  4600 0096 00       		.byte	0
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4654 00cc 05       		.uleb128 0x5
  4655 00cd 49       		.uleb128 0x49
  4656 00ce 13       		.uleb128 0x13
-ARM GAS  /tmp/ccRC4Y4J.s 			page 84
+ARM GAS  /tmp/cckO2xVi.s 			page 84
 
 
  4657 00cf 38       		.uleb128 0x38
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4711 0105 0E       		.uleb128 0xe
  4712 0106 3A       		.uleb128 0x3a
  4713 0107 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccRC4Y4J.s 			page 85
+ARM GAS  /tmp/cckO2xVi.s 			page 85
 
 
  4714 0108 3B       		.uleb128 0x3b
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4768 013e 49       		.uleb128 0x49
  4769 013f 13       		.uleb128 0x13
  4770 0140 00       		.byte	0
-ARM GAS  /tmp/ccRC4Y4J.s 			page 86
+ARM GAS  /tmp/cckO2xVi.s 			page 86
 
 
  4771 0141 00       		.byte	0
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4825 0177 18       		.uleb128 0x18
  4826 0178 9742     		.uleb128 0x2117
  4827 017a 19       		.uleb128 0x19
-ARM GAS  /tmp/ccRC4Y4J.s 			page 87
+ARM GAS  /tmp/cckO2xVi.s 			page 87
 
 
  4828 017b 01       		.uleb128 0x1
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4882 01b2 03       		.uleb128 0x3
  4883 01b3 0E       		.uleb128 0xe
  4884 01b4 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccRC4Y4J.s 			page 88
+ARM GAS  /tmp/cckO2xVi.s 			page 88
 
 
  4885 01b5 0B       		.uleb128 0xb
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4939 01ed 13       		.uleb128 0x13
  4940 01ee 00       		.byte	0
  4941 01ef 00       		.byte	0
-ARM GAS  /tmp/ccRC4Y4J.s 			page 89
+ARM GAS  /tmp/cckO2xVi.s 			page 89
 
 
  4942 01f0 25       		.uleb128 0x25
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  4996 0227 18       		.uleb128 0x18
  4997 0228 9642     		.uleb128 0x2116
  4998 022a 19       		.uleb128 0x19
-ARM GAS  /tmp/ccRC4Y4J.s 			page 90
+ARM GAS  /tmp/cckO2xVi.s 			page 90
 
 
  4999 022b 00       		.byte	0
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5053 0262 2E       		.uleb128 0x2e
  5054 0263 01       		.byte	0x1
  5055 0264 03       		.uleb128 0x3
-ARM GAS  /tmp/ccRC4Y4J.s 			page 91
+ARM GAS  /tmp/cckO2xVi.s 			page 91
 
 
  5056 0265 0E       		.uleb128 0xe
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5110 029c 06       		.uleb128 0x6
  5111 029d 40       		.uleb128 0x40
  5112 029e 18       		.uleb128 0x18
-ARM GAS  /tmp/ccRC4Y4J.s 			page 92
+ARM GAS  /tmp/cckO2xVi.s 			page 92
 
 
  5113 029f 9642     		.uleb128 0x2116
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5167 02d7 0B       		.uleb128 0xb
  5168 02d8 49       		.uleb128 0x49
  5169 02d9 13       		.uleb128 0x13
-ARM GAS  /tmp/ccRC4Y4J.s 			page 93
+ARM GAS  /tmp/cckO2xVi.s 			page 93
 
 
  5170 02da 02       		.uleb128 0x2
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5224 0311 0B       		.uleb128 0xb
  5225 0312 3B       		.uleb128 0x3b
  5226 0313 05       		.uleb128 0x5
-ARM GAS  /tmp/ccRC4Y4J.s 			page 94
+ARM GAS  /tmp/cckO2xVi.s 			page 94
 
 
  5227 0314 27       		.uleb128 0x27
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5281 034c 05       		.uleb128 0x5
  5282 034d 49       		.uleb128 0x49
  5283 034e 13       		.uleb128 0x13
-ARM GAS  /tmp/ccRC4Y4J.s 			page 95
+ARM GAS  /tmp/cckO2xVi.s 			page 95
 
 
  5284 034f 3F       		.uleb128 0x3f
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5338 0068 00000000 		.4byte	.LFB157
  5339 006c 22000000 		.4byte	.LFE157-.LFB157
  5340 0070 00000000 		.4byte	.LFB161
-ARM GAS  /tmp/ccRC4Y4J.s 			page 96
+ARM GAS  /tmp/cckO2xVi.s 			page 96
 
 
  5341 0074 24000000 		.4byte	.LFE161-.LFB161
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5395 014c 40000000 		.4byte	.LFE257-.LFB257
  5396 0150 00000000 		.4byte	.LFB258
  5397 0154 1E000000 		.4byte	.LFE258-.LFB258
-ARM GAS  /tmp/ccRC4Y4J.s 			page 97
+ARM GAS  /tmp/cckO2xVi.s 			page 97
 
 
  5398 0158 00000000 		.4byte	.LFB259
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5452 00b0 00000000 		.4byte	.LFB240
  5453 00b4 9C000000 		.4byte	.LFE240
  5454 00b8 00000000 		.4byte	.LFB241
-ARM GAS  /tmp/ccRC4Y4J.s 			page 98
+ARM GAS  /tmp/cckO2xVi.s 			page 98
 
 
  5455 00bc 26000000 		.4byte	.LFE241
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5504 0008 74625F70 		.ascii	"tb_ptr\000"
  5504      747200
  5505              	.LASF55:
-ARM GAS  /tmp/ccRC4Y4J.s 			page 99
+ARM GAS  /tmp/cckO2xVi.s 			page 99
 
 
  5506 000f 72656164 		.ascii	"ready_list_t\000"
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5532 0096 63685468 		.ascii	"chThdSleepUntilWindowed\000"
  5532      64536C65 
  5532      6570556E 
-ARM GAS  /tmp/ccRC4Y4J.s 			page 100
+ARM GAS  /tmp/cckO2xVi.s 			page 100
 
 
  5532      74696C57 
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5556      75616C5F 
  5556      74696D65 
  5556      72735F6C 
-ARM GAS  /tmp/ccRC4Y4J.s 			page 101
+ARM GAS  /tmp/cckO2xVi.s 			page 101
 
 
  5556      6973745F 
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5586      6F636B00 
  5587              	.LASF170:
  5588 01d8 63685468 		.ascii	"chThdCreateI\000"
-ARM GAS  /tmp/ccRC4Y4J.s 			page 102
+ARM GAS  /tmp/cckO2xVi.s 			page 102
 
 
  5588      64437265 
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5609      636F6D6D 
  5610              	.LASF34:
  5611 02df 705F6E65 		.ascii	"p_newer\000"
-ARM GAS  /tmp/ccRC4Y4J.s 			page 103
+ARM GAS  /tmp/cckO2xVi.s 			page 103
 
 
  5611      77657200 
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5639      64536574 
  5639      5072696F 
  5639      72697479 
-ARM GAS  /tmp/ccRC4Y4J.s 			page 104
+ARM GAS  /tmp/cckO2xVi.s 			page 104
 
 
  5639      00
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5668              	.LASF122:
  5669 0407 6B65726E 		.ascii	"kernel_stats_t\000"
  5669      656C5F73 
-ARM GAS  /tmp/ccRC4Y4J.s 			page 105
+ARM GAS  /tmp/cckO2xVi.s 			page 105
 
 
  5669      74617473 
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5697      7433325F 
  5697      7400
  5698              	.LASF89:
-ARM GAS  /tmp/ccRC4Y4J.s 			page 106
+ARM GAS  /tmp/cckO2xVi.s 			page 106
 
 
  5699 04a5 73746B61 		.ascii	"stkalign_t\000"
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5720              	.LASF73:
  5721 054d 76745F6C 		.ascii	"vt_lasttime\000"
  5721      61737474 
-ARM GAS  /tmp/ccRC4Y4J.s 			page 107
+ARM GAS  /tmp/cckO2xVi.s 			page 107
 
 
  5721      696D6500 
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5750              	.LASF22:
  5751 05e4 74726566 		.ascii	"trefs_t\000"
  5751      735F7400 
-ARM GAS  /tmp/ccRC4Y4J.s 			page 108
+ARM GAS  /tmp/cckO2xVi.s 			page 108
 
 
  5752              	.LASF109:
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5783 0672 63685654 		.ascii	"chVTIsTimeWithinX\000"
  5783      49735469 
  5783      6D655769 
-ARM GAS  /tmp/ccRC4Y4J.s 			page 109
+ARM GAS  /tmp/cckO2xVi.s 			page 109
 
 
  5783      7468696E 
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5809 070c 77746D74 		.ascii	"wtmtxp\000"
  5809      787000
  5810              	.LASF57:
-ARM GAS  /tmp/ccRC4Y4J.s 			page 110
+ARM GAS  /tmp/cckO2xVi.s 			page 110
 
 
  5811 0713 725F7175 		.ascii	"r_queue\000"
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5837      745F4241 
  5837      53455052 
  5837      4900
-ARM GAS  /tmp/ccRC4Y4J.s 			page 111
+ARM GAS  /tmp/cckO2xVi.s 			page 111
 
 
  5838              	.LASF76:
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5867      53656C66 
  5867      5800
  5868              	.LASF14:
-ARM GAS  /tmp/ccRC4Y4J.s 			page 112
+ARM GAS  /tmp/cckO2xVi.s 			page 112
 
 
  5869 083b 75696E74 		.ascii	"uint8_t\000"
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5897 08de 63685468 		.ascii	"chThdStartI\000"
  5897      64537461 
  5897      72744900 
-ARM GAS  /tmp/ccRC4Y4J.s 			page 113
+ARM GAS  /tmp/cckO2xVi.s 			page 113
 
 
  5898              	.LASF104:
@@ -6744,158 +6744,158 @@ ARM GAS  /tmp/ccRC4Y4J.s 			page 1
  5907      4E657874 
  5907      4900
  5908              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccRC4Y4J.s 			page 114
+ARM GAS  /tmp/cckO2xVi.s 			page 114
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chthreads.c
-     /tmp/ccRC4Y4J.s:19     .text.port_lock:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:24     .text.port_lock:0000000000000000 port_lock
-     /tmp/ccRC4Y4J.s:55     .text.port_unlock:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:60     .text.port_unlock:0000000000000000 port_unlock
-     /tmp/ccRC4Y4J.s:89     .text.st_lld_get_counter:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:94     .text.st_lld_get_counter:0000000000000000 st_lld_get_counter
-     /tmp/ccRC4Y4J.s:112    .text.port_timer_get_time:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:117    .text.port_timer_get_time:0000000000000000 port_timer_get_time
-     /tmp/ccRC4Y4J.s:138    .text.list_init:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:143    .text.list_init:0000000000000000 list_init
-     /tmp/ccRC4Y4J.s:166    .text.list_notempty:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:171    .text.list_notempty:0000000000000000 list_notempty
-     /tmp/ccRC4Y4J.s:199    .text.queue_init:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:204    .text.queue_init:0000000000000000 queue_init
-     /tmp/ccRC4Y4J.s:230    .text.queue_notempty:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:235    .text.queue_notempty:0000000000000000 queue_notempty
-     /tmp/ccRC4Y4J.s:263    .text.list_insert:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:268    .text.list_insert:0000000000000000 list_insert
-     /tmp/ccRC4Y4J.s:296    .text.list_remove:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:301    .text.list_remove:0000000000000000 list_remove
-     /tmp/ccRC4Y4J.s:331    .text.queue_insert:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:336    .text.queue_insert:0000000000000000 queue_insert
-     /tmp/ccRC4Y4J.s:373    .text.queue_fifo_remove:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:378    .text.queue_fifo_remove:0000000000000000 queue_fifo_remove
-     /tmp/ccRC4Y4J.s:413    .text.chSchCanYieldS:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:418    .text.chSchCanYieldS:0000000000000000 chSchCanYieldS
-     /tmp/ccRC4Y4J.s:448    .text.chSchCanYieldS:0000000000000020 $d
-     /tmp/ccRC4Y4J.s:453    .text.chSchDoYieldS:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:458    .text.chSchDoYieldS:0000000000000000 chSchDoYieldS
-     /tmp/ccRC4Y4J.s:484    .text.chSysLock:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:489    .text.chSysLock:0000000000000000 chSysLock
-     /tmp/ccRC4Y4J.s:512    .text.chSysUnlock:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:517    .text.chSysUnlock:0000000000000000 chSysUnlock
-     /tmp/ccRC4Y4J.s:556    .text.chSysUnlock:0000000000000030 $d
-     /tmp/ccRC4Y4J.s:2033   .rodata.__func__.5925:0000000000000000 __func__.5925
-     /tmp/ccRC4Y4J.s:562    .text.chVTGetSystemTimeX:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:567    .text.chVTGetSystemTimeX:0000000000000000 chVTGetSystemTimeX
-     /tmp/ccRC4Y4J.s:588    .text.chVTIsTimeWithinX:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:593    .text.chVTIsTimeWithinX:0000000000000000 chVTIsTimeWithinX
-     /tmp/ccRC4Y4J.s:626    .text.chThdGetSelfX:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:631    .text.chThdGetSelfX:0000000000000000 chThdGetSelfX
-     /tmp/ccRC4Y4J.s:648    .text.chThdGetSelfX:0000000000000008 $d
-     /tmp/ccRC4Y4J.s:653    .text.chThdStartI:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:658    .text.chThdStartI:0000000000000000 chThdStartI
-     /tmp/ccRC4Y4J.s:691    .text.chThdStartI:0000000000000028 $d
-     /tmp/ccRC4Y4J.s:2039   .rodata.__func__.6092:0000000000000000 __func__.6092
-     /tmp/ccRC4Y4J.s:696    .text.chThdSleepS:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:701    .text.chThdSleepS:0000000000000000 chThdSleepS
-     /tmp/ccRC4Y4J.s:732    .text.chThdSleepS:0000000000000020 $d
-     /tmp/ccRC4Y4J.s:2051   .rodata.__func__.6096:0000000000000000 __func__.6096
-     /tmp/ccRC4Y4J.s:737    .text.chThdDoDequeueNextI:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:742    .text.chThdDoDequeueNextI:0000000000000000 chThdDoDequeueNextI
-     /tmp/ccRC4Y4J.s:794    .text.chThdDoDequeueNextI:000000000000004c $d
-     /tmp/ccRC4Y4J.s:2093   .rodata.__func__.6108:0000000000000000 __func__.6108
-     /tmp/ccRC4Y4J.s:799    .text._thread_init:0000000000000000 $t
-ARM GAS  /tmp/ccRC4Y4J.s 			page 115
+     /tmp/cckO2xVi.s:19     .text.port_lock:0000000000000000 $t
+     /tmp/cckO2xVi.s:24     .text.port_lock:0000000000000000 port_lock
+     /tmp/cckO2xVi.s:55     .text.port_unlock:0000000000000000 $t
+     /tmp/cckO2xVi.s:60     .text.port_unlock:0000000000000000 port_unlock
+     /tmp/cckO2xVi.s:89     .text.st_lld_get_counter:0000000000000000 $t
+     /tmp/cckO2xVi.s:94     .text.st_lld_get_counter:0000000000000000 st_lld_get_counter
+     /tmp/cckO2xVi.s:112    .text.port_timer_get_time:0000000000000000 $t
+     /tmp/cckO2xVi.s:117    .text.port_timer_get_time:0000000000000000 port_timer_get_time
+     /tmp/cckO2xVi.s:138    .text.list_init:0000000000000000 $t
+     /tmp/cckO2xVi.s:143    .text.list_init:0000000000000000 list_init
+     /tmp/cckO2xVi.s:166    .text.list_notempty:0000000000000000 $t
+     /tmp/cckO2xVi.s:171    .text.list_notempty:0000000000000000 list_notempty
+     /tmp/cckO2xVi.s:199    .text.queue_init:0000000000000000 $t
+     /tmp/cckO2xVi.s:204    .text.queue_init:0000000000000000 queue_init
+     /tmp/cckO2xVi.s:230    .text.queue_notempty:0000000000000000 $t
+     /tmp/cckO2xVi.s:235    .text.queue_notempty:0000000000000000 queue_notempty
+     /tmp/cckO2xVi.s:263    .text.list_insert:0000000000000000 $t
+     /tmp/cckO2xVi.s:268    .text.list_insert:0000000000000000 list_insert
+     /tmp/cckO2xVi.s:296    .text.list_remove:0000000000000000 $t
+     /tmp/cckO2xVi.s:301    .text.list_remove:0000000000000000 list_remove
+     /tmp/cckO2xVi.s:331    .text.queue_insert:0000000000000000 $t
+     /tmp/cckO2xVi.s:336    .text.queue_insert:0000000000000000 queue_insert
+     /tmp/cckO2xVi.s:373    .text.queue_fifo_remove:0000000000000000 $t
+     /tmp/cckO2xVi.s:378    .text.queue_fifo_remove:0000000000000000 queue_fifo_remove
+     /tmp/cckO2xVi.s:413    .text.chSchCanYieldS:0000000000000000 $t
+     /tmp/cckO2xVi.s:418    .text.chSchCanYieldS:0000000000000000 chSchCanYieldS
+     /tmp/cckO2xVi.s:448    .text.chSchCanYieldS:0000000000000020 $d
+     /tmp/cckO2xVi.s:453    .text.chSchDoYieldS:0000000000000000 $t
+     /tmp/cckO2xVi.s:458    .text.chSchDoYieldS:0000000000000000 chSchDoYieldS
+     /tmp/cckO2xVi.s:484    .text.chSysLock:0000000000000000 $t
+     /tmp/cckO2xVi.s:489    .text.chSysLock:0000000000000000 chSysLock
+     /tmp/cckO2xVi.s:512    .text.chSysUnlock:0000000000000000 $t
+     /tmp/cckO2xVi.s:517    .text.chSysUnlock:0000000000000000 chSysUnlock
+     /tmp/cckO2xVi.s:556    .text.chSysUnlock:0000000000000030 $d
+     /tmp/cckO2xVi.s:2033   .rodata.__func__.5925:0000000000000000 __func__.5925
+     /tmp/cckO2xVi.s:562    .text.chVTGetSystemTimeX:0000000000000000 $t
+     /tmp/cckO2xVi.s:567    .text.chVTGetSystemTimeX:0000000000000000 chVTGetSystemTimeX
+     /tmp/cckO2xVi.s:588    .text.chVTIsTimeWithinX:0000000000000000 $t
+     /tmp/cckO2xVi.s:593    .text.chVTIsTimeWithinX:0000000000000000 chVTIsTimeWithinX
+     /tmp/cckO2xVi.s:626    .text.chThdGetSelfX:0000000000000000 $t
+     /tmp/cckO2xVi.s:631    .text.chThdGetSelfX:0000000000000000 chThdGetSelfX
+     /tmp/cckO2xVi.s:648    .text.chThdGetSelfX:0000000000000008 $d
+     /tmp/cckO2xVi.s:653    .text.chThdStartI:0000000000000000 $t
+     /tmp/cckO2xVi.s:658    .text.chThdStartI:0000000000000000 chThdStartI
+     /tmp/cckO2xVi.s:691    .text.chThdStartI:0000000000000028 $d
+     /tmp/cckO2xVi.s:2039   .rodata.__func__.6092:0000000000000000 __func__.6092
+     /tmp/cckO2xVi.s:696    .text.chThdSleepS:0000000000000000 $t
+     /tmp/cckO2xVi.s:701    .text.chThdSleepS:0000000000000000 chThdSleepS
+     /tmp/cckO2xVi.s:732    .text.chThdSleepS:0000000000000020 $d
+     /tmp/cckO2xVi.s:2051   .rodata.__func__.6096:0000000000000000 __func__.6096
+     /tmp/cckO2xVi.s:737    .text.chThdDoDequeueNextI:0000000000000000 $t
+     /tmp/cckO2xVi.s:742    .text.chThdDoDequeueNextI:0000000000000000 chThdDoDequeueNextI
+     /tmp/cckO2xVi.s:794    .text.chThdDoDequeueNextI:000000000000004c $d
+     /tmp/cckO2xVi.s:2093   .rodata.__func__.6108:0000000000000000 __func__.6108
+     /tmp/cckO2xVi.s:799    .text._thread_init:0000000000000000 $t
+ARM GAS  /tmp/cckO2xVi.s 			page 115
 
 
-     /tmp/ccRC4Y4J.s:805    .text._thread_init:0000000000000000 _thread_init
-     /tmp/ccRC4Y4J.s:901    .text._thread_init:0000000000000098 $d
-     /tmp/ccRC4Y4J.s:906    .text._thread_memfill:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:912    .text._thread_memfill:0000000000000000 _thread_memfill
-     /tmp/ccRC4Y4J.s:948    .text.chThdCreateI:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:954    .text.chThdCreateI:0000000000000000 chThdCreateI
-     /tmp/ccRC4Y4J.s:1025   .text.chThdCreateI:0000000000000068 $d
-     /tmp/ccRC4Y4J.s:2027   .rodata.__func__.6637:0000000000000000 __func__.6637
-     /tmp/ccRC4Y4J.s:1031   .text.chThdCreateStatic:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1037   .text.chThdCreateStatic:0000000000000000 chThdCreateStatic
-     /tmp/ccRC4Y4J.s:1097   .text.chThdStart:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1103   .text.chThdStart:0000000000000000 chThdStart
-     /tmp/ccRC4Y4J.s:1134   .text.chThdSetPriority:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1140   .text.chThdSetPriority:0000000000000000 chThdSetPriority
-     /tmp/ccRC4Y4J.s:1209   .text.chThdSetPriority:000000000000005c $d
-     /tmp/ccRC4Y4J.s:2045   .rodata.__func__.6653:0000000000000000 __func__.6653
-     /tmp/ccRC4Y4J.s:1215   .text.chThdTerminate:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1221   .text.chThdTerminate:0000000000000000 chThdTerminate
-     /tmp/ccRC4Y4J.s:1252   .text.chThdSleep:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1258   .text.chThdSleep:0000000000000000 chThdSleep
-     /tmp/ccRC4Y4J.s:1285   .text.chThdSleepUntil:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1291   .text.chThdSleepUntil:0000000000000000 chThdSleepUntil
-     /tmp/ccRC4Y4J.s:1329   .text.chThdSleepUntilWindowed:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1335   .text.chThdSleepUntilWindowed:0000000000000000 chThdSleepUntilWindowed
-     /tmp/ccRC4Y4J.s:1381   .text.chThdYield:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1387   .text.chThdYield:0000000000000000 chThdYield
-     /tmp/ccRC4Y4J.s:1409   .text.chThdExit:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1415   .text.chThdExit:0000000000000000 chThdExit
-     /tmp/ccRC4Y4J.s:1446   .text.chThdExitS:0000000000000000 chThdExitS
-     /tmp/ccRC4Y4J.s:1440   .text.chThdExitS:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1517   .text.chThdExitS:000000000000006c $d
-     /tmp/ccRC4Y4J.s:2057   .rodata.__func__.6681:0000000000000000 __func__.6681
-     /tmp/ccRC4Y4J.s:1523   .text.chThdWait:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1529   .text.chThdWait:0000000000000000 chThdWait
-     /tmp/ccRC4Y4J.s:1605   .text.chThdWait:0000000000000070 $d
-     /tmp/ccRC4Y4J.s:2063   .rodata.__func__.6686:0000000000000000 __func__.6686
-     /tmp/ccRC4Y4J.s:1611   .text.chThdSuspendS:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1617   .text.chThdSuspendS:0000000000000000 chThdSuspendS
-     /tmp/ccRC4Y4J.s:1664   .text.chThdSuspendS:000000000000003c $d
-     /tmp/ccRC4Y4J.s:2069   .rodata.__func__.6691:0000000000000000 __func__.6691
-     /tmp/ccRC4Y4J.s:1669   .text.chThdSuspendTimeoutS:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1675   .text.chThdSuspendTimeoutS:0000000000000000 chThdSuspendTimeoutS
-     /tmp/ccRC4Y4J.s:1730   .text.chThdSuspendTimeoutS:0000000000000048 $d
-     /tmp/ccRC4Y4J.s:2075   .rodata.__func__.6697:0000000000000000 __func__.6697
-     /tmp/ccRC4Y4J.s:1735   .text.chThdResumeI:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1741   .text.chThdResumeI:0000000000000000 chThdResumeI
-     /tmp/ccRC4Y4J.s:1793   .text.chThdResumeI:0000000000000040 $d
-     /tmp/ccRC4Y4J.s:2081   .rodata.__func__.6703:0000000000000000 __func__.6703
-     /tmp/ccRC4Y4J.s:1798   .text.chThdResumeS:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1804   .text.chThdResumeS:0000000000000000 chThdResumeS
-     /tmp/ccRC4Y4J.s:1853   .text.chThdResumeS:000000000000003c $d
-     /tmp/ccRC4Y4J.s:2087   .rodata.__func__.6709:0000000000000000 __func__.6709
-     /tmp/ccRC4Y4J.s:1858   .text.chThdResume:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1864   .text.chThdResume:0000000000000000 chThdResume
-     /tmp/ccRC4Y4J.s:1893   .text.chThdEnqueueTimeoutS:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1899   .text.chThdEnqueueTimeoutS:0000000000000000 chThdEnqueueTimeoutS
-     /tmp/ccRC4Y4J.s:1940   .text.chThdEnqueueTimeoutS:0000000000000034 $d
-ARM GAS  /tmp/ccRC4Y4J.s 			page 116
+     /tmp/cckO2xVi.s:805    .text._thread_init:0000000000000000 _thread_init
+     /tmp/cckO2xVi.s:901    .text._thread_init:0000000000000098 $d
+     /tmp/cckO2xVi.s:906    .text._thread_memfill:0000000000000000 $t
+     /tmp/cckO2xVi.s:912    .text._thread_memfill:0000000000000000 _thread_memfill
+     /tmp/cckO2xVi.s:948    .text.chThdCreateI:0000000000000000 $t
+     /tmp/cckO2xVi.s:954    .text.chThdCreateI:0000000000000000 chThdCreateI
+     /tmp/cckO2xVi.s:1025   .text.chThdCreateI:0000000000000068 $d
+     /tmp/cckO2xVi.s:2027   .rodata.__func__.6637:0000000000000000 __func__.6637
+     /tmp/cckO2xVi.s:1031   .text.chThdCreateStatic:0000000000000000 $t
+     /tmp/cckO2xVi.s:1037   .text.chThdCreateStatic:0000000000000000 chThdCreateStatic
+     /tmp/cckO2xVi.s:1097   .text.chThdStart:0000000000000000 $t
+     /tmp/cckO2xVi.s:1103   .text.chThdStart:0000000000000000 chThdStart
+     /tmp/cckO2xVi.s:1134   .text.chThdSetPriority:0000000000000000 $t
+     /tmp/cckO2xVi.s:1140   .text.chThdSetPriority:0000000000000000 chThdSetPriority
+     /tmp/cckO2xVi.s:1209   .text.chThdSetPriority:000000000000005c $d
+     /tmp/cckO2xVi.s:2045   .rodata.__func__.6653:0000000000000000 __func__.6653
+     /tmp/cckO2xVi.s:1215   .text.chThdTerminate:0000000000000000 $t
+     /tmp/cckO2xVi.s:1221   .text.chThdTerminate:0000000000000000 chThdTerminate
+     /tmp/cckO2xVi.s:1252   .text.chThdSleep:0000000000000000 $t
+     /tmp/cckO2xVi.s:1258   .text.chThdSleep:0000000000000000 chThdSleep
+     /tmp/cckO2xVi.s:1285   .text.chThdSleepUntil:0000000000000000 $t
+     /tmp/cckO2xVi.s:1291   .text.chThdSleepUntil:0000000000000000 chThdSleepUntil
+     /tmp/cckO2xVi.s:1329   .text.chThdSleepUntilWindowed:0000000000000000 $t
+     /tmp/cckO2xVi.s:1335   .text.chThdSleepUntilWindowed:0000000000000000 chThdSleepUntilWindowed
+     /tmp/cckO2xVi.s:1381   .text.chThdYield:0000000000000000 $t
+     /tmp/cckO2xVi.s:1387   .text.chThdYield:0000000000000000 chThdYield
+     /tmp/cckO2xVi.s:1409   .text.chThdExit:0000000000000000 $t
+     /tmp/cckO2xVi.s:1415   .text.chThdExit:0000000000000000 chThdExit
+     /tmp/cckO2xVi.s:1446   .text.chThdExitS:0000000000000000 chThdExitS
+     /tmp/cckO2xVi.s:1440   .text.chThdExitS:0000000000000000 $t
+     /tmp/cckO2xVi.s:1517   .text.chThdExitS:000000000000006c $d
+     /tmp/cckO2xVi.s:2057   .rodata.__func__.6681:0000000000000000 __func__.6681
+     /tmp/cckO2xVi.s:1523   .text.chThdWait:0000000000000000 $t
+     /tmp/cckO2xVi.s:1529   .text.chThdWait:0000000000000000 chThdWait
+     /tmp/cckO2xVi.s:1605   .text.chThdWait:0000000000000070 $d
+     /tmp/cckO2xVi.s:2063   .rodata.__func__.6686:0000000000000000 __func__.6686
+     /tmp/cckO2xVi.s:1611   .text.chThdSuspendS:0000000000000000 $t
+     /tmp/cckO2xVi.s:1617   .text.chThdSuspendS:0000000000000000 chThdSuspendS
+     /tmp/cckO2xVi.s:1664   .text.chThdSuspendS:000000000000003c $d
+     /tmp/cckO2xVi.s:2069   .rodata.__func__.6691:0000000000000000 __func__.6691
+     /tmp/cckO2xVi.s:1669   .text.chThdSuspendTimeoutS:0000000000000000 $t
+     /tmp/cckO2xVi.s:1675   .text.chThdSuspendTimeoutS:0000000000000000 chThdSuspendTimeoutS
+     /tmp/cckO2xVi.s:1730   .text.chThdSuspendTimeoutS:0000000000000048 $d
+     /tmp/cckO2xVi.s:2075   .rodata.__func__.6697:0000000000000000 __func__.6697
+     /tmp/cckO2xVi.s:1735   .text.chThdResumeI:0000000000000000 $t
+     /tmp/cckO2xVi.s:1741   .text.chThdResumeI:0000000000000000 chThdResumeI
+     /tmp/cckO2xVi.s:1793   .text.chThdResumeI:0000000000000040 $d
+     /tmp/cckO2xVi.s:2081   .rodata.__func__.6703:0000000000000000 __func__.6703
+     /tmp/cckO2xVi.s:1798   .text.chThdResumeS:0000000000000000 $t
+     /tmp/cckO2xVi.s:1804   .text.chThdResumeS:0000000000000000 chThdResumeS
+     /tmp/cckO2xVi.s:1853   .text.chThdResumeS:000000000000003c $d
+     /tmp/cckO2xVi.s:2087   .rodata.__func__.6709:0000000000000000 __func__.6709
+     /tmp/cckO2xVi.s:1858   .text.chThdResume:0000000000000000 $t
+     /tmp/cckO2xVi.s:1864   .text.chThdResume:0000000000000000 chThdResume
+     /tmp/cckO2xVi.s:1893   .text.chThdEnqueueTimeoutS:0000000000000000 $t
+     /tmp/cckO2xVi.s:1899   .text.chThdEnqueueTimeoutS:0000000000000000 chThdEnqueueTimeoutS
+     /tmp/cckO2xVi.s:1940   .text.chThdEnqueueTimeoutS:0000000000000034 $d
+ARM GAS  /tmp/cckO2xVi.s 			page 116
 
 
-     /tmp/ccRC4Y4J.s:1945   .text.chThdDequeueNextI:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1951   .text.chThdDequeueNextI:0000000000000000 chThdDequeueNextI
-     /tmp/ccRC4Y4J.s:1983   .text.chThdDequeueAllI:0000000000000000 $t
-     /tmp/ccRC4Y4J.s:1989   .text.chThdDequeueAllI:0000000000000000 chThdDequeueAllI
-     /tmp/ccRC4Y4J.s:2024   .rodata.__func__.6637:0000000000000000 $d
-     /tmp/ccRC4Y4J.s:2030   .rodata.__func__.5925:0000000000000000 $d
-     /tmp/ccRC4Y4J.s:2036   .rodata.__func__.6092:0000000000000000 $d
-     /tmp/ccRC4Y4J.s:2042   .rodata.__func__.6653:0000000000000000 $d
-     /tmp/ccRC4Y4J.s:2048   .rodata.__func__.6096:0000000000000000 $d
-     /tmp/ccRC4Y4J.s:2054   .rodata.__func__.6681:0000000000000000 $d
-     /tmp/ccRC4Y4J.s:2060   .rodata.__func__.6686:0000000000000000 $d
-     /tmp/ccRC4Y4J.s:2066   .rodata.__func__.6691:0000000000000000 $d
-     /tmp/ccRC4Y4J.s:2072   .rodata.__func__.6697:0000000000000000 $d
-     /tmp/ccRC4Y4J.s:2078   .rodata.__func__.6703:0000000000000000 $d
-     /tmp/ccRC4Y4J.s:2084   .rodata.__func__.6709:0000000000000000 $d
-     /tmp/ccRC4Y4J.s:2090   .rodata.__func__.6108:0000000000000000 $d
+     /tmp/cckO2xVi.s:1945   .text.chThdDequeueNextI:0000000000000000 $t
+     /tmp/cckO2xVi.s:1951   .text.chThdDequeueNextI:0000000000000000 chThdDequeueNextI
+     /tmp/cckO2xVi.s:1983   .text.chThdDequeueAllI:0000000000000000 $t
+     /tmp/cckO2xVi.s:1989   .text.chThdDequeueAllI:0000000000000000 chThdDequeueAllI
+     /tmp/cckO2xVi.s:2024   .rodata.__func__.6637:0000000000000000 $d
+     /tmp/cckO2xVi.s:2030   .rodata.__func__.5925:0000000000000000 $d
+     /tmp/cckO2xVi.s:2036   .rodata.__func__.6092:0000000000000000 $d
+     /tmp/cckO2xVi.s:2042   .rodata.__func__.6653:0000000000000000 $d
+     /tmp/cckO2xVi.s:2048   .rodata.__func__.6096:0000000000000000 $d
+     /tmp/cckO2xVi.s:2054   .rodata.__func__.6681:0000000000000000 $d
+     /tmp/cckO2xVi.s:2060   .rodata.__func__.6686:0000000000000000 $d
+     /tmp/cckO2xVi.s:2066   .rodata.__func__.6691:0000000000000000 $d
+     /tmp/cckO2xVi.s:2072   .rodata.__func__.6697:0000000000000000 $d
+     /tmp/cckO2xVi.s:2078   .rodata.__func__.6703:0000000000000000 $d
+     /tmp/cckO2xVi.s:2084   .rodata.__func__.6709:0000000000000000 $d
+     /tmp/cckO2xVi.s:2090   .rodata.__func__.6108:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
-     /tmp/ccRC4Y4J.s:452    .text.chSchCanYieldS:0000000000000024 $t
-     /tmp/ccRC4Y4J.s:561    .text.chSysUnlock:0000000000000038 $t
-     /tmp/ccRC4Y4J.s:652    .text.chThdGetSelfX:000000000000000c $t
-     /tmp/ccRC4Y4J.s:695    .text.chThdStartI:000000000000002c $t
-     /tmp/ccRC4Y4J.s:736    .text.chThdSleepS:0000000000000024 $t
-     /tmp/ccRC4Y4J.s:905    .text._thread_init:000000000000009c $t
-     /tmp/ccRC4Y4J.s:1214   .text.chThdSetPriority:0000000000000064 $t
-     /tmp/ccRC4Y4J.s:1522   .text.chThdExitS:0000000000000074 $t
-     /tmp/ccRC4Y4J.s:1610   .text.chThdWait:0000000000000078 $t
-     /tmp/ccRC4Y4J.s:1734   .text.chThdSuspendTimeoutS:000000000000004c $t
-     /tmp/ccRC4Y4J.s:1797   .text.chThdResumeI:0000000000000044 $t
-     /tmp/ccRC4Y4J.s:1944   .text.chThdEnqueueTimeoutS:0000000000000038 $t
+     /tmp/cckO2xVi.s:452    .text.chSchCanYieldS:0000000000000024 $t
+     /tmp/cckO2xVi.s:561    .text.chSysUnlock:0000000000000038 $t
+     /tmp/cckO2xVi.s:652    .text.chThdGetSelfX:000000000000000c $t
+     /tmp/cckO2xVi.s:695    .text.chThdStartI:000000000000002c $t
+     /tmp/cckO2xVi.s:736    .text.chThdSleepS:0000000000000024 $t
+     /tmp/cckO2xVi.s:905    .text._thread_init:000000000000009c $t
+     /tmp/cckO2xVi.s:1214   .text.chThdSetPriority:0000000000000064 $t
+     /tmp/cckO2xVi.s:1522   .text.chThdExitS:0000000000000074 $t
+     /tmp/cckO2xVi.s:1610   .text.chThdWait:0000000000000078 $t
+     /tmp/cckO2xVi.s:1734   .text.chThdSuspendTimeoutS:000000000000004c $t
+     /tmp/cckO2xVi.s:1797   .text.chThdResumeI:0000000000000044 $t
+     /tmp/cckO2xVi.s:1944   .text.chThdEnqueueTimeoutS:0000000000000038 $t
 
 UNDEFINED SYMBOLS
 chDbgCheckClassS

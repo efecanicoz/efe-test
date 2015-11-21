@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccXJbT1C.s 			page 1
+ARM GAS  /tmp/cc7Di4A9.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
   51 000e 034B     		ldr	r3, .L2
   52 0010 0022     		movs	r2, #0
   53 0012 DA60     		str	r2, [r3, #12]
-ARM GAS  /tmp/ccXJbT1C.s 			page 2
+ARM GAS  /tmp/cc7Di4A9.s 			page 2
 
 
   54              		.loc 1 97 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  107              		.loc 1 119 0 is_stmt 1
  108 0028 039B     		ldr	r3, [sp, #12]
  109 002a 0022     		movs	r2, #0
-ARM GAS  /tmp/ccXJbT1C.s 			page 3
+ARM GAS  /tmp/cc7Di4A9.s 			page 3
 
 
  110 002c 1A60     		str	r2, [r3]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  164              		.loc 1 150 0
  165 0008 019B     		ldr	r3, [sp, #4]
  166 000a 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccXJbT1C.s 			page 4
+ARM GAS  /tmp/cc7Di4A9.s 			page 4
 
 
  167 000c 01D1     		bne	.L10
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  221 0060 1A68     		ldr	r2, [r3]
  222 0062 039B     		ldr	r3, [sp, #12]
  223 0064 1A60     		str	r2, [r3]
-ARM GAS  /tmp/ccXJbT1C.s 			page 5
+ARM GAS  /tmp/cc7Di4A9.s 			page 5
 
 
  224              		.loc 1 173 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  278 00bc 0832     		adds	r2, r2, #8
  279 00be 1046     		mov	r0, r2
  280 00c0 9847     		blx	r3
-ARM GAS  /tmp/ccXJbT1C.s 			page 6
+ARM GAS  /tmp/cc7Di4A9.s 			page 6
 
 
  281 00c2 0490     		str	r0, [sp, #16]
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  335 0004 0190     		str	r0, [sp, #4]
  336              		.loc 1 217 0
  337 0006 019B     		ldr	r3, [sp, #4]
-ARM GAS  /tmp/ccXJbT1C.s 			page 7
+ARM GAS  /tmp/cc7Di4A9.s 			page 7
 
 
  338 0008 002B     		cmp	r3, #0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  392 0060 059B     		ldr	r3, [sp, #20]
  393 0062 1B68     		ldr	r3, [r3]
  394              		.loc 1 229 0 discriminator 1
-ARM GAS  /tmp/ccXJbT1C.s 			page 8
+ARM GAS  /tmp/cc7Di4A9.s 			page 8
 
 
  395 0064 002B     		cmp	r3, #0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  449              		.loc 1 242 0
  450 00c0 059B     		ldr	r3, [sp, #20]
  451 00c2 5A68     		ldr	r2, [r3, #4]
-ARM GAS  /tmp/ccXJbT1C.s 			page 9
+ARM GAS  /tmp/cc7Di4A9.s 			page 9
 
 
  452 00c4 049B     		ldr	r3, [sp, #16]
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  506 0000 00B5     		push	{lr}
  507              		.cfi_def_cfa_offset 4
  508              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccXJbT1C.s 			page 10
+ARM GAS  /tmp/cc7Di4A9.s 			page 10
 
 
  509 0002 87B0     		sub	sp, sp, #28
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  563 0050 02D0     		beq	.L37
  564              		.loc 1 285 0
  565 0052 009B     		ldr	r3, [sp]
-ARM GAS  /tmp/ccXJbT1C.s 			page 11
+ARM GAS  /tmp/cc7Di4A9.s 			page 11
 
 
  566 0054 039A     		ldr	r2, [sp, #12]
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  614              		.file 14 "/home/efe/ChibiOS/os/rt/include/chmtx.h"
  615              		.file 15 "/home/efe/ChibiOS/os/rt/include/chmemcore.h"
  616              		.file 16 "/home/efe/ChibiOS/os/rt/include/chheap.h"
-ARM GAS  /tmp/ccXJbT1C.s 			page 12
+ARM GAS  /tmp/cc7Di4A9.s 			page 12
 
 
  617              		.file 17 "/home/efe/ChibiOS/os/ext/CMSIS/include/core_cm4.h"
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  671 006d 04       		.byte	0x4
  672 006e 05       		.byte	0x5
  673 006f 60010000 		.4byte	.LASF8
-ARM GAS  /tmp/ccXJbT1C.s 			page 13
+ARM GAS  /tmp/cc7Di4A9.s 			page 13
 
 
  674 0073 03       		.uleb128 0x3
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  728 00e5 03       		.uleb128 0x3
  729 00e6 30030000 		.4byte	.LASF20
  730 00ea 05       		.byte	0x5
-ARM GAS  /tmp/ccXJbT1C.s 			page 14
+ARM GAS  /tmp/cc7Di4A9.s 			page 14
 
 
  731 00eb 48       		.byte	0x48
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  785 0160 D4040000 		.4byte	.LASF30
  786 0164 07       		.byte	0x7
  787 0165 C3       		.byte	0xc3
-ARM GAS  /tmp/ccXJbT1C.s 			page 15
+ARM GAS  /tmp/cc7Di4A9.s 			page 15
 
 
  788 0166 64020000 		.4byte	0x264
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  842 01d2 E5000000 		.4byte	0xe5
  843 01d6 21       		.byte	0x21
  844 01d7 07       		.uleb128 0x7
-ARM GAS  /tmp/ccXJbT1C.s 			page 16
+ARM GAS  /tmp/cc7Di4A9.s 			page 16
 
 
  845 01d8 1C060000 		.4byte	.LASF40
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  899 024c EC040000 		.4byte	.LASF48
  900 0250 07       		.byte	0x7
  901 0251 5E01     		.2byte	0x15e
-ARM GAS  /tmp/ccXJbT1C.s 			page 17
+ARM GAS  /tmp/cc7Di4A9.s 			page 17
 
 
  902 0253 5D060000 		.4byte	0x65d
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  956 02bf 00000000 		.4byte	.LASF55
  957 02c3 06       		.byte	0x6
  958 02c4 57       		.byte	0x57
-ARM GAS  /tmp/ccXJbT1C.s 			page 18
+ARM GAS  /tmp/cc7Di4A9.s 			page 18
 
 
  959 02c5 C9020000 		.4byte	0x2c9
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1013 033b 0D       		.uleb128 0xd
  1014 033c 41030000 		.4byte	0x341
  1015 0340 00       		.byte	0
-ARM GAS  /tmp/ccXJbT1C.s 			page 19
+ARM GAS  /tmp/cc7Di4A9.s 			page 19
 
 
  1016 0341 0E       		.uleb128 0xe
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1070 03b1 EA030000 		.4byte	0x3ea
  1071 03b5 09       		.uleb128 0x9
  1072 03b6 B5020000 		.4byte	.LASF66
-ARM GAS  /tmp/ccXJbT1C.s 			page 20
+ARM GAS  /tmp/cc7Di4A9.s 			page 20
 
 
  1073 03ba 07       		.byte	0x7
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1127 042f 07       		.byte	0x7
  1128 0430 B901     		.2byte	0x1b9
  1129 0432 EF050000 		.4byte	0x5ef
-ARM GAS  /tmp/ccXJbT1C.s 			page 21
+ARM GAS  /tmp/cc7Di4A9.s 			page 21
 
 
  1130 0436 0C       		.byte	0xc
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1184 04ad E004     		.2byte	0x4e0
  1185 04af 00       		.byte	0
  1186 04b0 04       		.uleb128 0x4
-ARM GAS  /tmp/ccXJbT1C.s 			page 22
+ARM GAS  /tmp/cc7Di4A9.s 			page 22
 
 
  1187 04b1 04       		.byte	0x4
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1241 051d B7040000 		.4byte	0x4b7
  1242 0521 0C       		.byte	0xc
  1243 0522 08       		.uleb128 0x8
-ARM GAS  /tmp/ccXJbT1C.s 			page 23
+ARM GAS  /tmp/cc7Di4A9.s 			page 23
 
 
  1244 0523 723800   		.ascii	"r8\000"
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1298 058e 41030000 		.4byte	0x341
  1299 0592 08       		.byte	0x8
  1300 0593 07       		.uleb128 0x7
-ARM GAS  /tmp/ccXJbT1C.s 			page 24
+ARM GAS  /tmp/cc7Di4A9.s 			page 24
 
 
  1301 0594 B6000000 		.4byte	.LASF95
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1355 05fe 0F060000 		.4byte	0x60f
  1356 0602 07       		.uleb128 0x7
  1357 0603 BA050000 		.4byte	.LASF101
-ARM GAS  /tmp/ccXJbT1C.s 			page 25
+ARM GAS  /tmp/cc7Di4A9.s 			page 25
 
 
  1358 0607 0B       		.byte	0xb
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1412 066b 38       		.byte	0x38
  1413 066c A1060000 		.4byte	0x6a1
  1414 0670 07       		.uleb128 0x7
-ARM GAS  /tmp/ccXJbT1C.s 			page 26
+ARM GAS  /tmp/cc7Di4A9.s 			page 26
 
 
  1415 0671 CF020000 		.4byte	.LASF108
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1469 06e4 18       		.uleb128 0x18
  1470 06e5 BD020000 		.4byte	.LASF117
  1471 06e9 07       		.byte	0x7
-ARM GAS  /tmp/ccXJbT1C.s 			page 27
+ARM GAS  /tmp/cc7Di4A9.s 			page 27
 
 
  1472 06ea 1E01     		.2byte	0x11e
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1526 0759 64020000 		.4byte	0x264
  1527 075d 08       		.byte	0x8
  1528 075e 07       		.uleb128 0x7
-ARM GAS  /tmp/ccXJbT1C.s 			page 28
+ARM GAS  /tmp/cc7Di4A9.s 			page 28
 
 
  1529 075f 80050000 		.4byte	.LASF126
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1583 07d4 00       		.byte	0
  1584 07d5 03       		.uleb128 0x3
  1585 07d6 72010000 		.4byte	.LASF130
-ARM GAS  /tmp/ccXJbT1C.s 			page 29
+ARM GAS  /tmp/cc7Di4A9.s 			page 29
 
 
  1586 07da 10       		.byte	0x10
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1640 0843 C2040000 		.4byte	0x4c2
  1641 0847 1D       		.uleb128 0x1d
  1642 0848 6800     		.ascii	"h\000"
-ARM GAS  /tmp/ccXJbT1C.s 			page 30
+ARM GAS  /tmp/cc7Di4A9.s 			page 30
 
 
  1643 084a 10       		.byte	0x10
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1697 08b1 62756600 		.ascii	"buf\000"
  1698 08b5 01       		.byte	0x1
  1699 08b6 72       		.byte	0x72
-ARM GAS  /tmp/ccXJbT1C.s 			page 31
+ARM GAS  /tmp/cc7Di4A9.s 			page 31
 
 
  1700 08b7 41030000 		.4byte	0x341
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1754 0925 20       		.uleb128 0x20
  1755 0926 58060000 		.4byte	.LASF138
  1756 092a 01       		.byte	0x1
-ARM GAS  /tmp/ccXJbT1C.s 			page 32
+ARM GAS  /tmp/cc7Di4A9.s 			page 32
 
 
  1757 092b 93       		.byte	0x93
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1811 0988 74       		.sleb128 -12
  1812 0989 22       		.uleb128 0x22
  1813 098a 687000   		.ascii	"hp\000"
-ARM GAS  /tmp/ccXJbT1C.s 			page 33
+ARM GAS  /tmp/cc7Di4A9.s 			page 33
 
 
  1814 098d 01       		.byte	0x1
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1868 09ff 91       		.byte	0x91
  1869 0a00 60       		.sleb128 -32
  1870 0a01 28       		.uleb128 0x28
-ARM GAS  /tmp/ccXJbT1C.s 			page 34
+ARM GAS  /tmp/cc7Di4A9.s 			page 34
 
 
  1871 0a02 717000   		.ascii	"qp\000"
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1925 0006 0B       		.uleb128 0xb
  1926 0007 03       		.uleb128 0x3
  1927 0008 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccXJbT1C.s 			page 35
+ARM GAS  /tmp/cc7Di4A9.s 			page 35
 
 
  1928 0009 55       		.uleb128 0x55
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  1982 003f 0E       		.uleb128 0xe
  1983 0040 0B       		.uleb128 0xb
  1984 0041 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccXJbT1C.s 			page 36
+ARM GAS  /tmp/cc7Di4A9.s 			page 36
 
 
  1985 0042 3A       		.uleb128 0x3a
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2039 0078 0F       		.uleb128 0xf
  2040 0079 00       		.byte	0
  2041 007a 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccXJbT1C.s 			page 37
+ARM GAS  /tmp/cc7Di4A9.s 			page 37
 
 
  2042 007b 0B       		.uleb128 0xb
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2096 00b1 01       		.uleb128 0x1
  2097 00b2 13       		.uleb128 0x13
  2098 00b3 00       		.byte	0
-ARM GAS  /tmp/ccXJbT1C.s 			page 38
+ARM GAS  /tmp/cc7Di4A9.s 			page 38
 
 
  2099 00b4 00       		.byte	0
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2153 00ea 0B       		.uleb128 0xb
  2154 00eb 01       		.uleb128 0x1
  2155 00ec 13       		.uleb128 0x13
-ARM GAS  /tmp/ccXJbT1C.s 			page 39
+ARM GAS  /tmp/cc7Di4A9.s 			page 39
 
 
  2156 00ed 00       		.byte	0
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2210 0123 05       		.uleb128 0x5
  2211 0124 49       		.uleb128 0x49
  2212 0125 13       		.uleb128 0x13
-ARM GAS  /tmp/ccXJbT1C.s 			page 40
+ARM GAS  /tmp/cc7Di4A9.s 			page 40
 
 
  2213 0126 00       		.byte	0
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2267 015c 0B       		.uleb128 0xb
  2268 015d 3B       		.uleb128 0x3b
  2269 015e 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccXJbT1C.s 			page 41
+ARM GAS  /tmp/cc7Di4A9.s 			page 41
 
 
  2270 015f 49       		.uleb128 0x49
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2324 0197 00       		.byte	0
  2325 0198 03       		.uleb128 0x3
  2326 0199 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccXJbT1C.s 			page 42
+ARM GAS  /tmp/cc7Di4A9.s 			page 42
 
 
  2327 019a 3A       		.uleb128 0x3a
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2381 01d0 2E       		.uleb128 0x2e
  2382 01d1 01       		.byte	0x1
  2383 01d2 3F       		.uleb128 0x3f
-ARM GAS  /tmp/ccXJbT1C.s 			page 43
+ARM GAS  /tmp/cc7Di4A9.s 			page 43
 
 
  2384 01d3 19       		.uleb128 0x19
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2438 020a 01       		.uleb128 0x1
  2439 020b 12       		.uleb128 0x12
  2440 020c 06       		.uleb128 0x6
-ARM GAS  /tmp/ccXJbT1C.s 			page 44
+ARM GAS  /tmp/cc7Di4A9.s 			page 44
 
 
  2441 020d 40       		.uleb128 0x40
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2495 0244 00       		.byte	0
  2496 0245 2A       		.uleb128 0x2a
  2497 0246 34       		.uleb128 0x34
-ARM GAS  /tmp/ccXJbT1C.s 			page 45
+ARM GAS  /tmp/cc7Di4A9.s 			page 45
 
 
  2498 0247 00       		.byte	0
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2550      00000201 
  2550      FB0E0D00 
  2550      01010101 
-ARM GAS  /tmp/ccXJbT1C.s 			page 46
+ARM GAS  /tmp/cc7Di4A9.s 			page 46
 
 
  2551              	.LASF55:
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2577              	.LASF13:
  2578 008d 6C6F6E67 		.ascii	"long long unsigned int\000"
  2578      206C6F6E 
-ARM GAS  /tmp/ccXJbT1C.s 			page 47
+ARM GAS  /tmp/cc7Di4A9.s 			page 47
 
 
  2578      6720756E 
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2604 0128 685F6D74 		.ascii	"h_mtx\000"
  2604      7800
  2605              	.LASF47:
-ARM GAS  /tmp/ccXJbT1C.s 			page 48
+ARM GAS  /tmp/cc7Di4A9.s 			page 48
 
 
  2606 012e 705F6D70 		.ascii	"p_mpool\000"
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2629      666E6F2D 
  2629      636F6D6D 
  2630              	.LASF34:
-ARM GAS  /tmp/ccXJbT1C.s 			page 49
+ARM GAS  /tmp/cc7Di4A9.s 			page 49
 
 
  2631 0236 705F6E65 		.ascii	"p_newer\000"
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2661 02c4 705F6D73 		.ascii	"p_msgqueue\000"
  2661      67717565 
  2661      756500
-ARM GAS  /tmp/ccXJbT1C.s 			page 50
+ARM GAS  /tmp/cc7Di4A9.s 			page 50
 
 
  2662              	.LASF108:
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2690              	.LASF149:
  2691 035d 2F686F6D 		.ascii	"/home/efe/ChibiOS/os/rt/src/chheap.c\000"
  2691      652F6566 
-ARM GAS  /tmp/ccXJbT1C.s 			page 51
+ARM GAS  /tmp/cc7Di4A9.s 			page 51
 
 
  2691      652F4368 
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2715      7800
  2716              	.LASF102:
  2717 0415 746D5F63 		.ascii	"tm_calibration_t\000"
-ARM GAS  /tmp/ccXJbT1C.s 			page 52
+ARM GAS  /tmp/cc7Di4A9.s 			page 52
 
 
  2717      616C6962 
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2745 04aa 705F6D74 		.ascii	"p_mtxlist\000"
  2745      786C6973 
  2745      7400
-ARM GAS  /tmp/ccXJbT1C.s 			page 53
+ARM GAS  /tmp/cc7Di4A9.s 			page 53
 
 
  2746              	.LASF5:
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2777 0539 63685F74 		.ascii	"ch_threads_list\000"
  2777      68726561 
  2777      64735F6C 
-ARM GAS  /tmp/ccXJbT1C.s 			page 54
+ARM GAS  /tmp/cc7Di4A9.s 			page 54
 
 
  2777      69737400 
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2806              	.LASF65:
  2807 05c9 63685F76 		.ascii	"ch_virtual_timer\000"
  2807      69727475 
-ARM GAS  /tmp/ccXJbT1C.s 			page 55
+ARM GAS  /tmp/cc7Di4A9.s 			page 55
 
 
  2807      616C5F74 
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2837 0658 73697A65 		.ascii	"size\000"
  2837      00
  2838              	.LASF50:
-ARM GAS  /tmp/ccXJbT1C.s 			page 56
+ARM GAS  /tmp/cc7Di4A9.s 			page 56
 
 
  2839 065d 74687265 		.ascii	"threads_list_t\000"
@@ -3339,35 +3339,35 @@ ARM GAS  /tmp/ccXJbT1C.s 			page 1
  2857      72795F68 
  2857      65617000 
  2858              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccXJbT1C.s 			page 57
+ARM GAS  /tmp/cc7Di4A9.s 			page 57
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chheap.c
-     /tmp/ccXJbT1C.s:19     .bss.default_heap:0000000000000000 $d
-     /tmp/ccXJbT1C.s:22     .bss.default_heap:0000000000000000 default_heap
-     /tmp/ccXJbT1C.s:25     .text._heap_init:0000000000000000 $t
-     /tmp/ccXJbT1C.s:31     .text._heap_init:0000000000000000 _heap_init
-     /tmp/ccXJbT1C.s:62     .text._heap_init:000000000000001c $d
-     /tmp/ccXJbT1C.s:69     .text.chHeapObjectInit:0000000000000000 $t
-     /tmp/ccXJbT1C.s:75     .text.chHeapObjectInit:0000000000000000 chHeapObjectInit
-     /tmp/ccXJbT1C.s:140    .text.chHeapObjectInit:000000000000005c $d
-     /tmp/ccXJbT1C.s:592    .rodata.__func__.6627:0000000000000000 __func__.6627
-     /tmp/ccXJbT1C.s:145    .text.chHeapAlloc:0000000000000000 $t
-     /tmp/ccXJbT1C.s:151    .text.chHeapAlloc:0000000000000000 chHeapAlloc
-     /tmp/ccXJbT1C.s:313    .text.chHeapAlloc:00000000000000ec $d
-     /tmp/ccXJbT1C.s:318    .text.chHeapFree:0000000000000000 $t
-     /tmp/ccXJbT1C.s:324    .text.chHeapFree:0000000000000000 chHeapFree
-     /tmp/ccXJbT1C.s:489    .text.chHeapFree:00000000000000f8 $d
-     /tmp/ccXJbT1C.s:598    .rodata.__func__.6644:0000000000000000 __func__.6644
-     /tmp/ccXJbT1C.s:494    .text.chHeapStatus:0000000000000000 $t
-     /tmp/ccXJbT1C.s:500    .text.chHeapStatus:0000000000000000 chHeapStatus
-     /tmp/ccXJbT1C.s:584    .text.chHeapStatus:000000000000006c $d
-     /tmp/ccXJbT1C.s:589    .rodata.__func__.6627:0000000000000000 $d
-     /tmp/ccXJbT1C.s:595    .rodata.__func__.6644:0000000000000000 $d
+     /tmp/cc7Di4A9.s:19     .bss.default_heap:0000000000000000 $d
+     /tmp/cc7Di4A9.s:22     .bss.default_heap:0000000000000000 default_heap
+     /tmp/cc7Di4A9.s:25     .text._heap_init:0000000000000000 $t
+     /tmp/cc7Di4A9.s:31     .text._heap_init:0000000000000000 _heap_init
+     /tmp/cc7Di4A9.s:62     .text._heap_init:000000000000001c $d
+     /tmp/cc7Di4A9.s:69     .text.chHeapObjectInit:0000000000000000 $t
+     /tmp/cc7Di4A9.s:75     .text.chHeapObjectInit:0000000000000000 chHeapObjectInit
+     /tmp/cc7Di4A9.s:140    .text.chHeapObjectInit:000000000000005c $d
+     /tmp/cc7Di4A9.s:592    .rodata.__func__.6627:0000000000000000 __func__.6627
+     /tmp/cc7Di4A9.s:145    .text.chHeapAlloc:0000000000000000 $t
+     /tmp/cc7Di4A9.s:151    .text.chHeapAlloc:0000000000000000 chHeapAlloc
+     /tmp/cc7Di4A9.s:313    .text.chHeapAlloc:00000000000000ec $d
+     /tmp/cc7Di4A9.s:318    .text.chHeapFree:0000000000000000 $t
+     /tmp/cc7Di4A9.s:324    .text.chHeapFree:0000000000000000 chHeapFree
+     /tmp/cc7Di4A9.s:489    .text.chHeapFree:00000000000000f8 $d
+     /tmp/cc7Di4A9.s:598    .rodata.__func__.6644:0000000000000000 __func__.6644
+     /tmp/cc7Di4A9.s:494    .text.chHeapStatus:0000000000000000 $t
+     /tmp/cc7Di4A9.s:500    .text.chHeapStatus:0000000000000000 chHeapStatus
+     /tmp/cc7Di4A9.s:584    .text.chHeapStatus:000000000000006c $d
+     /tmp/cc7Di4A9.s:589    .rodata.__func__.6627:0000000000000000 $d
+     /tmp/cc7Di4A9.s:595    .rodata.__func__.6644:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
-     /tmp/ccXJbT1C.s:68     .text._heap_init:0000000000000028 $t
-     /tmp/ccXJbT1C.s:493    .text.chHeapFree:00000000000000fc $t
+     /tmp/cc7Di4A9.s:68     .text._heap_init:0000000000000028 $t
+     /tmp/cc7Di4A9.s:493    .text.chHeapFree:00000000000000fc $t
 
 UNDEFINED SYMBOLS
 chMtxObjectInit

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccBAy3zL.s 			page 1
+ARM GAS  /tmp/ccfIbsvo.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
   55 0012 7047     		bx	lr
   56              		.cfi_endproc
   57              	.LFE124:
-ARM GAS  /tmp/ccBAy3zL.s 			page 2
+ARM GAS  /tmp/ccfIbsvo.s 			page 2
 
 
   58              		.size	port_get_irq_status, .-port_get_irq_status
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  108              	.LBB21:
  109              		.loc 2 548 0
  110 0006 019B     		ldr	r3, [sp, #4]
-ARM GAS  /tmp/ccBAy3zL.s 			page 3
+ARM GAS  /tmp/ccfIbsvo.s 			page 3
 
 
  111              	@ 548 "/home/efe/ChibiOS/os/ext/CMSIS/include/core_cmFunc.h" 1
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  165              	.LFB129:
  166              		.loc 1 485 0
  167              		.cfi_startproc
-ARM GAS  /tmp/ccBAy3zL.s 			page 4
+ARM GAS  /tmp/ccfIbsvo.s 			page 4
 
 
  168              		@ args = 0, pretend = 0, frame = 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  220              	@ 344 "/home/efe/ChibiOS/os/ext/CMSIS/include/core_cmFunc.h" 1
  221 0000 72B6     		cpsid i
  222              	@ 0 "" 2
-ARM GAS  /tmp/ccBAy3zL.s 			page 5
+ARM GAS  /tmp/ccfIbsvo.s 			page 5
 
 
  223              		.thumb
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  274      0080AFF3 
  274      0080AFF3 
  274      0080
-ARM GAS  /tmp/ccBAy3zL.s 			page 6
+ARM GAS  /tmp/ccfIbsvo.s 			page 6
 
 
  275              		.align	2
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  326              		.loc 3 303 0
  327              		.cfi_startproc
  328              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccBAy3zL.s 			page 7
+ARM GAS  /tmp/ccfIbsvo.s 			page 7
 
 
  329              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  383              		.cfi_offset 14, -4
  384              		.loc 3 337 0
  385 0002 FFF7FEFF 		bl	_dbg_check_enable
-ARM GAS  /tmp/ccBAy3zL.s 			page 8
+ARM GAS  /tmp/ccfIbsvo.s 			page 8
 
 
  386              		.loc 3 338 0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  440              		.loc 3 367 0
  441 000a 094B     		ldr	r3, .L19
  442 000c 1A68     		ldr	r2, [r3]
-ARM GAS  /tmp/ccBAy3zL.s 			page 9
+ARM GAS  /tmp/ccfIbsvo.s 			page 9
 
 
  443 000e 084B     		ldr	r3, .L19
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  496              		.size	chSysLockFromISR, .-chSysLockFromISR
  497              		.section	.text.chSysUnlockFromISR,"ax",%progbits
  498              		.align	2
-ARM GAS  /tmp/ccBAy3zL.s 			page 10
+ARM GAS  /tmp/ccfIbsvo.s 			page 10
 
 
  499              		.p2align 4,,15
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  553              		.cfi_endproc
  554              	.LFE171:
  555              		.size	chSysUnconditionalLock, .-chSysUnconditionalLock
-ARM GAS  /tmp/ccBAy3zL.s 			page 11
+ARM GAS  /tmp/ccfIbsvo.s 			page 11
 
 
  556 001a 00BFAFF3 		.section	.text.chSysUnconditionalUnlock,"ax",%progbits
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  609 0006 0022     		movs	r2, #0
  610 0008 DA60     		str	r2, [r3, #12]
  611              		.loc 4 213 0
-ARM GAS  /tmp/ccBAy3zL.s 			page 12
+ARM GAS  /tmp/ccfIbsvo.s 			page 12
 
 
  612 000a 02B0     		add	sp, sp, #8
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  666 0000 00B5     		push	{lr}
  667              		.cfi_def_cfa_offset 4
  668              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccBAy3zL.s 			page 13
+ARM GAS  /tmp/ccfIbsvo.s 			page 13
 
 
  669 0002 85B0     		sub	sp, sp, #20
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  721              		@ sp needed
  722 001a 5DF804FB 		ldr	pc, [sp], #4
  723              		.cfi_endproc
-ARM GAS  /tmp/ccBAy3zL.s 			page 14
+ARM GAS  /tmp/ccfIbsvo.s 			page 14
 
 
  724              	.LFE183:
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  776              		.cfi_def_cfa_offset 4
  777              		.cfi_offset 14, -4
  778 0002 85B0     		sub	sp, sp, #20
-ARM GAS  /tmp/ccBAy3zL.s 			page 15
+ARM GAS  /tmp/ccfIbsvo.s 			page 15
 
 
  779              		.cfi_def_cfa_offset 24
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  831 001a FFF7FEFF 		bl	chSysRestoreStatusX
  832              		.loc 5 65 0
  833 001e FFF7FEFF 		bl	chSysUnlockFromISR
-ARM GAS  /tmp/ccBAy3zL.s 			page 16
+ARM GAS  /tmp/ccfIbsvo.s 			page 16
 
 
  834              		.loc 5 66 0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  887 003c 6B46     		mov	r3, sp
  888 003e 1846     		mov	r0, r3
  889 0040 FFF7FEFF 		bl	chVTObjectInit
-ARM GAS  /tmp/ccBAy3zL.s 			page 17
+ARM GAS  /tmp/ccfIbsvo.s 			page 17
 
 
  890              		.loc 5 94 0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  940 0000 00000000 		.word	.LC0
  941 0004 00000000 		.word	0
  942 0008 00000000 		.word	0
-ARM GAS  /tmp/ccBAy3zL.s 			page 18
+ARM GAS  /tmp/ccfIbsvo.s 			page 18
 
 
  943 000c 00000000 		.word	sys1_execute
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  991              		.thumb_func
  992              		.type	sys3_execute, %function
  993              	sys3_execute:
-ARM GAS  /tmp/ccBAy3zL.s 			page 19
+ARM GAS  /tmp/ccfIbsvo.s 			page 19
 
 
  994              	.LFB243:
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1048 0062 DBB2     		uxtb	r3, r3
  1049 0064 83F00103 		eor	r3, r3, #1
  1050 0068 DBB2     		uxtb	r3, r3
-ARM GAS  /tmp/ccBAy3zL.s 			page 20
+ARM GAS  /tmp/ccfIbsvo.s 			page 20
 
 
  1051 006a 03F00103 		and	r3, r3, #1
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1105 00dc 0123     		movne	r3, #1
  1106 00de DBB2     		uxtb	r3, r3
  1107 00e0 83F00103 		eor	r3, r3, #1
-ARM GAS  /tmp/ccBAy3zL.s 			page 21
+ARM GAS  /tmp/ccfIbsvo.s 			page 21
 
 
  1108 00e4 DBB2     		uxtb	r3, r3
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1155              	__func__.5925:
  1156 0000 63685379 		.ascii	"chSysUnlock\000"
  1156      73556E6C 
-ARM GAS  /tmp/ccBAy3zL.s 			page 22
+ARM GAS  /tmp/ccfIbsvo.s 			page 22
 
 
  1156      6F636B00 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1210 004e 08       		.byte	0x8
  1211 004f 7E050000 		.4byte	.LASF4
  1212 0053 04       		.uleb128 0x4
-ARM GAS  /tmp/ccBAy3zL.s 			page 23
+ARM GAS  /tmp/ccfIbsvo.s 			page 23
 
 
  1213 0054 02       		.byte	0x2
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1267 00c0 29000000 		.4byte	.LASF17
  1268 00c4 08       		.byte	0x8
  1269 00c5 4E       		.byte	0x4e
-ARM GAS  /tmp/ccBAy3zL.s 			page 24
+ARM GAS  /tmp/ccfIbsvo.s 			page 24
 
 
  1270 00c6 8C000000 		.4byte	0x8c
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1324 013e B3030000 		.4byte	.LASF28
  1325 0142 09       		.byte	0x9
  1326 0143 52       		.byte	0x52
-ARM GAS  /tmp/ccBAy3zL.s 			page 25
+ARM GAS  /tmp/ccfIbsvo.s 			page 25
 
 
  1327 0144 B4000000 		.4byte	0xb4
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1381 01b3 BF070000 		.4byte	.LASF37
  1382 01b7 0B       		.byte	0xb
  1383 01b8 D2       		.byte	0xd2
-ARM GAS  /tmp/ccBAy3zL.s 			page 26
+ARM GAS  /tmp/ccfIbsvo.s 			page 26
 
 
  1384 01b9 7C070000 		.4byte	0x77c
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1438 022a 27010000 		.4byte	0x127
  1439 022e 38       		.byte	0x38
  1440 022f 09       		.uleb128 0x9
-ARM GAS  /tmp/ccBAy3zL.s 			page 27
+ARM GAS  /tmp/ccfIbsvo.s 			page 27
 
 
  1441 0230 D9030000 		.4byte	.LASF46
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1495 02a0 A4020000 		.4byte	0x2a4
  1496 02a4 06       		.uleb128 0x6
  1497 02a5 55000000 		.4byte	.LASF55
-ARM GAS  /tmp/ccBAy3zL.s 			page 28
+ARM GAS  /tmp/ccfIbsvo.s 			page 28
 
 
  1498 02a9 08       		.byte	0x8
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1552 031a 0B       		.byte	0xb
  1553 031b 9801     		.2byte	0x198
  1554 031d 6F020000 		.4byte	0x26f
-ARM GAS  /tmp/ccBAy3zL.s 			page 29
+ARM GAS  /tmp/ccfIbsvo.s 			page 29
 
 
  1555 0321 14       		.byte	0x14
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1609 0392 0B       		.byte	0xb
  1610 0393 6F01     		.2byte	0x16f
  1611 0395 30030000 		.4byte	0x330
-ARM GAS  /tmp/ccBAy3zL.s 			page 30
+ARM GAS  /tmp/ccfIbsvo.s 			page 30
 
 
  1612 0399 0C       		.byte	0xc
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1666 040a 43040000 		.4byte	0x443
  1667 040e 09       		.uleb128 0x9
  1668 040f FA060000 		.4byte	.LASF77
-ARM GAS  /tmp/ccBAy3zL.s 			page 31
+ARM GAS  /tmp/ccfIbsvo.s 			page 31
 
 
  1669 0413 0B       		.byte	0xb
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1723 0488 0B       		.byte	0xb
  1724 0489 D201     		.2byte	0x1d2
  1725 048b 53010000 		.4byte	0x153
-ARM GAS  /tmp/ccBAy3zL.s 			page 32
+ARM GAS  /tmp/ccfIbsvo.s 			page 32
 
 
  1726 048f 4004     		.2byte	0x440
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1780 04fe 723400   		.ascii	"r4\000"
  1781 0501 01       		.byte	0x1
  1782 0502 1001     		.2byte	0x110
-ARM GAS  /tmp/ccBAy3zL.s 			page 33
+ARM GAS  /tmp/ccfIbsvo.s 			page 33
 
 
  1783 0504 C2040000 		.4byte	0x4c2
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1837 0572 13       		.uleb128 0x13
  1838 0573 10       		.byte	0x10
  1839 0574 0D       		.byte	0xd
-ARM GAS  /tmp/ccBAy3zL.s 			page 34
+ARM GAS  /tmp/ccfIbsvo.s 			page 34
 
 
  1840 0575 51       		.byte	0x51
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1894 05e2 08       		.byte	0x8
  1895 05e3 00       		.byte	0
  1896 05e4 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccBAy3zL.s 			page 35
+ARM GAS  /tmp/ccfIbsvo.s 			page 35
 
 
  1897 05e5 04       		.byte	0x4
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  1951 0651 12       		.uleb128 0x12
  1952 0652 6E00     		.ascii	"n\000"
  1953 0654 0E       		.byte	0xe
-ARM GAS  /tmp/ccBAy3zL.s 			page 36
+ARM GAS  /tmp/ccfIbsvo.s 			page 36
 
 
  1954 0655 4C       		.byte	0x4c
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2008 06bb 14070000 		.4byte	0x714
  2009 06bf 18       		.uleb128 0x18
  2010 06c0 0D060000 		.4byte	.LASF114
-ARM GAS  /tmp/ccBAy3zL.s 			page 37
+ARM GAS  /tmp/ccfIbsvo.s 			page 37
 
 
  2011 06c4 0B       		.byte	0xb
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2065 073d 08       		.byte	0x8
  2066 073e 00       		.byte	0
  2067 073f 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccBAy3zL.s 			page 38
+ARM GAS  /tmp/ccfIbsvo.s 			page 38
 
 
  2068 0740 04       		.byte	0x4
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2122 07af 03       		.uleb128 0x3
  2123 07b0 D5020000 		.4byte	.LASF129
  2124 07b4 11       		.byte	0x11
-ARM GAS  /tmp/ccBAy3zL.s 			page 39
+ARM GAS  /tmp/ccfIbsvo.s 			page 39
 
 
  2125 07b5 34       		.byte	0x34
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2179 0823 EC060000 		.4byte	.LASF178
  2180 0827 02       		.byte	0x2
  2181 0828 2202     		.2byte	0x222
-ARM GAS  /tmp/ccBAy3zL.s 			page 40
+ARM GAS  /tmp/ccfIbsvo.s 			page 40
 
 
  2182 082a 03       		.byte	0x3
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2236 089c B0040000 		.4byte	.LASF138
  2237 08a0 01       		.byte	0x1
  2238 08a1 AE01     		.2byte	0x1ae
-ARM GAS  /tmp/ccBAy3zL.s 			page 41
+ARM GAS  /tmp/ccfIbsvo.s 			page 41
 
 
  2239 08a3 C5080000 		.4byte	0x8c5
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2293 091f 01       		.byte	0x1
  2294 0920 D901     		.2byte	0x1d9
  2295 0922 27       		.uleb128 0x27
-ARM GAS  /tmp/ccBAy3zL.s 			page 42
+ARM GAS  /tmp/ccfIbsvo.s 			page 42
 
 
  2296 0923 2F080000 		.4byte	0x82f
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2350 09a1 27       		.uleb128 0x27
  2351 09a2 2F080000 		.4byte	0x82f
  2352 09a6 02       		.uleb128 0x2
-ARM GAS  /tmp/ccBAy3zL.s 			page 43
+ARM GAS  /tmp/ccfIbsvo.s 			page 43
 
 
  2353 09a7 91       		.byte	0x91
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2407 0a22 9C       		.byte	0x9c
  2408 0a23 28       		.uleb128 0x28
  2409 0a24 C4010000 		.4byte	.LASF149
-ARM GAS  /tmp/ccBAy3zL.s 			page 44
+ARM GAS  /tmp/ccfIbsvo.s 			page 44
 
 
  2410 0a28 03       		.byte	0x3
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2464 0aa5 9C       		.byte	0x9c
  2465 0aa6 28       		.uleb128 0x28
  2466 0aa7 97070000 		.4byte	.LASF156
-ARM GAS  /tmp/ccBAy3zL.s 			page 45
+ARM GAS  /tmp/ccfIbsvo.s 			page 45
 
 
  2467 0aab 03       		.byte	0x3
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2521 0b1e 6201     		.2byte	0x162
  2522 0b20 C5080000 		.4byte	0x8c5
  2523 0b24 00000000 		.4byte	.LFB182
-ARM GAS  /tmp/ccBAy3zL.s 			page 46
+ARM GAS  /tmp/ccfIbsvo.s 			page 46
 
 
  2524 0b28 26000000 		.4byte	.LFE182-.LFB182
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2578 0b98 91       		.byte	0x91
  2579 0b99 74       		.sleb128 -12
  2580 0b9a 30       		.uleb128 0x30
-ARM GAS  /tmp/ccBAy3zL.s 			page 47
+ARM GAS  /tmp/ccfIbsvo.s 			page 47
 
 
  2581 0b9b 8C050000 		.4byte	.LASF163
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2635 0c08 02       		.uleb128 0x2
  2636 0c09 91       		.byte	0x91
  2637 0c0a 6C       		.sleb128 -20
-ARM GAS  /tmp/ccBAy3zL.s 			page 48
+ARM GAS  /tmp/ccfIbsvo.s 			page 48
 
 
  2638 0c0b 25       		.uleb128 0x25
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2692 0c72 05       		.byte	0x5
  2693 0c73 46       		.byte	0x46
  2694 0c74 4E030000 		.4byte	0x34e
-ARM GAS  /tmp/ccBAy3zL.s 			page 49
+ARM GAS  /tmp/ccfIbsvo.s 			page 49
 
 
  2695 0c78 02       		.uleb128 0x2
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2749 0ce5 D90C0000 		.4byte	0xcd9
  2750 0ce9 05       		.uleb128 0x5
  2751 0cea 03       		.byte	0x3
-ARM GAS  /tmp/ccBAy3zL.s 			page 50
+ARM GAS  /tmp/ccfIbsvo.s 			page 50
 
 
  2752 0ceb 00000000 		.4byte	testsys2
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2806 0016 3E       		.uleb128 0x3e
  2807 0017 0B       		.uleb128 0xb
  2808 0018 03       		.uleb128 0x3
-ARM GAS  /tmp/ccBAy3zL.s 			page 51
+ARM GAS  /tmp/ccfIbsvo.s 			page 51
 
 
  2809 0019 08       		.uleb128 0x8
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2863 004f 3A       		.uleb128 0x3a
  2864 0050 0B       		.uleb128 0xb
  2865 0051 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccBAy3zL.s 			page 52
+ARM GAS  /tmp/ccfIbsvo.s 			page 52
 
 
  2866 0052 0B       		.uleb128 0xb
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2920 0088 0B       		.uleb128 0xb
  2921 0089 3B       		.uleb128 0x3b
  2922 008a 05       		.uleb128 0x5
-ARM GAS  /tmp/ccBAy3zL.s 			page 53
+ARM GAS  /tmp/ccfIbsvo.s 			page 53
 
 
  2923 008b 01       		.uleb128 0x1
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  2977 00c1 05       		.uleb128 0x5
  2978 00c2 00       		.byte	0
  2979 00c3 00       		.byte	0
-ARM GAS  /tmp/ccBAy3zL.s 			page 54
+ARM GAS  /tmp/ccfIbsvo.s 			page 54
 
 
  2980 00c4 11       		.uleb128 0x11
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3034 00fa 00       		.byte	0
  3035 00fb 00       		.byte	0
  3036 00fc 15       		.uleb128 0x15
-ARM GAS  /tmp/ccBAy3zL.s 			page 55
+ARM GAS  /tmp/ccfIbsvo.s 			page 55
 
 
  3037 00fd 01       		.uleb128 0x1
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3091 0133 19       		.uleb128 0x19
  3092 0134 00       		.byte	0
  3093 0135 00       		.byte	0
-ARM GAS  /tmp/ccBAy3zL.s 			page 56
+ARM GAS  /tmp/ccfIbsvo.s 			page 56
 
 
  3094 0136 1B       		.uleb128 0x1b
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3148 016c 3A       		.uleb128 0x3a
  3149 016d 0B       		.uleb128 0xb
  3150 016e 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccBAy3zL.s 			page 57
+ARM GAS  /tmp/ccfIbsvo.s 			page 57
 
 
  3151 016f 05       		.uleb128 0x5
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3205 01a6 49       		.uleb128 0x49
  3206 01a7 13       		.uleb128 0x13
  3207 01a8 02       		.uleb128 0x2
-ARM GAS  /tmp/ccBAy3zL.s 			page 58
+ARM GAS  /tmp/ccfIbsvo.s 			page 58
 
 
  3208 01a9 18       		.uleb128 0x18
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3262 01df 03       		.uleb128 0x3
  3263 01e0 0E       		.uleb128 0xe
  3264 01e1 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccBAy3zL.s 			page 59
+ARM GAS  /tmp/ccfIbsvo.s 			page 59
 
 
  3265 01e2 0B       		.uleb128 0xb
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3319 021a 12       		.uleb128 0x12
  3320 021b 06       		.uleb128 0x6
  3321 021c 58       		.uleb128 0x58
-ARM GAS  /tmp/ccBAy3zL.s 			page 60
+ARM GAS  /tmp/ccfIbsvo.s 			page 60
 
 
  3322 021d 0B       		.uleb128 0xb
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3376 0254 02       		.uleb128 0x2
  3377 0255 18       		.uleb128 0x18
  3378 0256 00       		.byte	0
-ARM GAS  /tmp/ccBAy3zL.s 			page 61
+ARM GAS  /tmp/ccfIbsvo.s 			page 61
 
 
  3379 0257 00       		.byte	0
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3433 028e 12       		.uleb128 0x12
  3434 028f 06       		.uleb128 0x6
  3435 0290 40       		.uleb128 0x40
-ARM GAS  /tmp/ccBAy3zL.s 			page 62
+ARM GAS  /tmp/ccfIbsvo.s 			page 62
 
 
  3436 0291 18       		.uleb128 0x18
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3490 02c9 49       		.uleb128 0x49
  3491 02ca 13       		.uleb128 0x13
  3492 02cb 02       		.uleb128 0x2
-ARM GAS  /tmp/ccBAy3zL.s 			page 63
+ARM GAS  /tmp/ccfIbsvo.s 			page 63
 
 
  3493 02cc 18       		.uleb128 0x18
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3547 0303 00       		.byte	0
  3548 0304 00       		.byte	0
  3549 0305 36       		.uleb128 0x36
-ARM GAS  /tmp/ccBAy3zL.s 			page 64
+ARM GAS  /tmp/ccfIbsvo.s 			page 64
 
 
  3550 0306 34       		.uleb128 0x34
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3604 0040 00000000 		.4byte	.LFB131
  3605 0044 04000000 		.4byte	.LFE131-.LFB131
  3606 0048 00000000 		.4byte	.LFB132
-ARM GAS  /tmp/ccBAy3zL.s 			page 65
+ARM GAS  /tmp/ccfIbsvo.s 			page 65
 
 
  3607 004c 12000000 		.4byte	.LFE132-.LFB132
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3661 0024 08000000 		.4byte	.LFE129
  3662 0028 00000000 		.4byte	.LFB130
  3663 002c 08000000 		.4byte	.LFE130
-ARM GAS  /tmp/ccBAy3zL.s 			page 66
+ARM GAS  /tmp/ccfIbsvo.s 			page 66
 
 
  3664 0030 00000000 		.4byte	.LFB131
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3714 0000 74726566 		.ascii	"trefs_t\000"
  3714      735F7400 
  3715              	.LASF56:
-ARM GAS  /tmp/ccBAy3zL.s 			page 67
+ARM GAS  /tmp/ccfIbsvo.s 			page 67
 
 
  3716 0008 72656164 		.ascii	"ready_list_t\000"
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3741              	.LASF105:
  3742 0095 776F7273 		.ascii	"worst\000"
  3742      7400
-ARM GAS  /tmp/ccBAy3zL.s 			page 68
+ARM GAS  /tmp/ccfIbsvo.s 			page 68
 
 
  3743              	.LASF108:
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3766 0134 6C6F6E67 		.ascii	"long long int\000"
  3766      206C6F6E 
  3766      6720696E 
-ARM GAS  /tmp/ccBAy3zL.s 			page 69
+ARM GAS  /tmp/ccfIbsvo.s 			page 69
 
 
  3766      7400
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3794      65726E73 
  3794      797300
  3795              	.LASF175:
-ARM GAS  /tmp/ccBAy3zL.s 			page 70
+ARM GAS  /tmp/ccfIbsvo.s 			page 70
 
 
  3796 01db 474E5520 		.ascii	"GNU C 4.8.4 20141219 (release) -mcpu=cortex-m4 -mno"
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3820              	.LASF79:
  3821 02e3 6C6F636B 		.ascii	"lock_cnt\000"
  3821      5F636E74 
-ARM GAS  /tmp/ccBAy3zL.s 			page 71
+ARM GAS  /tmp/ccfIbsvo.s 			page 71
 
 
  3821      00
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3848              	.LASF131:
  3849 0377 6E616D65 		.ascii	"name\000"
  3849      00
-ARM GAS  /tmp/ccBAy3zL.s 			page 72
+ARM GAS  /tmp/ccfIbsvo.s 			page 72
 
 
  3850              	.LASF6:
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3877      4F626A65 
  3877      6374496E 
  3877      697400
-ARM GAS  /tmp/ccBAy3zL.s 			page 73
+ARM GAS  /tmp/ccfIbsvo.s 			page 73
 
 
  3878              	.LASF90:
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3903      64657200 
  3904              	.LASF60:
  3905 04aa 725F6374 		.ascii	"r_ctx\000"
-ARM GAS  /tmp/ccBAy3zL.s 			page 74
+ARM GAS  /tmp/ccfIbsvo.s 			page 74
 
 
  3905      7800
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3931 053d 705F7072 		.ascii	"p_prev\000"
  3931      657600
  3932              	.LASF134:
-ARM GAS  /tmp/ccBAy3zL.s 			page 75
+ARM GAS  /tmp/ccfIbsvo.s 			page 75
 
 
  3933 0544 65786563 		.ascii	"execute\000"
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3962              	.LASF153:
  3963 05e5 5F5F6675 		.ascii	"__func__\000"
  3963      6E635F5F 
-ARM GAS  /tmp/ccBAy3zL.s 			page 76
+ARM GAS  /tmp/ccfIbsvo.s 			page 76
 
 
  3963      00
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  3991 0672 63685F74 		.ascii	"ch_threads_list\000"
  3991      68726561 
  3991      64735F6C 
-ARM GAS  /tmp/ccBAy3zL.s 			page 77
+ARM GAS  /tmp/ccfIbsvo.s 			page 77
 
 
  3991      69737400 
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  4018              	.LASF91:
  4019 070b 636F6E74 		.ascii	"context\000"
  4019      65787400 
-ARM GAS  /tmp/ccBAy3zL.s 			page 78
+ARM GAS  /tmp/ccfIbsvo.s 			page 78
 
 
  4020              	.LASF81:
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  4047      616C4C6F 
  4048              	.LASF154:
  4049 07ae 63685379 		.ascii	"chSysLockFromISR\000"
-ARM GAS  /tmp/ccBAy3zL.s 			page 79
+ARM GAS  /tmp/ccfIbsvo.s 			page 79
 
 
  4049      734C6F63 
@@ -4734,85 +4734,85 @@ ARM GAS  /tmp/ccBAy3zL.s 			page 1
  4075 0833 76745F66 		.ascii	"vt_func\000"
  4075      756E6300 
  4076              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccBAy3zL.s 			page 80
+ARM GAS  /tmp/ccfIbsvo.s 			page 80
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 testsys.c
-     /tmp/ccBAy3zL.s:19     .text.port_get_irq_status:0000000000000000 $t
-     /tmp/ccBAy3zL.s:24     .text.port_get_irq_status:0000000000000000 port_get_irq_status
-     /tmp/ccBAy3zL.s:60     .text.port_irq_enabled:0000000000000000 $t
-     /tmp/ccBAy3zL.s:65     .text.port_irq_enabled:0000000000000000 port_irq_enabled
-     /tmp/ccBAy3zL.s:91     .text.port_lock:0000000000000000 $t
-     /tmp/ccBAy3zL.s:96     .text.port_lock:0000000000000000 port_lock
-     /tmp/ccBAy3zL.s:125    .text.port_unlock:0000000000000000 $t
-     /tmp/ccBAy3zL.s:130    .text.port_unlock:0000000000000000 port_unlock
-     /tmp/ccBAy3zL.s:159    .text.port_lock_from_isr:0000000000000000 $t
-     /tmp/ccBAy3zL.s:164    .text.port_lock_from_isr:0000000000000000 port_lock_from_isr
-     /tmp/ccBAy3zL.s:182    .text.port_unlock_from_isr:0000000000000000 $t
-     /tmp/ccBAy3zL.s:187    .text.port_unlock_from_isr:0000000000000000 port_unlock_from_isr
-     /tmp/ccBAy3zL.s:205    .text.port_disable:0000000000000000 $t
-     /tmp/ccBAy3zL.s:210    .text.port_disable:0000000000000000 port_disable
-     /tmp/ccBAy3zL.s:232    .text.port_suspend:0000000000000000 $t
-     /tmp/ccBAy3zL.s:237    .text.port_suspend:0000000000000000 port_suspend
-     /tmp/ccBAy3zL.s:275    .text.port_enable:0000000000000000 $t
-     /tmp/ccBAy3zL.s:280    .text.port_enable:0000000000000000 port_enable
-     /tmp/ccBAy3zL.s:318    .text.chSysDisable:0000000000000000 $t
-     /tmp/ccBAy3zL.s:323    .text.chSysDisable:0000000000000000 chSysDisable
-     /tmp/ccBAy3zL.s:344    .text.chSysSuspend:0000000000000000 $t
-     /tmp/ccBAy3zL.s:349    .text.chSysSuspend:0000000000000000 chSysSuspend
-     /tmp/ccBAy3zL.s:369    .text.chSysEnable:0000000000000000 $t
-     /tmp/ccBAy3zL.s:374    .text.chSysEnable:0000000000000000 chSysEnable
-     /tmp/ccBAy3zL.s:394    .text.chSysLock:0000000000000000 $t
-     /tmp/ccBAy3zL.s:399    .text.chSysLock:0000000000000000 chSysLock
-     /tmp/ccBAy3zL.s:421    .text.chSysUnlock:0000000000000000 $t
-     /tmp/ccBAy3zL.s:426    .text.chSysUnlock:0000000000000000 chSysUnlock
-     /tmp/ccBAy3zL.s:465    .text.chSysUnlock:0000000000000030 $d
-     /tmp/ccBAy3zL.s:1155   .rodata.__func__.5925:0000000000000000 __func__.5925
-     /tmp/ccBAy3zL.s:471    .text.chSysLockFromISR:0000000000000000 $t
-     /tmp/ccBAy3zL.s:476    .text.chSysLockFromISR:0000000000000000 chSysLockFromISR
-     /tmp/ccBAy3zL.s:498    .text.chSysUnlockFromISR:0000000000000000 $t
-     /tmp/ccBAy3zL.s:503    .text.chSysUnlockFromISR:0000000000000000 chSysUnlockFromISR
-     /tmp/ccBAy3zL.s:525    .text.chSysUnconditionalLock:0000000000000000 $t
-     /tmp/ccBAy3zL.s:530    .text.chSysUnconditionalLock:0000000000000000 chSysUnconditionalLock
-     /tmp/ccBAy3zL.s:557    .text.chSysUnconditionalUnlock:0000000000000000 $t
-     /tmp/ccBAy3zL.s:562    .text.chSysUnconditionalUnlock:0000000000000000 chSysUnconditionalUnlock
-     /tmp/ccBAy3zL.s:591    .text.chVTObjectInit:0000000000000000 $t
-     /tmp/ccBAy3zL.s:596    .text.chVTObjectInit:0000000000000000 chVTObjectInit
-     /tmp/ccBAy3zL.s:619    .text.chVTIsArmedI:0000000000000000 $t
-     /tmp/ccBAy3zL.s:624    .text.chVTIsArmedI:0000000000000000 chVTIsArmedI
-     /tmp/ccBAy3zL.s:655    .text.chVTIsArmed:0000000000000000 $t
-     /tmp/ccBAy3zL.s:660    .text.chVTIsArmed:0000000000000000 chVTIsArmed
-     /tmp/ccBAy3zL.s:692    .text.chVTResetI:0000000000000000 $t
-     /tmp/ccBAy3zL.s:697    .text.chVTResetI:0000000000000000 chVTResetI
-     /tmp/ccBAy3zL.s:727    .text.chVTSetI:0000000000000000 $t
-     /tmp/ccBAy3zL.s:732    .text.chVTSetI:0000000000000000 chVTSetI
-     /tmp/ccBAy3zL.s:764    .text.chVTSet:0000000000000000 $t
-     /tmp/ccBAy3zL.s:769    .text.chVTSet:0000000000000000 chVTSet
-     /tmp/ccBAy3zL.s:802    .text.vtcb:0000000000000000 $t
-     /tmp/ccBAy3zL.s:807    .text.vtcb:0000000000000000 vtcb
-     /tmp/ccBAy3zL.s:842    .text.sys1_execute:0000000000000000 $t
-     /tmp/ccBAy3zL.s:847    .text.sys1_execute:0000000000000000 sys1_execute
-     /tmp/ccBAy3zL.s:926    .text.sys1_execute:000000000000008c $d
-ARM GAS  /tmp/ccBAy3zL.s 			page 81
+     /tmp/ccfIbsvo.s:19     .text.port_get_irq_status:0000000000000000 $t
+     /tmp/ccfIbsvo.s:24     .text.port_get_irq_status:0000000000000000 port_get_irq_status
+     /tmp/ccfIbsvo.s:60     .text.port_irq_enabled:0000000000000000 $t
+     /tmp/ccfIbsvo.s:65     .text.port_irq_enabled:0000000000000000 port_irq_enabled
+     /tmp/ccfIbsvo.s:91     .text.port_lock:0000000000000000 $t
+     /tmp/ccfIbsvo.s:96     .text.port_lock:0000000000000000 port_lock
+     /tmp/ccfIbsvo.s:125    .text.port_unlock:0000000000000000 $t
+     /tmp/ccfIbsvo.s:130    .text.port_unlock:0000000000000000 port_unlock
+     /tmp/ccfIbsvo.s:159    .text.port_lock_from_isr:0000000000000000 $t
+     /tmp/ccfIbsvo.s:164    .text.port_lock_from_isr:0000000000000000 port_lock_from_isr
+     /tmp/ccfIbsvo.s:182    .text.port_unlock_from_isr:0000000000000000 $t
+     /tmp/ccfIbsvo.s:187    .text.port_unlock_from_isr:0000000000000000 port_unlock_from_isr
+     /tmp/ccfIbsvo.s:205    .text.port_disable:0000000000000000 $t
+     /tmp/ccfIbsvo.s:210    .text.port_disable:0000000000000000 port_disable
+     /tmp/ccfIbsvo.s:232    .text.port_suspend:0000000000000000 $t
+     /tmp/ccfIbsvo.s:237    .text.port_suspend:0000000000000000 port_suspend
+     /tmp/ccfIbsvo.s:275    .text.port_enable:0000000000000000 $t
+     /tmp/ccfIbsvo.s:280    .text.port_enable:0000000000000000 port_enable
+     /tmp/ccfIbsvo.s:318    .text.chSysDisable:0000000000000000 $t
+     /tmp/ccfIbsvo.s:323    .text.chSysDisable:0000000000000000 chSysDisable
+     /tmp/ccfIbsvo.s:344    .text.chSysSuspend:0000000000000000 $t
+     /tmp/ccfIbsvo.s:349    .text.chSysSuspend:0000000000000000 chSysSuspend
+     /tmp/ccfIbsvo.s:369    .text.chSysEnable:0000000000000000 $t
+     /tmp/ccfIbsvo.s:374    .text.chSysEnable:0000000000000000 chSysEnable
+     /tmp/ccfIbsvo.s:394    .text.chSysLock:0000000000000000 $t
+     /tmp/ccfIbsvo.s:399    .text.chSysLock:0000000000000000 chSysLock
+     /tmp/ccfIbsvo.s:421    .text.chSysUnlock:0000000000000000 $t
+     /tmp/ccfIbsvo.s:426    .text.chSysUnlock:0000000000000000 chSysUnlock
+     /tmp/ccfIbsvo.s:465    .text.chSysUnlock:0000000000000030 $d
+     /tmp/ccfIbsvo.s:1155   .rodata.__func__.5925:0000000000000000 __func__.5925
+     /tmp/ccfIbsvo.s:471    .text.chSysLockFromISR:0000000000000000 $t
+     /tmp/ccfIbsvo.s:476    .text.chSysLockFromISR:0000000000000000 chSysLockFromISR
+     /tmp/ccfIbsvo.s:498    .text.chSysUnlockFromISR:0000000000000000 $t
+     /tmp/ccfIbsvo.s:503    .text.chSysUnlockFromISR:0000000000000000 chSysUnlockFromISR
+     /tmp/ccfIbsvo.s:525    .text.chSysUnconditionalLock:0000000000000000 $t
+     /tmp/ccfIbsvo.s:530    .text.chSysUnconditionalLock:0000000000000000 chSysUnconditionalLock
+     /tmp/ccfIbsvo.s:557    .text.chSysUnconditionalUnlock:0000000000000000 $t
+     /tmp/ccfIbsvo.s:562    .text.chSysUnconditionalUnlock:0000000000000000 chSysUnconditionalUnlock
+     /tmp/ccfIbsvo.s:591    .text.chVTObjectInit:0000000000000000 $t
+     /tmp/ccfIbsvo.s:596    .text.chVTObjectInit:0000000000000000 chVTObjectInit
+     /tmp/ccfIbsvo.s:619    .text.chVTIsArmedI:0000000000000000 $t
+     /tmp/ccfIbsvo.s:624    .text.chVTIsArmedI:0000000000000000 chVTIsArmedI
+     /tmp/ccfIbsvo.s:655    .text.chVTIsArmed:0000000000000000 $t
+     /tmp/ccfIbsvo.s:660    .text.chVTIsArmed:0000000000000000 chVTIsArmed
+     /tmp/ccfIbsvo.s:692    .text.chVTResetI:0000000000000000 $t
+     /tmp/ccfIbsvo.s:697    .text.chVTResetI:0000000000000000 chVTResetI
+     /tmp/ccfIbsvo.s:727    .text.chVTSetI:0000000000000000 $t
+     /tmp/ccfIbsvo.s:732    .text.chVTSetI:0000000000000000 chVTSetI
+     /tmp/ccfIbsvo.s:764    .text.chVTSet:0000000000000000 $t
+     /tmp/ccfIbsvo.s:769    .text.chVTSet:0000000000000000 chVTSet
+     /tmp/ccfIbsvo.s:802    .text.vtcb:0000000000000000 $t
+     /tmp/ccfIbsvo.s:807    .text.vtcb:0000000000000000 vtcb
+     /tmp/ccfIbsvo.s:842    .text.sys1_execute:0000000000000000 $t
+     /tmp/ccfIbsvo.s:847    .text.sys1_execute:0000000000000000 sys1_execute
+     /tmp/ccfIbsvo.s:926    .text.sys1_execute:000000000000008c $d
+ARM GAS  /tmp/ccfIbsvo.s 			page 81
 
 
-     /tmp/ccBAy3zL.s:939    .rodata.testsys1:0000000000000000 testsys1
-     /tmp/ccBAy3zL.s:932    .rodata:0000000000000000 $d
-     /tmp/ccBAy3zL.s:936    .rodata.testsys1:0000000000000000 $d
-     /tmp/ccBAy3zL.s:945    .text.sys2_execute:0000000000000000 $t
-     /tmp/ccBAy3zL.s:950    .text.sys2_execute:0000000000000000 sys2_execute
-     /tmp/ccBAy3zL.s:982    .rodata.testsys2:0000000000000000 testsys2
-     /tmp/ccBAy3zL.s:979    .rodata.testsys2:0000000000000000 $d
-     /tmp/ccBAy3zL.s:988    .text.sys3_execute:0000000000000000 $t
-     /tmp/ccBAy3zL.s:993    .text.sys3_execute:0000000000000000 sys3_execute
-     /tmp/ccBAy3zL.s:1136   .rodata.testsys3:0000000000000000 testsys3
-     /tmp/ccBAy3zL.s:1133   .rodata.testsys3:0000000000000000 $d
-     /tmp/ccBAy3zL.s:1146   .rodata.patternsys:0000000000000000 patternsys
-     /tmp/ccBAy3zL.s:1143   .rodata.patternsys:0000000000000000 $d
-     /tmp/ccBAy3zL.s:1152   .rodata.__func__.5925:0000000000000000 $d
+     /tmp/ccfIbsvo.s:939    .rodata.testsys1:0000000000000000 testsys1
+     /tmp/ccfIbsvo.s:932    .rodata:0000000000000000 $d
+     /tmp/ccfIbsvo.s:936    .rodata.testsys1:0000000000000000 $d
+     /tmp/ccfIbsvo.s:945    .text.sys2_execute:0000000000000000 $t
+     /tmp/ccfIbsvo.s:950    .text.sys2_execute:0000000000000000 sys2_execute
+     /tmp/ccfIbsvo.s:982    .rodata.testsys2:0000000000000000 testsys2
+     /tmp/ccfIbsvo.s:979    .rodata.testsys2:0000000000000000 $d
+     /tmp/ccfIbsvo.s:988    .text.sys3_execute:0000000000000000 $t
+     /tmp/ccfIbsvo.s:993    .text.sys3_execute:0000000000000000 sys3_execute
+     /tmp/ccfIbsvo.s:1136   .rodata.testsys3:0000000000000000 testsys3
+     /tmp/ccfIbsvo.s:1133   .rodata.testsys3:0000000000000000 $d
+     /tmp/ccfIbsvo.s:1146   .rodata.patternsys:0000000000000000 patternsys
+     /tmp/ccfIbsvo.s:1143   .rodata.patternsys:0000000000000000 $d
+     /tmp/ccfIbsvo.s:1152   .rodata.__func__.5925:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
-     /tmp/ccBAy3zL.s:470    .text.chSysUnlock:0000000000000038 $t
+     /tmp/ccfIbsvo.s:470    .text.chSysUnlock:0000000000000038 $t
 
 UNDEFINED SYMBOLS
 _dbg_check_disable

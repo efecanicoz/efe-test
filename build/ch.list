@@ -11331,36 +11331,36 @@ void *txWrite(void *arg)
     3f60:	b500      	push	{lr}
     3f62:	b085      	sub	sp, #20
     3f64:	9001      	str	r0, [sp, #4]
-	msg_t *toSend;
+	uint8_t toSend;
 	while(!0)
 	{
-		if(chMBFetch(&serialMbox, toSend, 1000) == MSG_OK)
-    3f66:	480a      	ldr	r0, [pc, #40]	; (3f90 <txWrite+0x30>)
-    3f68:	9903      	ldr	r1, [sp, #12]
-    3f6a:	f44f 727a 	mov.w	r2, #1000	; 0x3e8
-    3f6e:	f7fd ff4f 	bl	1e10 <chMBFetch>
-    3f72:	4603      	mov	r3, r0
-    3f74:	2b00      	cmp	r3, #0
-    3f76:	d106      	bne.n	3f86 <txWrite+0x26>
+		if(chMBFetch(&serialMbox, &toSend, 1000) == MSG_OK)
+    3f66:	f10d 030f 	add.w	r3, sp, #15
+    3f6a:	480b      	ldr	r0, [pc, #44]	; (3f98 <txWrite+0x38>)
+    3f6c:	4619      	mov	r1, r3
+    3f6e:	f44f 727a 	mov.w	r2, #1000	; 0x3e8
+    3f72:	f7fd ff4d 	bl	1e10 <chMBFetch>
+    3f76:	4603      	mov	r3, r0
+    3f78:	2b00      	cmp	r3, #0
+    3f7a:	d108      	bne.n	3f8e <txWrite+0x2e>
 		{
-			sdWrite(&SD3, (uint8_t *)toSend,1);
-    3f78:	4806      	ldr	r0, [pc, #24]	; (3f94 <txWrite+0x34>)
-    3f7a:	9903      	ldr	r1, [sp, #12]
-    3f7c:	2201      	movs	r2, #1
-    3f7e:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
-    3f82:	f7fe f9fd 	bl	2380 <chOQWriteTimeout>
+			sdWrite(&SD3, &toSend,1);
+    3f7c:	f10d 030f 	add.w	r3, sp, #15
+    3f80:	4806      	ldr	r0, [pc, #24]	; (3f9c <txWrite+0x3c>)
+    3f82:	4619      	mov	r1, r3
+    3f84:	2201      	movs	r2, #1
+    3f86:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+    3f8a:	f7fe f9f9 	bl	2380 <chOQWriteTimeout>
 		}
 		//toSend = (msg_t)*ptrtoSend;
 		//chPoolFree(&mpool, &toSend);
 		chThdSleepMilliseconds(500);
-    3f86:	f241 3088 	movw	r0, #5000	; 0x1388
-    3f8a:	f7fd fae1 	bl	1550 <chThdSleep>
+    3f8e:	f241 3088 	movw	r0, #5000	; 0x1388
+    3f92:	f7fd fadd 	bl	1550 <chThdSleep>
 	}
-    3f8e:	e7ea      	b.n	3f66 <txWrite+0x6>
-    3f90:	200012cc 	.word	0x200012cc
-    3f94:	20000f50 	.word	0x20000f50
-    3f98:	f3af 8000 	nop.w
-    3f9c:	f3af 8000 	nop.w
+    3f96:	e7e6      	b.n	3f66 <txWrite+0x6>
+    3f98:	200012cc 	.word	0x200012cc
+    3f9c:	20000f50 	.word	0x20000f50
     3fa0:	656c6469 	.word	0x656c6469
 	...
     3fb0:	31235653 	.word	0x31235653
