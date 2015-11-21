@@ -79,11 +79,11 @@ Disassembly of section .text:
      250:	20000000 	.word	0x20000000
      254:	20000400 	.word	0x20000400
      258:	20000400 	.word	0x20000400
-     25c:	000046f0 	.word	0x000046f0
+     25c:	000049c0 	.word	0x000049c0
      260:	20000800 	.word	0x20000800
-     264:	2000080c 	.word	0x2000080c
-     268:	20000810 	.word	0x20000810
-     26c:	20001388 	.word	0x20001388
+     264:	20000800 	.word	0x20000800
+     268:	20000800 	.word	0x20000800
+     26c:	20001740 	.word	0x20001740
      270:	000001c0 	.word	0x000001c0
      274:	000001c0 	.word	0x000001c0
      278:	000001c0 	.word	0x000001c0
@@ -800,9 +800,9 @@ static inline void chVTDoTickI(void) {
      5c0:	b005      	add	sp, #20
      5c2:	f85d fb04 	ldr.w	pc, [sp], #4
      5c6:	bf00      	nop
-     5c8:	20000810 	.word	0x20000810
-     5cc:	2000082c 	.word	0x2000082c
-     5d0:	00004250 	.word	0x00004250
+     5c8:	20000800 	.word	0x20000800
+     5cc:	2000081c 	.word	0x2000081c
+     5d0:	00004520 	.word	0x00004520
      5d4:	f3af 8000 	nop.w
      5d8:	f3af 8000 	nop.w
      5dc:	f3af 8000 	nop.w
@@ -829,7 +829,7 @@ static inline void chRegSetThreadName(const char *name) {
 }
      5ec:	b002      	add	sp, #8
      5ee:	4770      	bx	lr
-     5f0:	20000810 	.word	0x20000810
+     5f0:	20000800 	.word	0x20000800
      5f4:	f3af 8000 	nop.w
      5f8:	f3af 8000 	nop.w
      5fc:	f3af 8000 	nop.w
@@ -986,13 +986,13 @@ void chSysInit(void) {
      688:	b005      	add	sp, #20
      68a:	f85d fb04 	ldr.w	pc, [sp], #4
      68e:	bf00      	nop
-     690:	20000c50 	.word	0x20000c50
-     694:	20000810 	.word	0x20000810
+     690:	20000c40 	.word	0x20000c40
+     694:	20000800 	.word	0x20000800
      698:	20000400 	.word	0x20000400
-     69c:	00004320 	.word	0x00004320
-     6a0:	20000cf0 	.word	0x20000cf0
+     69c:	000045f0 	.word	0x000045f0
+     6a0:	20000ce0 	.word	0x20000ce0
      6a4:	00000611 	.word	0x00000611
-     6a8:	000041d0 	.word	0x000041d0
+     6a8:	000044a0 	.word	0x000044a0
      6ac:	f3af 8000 	nop.w
 
 000006b0 <chSysHalt>:
@@ -1023,7 +1023,7 @@ void chSysHalt(const char *reason) {
   }
      6c0:	e7fe      	b.n	6c0 <chSysHalt+0x10>
      6c2:	bf00      	nop
-     6c4:	20000810 	.word	0x20000810
+     6c4:	20000800 	.word	0x20000800
      6c8:	f3af 8000 	nop.w
      6cc:	f3af 8000 	nop.w
 
@@ -1210,8 +1210,8 @@ void _dbg_check_enable(void) {
 }
      768:	bd08      	pop	{r3, pc}
      76a:	bf00      	nop
-     76c:	20000810 	.word	0x20000810
-     770:	000041f0 	.word	0x000041f0
+     76c:	20000800 	.word	0x20000800
+     770:	000044c0 	.word	0x000044c0
      774:	f3af 8000 	nop.w
      778:	f3af 8000 	nop.w
      77c:	f3af 8000 	nop.w
@@ -1244,8 +1244,8 @@ void _dbg_check_lock(void) {
      79c:	635a      	str	r2, [r3, #52]	; 0x34
 }
      79e:	bd08      	pop	{r3, pc}
-     7a0:	20000810 	.word	0x20000810
-     7a4:	000041f8 	.word	0x000041f8
+     7a0:	20000800 	.word	0x20000800
+     7a4:	000044c8 	.word	0x000044c8
      7a8:	f3af 8000 	nop.w
      7ac:	f3af 8000 	nop.w
 
@@ -1277,8 +1277,8 @@ void _dbg_check_unlock(void) {
      7cc:	635a      	str	r2, [r3, #52]	; 0x34
 }
      7ce:	bd08      	pop	{r3, pc}
-     7d0:	20000810 	.word	0x20000810
-     7d4:	00004200 	.word	0x00004200
+     7d0:	20000800 	.word	0x20000800
+     7d4:	000044d0 	.word	0x000044d0
      7d8:	f3af 8000 	nop.w
      7dc:	f3af 8000 	nop.w
 
@@ -1310,8 +1310,8 @@ void _dbg_check_lock_from_isr(void) {
      7fc:	635a      	str	r2, [r3, #52]	; 0x34
 }
      7fe:	bd08      	pop	{r3, pc}
-     800:	20000810 	.word	0x20000810
-     804:	00004208 	.word	0x00004208
+     800:	20000800 	.word	0x20000800
+     804:	000044d8 	.word	0x000044d8
      808:	f3af 8000 	nop.w
      80c:	f3af 8000 	nop.w
 
@@ -1343,8 +1343,8 @@ void _dbg_check_unlock_from_isr(void) {
      82c:	635a      	str	r2, [r3, #52]	; 0x34
 }
      82e:	bd08      	pop	{r3, pc}
-     830:	20000810 	.word	0x20000810
-     834:	00004210 	.word	0x00004210
+     830:	20000800 	.word	0x20000800
+     834:	000044e0 	.word	0x000044e0
      838:	f3af 8000 	nop.w
      83c:	f3af 8000 	nop.w
 
@@ -1382,8 +1382,8 @@ void _dbg_check_enter_isr(void) {
      866:	f7ff ff53 	bl	710 <port_unlock_from_isr>
 }
      86a:	bd08      	pop	{r3, pc}
-     86c:	20000810 	.word	0x20000810
-     870:	00004218 	.word	0x00004218
+     86c:	20000800 	.word	0x20000800
+     870:	000044e8 	.word	0x000044e8
      874:	f3af 8000 	nop.w
      878:	f3af 8000 	nop.w
      87c:	f3af 8000 	nop.w
@@ -1422,8 +1422,8 @@ void _dbg_check_leave_isr(void) {
      8a6:	f7ff ff33 	bl	710 <port_unlock_from_isr>
 }
      8aa:	bd08      	pop	{r3, pc}
-     8ac:	20000810 	.word	0x20000810
-     8b0:	00004220 	.word	0x00004220
+     8ac:	20000800 	.word	0x20000800
+     8b0:	000044f0 	.word	0x000044f0
      8b4:	f3af 8000 	nop.w
      8b8:	f3af 8000 	nop.w
      8bc:	f3af 8000 	nop.w
@@ -1453,8 +1453,8 @@ void chDbgCheckClassI(void) {
 }
      8d8:	bd08      	pop	{r3, pc}
      8da:	bf00      	nop
-     8dc:	20000810 	.word	0x20000810
-     8e0:	00004228 	.word	0x00004228
+     8dc:	20000800 	.word	0x20000800
+     8e0:	000044f8 	.word	0x000044f8
      8e4:	f3af 8000 	nop.w
      8e8:	f3af 8000 	nop.w
      8ec:	f3af 8000 	nop.w
@@ -1484,8 +1484,8 @@ void chDbgCheckClassS(void) {
 }
      908:	bd08      	pop	{r3, pc}
      90a:	bf00      	nop
-     90c:	20000810 	.word	0x20000810
-     910:	00004230 	.word	0x00004230
+     90c:	20000800 	.word	0x20000800
+     910:	00004500 	.word	0x00004500
      914:	f3af 8000 	nop.w
      918:	f3af 8000 	nop.w
      91c:	f3af 8000 	nop.w
@@ -1507,8 +1507,8 @@ void _dbg_trace_init(void) {
 }
      92c:	4770      	bx	lr
      92e:	bf00      	nop
-     930:	20000810 	.word	0x20000810
-     934:	20000850 	.word	0x20000850
+     930:	20000800 	.word	0x20000800
+     934:	20000840 	.word	0x20000840
      938:	f3af 8000 	nop.w
      93c:	f3af 8000 	nop.w
 
@@ -1568,9 +1568,9 @@ void _dbg_trace(thread_t *otp) {
      98e:	b002      	add	sp, #8
      990:	bd10      	pop	{r4, pc}
      992:	bf00      	nop
-     994:	20000810 	.word	0x20000810
-     998:	20000c50 	.word	0x20000c50
-     99c:	20000850 	.word	0x20000850
+     994:	20000800 	.word	0x20000800
+     998:	20000c40 	.word	0x20000c40
+     99c:	20000840 	.word	0x20000840
 
 000009a0 <st_lld_get_counter>:
  *
@@ -1713,8 +1713,8 @@ void _vt_init(void) {
 #endif /* CH_CFG_ST_TIMEDELTA > 0 */
 }
      a3a:	4770      	bx	lr
-     a3c:	20000810 	.word	0x20000810
-     a40:	2000082c 	.word	0x2000082c
+     a3c:	20000800 	.word	0x20000800
+     a40:	2000081c 	.word	0x2000081c
      a44:	f3af 8000 	nop.w
      a48:	f3af 8000 	nop.w
      a4c:	f3af 8000 	nop.w
@@ -1928,9 +1928,9 @@ void chVTDoSetI(virtual_timer_t *vtp, systime_t delay,
      b54:	b009      	add	sp, #36	; 0x24
      b56:	f85d fb04 	ldr.w	pc, [sp], #4
      b5a:	bf00      	nop
-     b5c:	00004260 	.word	0x00004260
-     b60:	20000810 	.word	0x20000810
-     b64:	2000082c 	.word	0x2000082c
+     b5c:	00004530 	.word	0x00004530
+     b60:	20000800 	.word	0x20000800
+     b64:	2000081c 	.word	0x2000081c
      b68:	f3af 8000 	nop.w
      b6c:	f3af 8000 	nop.w
 
@@ -2113,9 +2113,9 @@ void chVTDoResetI(virtual_timer_t *vtp) {
      c54:	b005      	add	sp, #20
      c56:	f85d fb04 	ldr.w	pc, [sp], #4
      c5a:	bf00      	nop
-     c5c:	00004270 	.word	0x00004270
-     c60:	20000810 	.word	0x20000810
-     c64:	2000082c 	.word	0x2000082c
+     c5c:	00004540 	.word	0x00004540
+     c60:	20000800 	.word	0x20000800
+     c64:	2000081c 	.word	0x2000081c
      c68:	f3af 8000 	nop.w
      c6c:	f3af 8000 	nop.w
 
@@ -2311,7 +2311,7 @@ static inline bool chSchIsRescRequiredI(void) {
 }
      d3c:	4618      	mov	r0, r3
      d3e:	bd08      	pop	{r3, pc}
-     d40:	20000810 	.word	0x20000810
+     d40:	20000800 	.word	0x20000800
      d44:	f3af 8000 	nop.w
      d48:	f3af 8000 	nop.w
      d4c:	f3af 8000 	nop.w
@@ -2433,7 +2433,7 @@ void _scheduler_init(void) {
 #endif
 }
      dca:	bd08      	pop	{r3, pc}
-     dcc:	20000810 	.word	0x20000810
+     dcc:	20000800 	.word	0x20000800
 
 00000dd0 <chSchReadyI>:
  * @param[in] tp        the thread to be made ready
@@ -2514,8 +2514,8 @@ thread_t *chSchReadyI(thread_t *tp) {
      e3c:	4618      	mov	r0, r3
      e3e:	b005      	add	sp, #20
      e40:	f85d fb04 	ldr.w	pc, [sp], #4
-     e44:	00004280 	.word	0x00004280
-     e48:	20000810 	.word	0x20000810
+     e44:	00004550 	.word	0x00004550
+     e48:	20000800 	.word	0x20000800
      e4c:	f3af 8000 	nop.w
 
 00000e50 <chSchGoSleepS>:
@@ -2598,8 +2598,8 @@ __attribute__( ( always_inline ) ) __STATIC_INLINE uint32_t __get_PSP(void)
 }
      ec0:	b004      	add	sp, #16
      ec2:	bd10      	pop	{r4, pc}
-     ec4:	20000810 	.word	0x20000810
-     ec8:	00004240 	.word	0x00004240
+     ec4:	20000800 	.word	0x20000800
+     ec8:	00004510 	.word	0x00004510
      ecc:	f3af 8000 	nop.w
 
 00000ed0 <wakeup>:
@@ -2748,7 +2748,7 @@ msg_t chSchGoSleepTimeoutS(tstate_t newstate, systime_t time) {
      fac:	4618      	mov	r0, r3
      fae:	b009      	add	sp, #36	; 0x24
      fb0:	f85d fb04 	ldr.w	pc, [sp], #4
-     fb4:	20000810 	.word	0x20000810
+     fb4:	20000800 	.word	0x20000800
      fb8:	00000ed1 	.word	0x00000ed1
      fbc:	f3af 8000 	nop.w
 
@@ -2844,8 +2844,8 @@ __attribute__( ( always_inline ) ) __STATIC_INLINE uint32_t __get_PSP(void)
     1036:	b004      	add	sp, #16
     1038:	bd10      	pop	{r4, pc}
     103a:	bf00      	nop
-    103c:	20000810 	.word	0x20000810
-    1040:	00004240 	.word	0x00004240
+    103c:	20000800 	.word	0x20000800
+    1040:	00004510 	.word	0x00004510
     1044:	f3af 8000 	nop.w
     1048:	f3af 8000 	nop.w
     104c:	f3af 8000 	nop.w
@@ -2913,7 +2913,7 @@ bool chSchIsPreemptionRequired(void) {
     1092:	b002      	add	sp, #8
     1094:	4770      	bx	lr
     1096:	bf00      	nop
-    1098:	20000810 	.word	0x20000810
+    1098:	20000800 	.word	0x20000800
     109c:	f3af 8000 	nop.w
 
 000010a0 <chSchDoRescheduleAhead>:
@@ -3024,8 +3024,8 @@ __attribute__( ( always_inline ) ) __STATIC_INLINE uint32_t __get_PSP(void)
     1136:	b004      	add	sp, #16
     1138:	bd10      	pop	{r4, pc}
     113a:	bf00      	nop
-    113c:	20000810 	.word	0x20000810
-    1140:	00004240 	.word	0x00004240
+    113c:	20000800 	.word	0x20000800
+    1140:	00004510 	.word	0x00004510
     1144:	f3af 8000 	nop.w
     1148:	f3af 8000 	nop.w
     114c:	f3af 8000 	nop.w
@@ -3351,8 +3351,8 @@ static inline void chSysUnlock(void) {
     12aa:	f7ff ff61 	bl	1170 <port_unlock>
 }
     12ae:	bd08      	pop	{r3, pc}
-    12b0:	20000810 	.word	0x20000810
-    12b4:	000042a0 	.word	0x000042a0
+    12b0:	20000800 	.word	0x20000800
+    12b4:	00004570 	.word	0x00004570
     12b8:	f3af 8000 	nop.w
     12bc:	f3af 8000 	nop.w
 
@@ -3381,7 +3381,7 @@ static inline void chThdSleepS(systime_t time) {
 }
     12da:	b003      	add	sp, #12
     12dc:	f85d fb04 	ldr.w	pc, [sp], #4
-    12e0:	000042d0 	.word	0x000042d0
+    12e0:	000045a0 	.word	0x000045a0
     12e4:	f3af 8000 	nop.w
     12e8:	f3af 8000 	nop.w
     12ec:	f3af 8000 	nop.w
@@ -3434,7 +3434,7 @@ static inline void chThdDoDequeueNextI(threads_queue_t *tqp, msg_t msg) {
     1334:	b005      	add	sp, #20
     1336:	f85d fb04 	ldr.w	pc, [sp], #4
     133a:	bf00      	nop
-    133c:	00004300 	.word	0x00004300
+    133c:	000045d0 	.word	0x000045d0
 
 00001340 <_thread_init>:
  * @param[in] prio      the priority level for the new thread
@@ -3552,7 +3552,7 @@ thread_t *_thread_init(thread_t *tp, tprio_t prio) {
     13d0:	b003      	add	sp, #12
     13d2:	f85d fb04 	ldr.w	pc, [sp], #4
     13d6:	bf00      	nop
-    13d8:	20000810 	.word	0x20000810
+    13d8:	20000800 	.word	0x20000800
     13dc:	f3af 8000 	nop.w
 
 000013e0 <_thread_memfill>:
@@ -3662,7 +3662,7 @@ thread_t *chThdCreateI(void *wsp, size_t size,
     1470:	4618      	mov	r0, r3
     1472:	b007      	add	sp, #28
     1474:	f85d fb04 	ldr.w	pc, [sp], #4
-    1478:	00004290 	.word	0x00004290
+    1478:	00004560 	.word	0x00004560
     147c:	00000291 	.word	0x00000291
 
 00001480 <chThdCreateStatic>:
@@ -3798,8 +3798,8 @@ tprio_t chThdSetPriority(tprio_t newprio) {
     1534:	4618      	mov	r0, r3
     1536:	b005      	add	sp, #20
     1538:	f85d fb04 	ldr.w	pc, [sp], #4
-    153c:	000042b0 	.word	0x000042b0
-    1540:	20000810 	.word	0x20000810
+    153c:	00004580 	.word	0x00004580
+    1540:	20000800 	.word	0x20000800
     1544:	f3af 8000 	nop.w
     1548:	f3af 8000 	nop.w
     154c:	f3af 8000 	nop.w
@@ -3934,8 +3934,8 @@ void chThdExitS(msg_t msg) {
     15f4:	b005      	add	sp, #20
     15f6:	f85d fb04 	ldr.w	pc, [sp], #4
     15fa:	bf00      	nop
-    15fc:	20000810 	.word	0x20000810
-    1600:	000042e0 	.word	0x000042e0
+    15fc:	20000800 	.word	0x20000800
+    1600:	000045b0 	.word	0x000045b0
     1604:	f3af 8000 	nop.w
     1608:	f3af 8000 	nop.w
     160c:	f3af 8000 	nop.w
@@ -3987,7 +3987,7 @@ void chThdResumeI(thread_reference_t *trp, msg_t msg) {
     1648:	b005      	add	sp, #20
     164a:	f85d fb04 	ldr.w	pc, [sp], #4
     164e:	bf00      	nop
-    1650:	000042f0 	.word	0x000042f0
+    1650:	000045c0 	.word	0x000045c0
     1654:	f3af 8000 	nop.w
     1658:	f3af 8000 	nop.w
     165c:	f3af 8000 	nop.w
@@ -4030,7 +4030,7 @@ msg_t chThdEnqueueTimeoutS(threads_queue_t *tqp, systime_t timeout) {
     168c:	b003      	add	sp, #12
     168e:	f85d fb04 	ldr.w	pc, [sp], #4
     1692:	bf00      	nop
-    1694:	20000810 	.word	0x20000810
+    1694:	20000800 	.word	0x20000800
     1698:	f3af 8000 	nop.w
     169c:	f3af 8000 	nop.w
 
@@ -4190,7 +4190,7 @@ void _tm_init(void) {
     177c:	b007      	add	sp, #28
     177e:	f85d fb04 	ldr.w	pc, [sp], #4
     1782:	bf00      	nop
-    1784:	20000810 	.word	0x20000810
+    1784:	20000800 	.word	0x20000800
     1788:	f3af 8000 	nop.w
     178c:	f3af 8000 	nop.w
 
@@ -4276,7 +4276,7 @@ NOINLINE void chTMStopMeasurementX(time_measurement_t *tmp) {
     17fc:	b003      	add	sp, #12
     17fe:	f85d fb04 	ldr.w	pc, [sp], #4
     1802:	bf00      	nop
-    1804:	20000810 	.word	0x20000810
+    1804:	20000800 	.word	0x20000800
     1808:	f3af 8000 	nop.w
     180c:	f3af 8000 	nop.w
 
@@ -4339,9 +4339,9 @@ void _stats_init(void) {
     185a:	f7ff ff99 	bl	1790 <chTMObjectInit>
 }
     185e:	bd08      	pop	{r3, pc}
-    1860:	20000810 	.word	0x20000810
-    1864:	20000cc0 	.word	0x20000cc0
-    1868:	20000cd8 	.word	0x20000cd8
+    1860:	20000800 	.word	0x20000800
+    1864:	20000cb0 	.word	0x20000cb0
+    1868:	20000cc8 	.word	0x20000cc8
     186c:	f3af 8000 	nop.w
 
 00001870 <_stats_increase_irq>:
@@ -4358,7 +4358,7 @@ void _stats_increase_irq(void) {
     187a:	f8c3 24a8 	str.w	r2, [r3, #1192]	; 0x4a8
 }
     187e:	4770      	bx	lr
-    1880:	20000810 	.word	0x20000810
+    1880:	20000800 	.word	0x20000800
     1884:	f3af 8000 	nop.w
     1888:	f3af 8000 	nop.w
     188c:	f3af 8000 	nop.w
@@ -4393,7 +4393,7 @@ void _stats_ctxswc(thread_t *ntp, thread_t *otp) {
     18b8:	b003      	add	sp, #12
     18ba:	f85d fb04 	ldr.w	pc, [sp], #4
     18be:	bf00      	nop
-    18c0:	20000810 	.word	0x20000810
+    18c0:	20000800 	.word	0x20000800
     18c4:	f3af 8000 	nop.w
     18c8:	f3af 8000 	nop.w
     18cc:	f3af 8000 	nop.w
@@ -4412,7 +4412,7 @@ void _stats_start_measure_crit_thd(void) {
 }
     18d8:	bd08      	pop	{r3, pc}
     18da:	bf00      	nop
-    18dc:	20000cc0 	.word	0x20000cc0
+    18dc:	20000cb0 	.word	0x20000cb0
 
 000018e0 <_stats_stop_measure_crit_thd>:
 
@@ -4428,7 +4428,7 @@ void _stats_stop_measure_crit_thd(void) {
 }
     18e8:	bd08      	pop	{r3, pc}
     18ea:	bf00      	nop
-    18ec:	20000cc0 	.word	0x20000cc0
+    18ec:	20000cb0 	.word	0x20000cb0
 
 000018f0 <_stats_start_measure_crit_isr>:
 
@@ -4444,7 +4444,7 @@ void _stats_start_measure_crit_isr(void) {
 }
     18f8:	bd08      	pop	{r3, pc}
     18fa:	bf00      	nop
-    18fc:	20000cd8 	.word	0x20000cd8
+    18fc:	20000cc8 	.word	0x20000cc8
 
 00001900 <_stats_stop_measure_crit_isr>:
 
@@ -4460,7 +4460,7 @@ void _stats_stop_measure_crit_isr(void) {
 }
     1908:	bd08      	pop	{r3, pc}
     190a:	bf00      	nop
-    190c:	20000cd8 	.word	0x20000cd8
+    190c:	20000cc8 	.word	0x20000cc8
 
 00001910 <queue_init>:
  *
@@ -4641,7 +4641,7 @@ void chSemObjectInit(semaphore_t *sp, cnt_t n) {
     19f8:	b003      	add	sp, #12
     19fa:	f85d fb04 	ldr.w	pc, [sp], #4
     19fe:	bf00      	nop
-    1a00:	00004340 	.word	0x00004340
+    1a00:	00004610 	.word	0x00004610
     1a04:	f3af 8000 	nop.w
     1a08:	f3af 8000 	nop.w
     1a0c:	f3af 8000 	nop.w
@@ -4749,8 +4749,8 @@ msg_t chSemWaitTimeoutS(semaphore_t *sp, systime_t time) {
     1ab4:	b003      	add	sp, #12
     1ab6:	f85d fb04 	ldr.w	pc, [sp], #4
     1aba:	bf00      	nop
-    1abc:	00004350 	.word	0x00004350
-    1ac0:	20000810 	.word	0x20000810
+    1abc:	00004620 	.word	0x00004620
+    1ac0:	20000800 	.word	0x20000800
     1ac4:	f3af 8000 	nop.w
     1ac8:	f3af 8000 	nop.w
     1acc:	f3af 8000 	nop.w
@@ -4833,7 +4833,7 @@ void chSemSignalI(semaphore_t *sp) {
     1b4c:	b005      	add	sp, #20
     1b4e:	f85d fb04 	ldr.w	pc, [sp], #4
     1b52:	bf00      	nop
-    1b54:	00004370 	.word	0x00004370
+    1b54:	00004640 	.word	0x00004640
     1b58:	f3af 8000 	nop.w
     1b5c:	f3af 8000 	nop.w
 
@@ -4895,7 +4895,7 @@ void chMtxObjectInit(mutex_t *mp) {
     1ba0:	b003      	add	sp, #12
     1ba2:	f85d fb04 	ldr.w	pc, [sp], #4
     1ba6:	bf00      	nop
-    1ba8:	00004380 	.word	0x00004380
+    1ba8:	00004650 	.word	0x00004650
     1bac:	f3af 8000 	nop.w
 
 00001bb0 <chEvtBroadcastFlagsI>:
@@ -4987,7 +4987,7 @@ void chEvtBroadcastFlagsI(event_source_t *esp, eventflags_t flags) {
 }
     1c0e:	b005      	add	sp, #20
     1c10:	f85d fb04 	ldr.w	pc, [sp], #4
-    1c14:	00004390 	.word	0x00004390
+    1c14:	00004660 	.word	0x00004660
     1c18:	f3af 8000 	nop.w
     1c1c:	f3af 8000 	nop.w
 
@@ -5081,7 +5081,7 @@ void chEvtSignalI(thread_t *tp, eventmask_t events) {
     1c84:	b003      	add	sp, #12
     1c86:	f85d fb04 	ldr.w	pc, [sp], #4
     1c8a:	bf00      	nop
-    1c8c:	000043b0 	.word	0x000043b0
+    1c8c:	00004680 	.word	0x00004680
 
 00001c90 <port_lock>:
 /**
@@ -5184,8 +5184,8 @@ static inline void chSysUnlock(void) {
     1cea:	f7ff ffd9 	bl	1ca0 <port_unlock>
 }
     1cee:	bd08      	pop	{r3, pc}
-    1cf0:	20000810 	.word	0x20000810
-    1cf4:	000043d0 	.word	0x000043d0
+    1cf0:	20000800 	.word	0x20000800
+    1cf4:	000046a0 	.word	0x000046a0
     1cf8:	f3af 8000 	nop.w
     1cfc:	f3af 8000 	nop.w
 
@@ -5250,7 +5250,7 @@ void chMBObjectInit(mailbox_t *mbp, msg_t *buf, cnt_t n) {
     1d58:	b005      	add	sp, #20
     1d5a:	f85d fb04 	ldr.w	pc, [sp], #4
     1d5e:	bf00      	nop
-    1d60:	000043c0 	.word	0x000043c0
+    1d60:	00004690 	.word	0x00004690
     1d64:	f3af 8000 	nop.w
     1d68:	f3af 8000 	nop.w
     1d6c:	f3af 8000 	nop.w
@@ -5359,7 +5359,7 @@ msg_t chMBPostS(mailbox_t *mbp, msg_t msg, systime_t timeout) {
     1e00:	4618      	mov	r0, r3
     1e02:	b007      	add	sp, #28
     1e04:	f85d fb04 	ldr.w	pc, [sp], #4
-    1e08:	000043e0 	.word	0x000043e0
+    1e08:	000046b0 	.word	0x000046b0
     1e0c:	f3af 8000 	nop.w
 
 00001e10 <chMBFetch>:
@@ -5470,7 +5470,7 @@ msg_t chMBFetchS(mailbox_t *mbp, msg_t *msgp, systime_t timeout) {
     1ea8:	4618      	mov	r0, r3
     1eaa:	b007      	add	sp, #28
     1eac:	f85d fb04 	ldr.w	pc, [sp], #4
-    1eb0:	000043f0 	.word	0x000043f0
+    1eb0:	000046c0 	.word	0x000046c0
     1eb4:	f3af 8000 	nop.w
     1eb8:	f3af 8000 	nop.w
     1ebc:	f3af 8000 	nop.w
@@ -5601,8 +5601,8 @@ static inline void chSysUnlock(void) {
     1f3a:	f7ff ffc9 	bl	1ed0 <port_unlock>
 }
     1f3e:	bd08      	pop	{r3, pc}
-    1f40:	20000810 	.word	0x20000810
-    1f44:	00004400 	.word	0x00004400
+    1f40:	20000800 	.word	0x20000800
+    1f44:	000046d0 	.word	0x000046d0
     1f48:	f3af 8000 	nop.w
     1f4c:	f3af 8000 	nop.w
 
@@ -6116,7 +6116,7 @@ size_t chIQReadTimeout(input_queue_t *iqp, uint8_t *bp,
     222c:	4618      	mov	r0, r3
     222e:	b007      	add	sp, #28
     2230:	f85d fb04 	ldr.w	pc, [sp], #4
-    2234:	00004410 	.word	0x00004410
+    2234:	000046e0 	.word	0x000046e0
     2238:	f3af 8000 	nop.w
     223c:	f3af 8000 	nop.w
 
@@ -6482,7 +6482,7 @@ size_t chOQWriteTimeout(output_queue_t *oqp, const uint8_t *bp,
     242c:	4618      	mov	r0, r3
     242e:	b007      	add	sp, #28
     2430:	f85d fb04 	ldr.w	pc, [sp], #4
-    2434:	00004420 	.word	0x00004420
+    2434:	000046f0 	.word	0x000046f0
     2438:	f3af 8000 	nop.w
     243c:	f3af 8000 	nop.w
 
@@ -6587,8 +6587,8 @@ static inline void chSysUnlock(void) {
     249a:	f7ff ffd9 	bl	2450 <port_unlock>
 }
     249e:	bd08      	pop	{r3, pc}
-    24a0:	20000810 	.word	0x20000810
-    24a4:	00004440 	.word	0x00004440
+    24a0:	20000800 	.word	0x20000800
+    24a4:	00004710 	.word	0x00004710
     24a8:	f3af 8000 	nop.w
     24ac:	f3af 8000 	nop.w
 
@@ -6618,10 +6618,10 @@ static inline void chSysUnlock(void) {
 #endif
 }
     24ca:	4770      	bx	lr
-    24cc:	20001388 	.word	0x20001388
-    24d0:	20000de8 	.word	0x20000de8
+    24cc:	20001740 	.word	0x20001740
+    24d0:	20000dd8 	.word	0x20000dd8
     24d4:	20020000 	.word	0x20020000
-    24d8:	20000dec 	.word	0x20000dec
+    24d8:	20000ddc 	.word	0x20000ddc
     24dc:	f3af 8000 	nop.w
 
 000024e0 <chCoreAlloc>:
@@ -6707,8 +6707,8 @@ void *chCoreAllocI(size_t size) {
     2540:	4618      	mov	r0, r3
     2542:	b005      	add	sp, #20
     2544:	f85d fb04 	ldr.w	pc, [sp], #4
-    2548:	20000dec 	.word	0x20000dec
-    254c:	20000de8 	.word	0x20000de8
+    2548:	20000ddc 	.word	0x20000ddc
+    254c:	20000dd8 	.word	0x20000dd8
 
 00002550 <_heap_init>:
 /**
@@ -6740,9 +6740,9 @@ void _heap_init(void) {
 #endif
 }
     256a:	bd08      	pop	{r3, pc}
-    256c:	20000df0 	.word	0x20000df0
+    256c:	20000de0 	.word	0x20000de0
     2570:	000024e1 	.word	0x000024e1
-    2574:	20000e00 	.word	0x20000e00
+    2574:	20000df0 	.word	0x20000df0
     2578:	f3af 8000 	nop.w
     257c:	f3af 8000 	nop.w
 
@@ -6847,8 +6847,8 @@ static inline void chSysUnlock(void) {
     25da:	f7ff ffd9 	bl	2590 <port_unlock>
 }
     25de:	bd08      	pop	{r3, pc}
-    25e0:	20000810 	.word	0x20000810
-    25e4:	00004490 	.word	0x00004490
+    25e0:	20000800 	.word	0x20000800
+    25e4:	00004760 	.word	0x00004760
     25e8:	f3af 8000 	nop.w
     25ec:	f3af 8000 	nop.w
 
@@ -6913,7 +6913,7 @@ void chPoolObjectInit(memory_pool_t *mp, size_t size, memgetfunc_t provider) {
 }
     263e:	b005      	add	sp, #20
     2640:	f85d fb04 	ldr.w	pc, [sp], #4
-    2644:	00004450 	.word	0x00004450
+    2644:	00004720 	.word	0x00004720
     2648:	f3af 8000 	nop.w
     264c:	f3af 8000 	nop.w
 
@@ -6976,7 +6976,7 @@ void chPoolLoadArray(memory_pool_t *mp, void *p, size_t n) {
 }
     268e:	b005      	add	sp, #20
     2690:	f85d fb04 	ldr.w	pc, [sp], #4
-    2694:	00004470 	.word	0x00004470
+    2694:	00004740 	.word	0x00004740
     2698:	f3af 8000 	nop.w
     269c:	f3af 8000 	nop.w
 
@@ -7041,7 +7041,7 @@ void *chPoolAllocI(memory_pool_t *mp) {
     26e8:	b005      	add	sp, #20
     26ea:	f85d fb04 	ldr.w	pc, [sp], #4
     26ee:	bf00      	nop
-    26f0:	00004480 	.word	0x00004480
+    26f0:	00004750 	.word	0x00004750
     26f4:	f3af 8000 	nop.w
     26f8:	f3af 8000 	nop.w
     26fc:	f3af 8000 	nop.w
@@ -7114,7 +7114,7 @@ void chPoolFreeI(memory_pool_t *mp, void *objp) {
     2750:	b005      	add	sp, #20
     2752:	f85d fb04 	ldr.w	pc, [sp], #4
     2756:	bf00      	nop
-    2758:	000044a0 	.word	0x000044a0
+    2758:	00004770 	.word	0x00004770
     275c:	f3af 8000 	nop.w
 
 00002760 <chPoolFree>:
@@ -7448,7 +7448,7 @@ void halInit(void) {
 }
     2890:	bd08      	pop	{r3, pc}
     2892:	bf00      	nop
-    2894:	000045f0 	.word	0x000045f0
+    2894:	000048c0 	.word	0x000048c0
     2898:	f3af 8000 	nop.w
     289c:	f3af 8000 	nop.w
 
@@ -7574,7 +7574,7 @@ void stStartAlarm(systime_t abstime) {
     292c:	b003      	add	sp, #12
     292e:	f85d fb04 	ldr.w	pc, [sp], #4
     2932:	bf00      	nop
-    2934:	000044b0 	.word	0x000044b0
+    2934:	00004780 	.word	0x00004780
     2938:	f3af 8000 	nop.w
     293c:	f3af 8000 	nop.w
 
@@ -7621,7 +7621,7 @@ void stSetAlarm(systime_t abstime) {
 }
     2972:	b003      	add	sp, #12
     2974:	f85d fb04 	ldr.w	pc, [sp], #4
-    2978:	000044c0 	.word	0x000044c0
+    2978:	00004790 	.word	0x00004790
     297c:	f3af 8000 	nop.w
 
 00002980 <osalMutexObjectInit>:
@@ -7828,8 +7828,8 @@ static inline void chSysUnlock(void) {
     2a4a:	f7ff ffd9 	bl	2a00 <port_unlock>
 }
     2a4e:	bd08      	pop	{r3, pc}
-    2a50:	20000810 	.word	0x20000810
-    2a54:	00004500 	.word	0x00004500
+    2a50:	20000800 	.word	0x20000800
+    2a54:	000047d0 	.word	0x000047d0
     2a58:	f3af 8000 	nop.w
     2a5c:	f3af 8000 	nop.w
 
@@ -8228,7 +8228,7 @@ void sdObjectInit(SerialDriver *sdp, qnotify_t inotify, qnotify_t onotify) {
     2cb4:	b007      	add	sp, #28
     2cb6:	f85d fb04 	ldr.w	pc, [sp], #4
     2cba:	bf00      	nop
-    2cbc:	000044d0 	.word	0x000044d0
+    2cbc:	000047a0 	.word	0x000047a0
 
 00002cc0 <sdStart>:
  *                      If this parameter is set to @p NULL then a default
@@ -8277,7 +8277,7 @@ void sdStart(SerialDriver *sdp, const SerialConfig *config) {
     2d00:	b003      	add	sp, #12
     2d02:	f85d fb04 	ldr.w	pc, [sp], #4
     2d06:	bf00      	nop
-    2d08:	000044f0 	.word	0x000044f0
+    2d08:	000047c0 	.word	0x000047c0
     2d0c:	f3af 8000 	nop.w
 
 00002d10 <sdIncomingDataI>:
@@ -8336,7 +8336,7 @@ void sdIncomingDataI(SerialDriver *sdp, uint8_t b) {
     2d6c:	b003      	add	sp, #12
     2d6e:	f85d fb04 	ldr.w	pc, [sp], #4
     2d72:	bf00      	nop
-    2d74:	00004510 	.word	0x00004510
+    2d74:	000047e0 	.word	0x000047e0
     2d78:	f3af 8000 	nop.w
     2d7c:	f3af 8000 	nop.w
 
@@ -8761,7 +8761,7 @@ OSAL_IRQ_HANDLER(STM32_DMA1_CH0_HANDLER) {
     2fda:	b003      	add	sp, #12
     2fdc:	f85d fb04 	ldr.w	pc, [sp], #4
     2fe0:	40026000 	.word	0x40026000
-    2fe4:	20000e14 	.word	0x20000e14
+    2fe4:	20000e04 	.word	0x20000e04
     2fe8:	f3af 8000 	nop.w
     2fec:	f3af 8000 	nop.w
 
@@ -8812,7 +8812,7 @@ OSAL_IRQ_HANDLER(STM32_DMA1_CH1_HANDLER) {
     302e:	b003      	add	sp, #12
     3030:	f85d fb04 	ldr.w	pc, [sp], #4
     3034:	40026000 	.word	0x40026000
-    3038:	20000e14 	.word	0x20000e14
+    3038:	20000e04 	.word	0x20000e04
     303c:	f3af 8000 	nop.w
 
 00003040 <Vector74>:
@@ -8862,7 +8862,7 @@ OSAL_IRQ_HANDLER(STM32_DMA1_CH2_HANDLER) {
     307e:	b003      	add	sp, #12
     3080:	f85d fb04 	ldr.w	pc, [sp], #4
     3084:	40026000 	.word	0x40026000
-    3088:	20000e14 	.word	0x20000e14
+    3088:	20000e04 	.word	0x20000e04
     308c:	f3af 8000 	nop.w
 
 00003090 <Vector78>:
@@ -8912,7 +8912,7 @@ OSAL_IRQ_HANDLER(STM32_DMA1_CH3_HANDLER) {
     30ce:	b003      	add	sp, #12
     30d0:	f85d fb04 	ldr.w	pc, [sp], #4
     30d4:	40026000 	.word	0x40026000
-    30d8:	20000e14 	.word	0x20000e14
+    30d8:	20000e04 	.word	0x20000e04
     30dc:	f3af 8000 	nop.w
 
 000030e0 <Vector7C>:
@@ -8960,7 +8960,7 @@ OSAL_IRQ_HANDLER(STM32_DMA1_CH4_HANDLER) {
     311a:	b003      	add	sp, #12
     311c:	f85d fb04 	ldr.w	pc, [sp], #4
     3120:	40026000 	.word	0x40026000
-    3124:	20000e14 	.word	0x20000e14
+    3124:	20000e04 	.word	0x20000e04
     3128:	f3af 8000 	nop.w
     312c:	f3af 8000 	nop.w
 
@@ -9011,7 +9011,7 @@ OSAL_IRQ_HANDLER(STM32_DMA1_CH5_HANDLER) {
     316e:	b003      	add	sp, #12
     3170:	f85d fb04 	ldr.w	pc, [sp], #4
     3174:	40026000 	.word	0x40026000
-    3178:	20000e14 	.word	0x20000e14
+    3178:	20000e04 	.word	0x20000e04
     317c:	f3af 8000 	nop.w
 
 00003180 <Vector84>:
@@ -9061,7 +9061,7 @@ OSAL_IRQ_HANDLER(STM32_DMA1_CH6_HANDLER) {
     31be:	b003      	add	sp, #12
     31c0:	f85d fb04 	ldr.w	pc, [sp], #4
     31c4:	40026000 	.word	0x40026000
-    31c8:	20000e14 	.word	0x20000e14
+    31c8:	20000e04 	.word	0x20000e04
     31cc:	f3af 8000 	nop.w
 
 000031d0 <VectorFC>:
@@ -9111,7 +9111,7 @@ OSAL_IRQ_HANDLER(STM32_DMA1_CH7_HANDLER) {
     320e:	b003      	add	sp, #12
     3210:	f85d fb04 	ldr.w	pc, [sp], #4
     3214:	40026000 	.word	0x40026000
-    3218:	20000e14 	.word	0x20000e14
+    3218:	20000e04 	.word	0x20000e04
     321c:	f3af 8000 	nop.w
 
 00003220 <Vector120>:
@@ -9159,7 +9159,7 @@ OSAL_IRQ_HANDLER(STM32_DMA2_CH0_HANDLER) {
     325a:	b003      	add	sp, #12
     325c:	f85d fb04 	ldr.w	pc, [sp], #4
     3260:	40026400 	.word	0x40026400
-    3264:	20000e14 	.word	0x20000e14
+    3264:	20000e04 	.word	0x20000e04
     3268:	f3af 8000 	nop.w
     326c:	f3af 8000 	nop.w
 
@@ -9210,7 +9210,7 @@ OSAL_IRQ_HANDLER(STM32_DMA2_CH1_HANDLER) {
     32ae:	b003      	add	sp, #12
     32b0:	f85d fb04 	ldr.w	pc, [sp], #4
     32b4:	40026400 	.word	0x40026400
-    32b8:	20000e14 	.word	0x20000e14
+    32b8:	20000e04 	.word	0x20000e04
     32bc:	f3af 8000 	nop.w
 
 000032c0 <Vector128>:
@@ -9260,7 +9260,7 @@ OSAL_IRQ_HANDLER(STM32_DMA2_CH2_HANDLER) {
     32fe:	b003      	add	sp, #12
     3300:	f85d fb04 	ldr.w	pc, [sp], #4
     3304:	40026400 	.word	0x40026400
-    3308:	20000e14 	.word	0x20000e14
+    3308:	20000e04 	.word	0x20000e04
     330c:	f3af 8000 	nop.w
 
 00003310 <Vector12C>:
@@ -9310,7 +9310,7 @@ OSAL_IRQ_HANDLER(STM32_DMA2_CH3_HANDLER) {
     334e:	b003      	add	sp, #12
     3350:	f85d fb04 	ldr.w	pc, [sp], #4
     3354:	40026400 	.word	0x40026400
-    3358:	20000e14 	.word	0x20000e14
+    3358:	20000e04 	.word	0x20000e04
     335c:	f3af 8000 	nop.w
 
 00003360 <Vector130>:
@@ -9358,7 +9358,7 @@ OSAL_IRQ_HANDLER(STM32_DMA2_CH4_HANDLER) {
     339a:	b003      	add	sp, #12
     339c:	f85d fb04 	ldr.w	pc, [sp], #4
     33a0:	40026400 	.word	0x40026400
-    33a4:	20000e14 	.word	0x20000e14
+    33a4:	20000e04 	.word	0x20000e04
     33a8:	f3af 8000 	nop.w
     33ac:	f3af 8000 	nop.w
 
@@ -9409,7 +9409,7 @@ OSAL_IRQ_HANDLER(STM32_DMA2_CH5_HANDLER) {
     33ee:	b003      	add	sp, #12
     33f0:	f85d fb04 	ldr.w	pc, [sp], #4
     33f4:	40026400 	.word	0x40026400
-    33f8:	20000e14 	.word	0x20000e14
+    33f8:	20000e04 	.word	0x20000e04
     33fc:	f3af 8000 	nop.w
 
 00003400 <Vector154>:
@@ -9459,7 +9459,7 @@ OSAL_IRQ_HANDLER(STM32_DMA2_CH6_HANDLER) {
     343e:	b003      	add	sp, #12
     3440:	f85d fb04 	ldr.w	pc, [sp], #4
     3444:	40026400 	.word	0x40026400
-    3448:	20000e14 	.word	0x20000e14
+    3448:	20000e04 	.word	0x20000e04
     344c:	f3af 8000 	nop.w
 
 00003450 <Vector158>:
@@ -9509,7 +9509,7 @@ OSAL_IRQ_HANDLER(STM32_DMA2_CH7_HANDLER) {
     348e:	b003      	add	sp, #12
     3490:	f85d fb04 	ldr.w	pc, [sp], #4
     3494:	40026400 	.word	0x40026400
-    3498:	20000e14 	.word	0x20000e14
+    3498:	20000e04 	.word	0x20000e04
     349c:	f3af 8000 	nop.w
 
 000034a0 <dmaInit>:
@@ -9580,9 +9580,9 @@ void dmaInit(void) {
 }
     34f8:	b002      	add	sp, #8
     34fa:	4770      	bx	lr
-    34fc:	20000e10 	.word	0x20000e10
-    3500:	00004520 	.word	0x00004520
-    3504:	20000e14 	.word	0x20000e14
+    34fc:	20000e00 	.word	0x20000e00
+    3500:	000047f0 	.word	0x000047f0
+    3504:	20000e04 	.word	0x20000e04
     3508:	40026000 	.word	0x40026000
     350c:	40026400 	.word	0x40026400
 
@@ -10247,14 +10247,14 @@ OSAL_IRQ_HANDLER(STM32_ADC_HANDLER) {
     385a:	b003      	add	sp, #12
     385c:	f85d fb04 	ldr.w	pc, [sp], #4
     3860:	40012000 	.word	0x40012000
-    3864:	20000e94 	.word	0x20000e94
-    3868:	20000ea8 	.word	0x20000ea8
+    3864:	20000e84 	.word	0x20000e84
+    3868:	20000e98 	.word	0x20000e98
     386c:	40012100 	.word	0x40012100
-    3870:	20000ec8 	.word	0x20000ec8
-    3874:	20000edc 	.word	0x20000edc
+    3870:	20000eb8 	.word	0x20000eb8
+    3874:	20000ecc 	.word	0x20000ecc
     3878:	40012200 	.word	0x40012200
-    387c:	20000efc 	.word	0x20000efc
-    3880:	20000f10 	.word	0x20000f10
+    387c:	20000eec 	.word	0x20000eec
+    3880:	20000f00 	.word	0x20000f00
     3884:	f3af 8000 	nop.w
     3888:	f3af 8000 	nop.w
     388c:	f3af 8000 	nop.w
@@ -10336,17 +10336,17 @@ void adc_lld_init(void) {
     38de:	f7ff fa4f 	bl	2d80 <nvicEnableVector>
 }
     38e2:	bd08      	pop	{r3, pc}
-    38e4:	20000e94 	.word	0x20000e94
+    38e4:	20000e84 	.word	0x20000e84
     38e8:	40012000 	.word	0x40012000
-    38ec:	000045b0 	.word	0x000045b0
+    38ec:	00004880 	.word	0x00004880
     38f0:	00022c16 	.word	0x00022c16
-    38f4:	20000ec8 	.word	0x20000ec8
+    38f4:	20000eb8 	.word	0x20000eb8
     38f8:	40012100 	.word	0x40012100
-    38fc:	00004598 	.word	0x00004598
+    38fc:	00004868 	.word	0x00004868
     3900:	02022c16 	.word	0x02022c16
-    3904:	20000efc 	.word	0x20000efc
+    3904:	20000eec 	.word	0x20000eec
     3908:	40012200 	.word	0x40012200
-    390c:	0000458c 	.word	0x0000458c
+    390c:	0000485c 	.word	0x0000485c
     3910:	04022c16 	.word	0x04022c16
     3914:	f3af 8000 	nop.w
     3918:	f3af 8000 	nop.w
@@ -11371,7 +11371,7 @@ OSAL_IRQ_HANDLER(STM32_USART3_HANDLER) {
 }
     3f38:	bd08      	pop	{r3, pc}
     3f3a:	bf00      	nop
-    3f3c:	20000f30 	.word	0x20000f30
+    3f3c:	20000f20 	.word	0x20000f20
 
 00003f40 <sd_lld_init>:
 /**
@@ -11403,7 +11403,7 @@ void sd_lld_init(void) {
 }
     3f54:	bd08      	pop	{r3, pc}
     3f56:	bf00      	nop
-    3f58:	20000f30 	.word	0x20000f30
+    3f58:	20000f20 	.word	0x20000f20
     3f5c:	00003f01 	.word	0x00003f01
     3f60:	40004800 	.word	0x40004800
     3f64:	f3af 8000 	nop.w
@@ -11467,8 +11467,8 @@ void sd_lld_start(SerialDriver *sdp, const SerialConfig *config) {
 }
     3fae:	b003      	add	sp, #12
     3fb0:	f85d fb04 	ldr.w	pc, [sp], #4
-    3fb4:	000045e0 	.word	0x000045e0
-    3fb8:	20000f30 	.word	0x20000f30
+    3fb4:	000048b0 	.word	0x000048b0
+    3fb8:	20000f20 	.word	0x20000f20
     3fbc:	40023800 	.word	0x40023800
 
 00003fc0 <__early_init>:
@@ -11566,10 +11566,10 @@ int main(void) {
     4046:	e7ef      	b.n	4028 <__ram2_size__+0x28>
     4048:	40020c00 	.word	0x40020c00
     404c:	ffff0000 	.word	0xffff0000
-    4050:	20001008 	.word	0x20001008
+    4050:	20000ff8 	.word	0x20000ff8
     4054:	00004131 	.word	0x00004131
-    4058:	20001170 	.word	0x20001170
-    405c:	00004181 	.word	0x00004181
+    4058:	20001160 	.word	0x20001160
+    405c:	00004451 	.word	0x00004451
 
 00004060 <init_IO>:
 	return 0;/*never reach here*/
@@ -11633,7 +11633,7 @@ void init_IO(void)
 }
     40b2:	bd08      	pop	{r3, pc}
     40b4:	40020400 	.word	0x40020400
-    40b8:	200012d8 	.word	0x200012d8
+    40b8:	200012c8 	.word	0x200012c8
     40bc:	40020c00 	.word	0x40020c00
     40c0:	40021000 	.word	0x40021000
     40c4:	f3af 8000 	nop.w
@@ -11642,37 +11642,33 @@ void init_IO(void)
 
 000040d0 <init_protocol>:
 memory_pool_t mpool;
-MEMORYPOOL_DECL(mpool, sizeof(uint8_t *), NULL);//sayı kaç olmalı belli değil
-uint8_t protocol_01_buffer[64] __attribute__((aligned(sizeof(stkalign_t))));
+uint8_t protocol_01_buffer[64] __attribute__((aligned(sizeof(stkalign_t))));*/
 
+//init
 void init_protocol(void)
 {
     40d0:	b508      	push	{r3, lr}
-	int i;
-	chMBObjectInit(&serialMbox, txMailboxArea, 16);
+	sdStart(&SD1, NULL);*///sd1 onun bunun çocuğu mu neden çalışmıyo insanı delirtiyo ?
+	//chMBObjectInit(&serialMbox, txMailboxArea, 16);
+	//chPoolObjectInit(&mpool, sizeof(void *), NULL);//uint8_t << void * thus we write void *
+	//chPoolLoadArray(&mpool,protocol_01_buffer,64);//acayip yerlere gönderiyo 2.ve sonraki malloclar için
+	
+	chMBObjectInit(&recievebox, recieveboxArea, 16);
     40d2:	4811      	ldr	r0, [pc, #68]	; (4118 <init_protocol+0x48>)
     40d4:	4911      	ldr	r1, [pc, #68]	; (411c <init_protocol+0x4c>)
     40d6:	2210      	movs	r2, #16
     40d8:	f7fd fe12 	bl	1d00 <chMBObjectInit>
-	
-	
-	chPoolObjectInit(&mpool, sizeof(uint8_t *), NULL);
+	chPoolObjectInit(&packetPool, sizeof(protocol_01), NULL);
     40dc:	4810      	ldr	r0, [pc, #64]	; (4120 <init_protocol+0x50>)
-    40de:	2104      	movs	r1, #4
+    40de:	2120      	movs	r1, #32
     40e0:	2200      	movs	r2, #0
     40e2:	f7fe fa95 	bl	2610 <chPoolObjectInit>
-	/*for(i = 0; i < 64; i++)
-	{
-		chPoolAdd(&mpool, &protocol_01_buffer[i]);
-	}*/
-	chPoolLoadArray(&mpool,protocol_01_buffer,64);//acayip yerlere gönderiyo 2.ve sonraki malloclar için
+	chPoolLoadArray(&packetPool,protocol_01_buffer,32);
     40e6:	480e      	ldr	r0, [pc, #56]	; (4120 <init_protocol+0x50>)
     40e8:	490e      	ldr	r1, [pc, #56]	; (4124 <init_protocol+0x54>)
-    40ea:	2240      	movs	r2, #64	; 0x40
+    40ea:	2220      	movs	r2, #32
     40ec:	f7fe fab0 	bl	2650 <chPoolLoadArray>
-	/*palSetPadMode(GPIOA, 9, PAL_MODE_ALTERNATE(7));
-	palSetPadMode(GPIOA, 10, PAL_MODE_ALTERNATE(7));
-	sdStart(&SD1, NULL);*///sd1 onun bunun çocuğu mu neden çalışmıyo insanı delirtiyo ?
+	
 	palSetPadMode(GPIOB, 10, PAL_MODE_ALTERNATE(7)); // used function : USART3_TX
     40f0:	480d      	ldr	r0, [pc, #52]	; (4128 <init_protocol+0x58>)
     40f2:	f44f 6180 	mov.w	r1, #1024	; 0x400
@@ -11683,7 +11679,6 @@ void init_protocol(void)
     4100:	f44f 6100 	mov.w	r1, #2048	; 0x800
     4104:	f240 3282 	movw	r2, #898	; 0x382
     4108:	f7ff fcc2 	bl	3a90 <_pal_lld_setgroupmode>
-
 	sdStart(&SD3, NULL);
     410c:	4807      	ldr	r0, [pc, #28]	; (412c <init_protocol+0x5c>)
     410e:	2100      	movs	r1, #0
@@ -11692,283 +11687,688 @@ void init_protocol(void)
     4114:	bf00      	nop
 }
     4116:	bd08      	pop	{r3, pc}
-    4118:	2000131c 	.word	0x2000131c
-    411c:	200012dc 	.word	0x200012dc
-    4120:	20000800 	.word	0x20000800
-    4124:	20001348 	.word	0x20001348
+    4118:	2000130c 	.word	0x2000130c
+    411c:	200012cc 	.word	0x200012cc
+    4120:	20001334 	.word	0x20001334
+    4124:	20001340 	.word	0x20001340
     4128:	40020400 	.word	0x40020400
-    412c:	20000f30 	.word	0x20000f30
+    412c:	20000f20 	.word	0x20000f20
 
 00004130 <rxListen>:
+	return;
+}
+
 
 void *rxListen(void *arg)
 {
     4130:	b500      	push	{lr}
-    4132:	b085      	sub	sp, #20
+    4132:	b097      	sub	sp, #92	; 0x5c
     4134:	9001      	str	r0, [sp, #4]
-	uint8_t *buffer;
-	while(!0)
+	(void)(arg);
+	uint8_t i = 0;
+    4136:	2300      	movs	r3, #0
+    4138:	f88d 3057 	strb.w	r3, [sp, #87]	; 0x57
+	char buffer[64];
+	protocol_01 *temp;
+	while(!0)//classic infinite thread loop
 	{
-		buffer = (uint8_t *)chPoolAlloc(&mpool);
-    4136:	480d      	ldr	r0, [pc, #52]	; (416c <rxListen+0x3c>)
-    4138:	f7fe fae2 	bl	2700 <chPoolAlloc>
-    413c:	9003      	str	r0, [sp, #12]
-		if(buffer != NULL)
-    413e:	9b03      	ldr	r3, [sp, #12]
-    4140:	2b00      	cmp	r3, #0
-    4142:	d012      	beq.n	416a <rxListen+0x3a>
+		while(i < 25)
+    413c:	e010      	b.n	4160 <rxListen+0x30>
+    413e:	e00f      	b.n	4160 <rxListen+0x30>
 		{
-			sdRead(&SD3, buffer, 1);
-    4144:	480a      	ldr	r0, [pc, #40]	; (4170 <rxListen+0x40>)
-    4146:	9903      	ldr	r1, [sp, #12]
-    4148:	2201      	movs	r2, #1
-    414a:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
-    414e:	f7fe f817 	bl	2180 <chIQReadTimeout>
-			chMBPost(&serialMbox, buffer, TIME_INFINITE);//sonsuza kadar göndermek için beklesin mi yoksa bi yerden sonra pes etsin mi?
-    4152:	9b03      	ldr	r3, [sp, #12]
-    4154:	4807      	ldr	r0, [pc, #28]	; (4174 <rxListen+0x44>)
-    4156:	4619      	mov	r1, r3
-    4158:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
-    415c:	f7fd fe08 	bl	1d70 <chMBPost>
-			chThdSleepMilliseconds(100);
-    4160:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
-    4164:	f7fd f9f4 	bl	1550 <chThdSleep>
+			sdRead(&SD3, &buffer[i], 1);//wait until read
+    4140:	f89d 3057 	ldrb.w	r3, [sp, #87]	; 0x57
+    4144:	aa02      	add	r2, sp, #8
+    4146:	4413      	add	r3, r2
+    4148:	48ae      	ldr	r0, [pc, #696]	; (4404 <rxListen+0x2d4>)
+    414a:	4619      	mov	r1, r3
+    414c:	2201      	movs	r2, #1
+    414e:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+    4152:	f7fe f815 	bl	2180 <chIQReadTimeout>
+			i++;
+    4156:	f89d 3057 	ldrb.w	r3, [sp, #87]	; 0x57
+    415a:	3301      	adds	r3, #1
+    415c:	f88d 3057 	strb.w	r3, [sp, #87]	; 0x57
+	uint8_t i = 0;
+	char buffer[64];
+	protocol_01 *temp;
+	while(!0)//classic infinite thread loop
+	{
+		while(i < 25)
+    4160:	f89d 3057 	ldrb.w	r3, [sp, #87]	; 0x57
+    4164:	2b18      	cmp	r3, #24
+    4166:	d9eb      	bls.n	4140 <rxListen+0x10>
+		{
+			sdRead(&SD3, &buffer[i], 1);//wait until read
+			i++;
+		}
+		//control if message valid
+		if(buffer[0] != SOH || buffer[24] != EOT)//if its not a valid frame
+    4168:	f89d 3008 	ldrb.w	r3, [sp, #8]
+    416c:	2b01      	cmp	r3, #1
+    416e:	d103      	bne.n	4178 <rxListen+0x48>
+    4170:	f89d 3020 	ldrb.w	r3, [sp, #32]
+    4174:	2b04      	cmp	r3, #4
+    4176:	d038      	beq.n	41ea <rxListen+0xba>
+		{
+			uint8_t last = i, index;
+    4178:	f89d 3057 	ldrb.w	r3, [sp, #87]	; 0x57
+    417c:	f88d 304b 	strb.w	r3, [sp, #75]	; 0x4b
+			i = 0;
+    4180:	2300      	movs	r3, #0
+    4182:	f88d 3057 	strb.w	r3, [sp, #87]	; 0x57
+			while(buffer[i] != SOH)//find a start
+    4186:	e004      	b.n	4192 <rxListen+0x62>
+				i++;
+    4188:	f89d 3057 	ldrb.w	r3, [sp, #87]	; 0x57
+    418c:	3301      	adds	r3, #1
+    418e:	f88d 3057 	strb.w	r3, [sp, #87]	; 0x57
+		//control if message valid
+		if(buffer[0] != SOH || buffer[24] != EOT)//if its not a valid frame
+		{
+			uint8_t last = i, index;
+			i = 0;
+			while(buffer[i] != SOH)//find a start
+    4192:	f89d 3057 	ldrb.w	r3, [sp, #87]	; 0x57
+    4196:	a916      	add	r1, sp, #88	; 0x58
+    4198:	440b      	add	r3, r1
+    419a:	f813 3c50 	ldrb.w	r3, [r3, #-80]
+    419e:	2b01      	cmp	r3, #1
+    41a0:	d1f2      	bne.n	4188 <rxListen+0x58>
+				i++;
+			for(index = 0; index < last; index++)//copy contents to head
+    41a2:	2300      	movs	r3, #0
+    41a4:	f88d 3056 	strb.w	r3, [sp, #86]	; 0x56
+    41a8:	e013      	b.n	41d2 <rxListen+0xa2>
+				buffer[index] = buffer[i++];
+    41aa:	f89d 1056 	ldrb.w	r1, [sp, #86]	; 0x56
+    41ae:	f89d 3057 	ldrb.w	r3, [sp, #87]	; 0x57
+    41b2:	1c5a      	adds	r2, r3, #1
+    41b4:	f88d 2057 	strb.w	r2, [sp, #87]	; 0x57
+    41b8:	aa16      	add	r2, sp, #88	; 0x58
+    41ba:	4413      	add	r3, r2
+    41bc:	f813 2c50 	ldrb.w	r2, [r3, #-80]
+    41c0:	ab16      	add	r3, sp, #88	; 0x58
+    41c2:	440b      	add	r3, r1
+    41c4:	f803 2c50 	strb.w	r2, [r3, #-80]
+		{
+			uint8_t last = i, index;
+			i = 0;
+			while(buffer[i] != SOH)//find a start
+				i++;
+			for(index = 0; index < last; index++)//copy contents to head
+    41c8:	f89d 3056 	ldrb.w	r3, [sp, #86]	; 0x56
+    41cc:	3301      	adds	r3, #1
+    41ce:	f88d 3056 	strb.w	r3, [sp, #86]	; 0x56
+    41d2:	f89d 2056 	ldrb.w	r2, [sp, #86]	; 0x56
+    41d6:	f89d 304b 	ldrb.w	r3, [sp, #75]	; 0x4b
+    41da:	429a      	cmp	r2, r3
+    41dc:	d3e5      	bcc.n	41aa <rxListen+0x7a>
+				buffer[index] = buffer[i++];
+			i = index;
+    41de:	f89d 3056 	ldrb.w	r3, [sp, #86]	; 0x56
+    41e2:	f88d 3057 	strb.w	r3, [sp, #87]	; 0x57
+			continue;
+    41e6:	bf00      	nop
+				for(index = 0; index + 1 < i; index++)/*There may some other packet start within so just remove SOH*/
+					buffer[index] = buffer[1 + index];
+				i = i - 1; 
+			//}
 		}
 	}
-    4168:	e7e5      	b.n	4136 <rxListen+0x6>
-    416a:	e7e4      	b.n	4136 <rxListen+0x6>
-    416c:	20000800 	.word	0x20000800
-    4170:	20000f3c 	.word	0x20000f3c
-    4174:	2000131c 	.word	0x2000131c
-    4178:	f3af 8000 	nop.w
-    417c:	f3af 8000 	nop.w
+    41e8:	e7a9      	b.n	413e <rxListen+0xe>
+		}
+		else//valid message
+		{
+			/*Maybe first check if this packet to us
+			 * if it isn't then we don't need to do all this stuff*/
+			uint16_t crc = 0, index;
+    41ea:	2300      	movs	r3, #0
+    41ec:	f8ad 3052 	strh.w	r3, [sp, #82]	; 0x52
+			temp = (protocol_01 *)chPoolAlloc(&packetPool);
+    41f0:	4885      	ldr	r0, [pc, #532]	; (4408 <rxListen+0x2d8>)
+    41f2:	f7fe fa85 	bl	2700 <chPoolAlloc>
+    41f6:	9013      	str	r0, [sp, #76]	; 0x4c
+			//0 is SOH
+			temp->src = 0;//do i need to do this ?
+    41f8:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    41fa:	2200      	movs	r2, #0
+    41fc:	609a      	str	r2, [r3, #8]
+			temp->dest = 0;
+    41fe:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4200:	2200      	movs	r2, #0
+    4202:	60da      	str	r2, [r3, #12]
+			temp->digital_io = 0;
+    4204:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4206:	2200      	movs	r2, #0
+    4208:	611a      	str	r2, [r3, #16]
+			temp->analog_io[0] = 0;
+    420a:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    420c:	2200      	movs	r2, #0
+    420e:	829a      	strh	r2, [r3, #20]
+			temp->analog_io[1] = 0;
+    4210:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4212:	2200      	movs	r2, #0
+    4214:	82da      	strh	r2, [r3, #22]
+			temp->analog_io[2] = 0;
+    4216:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4218:	2200      	movs	r2, #0
+    421a:	831a      	strh	r2, [r3, #24]
+			temp->analog_io[3] = 0;
+    421c:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    421e:	2200      	movs	r2, #0
+    4220:	835a      	strh	r2, [r3, #26]
+			
+			temp->src &= buffer[2] << 24;
+    4222:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4224:	689a      	ldr	r2, [r3, #8]
+    4226:	f89d 300a 	ldrb.w	r3, [sp, #10]
+    422a:	061b      	lsls	r3, r3, #24
+    422c:	401a      	ands	r2, r3
+    422e:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4230:	609a      	str	r2, [r3, #8]
+			temp->src &= buffer[3] << 16;
+    4232:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4234:	689a      	ldr	r2, [r3, #8]
+    4236:	f89d 300b 	ldrb.w	r3, [sp, #11]
+    423a:	041b      	lsls	r3, r3, #16
+    423c:	401a      	ands	r2, r3
+    423e:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4240:	609a      	str	r2, [r3, #8]
+			temp->src &= buffer[4] << 8;
+    4242:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4244:	689a      	ldr	r2, [r3, #8]
+    4246:	f89d 300c 	ldrb.w	r3, [sp, #12]
+    424a:	021b      	lsls	r3, r3, #8
+    424c:	401a      	ands	r2, r3
+    424e:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4250:	609a      	str	r2, [r3, #8]
+			temp->src &= buffer[5];
+    4252:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4254:	689a      	ldr	r2, [r3, #8]
+    4256:	f89d 300d 	ldrb.w	r3, [sp, #13]
+    425a:	401a      	ands	r2, r3
+    425c:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    425e:	609a      	str	r2, [r3, #8]
+			temp->dest &= buffer[6] << 24;
+    4260:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4262:	68da      	ldr	r2, [r3, #12]
+    4264:	f89d 300e 	ldrb.w	r3, [sp, #14]
+    4268:	061b      	lsls	r3, r3, #24
+    426a:	401a      	ands	r2, r3
+    426c:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    426e:	60da      	str	r2, [r3, #12]
+			temp->dest &= buffer[7] << 16;
+    4270:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4272:	68da      	ldr	r2, [r3, #12]
+    4274:	f89d 300f 	ldrb.w	r3, [sp, #15]
+    4278:	041b      	lsls	r3, r3, #16
+    427a:	401a      	ands	r2, r3
+    427c:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    427e:	60da      	str	r2, [r3, #12]
+			temp->dest &= buffer[8] << 8;
+    4280:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4282:	68da      	ldr	r2, [r3, #12]
+    4284:	f89d 3010 	ldrb.w	r3, [sp, #16]
+    4288:	021b      	lsls	r3, r3, #8
+    428a:	401a      	ands	r2, r3
+    428c:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    428e:	60da      	str	r2, [r3, #12]
+			temp->dest &= buffer[9];
+    4290:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4292:	68da      	ldr	r2, [r3, #12]
+    4294:	f89d 3011 	ldrb.w	r3, [sp, #17]
+    4298:	401a      	ands	r2, r3
+    429a:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    429c:	60da      	str	r2, [r3, #12]
+			temp->digital_io &= buffer[10] << 24;
+    429e:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    42a0:	691a      	ldr	r2, [r3, #16]
+    42a2:	f89d 3012 	ldrb.w	r3, [sp, #18]
+    42a6:	061b      	lsls	r3, r3, #24
+    42a8:	401a      	ands	r2, r3
+    42aa:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    42ac:	611a      	str	r2, [r3, #16]
+			temp->digital_io &= buffer[11] << 16;
+    42ae:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    42b0:	691a      	ldr	r2, [r3, #16]
+    42b2:	f89d 3013 	ldrb.w	r3, [sp, #19]
+    42b6:	041b      	lsls	r3, r3, #16
+    42b8:	401a      	ands	r2, r3
+    42ba:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    42bc:	611a      	str	r2, [r3, #16]
+			temp->digital_io &= buffer[12] << 8;
+    42be:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    42c0:	691a      	ldr	r2, [r3, #16]
+    42c2:	f89d 3014 	ldrb.w	r3, [sp, #20]
+    42c6:	021b      	lsls	r3, r3, #8
+    42c8:	401a      	ands	r2, r3
+    42ca:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    42cc:	611a      	str	r2, [r3, #16]
+			temp->digital_io &= buffer[13];
+    42ce:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    42d0:	691a      	ldr	r2, [r3, #16]
+    42d2:	f89d 3015 	ldrb.w	r3, [sp, #21]
+    42d6:	401a      	ands	r2, r3
+    42d8:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    42da:	611a      	str	r2, [r3, #16]
+			temp->analog_io[0] &= buffer[14] << 8;
+    42dc:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    42de:	8a9b      	ldrh	r3, [r3, #20]
+    42e0:	b29a      	uxth	r2, r3
+    42e2:	f89d 3016 	ldrb.w	r3, [sp, #22]
+    42e6:	021b      	lsls	r3, r3, #8
+    42e8:	b29b      	uxth	r3, r3
+    42ea:	4013      	ands	r3, r2
+    42ec:	b29b      	uxth	r3, r3
+    42ee:	b29a      	uxth	r2, r3
+    42f0:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    42f2:	829a      	strh	r2, [r3, #20]
+			temp->analog_io[0] &= buffer[15];
+    42f4:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    42f6:	8a9a      	ldrh	r2, [r3, #20]
+    42f8:	f89d 3017 	ldrb.w	r3, [sp, #23]
+    42fc:	4013      	ands	r3, r2
+    42fe:	b29a      	uxth	r2, r3
+    4300:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4302:	829a      	strh	r2, [r3, #20]
+			temp->analog_io[1] &= buffer[16] << 8;
+    4304:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4306:	8adb      	ldrh	r3, [r3, #22]
+    4308:	b29a      	uxth	r2, r3
+    430a:	f89d 3018 	ldrb.w	r3, [sp, #24]
+    430e:	021b      	lsls	r3, r3, #8
+    4310:	b29b      	uxth	r3, r3
+    4312:	4013      	ands	r3, r2
+    4314:	b29b      	uxth	r3, r3
+    4316:	b29a      	uxth	r2, r3
+    4318:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    431a:	82da      	strh	r2, [r3, #22]
+			temp->analog_io[1] &= buffer[17];
+    431c:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    431e:	8ada      	ldrh	r2, [r3, #22]
+    4320:	f89d 3019 	ldrb.w	r3, [sp, #25]
+    4324:	4013      	ands	r3, r2
+    4326:	b29a      	uxth	r2, r3
+    4328:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    432a:	82da      	strh	r2, [r3, #22]
+			temp->analog_io[2] &= buffer[18] << 8;
+    432c:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    432e:	8b1b      	ldrh	r3, [r3, #24]
+    4330:	b29a      	uxth	r2, r3
+    4332:	f89d 301a 	ldrb.w	r3, [sp, #26]
+    4336:	021b      	lsls	r3, r3, #8
+    4338:	b29b      	uxth	r3, r3
+    433a:	4013      	ands	r3, r2
+    433c:	b29b      	uxth	r3, r3
+    433e:	b29a      	uxth	r2, r3
+    4340:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4342:	831a      	strh	r2, [r3, #24]
+			temp->analog_io[2] &= buffer[19];
+    4344:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4346:	8b1a      	ldrh	r2, [r3, #24]
+    4348:	f89d 301b 	ldrb.w	r3, [sp, #27]
+    434c:	4013      	ands	r3, r2
+    434e:	b29a      	uxth	r2, r3
+    4350:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4352:	831a      	strh	r2, [r3, #24]
+			temp->analog_io[3] &= buffer[20] << 8;
+    4354:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    4356:	8b5b      	ldrh	r3, [r3, #26]
+    4358:	b29a      	uxth	r2, r3
+    435a:	f89d 301c 	ldrb.w	r3, [sp, #28]
+    435e:	021b      	lsls	r3, r3, #8
+    4360:	b29b      	uxth	r3, r3
+    4362:	4013      	ands	r3, r2
+    4364:	b29b      	uxth	r3, r3
+    4366:	b29a      	uxth	r2, r3
+    4368:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    436a:	835a      	strh	r2, [r3, #26]
+			temp->analog_io[3] &= buffer[21];
+    436c:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    436e:	8b5a      	ldrh	r2, [r3, #26]
+    4370:	f89d 301d 	ldrb.w	r3, [sp, #29]
+    4374:	4013      	ands	r3, r2
+    4376:	b29a      	uxth	r2, r3
+    4378:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    437a:	835a      	strh	r2, [r3, #26]
+			crc &= buffer[22] << 8;
+    437c:	f89d 301e 	ldrb.w	r3, [sp, #30]
+    4380:	021b      	lsls	r3, r3, #8
+    4382:	b29a      	uxth	r2, r3
+    4384:	f8bd 3052 	ldrh.w	r3, [sp, #82]	; 0x52
+    4388:	4013      	ands	r3, r2
+    438a:	b29b      	uxth	r3, r3
+    438c:	f8ad 3052 	strh.w	r3, [sp, #82]	; 0x52
+			crc &= buffer[23];
+    4390:	f89d 301f 	ldrb.w	r3, [sp, #31]
+    4394:	461a      	mov	r2, r3
+    4396:	f8bd 3052 	ldrh.w	r3, [sp, #82]	; 0x52
+    439a:	4013      	ands	r3, r2
+    439c:	f8ad 3052 	strh.w	r3, [sp, #82]	; 0x52
+			//24 is EOT
+			/*CONTROL CRC*/
+			//if(crc control)//no crc for this time
+			//{
+				/*push to rx buffer*/
+				chMBPost(&recievebox, temp, TIME_INFINITE);//dikkat--zaman sonsuz mu olmalı
+    43a0:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+    43a2:	481a      	ldr	r0, [pc, #104]	; (440c <rxListen+0x2dc>)
+    43a4:	4619      	mov	r1, r3
+    43a6:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
+    43aa:	f7fd fce1 	bl	1d70 <chMBPost>
+				
+				/*move next part to start of the buffer*/
+				for(index = 0; index + 25 < i; index++)
+    43ae:	2300      	movs	r3, #0
+    43b0:	f8ad 3054 	strh.w	r3, [sp, #84]	; 0x54
+    43b4:	e011      	b.n	43da <rxListen+0x2aa>
+					buffer[index] = buffer[25 + index];
+    43b6:	f8bd 3054 	ldrh.w	r3, [sp, #84]	; 0x54
+    43ba:	f8bd 2054 	ldrh.w	r2, [sp, #84]	; 0x54
+    43be:	3219      	adds	r2, #25
+    43c0:	a916      	add	r1, sp, #88	; 0x58
+    43c2:	440a      	add	r2, r1
+    43c4:	f812 2c50 	ldrb.w	r2, [r2, #-80]
+    43c8:	a916      	add	r1, sp, #88	; 0x58
+    43ca:	440b      	add	r3, r1
+    43cc:	f803 2c50 	strb.w	r2, [r3, #-80]
+			//{
+				/*push to rx buffer*/
+				chMBPost(&recievebox, temp, TIME_INFINITE);//dikkat--zaman sonsuz mu olmalı
+				
+				/*move next part to start of the buffer*/
+				for(index = 0; index + 25 < i; index++)
+    43d0:	f8bd 3054 	ldrh.w	r3, [sp, #84]	; 0x54
+    43d4:	3301      	adds	r3, #1
+    43d6:	f8ad 3054 	strh.w	r3, [sp, #84]	; 0x54
+    43da:	f8bd 3054 	ldrh.w	r3, [sp, #84]	; 0x54
+    43de:	f103 0219 	add.w	r2, r3, #25
+    43e2:	f89d 3057 	ldrb.w	r3, [sp, #87]	; 0x57
+    43e6:	429a      	cmp	r2, r3
+    43e8:	dbe5      	blt.n	43b6 <rxListen+0x286>
+					buffer[index] = buffer[25 + index];
+				i = i - 25;
+    43ea:	f89d 3057 	ldrb.w	r3, [sp, #87]	; 0x57
+    43ee:	3b19      	subs	r3, #25
+    43f0:	f88d 3057 	strb.w	r3, [sp, #87]	; 0x57
+			//}
+			//else/*if crc fails remove prepared frame*/
+			//{
+				chPoolFree(&packetPool,temp);
+    43f4:	4804      	ldr	r0, [pc, #16]	; (4408 <rxListen+0x2d8>)
+    43f6:	9913      	ldr	r1, [sp, #76]	; 0x4c
+    43f8:	f7fe f9b2 	bl	2760 <chPoolFree>
+				
+				for(index = 0; index + 1 < i; index++)/*There may some other packet start within so just remove SOH*/
+    43fc:	2300      	movs	r3, #0
+    43fe:	f8ad 3054 	strh.w	r3, [sp, #84]	; 0x54
+    4402:	e017      	b.n	4434 <rxListen+0x304>
+    4404:	20000f2c 	.word	0x20000f2c
+    4408:	20001334 	.word	0x20001334
+    440c:	2000130c 	.word	0x2000130c
+					buffer[index] = buffer[1 + index];
+    4410:	f8bd 3054 	ldrh.w	r3, [sp, #84]	; 0x54
+    4414:	f8bd 2054 	ldrh.w	r2, [sp, #84]	; 0x54
+    4418:	3201      	adds	r2, #1
+    441a:	a916      	add	r1, sp, #88	; 0x58
+    441c:	440a      	add	r2, r1
+    441e:	f812 2c50 	ldrb.w	r2, [r2, #-80]
+    4422:	a916      	add	r1, sp, #88	; 0x58
+    4424:	440b      	add	r3, r1
+    4426:	f803 2c50 	strb.w	r2, [r3, #-80]
+			//}
+			//else/*if crc fails remove prepared frame*/
+			//{
+				chPoolFree(&packetPool,temp);
+				
+				for(index = 0; index + 1 < i; index++)/*There may some other packet start within so just remove SOH*/
+    442a:	f8bd 3054 	ldrh.w	r3, [sp, #84]	; 0x54
+    442e:	3301      	adds	r3, #1
+    4430:	f8ad 3054 	strh.w	r3, [sp, #84]	; 0x54
+    4434:	f8bd 3054 	ldrh.w	r3, [sp, #84]	; 0x54
+    4438:	1c5a      	adds	r2, r3, #1
+    443a:	f89d 3057 	ldrb.w	r3, [sp, #87]	; 0x57
+    443e:	429a      	cmp	r2, r3
+    4440:	dbe6      	blt.n	4410 <rxListen+0x2e0>
+					buffer[index] = buffer[1 + index];
+				i = i - 1; 
+    4442:	f89d 3057 	ldrb.w	r3, [sp, #87]	; 0x57
+    4446:	3b01      	subs	r3, #1
+    4448:	f88d 3057 	strb.w	r3, [sp, #87]	; 0x57
+			//}
+		}
+	}
+    444c:	e677      	b.n	413e <rxListen+0xe>
+    444e:	bf00      	nop
 
-00004180 <txWrite>:
-	return NULL;
+00004450 <txWrite>:
+	return NULL;/*Never reach here*/
 }
+
 
 void *txWrite(void *arg)
 {
-    4180:	b500      	push	{lr}
-    4182:	b085      	sub	sp, #20
-    4184:	9001      	str	r0, [sp, #4]
-	uint8_t *toSend;
+    4450:	b500      	push	{lr}
+    4452:	b085      	sub	sp, #20
+    4454:	9001      	str	r0, [sp, #4]
+	(void)(arg);
+	protocol_01 *toSend;
 	while(!0)
 	{
-		if(chMBFetch(&serialMbox, &toSend, TIME_INFINITE) == MSG_OK)
-    4186:	ab03      	add	r3, sp, #12
-    4188:	480d      	ldr	r0, [pc, #52]	; (41c0 <txWrite+0x40>)
-    418a:	4619      	mov	r1, r3
-    418c:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
-    4190:	f7fd fe3e 	bl	1e10 <chMBFetch>
-    4194:	4603      	mov	r3, r0
-    4196:	2b00      	cmp	r3, #0
-    4198:	d10c      	bne.n	41b4 <txWrite+0x34>
+		if(chMBFetch(&recievebox, &toSend, TIME_INFINITE) == MSG_OK)//semafora gerek yok kendi kendine waiting sırasına giriyo(içeride zaten semafor var)
+    4456:	ab03      	add	r3, sp, #12
+    4458:	480b      	ldr	r0, [pc, #44]	; (4488 <txWrite+0x38>)
+    445a:	4619      	mov	r1, r3
+    445c:	f04f 32ff 	mov.w	r2, #4294967295	; 0xffffffff
+    4460:	f7fd fcd6 	bl	1e10 <chMBFetch>
+    4464:	4603      	mov	r3, r0
+    4466:	2b00      	cmp	r3, #0
+    4468:	d10d      	bne.n	4486 <txWrite+0x36>
 		{
 			sdWrite(&SD3, toSend,1);
-    419a:	9b03      	ldr	r3, [sp, #12]
-    419c:	4809      	ldr	r0, [pc, #36]	; (41c4 <txWrite+0x44>)
-    419e:	4619      	mov	r1, r3
-    41a0:	2201      	movs	r2, #1
-    41a2:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
-    41a6:	f7fe f8eb 	bl	2380 <chOQWriteTimeout>
-			chPoolFree(&mpool, toSend);
-    41aa:	9b03      	ldr	r3, [sp, #12]
-    41ac:	4806      	ldr	r0, [pc, #24]	; (41c8 <txWrite+0x48>)
-    41ae:	4619      	mov	r1, r3
-    41b0:	f7fe fad6 	bl	2760 <chPoolFree>
+    446a:	9b03      	ldr	r3, [sp, #12]
+    446c:	4807      	ldr	r0, [pc, #28]	; (448c <txWrite+0x3c>)
+    446e:	4619      	mov	r1, r3
+    4470:	2201      	movs	r2, #1
+    4472:	f04f 33ff 	mov.w	r3, #4294967295	; 0xffffffff
+    4476:	f7fd ff83 	bl	2380 <chOQWriteTimeout>
+			chPoolFree(&packetPool, toSend);
+    447a:	9b03      	ldr	r3, [sp, #12]
+    447c:	4804      	ldr	r0, [pc, #16]	; (4490 <txWrite+0x40>)
+    447e:	4619      	mov	r1, r3
+    4480:	f7fe f96e 	bl	2760 <chPoolFree>
 		}
-		chThdSleepMilliseconds(500);
-    41b4:	f241 3088 	movw	r0, #5000	; 0x1388
-    41b8:	f7fd f9ca 	bl	1550 <chThdSleep>
 	}
-    41bc:	e7e3      	b.n	4186 <txWrite+0x6>
-    41be:	bf00      	nop
-    41c0:	2000131c 	.word	0x2000131c
-    41c4:	20000f60 	.word	0x20000f60
-    41c8:	20000800 	.word	0x20000800
-    41cc:	f3af 8000 	nop.w
-    41d0:	656c6469 	.word	0x656c6469
+    4484:	e7e7      	b.n	4456 <txWrite+0x6>
+    4486:	e7e6      	b.n	4456 <txWrite+0x6>
+    4488:	2000130c 	.word	0x2000130c
+    448c:	20000f50 	.word	0x20000f50
+    4490:	20001334 	.word	0x20001334
+    4494:	f3af 8000 	nop.w
+    4498:	f3af 8000 	nop.w
+    449c:	f3af 8000 	nop.w
+    44a0:	656c6469 	.word	0x656c6469
 	...
-    41e0:	31235653 	.word	0x31235653
-    41e4:	00000000 	.word	0x00000000
-    41e8:	32235653 	.word	0x32235653
-    41ec:	00000000 	.word	0x00000000
-    41f0:	33235653 	.word	0x33235653
-    41f4:	00000000 	.word	0x00000000
-    41f8:	34235653 	.word	0x34235653
-    41fc:	00000000 	.word	0x00000000
-    4200:	35235653 	.word	0x35235653
-    4204:	00000000 	.word	0x00000000
-    4208:	36235653 	.word	0x36235653
-    420c:	00000000 	.word	0x00000000
-    4210:	37235653 	.word	0x37235653
-    4214:	00000000 	.word	0x00000000
-    4218:	38235653 	.word	0x38235653
-    421c:	00000000 	.word	0x00000000
-    4220:	39235653 	.word	0x39235653
-    4224:	00000000 	.word	0x00000000
-    4228:	31235653 	.word	0x31235653
-    422c:	00000030 	.word	0x00000030
-    4230:	31235653 	.word	0x31235653
-    4234:	00000031 	.word	0x00000031
+    44b0:	31235653 	.word	0x31235653
+    44b4:	00000000 	.word	0x00000000
+    44b8:	32235653 	.word	0x32235653
+    44bc:	00000000 	.word	0x00000000
+    44c0:	33235653 	.word	0x33235653
+    44c4:	00000000 	.word	0x00000000
+    44c8:	34235653 	.word	0x34235653
+    44cc:	00000000 	.word	0x00000000
+    44d0:	35235653 	.word	0x35235653
+    44d4:	00000000 	.word	0x00000000
+    44d8:	36235653 	.word	0x36235653
+    44dc:	00000000 	.word	0x00000000
+    44e0:	37235653 	.word	0x37235653
+    44e4:	00000000 	.word	0x00000000
+    44e8:	38235653 	.word	0x38235653
+    44ec:	00000000 	.word	0x00000000
+    44f0:	39235653 	.word	0x39235653
+    44f4:	00000000 	.word	0x00000000
+    44f8:	31235653 	.word	0x31235653
+    44fc:	00000030 	.word	0x00000030
+    4500:	31235653 	.word	0x31235653
+    4504:	00000031 	.word	0x00000031
 	...
-    4240:	63617473 	.word	0x63617473
-    4244:	766f206b 	.word	0x766f206b
-    4248:	6c667265 	.word	0x6c667265
-    424c:	0000776f 	.word	0x0000776f
+    4510:	63617473 	.word	0x63617473
+    4514:	766f206b 	.word	0x766f206b
+    4518:	6c667265 	.word	0x6c667265
+    451c:	0000776f 	.word	0x0000776f
 
-00004250 <__func__.6011>:
-    4250:	54566863 69546f44 00496b63 00000000     chVTDoTickI.....
+00004520 <__func__.6011>:
+    4520:	54566863 69546f44 00496b63 00000000     chVTDoTickI.....
 
-00004260 <__func__.6628>:
-    4260:	54566863 65536f44 00004974 00000000     chVTDoSetI......
+00004530 <__func__.6628>:
+    4530:	54566863 65536f44 00004974 00000000     chVTDoSetI......
 
-00004270 <__func__.6636>:
-    4270:	54566863 65526f44 49746573 00000000     chVTDoResetI....
+00004540 <__func__.6636>:
+    4540:	54566863 65526f44 49746573 00000000     chVTDoResetI....
 
-00004280 <__func__.6625>:
-    4280:	63536863 61655268 00497964 00000000     chSchReadyI.....
+00004550 <__func__.6625>:
+    4550:	63536863 61655268 00497964 00000000     chSchReadyI.....
 
-00004290 <__func__.6637>:
-    4290:	68546863 65724364 49657461 00000000     chThdCreateI....
+00004560 <__func__.6637>:
+    4560:	68546863 65724364 49657461 00000000     chThdCreateI....
 
-000042a0 <__func__.5925>:
-    42a0:	79536863 6c6e5573 006b636f 00000000     chSysUnlock.....
+00004570 <__func__.5925>:
+    4570:	79536863 6c6e5573 006b636f 00000000     chSysUnlock.....
 
-000042b0 <__func__.6653>:
-    42b0:	68546863 74655364 6f697250 79746972     chThdSetPriority
-	...
-
-000042d0 <__func__.6096>:
-    42d0:	68546863 656c5364 00537065 00000000     chThdSleepS.....
-
-000042e0 <__func__.6681>:
-    42e0:	68546863 69784564 00005374 00000000     chThdExitS......
-
-000042f0 <__func__.6703>:
-    42f0:	68546863 73655264 49656d75 00000000     chThdResumeI....
-
-00004300 <__func__.6108>:
-    4300:	68546863 446f4464 65757165 654e6575     chThdDoDequeueNe
-    4310:	00497478 00000000 00000000 00000000     xtI.............
-
-00004320 <ch_debug>:
-    4320:	6e69616d 18021600 08600404 1814100c     main......`.....
-    4330:	2221201c 00000000 00000000 00000000     . !"............
-
-00004340 <__func__.6621>:
-    4340:	65536863 6a624f6d 49746365 0074696e     chSemObjectInit.
-
-00004350 <__func__.6652>:
-    4350:	65536863 6961576d 6d695474 74756f65     chSemWaitTimeout
-    4360:	00000053 00000000 00000000 00000000     S...............
-
-00004370 <__func__.6660>:
-    4370:	65536863 6769536d 496c616e 00000000     chSemSignalI....
-
-00004380 <__func__.6620>:
-    4380:	744d6863 6a624f78 49746365 0074696e     chMtxObjectInit.
-
-00004390 <__func__.6645>:
-    4390:	76456863 6f724274 61636461 6c467473     chEvtBroadcastFl
-    43a0:	49736761 00000000 00000000 00000000     agsI............
-
-000043b0 <__func__.6662>:
-    43b0:	76456863 67695374 496c616e 00000000     chEvtSignalI....
-
-000043c0 <__func__.6622>:
-    43c0:	424d6863 656a624f 6e497463 00007469     chMBObjectInit..
-
-000043d0 <__func__.5925>:
-    43d0:	79536863 6c6e5573 006b636f 00000000     chSysUnlock.....
-
-000043e0 <__func__.6642>:
-    43e0:	424d6863 74736f50 00000053 00000000     chMBPostS.......
-
-000043f0 <__func__.6678>:
-    43f0:	424d6863 63746546 00005368 00000000     chMBFetchS......
-
-00004400 <__func__.5925>:
-    4400:	79536863 6c6e5573 006b636f 00000000     chSysUnlock.....
-
-00004410 <__func__.6648>:
-    4410:	51496863 64616552 656d6954 0074756f     chIQReadTimeout.
-
-00004420 <__func__.6684>:
-    4420:	514f6863 74697257 6d695465 74756f65     chOQWriteTimeout
+00004580 <__func__.6653>:
+    4580:	68546863 74655364 6f697250 79746972     chThdSetPriority
 	...
 
-00004440 <__func__.5925>:
-    4440:	79536863 6c6e5573 006b636f 00000000     chSysUnlock.....
+000045a0 <__func__.6096>:
+    45a0:	68546863 656c5364 00537065 00000000     chThdSleepS.....
 
-00004450 <__func__.6622>:
-    4450:	6f506863 624f6c6f 7463656a 74696e49     chPoolObjectInit
+000045b0 <__func__.6681>:
+    45b0:	68546863 69784564 00005374 00000000     chThdExitS......
+
+000045c0 <__func__.6703>:
+    45c0:	68546863 73655264 49656d75 00000000     chThdResumeI....
+
+000045d0 <__func__.6108>:
+    45d0:	68546863 446f4464 65757165 654e6575     chThdDoDequeueNe
+    45e0:	00497478 00000000 00000000 00000000     xtI.............
+
+000045f0 <ch_debug>:
+    45f0:	6e69616d 18021600 08600404 1814100c     main......`.....
+    4600:	2221201c 00000000 00000000 00000000     . !"............
+
+00004610 <__func__.6621>:
+    4610:	65536863 6a624f6d 49746365 0074696e     chSemObjectInit.
+
+00004620 <__func__.6652>:
+    4620:	65536863 6961576d 6d695474 74756f65     chSemWaitTimeout
+    4630:	00000053 00000000 00000000 00000000     S...............
+
+00004640 <__func__.6660>:
+    4640:	65536863 6769536d 496c616e 00000000     chSemSignalI....
+
+00004650 <__func__.6620>:
+    4650:	744d6863 6a624f78 49746365 0074696e     chMtxObjectInit.
+
+00004660 <__func__.6645>:
+    4660:	76456863 6f724274 61636461 6c467473     chEvtBroadcastFl
+    4670:	49736761 00000000 00000000 00000000     agsI............
+
+00004680 <__func__.6662>:
+    4680:	76456863 67695374 496c616e 00000000     chEvtSignalI....
+
+00004690 <__func__.6622>:
+    4690:	424d6863 656a624f 6e497463 00007469     chMBObjectInit..
+
+000046a0 <__func__.5925>:
+    46a0:	79536863 6c6e5573 006b636f 00000000     chSysUnlock.....
+
+000046b0 <__func__.6642>:
+    46b0:	424d6863 74736f50 00000053 00000000     chMBPostS.......
+
+000046c0 <__func__.6678>:
+    46c0:	424d6863 63746546 00005368 00000000     chMBFetchS......
+
+000046d0 <__func__.5925>:
+    46d0:	79536863 6c6e5573 006b636f 00000000     chSysUnlock.....
+
+000046e0 <__func__.6648>:
+    46e0:	51496863 64616552 656d6954 0074756f     chIQReadTimeout.
+
+000046f0 <__func__.6684>:
+    46f0:	514f6863 74697257 6d695465 74756f65     chOQWriteTimeout
 	...
 
-00004470 <__func__.6628>:
-    4470:	6f506863 6f4c6c6f 72416461 00796172     chPoolLoadArray.
+00004710 <__func__.5925>:
+    4710:	79536863 6c6e5573 006b636f 00000000     chSysUnlock.....
 
-00004480 <__func__.6636>:
-    4480:	6f506863 6c416c6f 49636f6c 00000000     chPoolAllocI....
-
-00004490 <__func__.5925>:
-    4490:	79536863 6c6e5573 006b636f 00000000     chSysUnlock.....
-
-000044a0 <__func__.6646>:
-    44a0:	6f506863 72466c6f 00496565 00000000     chPoolFreeI.....
-
-000044b0 <__func__.7143>:
-    44b0:	74537473 41747261 6d72616c 00000000     stStartAlarm....
-
-000044c0 <__func__.7150>:
-    44c0:	65537473 616c4174 00006d72 00000000     stSetAlarm......
-
-000044d0 <vmt>:
-    44d0:	00002af1 00002b21 00002b51 00002b81     .*..!+..Q+...+..
-    44e0:	00002ba1 00002bd1 00002bf1 00002c21     .+...+...+..!,..
-
-000044f0 <__func__.7188>:
-    44f0:	74536473 00747261 00000000 00000000     sdStart.........
-
-00004500 <__func__.5925>:
-    4500:	79536863 6c6e5573 006b636f 00000000     chSysUnlock.....
-
-00004510 <__func__.7197>:
-    4510:	6e496473 696d6f63 6144676e 00496174     sdIncomingDataI.
-
-00004520 <_stm32_dma_streams>:
-    4520:	40026010 40026008 000b0000 40026028     .`.@.`.@....(`.@
-    4530:	40026008 000c0106 40026040 40026008     .`.@....@`.@.`.@
-    4540:	000d0210 40026058 40026008 000e0316     ....X`.@.`.@....
-    4550:	40026070 4002600c 000f0400 40026088     p`.@.`.@.....`.@
-    4560:	4002600c 00100506 400260a0 4002600c     .`.@.....`.@.`.@
-    4570:	00110610 400260b8 4002600c 002f0716     .....`.@.`.@../.
-    4580:	40026410 40026408 00380800 40026428     .d.@.d.@..8.(d.@
-    4590:	40026408 00390906 40026440 40026408     .d.@..9.@d.@.d.@
-    45a0:	003a0a10 40026458 40026408 003b0b16     ..:.Xd.@.d.@..;.
-    45b0:	40026470 4002640c 003c0c00 40026488     pd.@.d.@..<..d.@
-    45c0:	4002640c 00440d06 400264a0 4002640c     .d.@..D..d.@.d.@
-    45d0:	00450e10 400264b8 4002640c 00460f16     ..E..d.@.d.@..F.
-
-000045e0 <default_config>:
-    45e0:	00002580 40000000 00000000 00000000     .%.....@........
-
-000045f0 <pal_default_config>:
-    45f0:	2aa0aa00 00000000 ffffabff 40010054     ...*........T..@
-    4600:	0000ffff 55560000 000aaa00 00082080     ......VU..... ..
-    4610:	00000240 ffffffff 55514515 0000ffff     @........EQU....
-    4620:	04000000 00000040 02208001 00000000     ....@..... .....
-    4630:	ffffffff 54451554 0000ffff 60000000     ....T.ET.......`
-    4640:	00060600 55000100 00000000 ffffffff     .......U........
-    4650:	00555055 00000fff 00000000 00000000     UPU.............
-    4660:	00000040 00000000 ffffffff 00000000     @...............
-    4670:	0000ffff 00000000 00000000 00000000     ................
-    4680:	00000000 ffffffff 00000000 0000ffff     ................
+00004720 <__func__.6622>:
+    4720:	6f506863 624f6c6f 7463656a 74696e49     chPoolObjectInit
 	...
-    46a0:	ffffffff 00000000 0000ffff 00000000     ................
+
+00004740 <__func__.6628>:
+    4740:	6f506863 6f4c6c6f 72416461 00796172     chPoolLoadArray.
+
+00004750 <__func__.6636>:
+    4750:	6f506863 6c416c6f 49636f6c 00000000     chPoolAllocI....
+
+00004760 <__func__.5925>:
+    4760:	79536863 6c6e5573 006b636f 00000000     chSysUnlock.....
+
+00004770 <__func__.6646>:
+    4770:	6f506863 72466c6f 00496565 00000000     chPoolFreeI.....
+
+00004780 <__func__.7143>:
+    4780:	74537473 41747261 6d72616c 00000000     stStartAlarm....
+
+00004790 <__func__.7150>:
+    4790:	65537473 616c4174 00006d72 00000000     stSetAlarm......
+
+000047a0 <vmt>:
+    47a0:	00002af1 00002b21 00002b51 00002b81     .*..!+..Q+...+..
+    47b0:	00002ba1 00002bd1 00002bf1 00002c21     .+...+...+..!,..
+
+000047c0 <__func__.7188>:
+    47c0:	74536473 00747261 00000000 00000000     sdStart.........
+
+000047d0 <__func__.5925>:
+    47d0:	79536863 6c6e5573 006b636f 00000000     chSysUnlock.....
+
+000047e0 <__func__.7197>:
+    47e0:	6e496473 696d6f63 6144676e 00496174     sdIncomingDataI.
+
+000047f0 <_stm32_dma_streams>:
+    47f0:	40026010 40026008 000b0000 40026028     .`.@.`.@....(`.@
+    4800:	40026008 000c0106 40026040 40026008     .`.@....@`.@.`.@
+    4810:	000d0210 40026058 40026008 000e0316     ....X`.@.`.@....
+    4820:	40026070 4002600c 000f0400 40026088     p`.@.`.@.....`.@
+    4830:	4002600c 00100506 400260a0 4002600c     .`.@.....`.@.`.@
+    4840:	00110610 400260b8 4002600c 002f0716     .....`.@.`.@../.
+    4850:	40026410 40026408 00380800 40026428     .d.@.d.@..8.(d.@
+    4860:	40026408 00390906 40026440 40026408     .d.@..9.@d.@.d.@
+    4870:	003a0a10 40026458 40026408 003b0b16     ..:.Xd.@.d.@..;.
+    4880:	40026470 4002640c 003c0c00 40026488     pd.@.d.@..<..d.@
+    4890:	4002640c 00440d06 400264a0 4002640c     .d.@..D..d.@.d.@
+    48a0:	00450e10 400264b8 4002640c 00460f16     ..E..d.@.d.@..F.
+
+000048b0 <default_config>:
+    48b0:	00002580 40000000 00000000 00000000     .%.....@........
+
+000048c0 <pal_default_config>:
+    48c0:	2aa0aa00 00000000 ffffabff 40010054     ...*........T..@
+    48d0:	0000ffff 55560000 000aaa00 00082080     ......VU..... ..
+    48e0:	00000240 ffffffff 55514515 0000ffff     @........EQU....
+    48f0:	04000000 00000040 02208001 00000000     ....@..... .....
+    4900:	ffffffff 54451554 0000ffff 60000000     ....T.ET.......`
+    4910:	00060600 55000100 00000000 ffffffff     .......U........
+    4920:	00555055 00000fff 00000000 00000000     UPU.............
+    4930:	00000040 00000000 ffffffff 00000000     @...............
+    4940:	0000ffff 00000000 00000000 00000000     ................
+    4950:	00000000 ffffffff 00000000 0000ffff     ................
 	...
-    46bc:	ffffffff 00000000 0000ffff 00000000     ................
+    4970:	ffffffff 00000000 0000ffff 00000000     ................
 	...
-    46d8:	ffffffff 00000000 0000ffff 00000000     ................
-    46e8:	00000000                                ....
+    498c:	ffffffff 00000000 0000ffff 00000000     ................
+	...
+    49a8:	ffffffff 00000000 0000ffff 00000000     ................
+    49b8:	00000000                                ....

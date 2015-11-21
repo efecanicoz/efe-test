@@ -16,4 +16,3 @@ static THD_WORKING_AREA(serialTalk, 128);
 
 void init_IO(void);
 void init_globals(void);
-

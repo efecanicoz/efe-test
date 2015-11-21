@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccSnnUES.s 			page 1
+ARM GAS  /tmp/ccbQjluA.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccSnnUES.s 			page 1
   52              		.loc 1 61 0
   53 0000 7047     		bx	lr
   54              		.cfi_endproc
-ARM GAS  /tmp/ccSnnUES.s 			page 2
+ARM GAS  /tmp/ccbQjluA.s 			page 2
 
 
   55              	.LFE124:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccSnnUES.s 			page 1
  100              		.file 4 "/home/efe/ChibiOS/os/ext/CMSIS/include/core_cm4.h"
  101              		.section	.debug_info,"",%progbits
  102              	.Ldebug_info0:
-ARM GAS  /tmp/ccSnnUES.s 			page 3
+ARM GAS  /tmp/ccbQjluA.s 			page 3
 
 
  103 0000 D6000000 		.4byte	0xd6
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccSnnUES.s 			page 1
  157 006d 07       		.byte	0x7
  158 006e 21000000 		.4byte	.LASF8
  159 0072 03       		.uleb128 0x3
-ARM GAS  /tmp/ccSnnUES.s 			page 4
+ARM GAS  /tmp/ccbQjluA.s 			page 4
 
 
  160 0073 7F010000 		.4byte	.LASF10
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccSnnUES.s 			page 1
  214 0004 0E       		.uleb128 0xe
  215 0005 13       		.uleb128 0x13
  216 0006 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccSnnUES.s 			page 5
+ARM GAS  /tmp/ccbQjluA.s 			page 5
 
 
  217 0007 03       		.uleb128 0x3
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccSnnUES.s 			page 1
  271 003d 3B       		.uleb128 0x3b
  272 003e 0B       		.uleb128 0xb
  273 003f 27       		.uleb128 0x27
-ARM GAS  /tmp/ccSnnUES.s 			page 6
+ARM GAS  /tmp/ccbQjluA.s 			page 6
 
 
  274 0040 19       		.uleb128 0x19
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccSnnUES.s 			page 1
  328              		.section	.debug_ranges,"",%progbits
  329              	.Ldebug_ranges0:
  330 0000 00000000 		.4byte	.LFB123
-ARM GAS  /tmp/ccSnnUES.s 			page 7
+ARM GAS  /tmp/ccbQjluA.s 			page 7
 
 
  331 0004 02000000 		.4byte	.LFE123
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccSnnUES.s 			page 1
  358 006a 6C6F6E67 		.ascii	"long long unsigned int\000"
  358      206C6F6E 
  358      6720756E 
-ARM GAS  /tmp/ccSnnUES.s 			page 8
+ARM GAS  /tmp/ccbQjluA.s 			page 8
 
 
  358      7369676E 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccSnnUES.s 			page 1
  379      325F7400 
  380              	.LASF11:
  381 0187 73697A65 		.ascii	"sizetype\000"
-ARM GAS  /tmp/ccSnnUES.s 			page 9
+ARM GAS  /tmp/ccbQjluA.s 			page 9
 
 
  381      74797065 
@@ -493,19 +493,19 @@ ARM GAS  /tmp/ccSnnUES.s 			page 1
  384      63727431 
  384      2E6300
  385              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccSnnUES.s 			page 10
+ARM GAS  /tmp/ccbQjluA.s 			page 10
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 crt1.c
-     /tmp/ccSnnUES.s:19     .text.__core_init:0000000000000000 $t
-     /tmp/ccSnnUES.s:25     .text.__core_init:0000000000000000 __core_init
-     /tmp/ccSnnUES.s:39     .text.__early_init:0000000000000000 $t
-     /tmp/ccSnnUES.s:45     .text.__early_init:0000000000000000 __early_init
-     /tmp/ccSnnUES.s:58     .text.__late_init:0000000000000000 $t
-     /tmp/ccSnnUES.s:64     .text.__late_init:0000000000000000 __late_init
-     /tmp/ccSnnUES.s:77     .text.__default_exit:0000000000000000 $t
-     /tmp/ccSnnUES.s:83     .text.__default_exit:0000000000000000 __default_exit
+     /tmp/ccbQjluA.s:19     .text.__core_init:0000000000000000 $t
+     /tmp/ccbQjluA.s:25     .text.__core_init:0000000000000000 __core_init
+     /tmp/ccbQjluA.s:39     .text.__early_init:0000000000000000 $t
+     /tmp/ccbQjluA.s:45     .text.__early_init:0000000000000000 __early_init
+     /tmp/ccbQjluA.s:58     .text.__late_init:0000000000000000 $t
+     /tmp/ccbQjluA.s:64     .text.__late_init:0000000000000000 __late_init
+     /tmp/ccbQjluA.s:77     .text.__default_exit:0000000000000000 $t
+     /tmp/ccbQjluA.s:83     .text.__default_exit:0000000000000000 __default_exit
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS

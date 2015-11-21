@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccDVXmkj.s 			page 1
+ARM GAS  /tmp/ccE7d8vc.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
   52              		.cfi_def_cfa_offset 8
   53              		.cfi_offset 3, -8
   54              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccDVXmkj.s 			page 2
+ARM GAS  /tmp/ccE7d8vc.s 			page 2
 
 
   55              		.loc 2 59 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  108 0021 02       		.uleb128 0x2
  109 0022 04       		.byte	0x4
  110 0023 05       		.byte	0x5
-ARM GAS  /tmp/ccDVXmkj.s 			page 3
+ARM GAS  /tmp/ccE7d8vc.s 			page 3
 
 
  111 0024 696E7400 		.ascii	"int\000"
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  165 008d 08       		.byte	0x8
  166 008e 07       		.byte	0x7
  167 008f A8000000 		.4byte	.LASF12
-ARM GAS  /tmp/ccDVXmkj.s 			page 4
+ARM GAS  /tmp/ccE7d8vc.s 			page 4
 
 
  168 0093 04       		.uleb128 0x4
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  222 010b 05       		.byte	0x5
  223 010c 4D       		.byte	0x4d
  224 010d 9E000000 		.4byte	0x9e
-ARM GAS  /tmp/ccDVXmkj.s 			page 5
+ARM GAS  /tmp/ccE7d8vc.s 			page 5
 
 
  225 0111 04       		.uleb128 0x4
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  279 0183 0C       		.byte	0xc
  280 0184 07       		.uleb128 0x7
  281 0185 30020000 		.4byte	.LASF33
-ARM GAS  /tmp/ccDVXmkj.s 			page 6
+ARM GAS  /tmp/ccE7d8vc.s 			page 6
 
 
  282 0189 07       		.byte	0x7
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  336 01f7 07       		.byte	0x7
  337 01f8 3C01     		.2byte	0x13c
  338 01fa 83020000 		.4byte	0x283
-ARM GAS  /tmp/ccDVXmkj.s 			page 7
+ARM GAS  /tmp/ccE7d8vc.s 			page 7
 
 
  339 01fe 2C       		.byte	0x2c
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  393 0270 07       		.byte	0x7
  394 0271 B0       		.byte	0xb0
  395 0272 83020000 		.4byte	0x283
-ARM GAS  /tmp/ccDVXmkj.s 			page 8
+ARM GAS  /tmp/ccE7d8vc.s 			page 8
 
 
  396 0276 07       		.uleb128 0x7
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  450 02e5 09       		.uleb128 0x9
  451 02e6 F1030000 		.4byte	.LASF58
  452 02ea 07       		.byte	0x7
-ARM GAS  /tmp/ccDVXmkj.s 			page 9
+ARM GAS  /tmp/ccE7d8vc.s 			page 9
 
 
  453 02eb 9401     		.2byte	0x194
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  507 035d 09       		.uleb128 0x9
  508 035e 59020000 		.4byte	.LASF66
  509 0362 07       		.byte	0x7
-ARM GAS  /tmp/ccDVXmkj.s 			page 10
+ARM GAS  /tmp/ccE7d8vc.s 			page 10
 
 
  510 0363 6D01     		.2byte	0x16d
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  564 03d7 8801     		.2byte	0x188
  565 03d9 32010000 		.4byte	0x132
  566 03dd 0C       		.byte	0xc
-ARM GAS  /tmp/ccDVXmkj.s 			page 11
+ARM GAS  /tmp/ccE7d8vc.s 			page 11
 
 
  567 03de 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  621 0453 09       		.uleb128 0x9
  622 0454 61020000 		.4byte	.LASF82
  623 0458 07       		.byte	0x7
-ARM GAS  /tmp/ccDVXmkj.s 			page 12
+ARM GAS  /tmp/ccE7d8vc.s 			page 12
 
 
  624 0459 CA01     		.2byte	0x1ca
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  678 04ce 12       		.uleb128 0x12
  679 04cf 72313300 		.ascii	"r13\000"
  680 04d3 08       		.byte	0x8
-ARM GAS  /tmp/ccDVXmkj.s 			page 13
+ARM GAS  /tmp/ccE7d8vc.s 			page 13
 
 
  681 04d4 8A       		.byte	0x8a
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  735 0541 09       		.byte	0x9
  736 0542 1701     		.2byte	0x117
  737 0544 AC040000 		.4byte	0x4ac
-ARM GAS  /tmp/ccDVXmkj.s 			page 14
+ARM GAS  /tmp/ccE7d8vc.s 			page 14
 
 
  738 0548 1C       		.byte	0x1c
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  792 05af 6B       		.byte	0x6b
  793 05b0 28000000 		.4byte	0x28
  794 05b4 00       		.byte	0
-ARM GAS  /tmp/ccDVXmkj.s 			page 15
+ARM GAS  /tmp/ccE7d8vc.s 			page 15
 
 
  795 05b5 07       		.uleb128 0x7
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  849 061e C4000000 		.4byte	0xc4
  850 0622 00       		.byte	0
  851 0623 07       		.uleb128 0x7
-ARM GAS  /tmp/ccDVXmkj.s 			page 16
+ARM GAS  /tmp/ccE7d8vc.s 			page 16
 
 
  852 0624 88000000 		.4byte	.LASF103
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  906 068e 0C       		.byte	0xc
  907 068f 3D       		.byte	0x3d
  908 0690 52060000 		.4byte	0x652
-ARM GAS  /tmp/ccDVXmkj.s 			page 17
+ARM GAS  /tmp/ccE7d8vc.s 			page 17
 
 
  909 0694 20       		.byte	0x20
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  963 070a 0D       		.byte	0xd
  964 070b 34       		.byte	0x34
  965 070c 29070000 		.4byte	0x729
-ARM GAS  /tmp/ccDVXmkj.s 			page 18
+ARM GAS  /tmp/ccE7d8vc.s 			page 18
 
 
  966 0710 07       		.uleb128 0x7
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1020 0779 04       		.byte	0x4
  1021 077a B7040000 		.4byte	0x4b7
  1022 077e 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccDVXmkj.s 			page 19
+ARM GAS  /tmp/ccE7d8vc.s 			page 19
 
 
  1023 077f 04       		.byte	0x4
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1077 07ee 0F       		.byte	0xf
  1078 07ef CF       		.byte	0xcf
  1079 07f0 A9000000 		.4byte	0xa9
-ARM GAS  /tmp/ccDVXmkj.s 			page 20
+ARM GAS  /tmp/ccE7d8vc.s 			page 20
 
 
  1080 07f4 10       		.byte	0x10
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1134 085d 07       		.uleb128 0x7
  1135 085e 43060000 		.4byte	.LASF141
  1136 0862 0F       		.byte	0xf
-ARM GAS  /tmp/ccDVXmkj.s 			page 21
+ARM GAS  /tmp/ccE7d8vc.s 			page 21
 
 
  1137 0863 F4       		.byte	0xf4
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1191 08d6 5D060000 		.4byte	.LASF147
  1192 08da 0F       		.byte	0xf
  1193 08db F401     		.2byte	0x1f4
-ARM GAS  /tmp/ccDVXmkj.s 			page 22
+ARM GAS  /tmp/ccE7d8vc.s 			page 22
 
 
  1194 08dd E1080000 		.4byte	0x8e1
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1248 0030 49       		.uleb128 0x49
  1249 0031 13       		.uleb128 0x13
  1250 0032 00       		.byte	0
-ARM GAS  /tmp/ccDVXmkj.s 			page 23
+ARM GAS  /tmp/ccE7d8vc.s 			page 23
 
 
  1251 0033 00       		.byte	0
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1305 0069 0D       		.uleb128 0xd
  1306 006a 00       		.byte	0
  1307 006b 03       		.uleb128 0x3
-ARM GAS  /tmp/ccDVXmkj.s 			page 24
+ARM GAS  /tmp/ccE7d8vc.s 			page 24
 
 
  1308 006c 0E       		.uleb128 0xe
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1362 00a2 0B       		.uleb128 0xb
  1363 00a3 0B       		.uleb128 0xb
  1364 00a4 00       		.byte	0
-ARM GAS  /tmp/ccDVXmkj.s 			page 25
+ARM GAS  /tmp/ccE7d8vc.s 			page 25
 
 
  1365 00a5 00       		.byte	0
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1419 00db 0B       		.uleb128 0xb
  1420 00dc 49       		.uleb128 0x49
  1421 00dd 13       		.uleb128 0x13
-ARM GAS  /tmp/ccDVXmkj.s 			page 26
+ARM GAS  /tmp/ccE7d8vc.s 			page 26
 
 
  1422 00de 38       		.uleb128 0x38
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1476 0114 0B       		.uleb128 0xb
  1477 0115 3B       		.uleb128 0x3b
  1478 0116 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccDVXmkj.s 			page 27
+ARM GAS  /tmp/ccE7d8vc.s 			page 27
 
 
  1479 0117 01       		.uleb128 0x1
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1533 014d 9742     		.uleb128 0x2117
  1534 014f 19       		.uleb128 0x19
  1535 0150 00       		.byte	0
-ARM GAS  /tmp/ccDVXmkj.s 			page 28
+ARM GAS  /tmp/ccE7d8vc.s 			page 28
 
 
  1536 0151 00       		.byte	0
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1590 0188 3C       		.uleb128 0x3c
  1591 0189 19       		.uleb128 0x19
  1592 018a 00       		.byte	0
-ARM GAS  /tmp/ccDVXmkj.s 			page 29
+ARM GAS  /tmp/ccE7d8vc.s 			page 29
 
 
  1593 018b 00       		.byte	0
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1632              	.LASF16:
  1633 003c 75696E74 		.ascii	"uint64_t\000"
  1633      36345F74 
-ARM GAS  /tmp/ccDVXmkj.s 			page 30
+ARM GAS  /tmp/ccE7d8vc.s 			page 30
 
 
  1633      00
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1657 00da 70757064 		.ascii	"pupdr\000"
  1657      7200
  1658              	.LASF113:
-ARM GAS  /tmp/ccDVXmkj.s 			page 31
+ARM GAS  /tmp/ccE7d8vc.s 			page 31
 
 
  1659 00e0 65786974 		.ascii	"exitcode\000"
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1686              	.LASF20:
  1687 0171 74737461 		.ascii	"tstate_t\000"
  1687      74655F74 
-ARM GAS  /tmp/ccDVXmkj.s 			page 32
+ARM GAS  /tmp/ccE7d8vc.s 			page 32
 
 
  1687      00
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1712      785F7400 
  1713              	.LASF137:
  1714 0280 50424461 		.ascii	"PBData\000"
-ARM GAS  /tmp/ccDVXmkj.s 			page 33
+ARM GAS  /tmp/ccE7d8vc.s 			page 33
 
 
  1714      746100
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1743              	.LASF111:
  1744 0311 6B65726E 		.ascii	"kernel_stats_t\000"
  1744      656C5F73 
-ARM GAS  /tmp/ccDVXmkj.s 			page 34
+ARM GAS  /tmp/ccE7d8vc.s 			page 34
 
 
  1744      74617473 
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1773              	.LASF48:
  1774 03a4 74687265 		.ascii	"thread_reference_t\000"
  1774      61645F72 
-ARM GAS  /tmp/ccDVXmkj.s 			page 35
+ARM GAS  /tmp/ccE7d8vc.s 			page 35
 
 
  1774      65666572 
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1801              	.LASF98:
  1802 0444 74625F62 		.ascii	"tb_buffer\000"
  1802      75666665 
-ARM GAS  /tmp/ccDVXmkj.s 			page 36
+ARM GAS  /tmp/ccE7d8vc.s 			page 36
 
 
  1802      7200
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1833              	.LASF118:
  1834 04d0 65776D61 		.ascii	"ewmask\000"
  1834      736B00
-ARM GAS  /tmp/ccDVXmkj.s 			page 37
+ARM GAS  /tmp/ccE7d8vc.s 			page 37
 
 
  1835              	.LASF29:
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1862      00
  1863              	.LASF28:
  1864 0566 74687265 		.ascii	"thread_t\000"
-ARM GAS  /tmp/ccDVXmkj.s 			page 38
+ARM GAS  /tmp/ccE7d8vc.s 			page 38
 
 
  1864      61645F74 
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1894 05ef 705F7265 		.ascii	"p_refs\000"
  1894      667300
  1895              	.LASF76:
-ARM GAS  /tmp/ccDVXmkj.s 			page 39
+ARM GAS  /tmp/ccE7d8vc.s 			page 39
 
 
  1896 05f6 6973725F 		.ascii	"isr_cnt\000"
@@ -2338,23 +2338,23 @@ ARM GAS  /tmp/ccDVXmkj.s 			page 1
  1926      652F6566 
  1926      652F4368 
  1926      6962694F 
-ARM GAS  /tmp/ccDVXmkj.s 			page 40
+ARM GAS  /tmp/ccE7d8vc.s 			page 40
 
 
  1926      532F6F73 
  1927              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccDVXmkj.s 			page 41
+ARM GAS  /tmp/ccE7d8vc.s 			page 41
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 hal.c
-     /tmp/ccDVXmkj.s:19     .text.osalInit:0000000000000000 $t
-     /tmp/ccDVXmkj.s:24     .text.osalInit:0000000000000000 osalInit
-     /tmp/ccDVXmkj.s:38     .text.halInit:0000000000000000 $t
-     /tmp/ccDVXmkj.s:44     .text.halInit:0000000000000000 halInit
-     /tmp/ccDVXmkj.s:75     .text.halInit:0000000000000024 $d
+     /tmp/ccE7d8vc.s:19     .text.osalInit:0000000000000000 $t
+     /tmp/ccE7d8vc.s:24     .text.osalInit:0000000000000000 osalInit
+     /tmp/ccE7d8vc.s:38     .text.halInit:0000000000000000 $t
+     /tmp/ccE7d8vc.s:44     .text.halInit:0000000000000000 halInit
+     /tmp/ccE7d8vc.s:75     .text.halInit:0000000000000024 $d
                      .debug_frame:0000000000000010 $d
-     /tmp/ccDVXmkj.s:79     .text.halInit:0000000000000028 $t
+     /tmp/ccE7d8vc.s:79     .text.halInit:0000000000000028 $t
 
 UNDEFINED SYMBOLS
 hal_lld_init
