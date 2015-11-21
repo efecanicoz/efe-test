@@ -10,7 +10,6 @@ msg_t buffer;
 
 void init_protocol(void)
 {
-	buffer = 0;
 	chMBObjectInit(&serialMbox, txMailboxArea, 16);
 	//chPoolLoadArray(&mpool,protocol_01_buffer,64);
 	palSetPadMode(GPIOA, 9, PAL_MODE_ALTERNATE(7));
@@ -25,23 +24,25 @@ void *rxListen(void *arg)
 	while(!0)
 	{
 		//buffer = (msg_t *)chPoolAlloc(&mpool);
-		sdRead(&SD1, &buffer, 2);
+		sdRead(&SD1, (uint8_t *)&buffer, 2);
+		palWriteGroup(GPIOD,0xFFFFU,0,buffer);
 		chThdSleepMilliseconds(100);
-		chMBPost(&serialMbox, buffer, TIME_IMMEDIATE);
+		sdWrite(&SD1, (uint8_t *)&buffer,2);
+		chThdSleepMilliseconds(100);
+		//chMBPost(&serialMbox, buffer, TIME_IMMEDIATE);
 	}
 	return NULL;
 }
 
 void *txWrite(void *arg)
 {
-	msg_t toSend;
+	uint8_t *toSend;
 	while(!0)
 	{
-		if(chMBFetch(&serialMbox, &toSend, TIME_IMMEDIATE) == MSG_OK)
+		//sdWrite(&SD1, (uint8_t *)buffer,2);
+		
+		if(chMBFetch(&serialMbox, toSend, TIME_IMMEDIATE) == MSG_OK)
 		{
-			//palWriteGroup(GPIOD,0xFFFFU,0,toSend);
-			uint16_t a = sdWrite(&SD1, &toSend,2);
-			palWriteGroup(GPIOD,0xFFFFU,0,a);
 		}
 		//toSend = (msg_t)*ptrtoSend;
 		//chPoolFree(&mpool, &toSend);

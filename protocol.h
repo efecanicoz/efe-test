@@ -5,6 +5,7 @@
 #include "ch.h"
 #endif
 
+
 /*Functions*/
 void init_protocol(void);
 void* rxListen(void*);
